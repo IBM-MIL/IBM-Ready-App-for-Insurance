@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D72i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Karla-Bold.ttf">
+            <string>Karla-Bold</string>
+            <string>Karla-Bold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CoverageTableSectionHeaderView" customModule="Perch" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="471" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ay4-aY-Au3">
+                    <rect key="frame" x="0.0" y="10" width="471" height="1"/>
+                    <color key="backgroundColor" red="0.87843137250000003" green="0.87843137250000003" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="ULR-Mt-ANV"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Savings" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prV-a6-ZlT">
+                    <rect key="frame" x="394" y="23" width="57" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="57" id="31X-MA-aqP"/>
+                        <constraint firstAttribute="height" constant="21" id="4h2-oV-8Hw"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Karla-Bold" family="Karla" pointSize="13"/>
+                    <color key="textColor" red="0.68235294120000001" green="0.68235294120000001" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credits through Incentives" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oms-nE-JQf">
+                    <rect key="frame" x="20" y="23" width="216" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="gUN-Ht-you"/>
+                        <constraint firstAttribute="width" constant="216" id="oI8-KD-9gh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Karla-Bold" family="Karla" pointSize="13"/>
+                    <color key="textColor" red="0.68235294120000001" green="0.68235294120000001" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="prV-a6-ZlT" secondAttribute="trailing" constant="20" id="3Df-fj-cXt"/>
+                <constraint firstAttribute="bottom" secondItem="oms-nE-JQf" secondAttribute="bottom" constant="6" id="4r9-VT-PDZ"/>
+                <constraint firstAttribute="bottom" secondItem="prV-a6-ZlT" secondAttribute="bottom" constant="6" id="GBk-kW-X56"/>
+                <constraint firstItem="oms-nE-JQf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="RNf-xw-MIZ"/>
+                <constraint firstItem="Ay4-aY-Au3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="eL6-AW-lbl"/>
+                <constraint firstAttribute="trailing" secondItem="Ay4-aY-Au3" secondAttribute="trailing" id="nR3-CJ-OCG"/>
+                <constraint firstItem="Ay4-aY-Au3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="nRk-eg-NjF"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="leftMargin" destination="RNf-xw-MIZ" id="g28-ar-MBd"/>
+                <outlet property="rightMargin" destination="3Df-fj-cXt" id="qRH-bS-Y1V"/>
+                <outlet property="topMargin" destination="nRk-eg-NjF" id="JD9-5t-XrD"/>
+            </connections>
+            <point key="canvasLocation" x="584.5" y="205"/>
+        </view>
+    </objects>
+</document>

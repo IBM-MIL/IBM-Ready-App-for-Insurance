@@ -1,0 +1,53 @@
+<!--
+  Licensed Materials - Property of IBM
+  © Copyright IBM Corporation 2015. All Rights Reserved.
+  This sample program is provided AS IS and may be used, executed, copied and modified without royalty
+  payment by customer (a) for its own instruction and study, (b) in order to develop applications designed to
+  run with an IBM product, either for customer's own internal use or for redistribution by customer, as part
+  of such an application, in customer's own products.
+-->
+
+<!doctype html>
+<html id="perch-app" ng-app="Perch">
+  <head>
+    <meta charset="utf-8">
+    <title>perch</title>
+    <meta name="description" content="">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0">
+      
+    <script src="i18n/translations.js"></script>
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+    <!-- build:css({.tmp/serve,src}) styles/app.css -->
+    <!-- inject:css -->
+    <!-- css files will be automatically insert here -->
+    <!-- endinject -->
+    <!-- endbuild -->
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <div ng-view></div>
+
+    <!-- build:js(src) scripts/vendor.js -->
+    <!-- bower:js -->
+    <!-- run `gulp inject` to automatically populate bower script dependencies -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({.tmp/serve,.tmp/partials,src}) scripts/app.js -->
+    <!-- inject:js -->
+    <!-- js files will be automatically insert here -->
+    <!-- endinject -->
+
+    <!-- inject:partials -->
+    <!-- angular templates will be automatically converted in js and inserted here -->
+    <!-- endinject -->
+    <!-- endbuild -->
+
+  </body>
+</html>

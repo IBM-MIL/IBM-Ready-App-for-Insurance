@@ -1,0 +1,82 @@
+[{
+	"_id": "10001",
+	"name": "Water Meter",
+	"partName": "Poseidon Water Meter",
+	"serialNumber": "T-10",
+	"type": "device_class",
+	"units": "L/min",
+	"maxThreshold": 90,
+	"age": 17,
+	"enabled": true,
+	"averageUsage": "15-16 L",
+	"averageUsageUnit": "Average usage per Minute",
+	"messages": {
+		"critical": "Unusual levels of water consumption.",
+		"normal": "Water consumption levels returned to normal.",
+		"criticalDetail": "Sensors have detected suspicious usage on your Poseidon Water Meter. You are currently using 20 Litres over your average measurement. We highly suggest that you investigate this issue immediately.",
+		"normalDetail": "Sensors have detected that usage on your Poseidon Water Meter has returned to normal on (Date, Time)."
+	},
+	"partner": {
+		"name": "Harbor Plumbing Co.",
+		"phone": "800-426-4968",
+		"email": "harborplumbing@us.ibm.com",
+		"location": "11501 Burnet Rd, Austin, TX, 78758",
+		"iconName": "waterMeterCompanyIcon"
+	}
+},{
+	"_id": "10002",
+	"name": "Air Conditioner",
+	"partName": "Ocean Breeze AC Horizontal Cased Coil",
+	"serialNumber": "A14705",
+	"type": "device_class",
+	"units": "°C",
+	"maxThreshold": 50,
+	"age": 3,
+	"enabled": true,
+	"averageUsage": "25-30 °C",
+	"averageUsageUnit": "Average usage per Minute",
+	"messages": {
+		"critical": "Temperature increase in drain coil.",
+		"normal": "Temperature has returned to normal.",
+		"criticalDetail": "Sensors have detected a drastic temperature increase on your Ocean Breeze AC Horizontal Cased Coil. Its temperature is currently 15º Celsius above its average measurement. We highly suggest that you investigate this issue immediately.",
+		"normalDetail": "Sensors have detected that the temperature of your Ocean Breeze AC Horizontal Cased Coil has returned to normal on (Date, Time)."
+	},
+	"partner": {
+		"name": "Aide Heating & Cooling",
+		"phone": "800-426-4968",
+		"email": "aideAC@us.ibm.com",
+		"location": "590 Madison Ave, New York, NY, 10022",
+		"iconName": "airConditionerCompanyIcon"
+	}
+},{
+	"_id": "10003",
+	"name": "Sewer System",
+	"partName": "Pipeline 5000 Liter Septic Tank",
+	"serialNumber": "N-417778",
+	"type": "device_class",
+	"units": "kL",
+	"maxThreshold": 5,
+	"age": 22,
+	"enabled": true,
+	"averageUsage": "2%",
+	"averageUsageUnit": "Average Increase per Month",
+	"messages": {
+		"critical": "Unsafe sewage levels.",
+		"normal": "Sewage levels returned to normal.",
+		"criticalDetail": "Sensors have detected a drastic increase in sewage levels in your Pipeline 5000 Litre Septic Tank. Your usage levels are currently increasing 5% above your average measurement. We highly suggest that you investigate this issue immediately.",
+		"normalDetail": "Sensors have detected that the sewage levels in your Pipleine 5000 Litre has returned to normal on (Date, Time)."
+	},
+	"partner": {
+		"name": "Miller Pipeline Systems",
+		"phone": "800-426-4968",
+		"email": "millerpipelinesystems@us.ibm.com",
+		"location": "3039 E Cornwallis Rd, Research Triangle Park, NC, 27709",
+		"iconName": "sewerCompanyIcon"
+	}
+},{
+	"_id": "10004",
+	"name": "Electrical Panel",
+	"type": "device_class",
+	"units": "V",
+	"enabled": false
+}]

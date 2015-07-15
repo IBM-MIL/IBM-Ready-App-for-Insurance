@@ -1,0 +1,486 @@
+[
+  {
+    "id": "4730b210.b8cf4c",
+    "type": "subflow",
+    "name": "(cloudant) deleteByPin",
+    "in": [
+      {
+        "x": 44,
+        "y": 236,
+        "wires": [
+          {
+            "id": "75edef32.8a121"
+          },
+          {
+            "id": "34e865e5.cb179a"
+          }
+        ]
+      }
+    ],
+    "out": []
+  },
+  {
+    "id": "bedb6e5e.41249",
+    "type": "function",
+    "name": "DocToDelete",
+    "func": "//\tThis method is executed for every returned array from getAllForPin().\n//\tIt then generates the url to delete each document from the cloudant database.\n\nvar newmsg = {};\n\nif (msg.docId == null || msg.docRev == null)\n\treturn null;\nelse {\n\n\tnewmsg.url = \"https://\" + context.global.cloudantUser + \":\" + context.global.cloudantPassword \n\t\t\t+ \"@\" + context.global.cloudantDBURL + msg.docId + \"?rev=\" + msg.docRev; \n\tnewmsg.method = \"DELETE\";\n\tnewmsg.headers = { 'IBM-Application-Secret' : context.global.appSecret};\n\tnewmsg.payload = {};\n\t\n\treturn newmsg;\n}\n",
+    "outputs": 1,
+    "x": 859,
+    "y": 235.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": [
+      [
+        "bd90e740.426f18",
+        "27aa5b63.d855a4"
+      ]
+    ]
+  },
+  {
+    "id": "27aa5b63.d855a4",
+    "type": "http request",
+    "name": "sendDeleteDoc",
+    "method": "use",
+    "ret": "txt",
+    "url": "",
+    "x": 1077,
+    "y": 234.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": [
+      [
+        "bb8e69dd.447198"
+      ]
+    ]
+  },
+  {
+    "id": "bb8e69dd.447198",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 1237,
+    "y": 164.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": []
+  },
+  {
+    "id": "75edef32.8a121",
+    "type": "function",
+    "name": "searchForPin",
+    "func": "//\tThis method takes in a device pin as an input (msg.device_pin)\n//\tand prepares the url for the GET request. It gets all the device\n//\tinstance and sensor data documents associated with that device pin. \n\nvar newmsg = {};\nnewmsg.device_pin = msg.device_pin;\nnewmsg.url = \"https://\" + context.global.cloudantUser + \":\" + context.global.cloudantPassword \n\t\t\t+ \"@\" + context.global.cloudantDBURL + \"_design/library/_view/delete_view_by_pin?key=\\\"\" \n\t\t\t+ newmsg.device_pin  +\"\\\"&limit=\" + context.global.queryLimit; \nnewmsg.method = \"GET\";\n//clearing the payload from unnecessary data\nnewmsg.payload = {} ; \n\n\nreturn  newmsg;\n",
+    "outputs": 1,
+    "x": 215,
+    "y": 234.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": [
+      [
+        "78f7e398.87081c",
+        "ad6f7739.529088"
+      ]
+    ]
+  },
+  {
+    "id": "ad6f7739.529088",
+    "type": "http request",
+    "name": "sendGetViewByPin",
+    "method": "use",
+    "ret": "txt",
+    "url": "",
+    "x": 438,
+    "y": 235.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": [
+      [
+        "f52759a2.0ad8a8",
+        "237d4f.ffdc82b"
+      ]
+    ]
+  },
+  {
+    "id": "237d4f.ffdc82b",
+    "type": "function",
+    "name": "getAllForPin",
+    "func": "//\tThis method parses results from the GET request.\n\nvar result = JSON.parse(msg.payload); \nvar retData = []; \n//\tFor all the rows in the results, extract the document id and rev\nfor (i = 0; i < result.rows.length; i++){\n\tvar jsonIdRev = {};\n\tjsonIdRev.docId = result.rows[i].value._id;\t\t\n\tjsonIdRev.docRev = result.rows[i].value._rev;\n\t//add each pair to the return array\n\tretData.push(jsonIdRev);\t\n}\n\n//\treturning an array of arrays since each returned array \n//\tis considered as a separate message going into the rest of the flow\nreturn [retData]; \n\n",
+    "outputs": "1",
+    "x": 652,
+    "y": 235.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": [
+      [
+        "d0c118a8.2f3ee8",
+        "bedb6e5e.41249"
+      ]
+    ]
+  },
+  {
+    "id": "d0c118a8.2f3ee8",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 801,
+    "y": 168.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": []
+  },
+  {
+    "id": "78f7e398.87081c",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 400,
+    "y": 167.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": []
+  },
+  {
+    "id": "bd90e740.426f18",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 1001,
+    "y": 169.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": []
+  },
+  {
+    "id": "f52759a2.0ad8a8",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 601,
+    "y": 168.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": []
+  },
+  {
+    "id": "34e865e5.cb179a",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 209,
+    "y": 165.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": []
+  },
+  {
+    "id": "5b229b34.a4dd64",
+    "type": "function",
+    "name": "getSensorDataByTime",
+    "func": "//\tThis method gets the sensor_data_by_time view from cloudant\n//\tfiltering by only 'old' entries based on the days parameter \n//\tspecified in method numberOfDaysOld()\n\nmsg.url =   \"https://\" + context.global.cloudantUser + \":\" + context.global.cloudantPassword \n\t\t\t+ \"@\" + context.global.cloudantDBURL\n\t\t\t+ \"_design/library/_view/sensor_data_by_time?&startkey=\"\n\t\t\t+ msg.startTime + \"&endkey=\" + msg.endTime + \"&limit=\" + context.global.queryLimit; \nmsg.method = \"GET\";\n\nreturn  msg;\n",
+    "outputs": 1,
+    "x": 504.5,
+    "y": 190,
+    "z": "ef9f2a9f.1060d8",
+    "wires": [
+      [
+        "9b9f3cbf.6460c",
+        "7f224e61.80ddb"
+      ]
+    ]
+  },
+  {
+    "id": "9b9f3cbf.6460c",
+    "type": "http request",
+    "name": "sendGetSensorDataByTime",
+    "method": "use",
+    "ret": "txt",
+    "url": "",
+    "x": 773.5,
+    "y": 190,
+    "z": "ef9f2a9f.1060d8",
+    "wires": [
+      [
+        "fd0ee7de.02f118",
+        "7164b1e4.8e9b5"
+      ]
+    ]
+  },
+  {
+    "id": "7164b1e4.8e9b5",
+    "type": "function",
+    "name": "getPinsForOldEntries",
+    "func": "//\tThis method will return all the device pins that need to be deleted\nvar result = JSON.parse(msg.payload); \nvar retData = []; \nvar dataSet = []; \n\n//\tFor all the rows in the results, extract the associated pin\nfor (i = 0; i < result.rows.length; i++){\n\tvar devicePin = result.rows[i].value.devicePin;\t\n\t//add each unique pin to the retData array\n\tvar index = retData.indexOf(devicePin); \n\t//don't add the test pin '0000' onto the list to be deleted\n\tif(index < 0  && devicePin != \"0000\"){ \n\t\tretData.push(devicePin);\t\n\t\tindex = retData.indexOf(devicePin); \n\t\tdataSet.push({device_pin:retData[index]});\n\t}\n}\n\n//\treturning an array of arrays since each returned array \n//\tis considered as a separate message going into the rest of the flow\nreturn [dataSet]; \n\n",
+    "outputs": "1",
+    "x": 1050.5,
+    "y": 190,
+    "z": "ef9f2a9f.1060d8",
+    "wires": [
+      [
+        "3bc858c8.c437a8",
+        "b470b1a4.4b8f5"
+      ]
+    ]
+  },
+  {
+    "id": "3bc858c8.c437a8",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 1228.5,
+    "y": 74,
+    "z": "ef9f2a9f.1060d8",
+    "wires": []
+  },
+  {
+    "id": "7f224e61.80ddb",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 654.5,
+    "y": 75,
+    "z": "ef9f2a9f.1060d8",
+    "wires": []
+  },
+  {
+    "id": "fd0ee7de.02f118",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 952.5,
+    "y": 75,
+    "z": "ef9f2a9f.1060d8",
+    "wires": []
+  },
+  {
+    "id": "b2fd2644.4d02d8",
+    "type": "inject",
+    "name": "CleanUp",
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "repeat": "7200",
+    "crontab": "",
+    "once": false,
+    "x": 102,
+    "y": 190,
+    "z": "ef9f2a9f.1060d8",
+    "wires": [
+      [
+        "5c5474b0.a3ab8c"
+      ]
+    ]
+  },
+  {
+    "id": "5c5474b0.a3ab8c",
+    "type": "function",
+    "name": "numberOfDaysOld",
+    "func": "//This method gets the number of days.\n//All the sensor data before these days will be deleted.\n//var dayTest = 0.2;\n\nvar daysInSeconds = context.global.days * 86400; //dayTest\n\nvar currTime = new Date().getTime(); \n\nmsg.startTime = 0;\nmsg.endTime = currTime - daysInSeconds; \n\nreturn msg;",
+    "outputs": 1,
+    "x": 269.5,
+    "y": 190,
+    "z": "ef9f2a9f.1060d8",
+    "wires": [
+      [
+        "d556f1c6.2aa91",
+        "5b229b34.a4dd64"
+      ]
+    ]
+  },
+  {
+    "id": "d556f1c6.2aa91",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 409.5,
+    "y": 75,
+    "z": "ef9f2a9f.1060d8",
+    "wires": []
+  },
+  {
+    "id": "b470b1a4.4b8f5",
+    "type": "subflow:4730b210.b8cf4c",
+    "name": "",
+    "x": 1310.888916015625,
+    "y": 189.88888549804688,
+    "z": "ef9f2a9f.1060d8",
+    "wires": []
+  },
+  {
+    "id": "6f22cd7d.90dd34",
+    "type": "inject",
+    "name": "deleteInactiveIOTDevices",
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "repeat": "10800",
+    "crontab": "",
+    "once": false,
+    "x": 164.99999618530273,
+    "y": 454.6666030883789,
+    "z": "ef9f2a9f.1060d8",
+    "wires": [
+      [
+        "1b2ad1bf.e4d52e"
+      ]
+    ]
+  },
+  {
+    "id": "1b2ad1bf.e4d52e",
+    "type": "function",
+    "name": "setupGetAllIOTDevices",
+    "func": "\n\nmsg.url =   \"https://\" + context.global.iotApiKey + \":\" + context.global.iotAuthToken\n\t\t\t+ \"@\" + context.global.iotURL + context.global.iotOrganizationId \n\t\t\t+ \"/devices/\" ;// + context.global.iotDeviceType;\nmsg.method = \"GET\";\n\nreturn  msg;\n",
+    "outputs": 1,
+    "x": 398.0000114440918,
+    "y": 454.6666193008423,
+    "z": "ef9f2a9f.1060d8",
+    "wires": [
+      [
+        "469feb41.b96014",
+        "2aa7463f.d558ba"
+      ]
+    ]
+  },
+  {
+    "id": "469feb41.b96014",
+    "type": "http request",
+    "name": "sendgetAllIOTDevices",
+    "method": "use",
+    "ret": "txt",
+    "url": "",
+    "x": 668.0000267028809,
+    "y": 454.6666121482849,
+    "z": "ef9f2a9f.1060d8",
+    "wires": [
+      [
+        "d9cb83fa.26348",
+        "39ad8a4a.c65276"
+      ]
+    ]
+  },
+  {
+    "id": "d9cb83fa.26348",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": true,
+    "console": "true",
+    "complete": "true",
+    "x": 892.1429100036621,
+    "y": 392.52374362945557,
+    "z": "ef9f2a9f.1060d8",
+    "wires": []
+  },
+  {
+    "id": "2aa7463f.d558ba",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": true,
+    "console": "true",
+    "complete": "true",
+    "x": 619.2857284545898,
+    "y": 393.2380380630493,
+    "z": "ef9f2a9f.1060d8",
+    "wires": []
+  },
+  {
+    "id": "39ad8a4a.c65276",
+    "type": "function",
+    "name": "getInactiveDevicesToDelete",
+    "func": "var result = JSON.parse(msg.payload); \nvar devicesToDelete = [] ;\nvar currTime = new Date().getTime() ;\nvar dayInMillis = 86400000;\nmsg.timeRange = currTime - (dayInMillis * 0.2) ; //0.2 days old for testing\nvar deviceDate;\n\n  \nfor(index in result){\n\tdeviceDate = result[index].registration.date;\n\tmsg.deviceDate = Date.parse(deviceDate) ;\n\tif(msg.deviceDate < msg.timeRange){\n\t\tdevicesToDelete.push({id:result[index].id});\n\t}\n}\n\n\nreturn [devicesToDelete]; ",
+    "outputs": 1,
+    "x": 934.285717010498,
+    "y": 454.2380304336548,
+    "z": "ef9f2a9f.1060d8",
+    "wires": [
+      [
+        "22127ffa.dded8",
+        "9f9a6b8c.606598"
+      ]
+    ]
+  },
+  {
+    "id": "22127ffa.dded8",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": true,
+    "console": "true",
+    "complete": "true",
+    "x": 1174.2857360839844,
+    "y": 393.23803758621216,
+    "z": "ef9f2a9f.1060d8",
+    "wires": []
+  },
+  {
+    "id": "9f9a6b8c.606598",
+    "type": "function",
+    "name": "setupDeleteInactiveIOTDevices",
+    "func": "\n\nmsg.url =   \"https://\" + context.global.iotApiKey + \":\" + context.global.iotAuthToken\n\t\t\t+ \"@\" + context.global.iotURL + context.global.iotOrganizationId \n\t\t\t+ \"/devices/\" + context.global.iotDeviceType + \"/\" + msg.id;\nmsg.method = \"DELETE\";\n\nreturn  msg;\n",
+    "outputs": 1,
+    "x": 1248.5714836120605,
+    "y": 454.0952081680298,
+    "z": "ef9f2a9f.1060d8",
+    "wires": [
+      [
+        "e7a29110.185d7",
+        "b98b249d.4674d8"
+      ]
+    ]
+  },
+  {
+    "id": "b98b249d.4674d8",
+    "type": "http request",
+    "name": "sendDeleteInactiveIOTDevices",
+    "method": "use",
+    "ret": "txt",
+    "url": "",
+    "x": 1558.5714988708496,
+    "y": 453.0952010154724,
+    "z": "ef9f2a9f.1060d8",
+    "wires": [
+      [
+        "6a79437.f9586bc"
+      ]
+    ]
+  },
+  {
+    "id": "e7a29110.185d7",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 1485.8571891784668,
+    "y": 391.6666193008423,
+    "z": "ef9f2a9f.1060d8",
+    "wires": []
+  },
+  {
+    "id": "6a79437.f9586bc",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": true,
+    "console": "true",
+    "complete": "true",
+    "x": 1781.7857475280762,
+    "y": 392.1666269302368,
+    "z": "ef9f2a9f.1060d8",
+    "wires": []
+  },
+  {
+    "id": "c51c1837.3ae3e8",
+    "type": "comment",
+    "name": "Delete Flow Description",
+    "info": "The purpose of the delete flows is to keep the database clean from old data entries that are no longer needed in the application. The flows run periodically at a given time interval (currently set to every 2 hours). The first subflow queries for all the sensor_data documents sorted by time and checks whether they are older than the number of days specified in the bluemix settings file. The older entries are then deleted from the database. The second flow does the same thing for the old IOT Device instances in the IOT Foundation service.",
+    "x": 119.84127044677734,
+    "y": 52.85713195800781,
+    "z": "ef9f2a9f.1060d8",
+    "wires": []
+  }
+]

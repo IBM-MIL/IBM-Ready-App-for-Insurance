@@ -1,0 +1,141 @@
+//
+//  Licensed Materials - Property of IBM
+//  © Copyright IBM Corporation 2015. All Rights Reserved.
+//  This sample program is provided AS IS and may be used, executed, copied and modified without royalty
+//  payment by customer (a) for its own instruction and study, (b) in order to develop applications designed to
+//  run with an IBM product, either for customer's own internal use or for redistribution by customer, as part
+//  of such an application, in customer's own products.
+//
+
+@import 'colors';
+
+html {
+  -webkit-touch-callout: none;                // prevent callout to copy image, etc when tap to hold
+  -webkit-text-size-adjust: none;             // prevent webkit from resizing text to fit
+  -webkit-user-select: none;                  // prevent copy paste, to allow, change 'none' to 'text'
+}
+
+.browsehappy {
+  margin: .2em 0;
+  background: $gray-dot;
+  color: $black;
+  padding: .2em 0;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+// scss-lint:disable all
+
+.navbar {
+  position: relative;
+  min-height: 50px;
+  margin-bottom: 20px;
+  background-color: $dark-gray;
+
+  a {
+    float: left;
+    color: $light-gray-link;
+    padding: 15px;
+    font-size: 18px;
+    line-height: 20px;
+    height: 50px;
+  }
+
+  ul {
+    float: left;
+    padding: 0;
+    margin: 0;
+
+    li {
+      float: left;
+      position: relative;
+      display: block;
+
+      a {
+        color: $white;
+        position: relative;
+        display: block;
+        padding: 15px;
+        line-height: 20px;
+      }
+      &.active a {
+        background-color: $black;
+      }
+    }
+  }
+}
+
+// scss-lint:enable all
+
+.jumbotron {
+  padding: 60px;
+  margin-bottom: 30px;
+  background-color: $gainsboro;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+  color: $white;
+  background-color: $btn-backround;
+  border-color: $btn-border;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.col {
+  float: left;
+  width: 33.33%;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+
+  .thumbnail {
+    height: 200px;
+    border: 1px solid $light-gray-link;
+    border-radius: 4px;
+    margin-bottom: 20px;
+
+    .caption {
+      padding: 9px;
+    }
+
+    .pull-right {
+      width: 50px;
+    }
+  }
+}
+
+.pull-right {
+  float: right;
+}
+
+hr {
+  clear: both;
+}
+
+// Do not remove the comments below. It's the markers used by gulp-inject to inject all your sass files automatically
+// injector
+// endinjector

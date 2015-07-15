@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>perchRealm</key>
+	<string>ReadyAppPerchAuthRealm</string>
+	<key>useTouchID</key>
+	<true/>
+	<key>defaulthDemoPassword</key>
+	<string>p1</string>
+	<key>defaultDemoUsername</key>
+	<string>u1</string>
+	<key>mqaApplicationKey</key>
+	<string>Your-MQA-Application-Key</string>
+	<key>isDevelopment</key>
+	<true/>
+</dict>
+</plist>

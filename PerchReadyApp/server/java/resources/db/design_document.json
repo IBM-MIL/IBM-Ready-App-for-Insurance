@@ -1,0 +1,58 @@
+[{
+  "_id": "_design/library",
+  "views": {
+    "flow_entries_by_app_and_type": {
+      "map": "function (doc) {\n                                            var p = doc._id.split(\"/\");\n                                            if (p.length > 2 && p[2] == \"flow\") {\n                                                var meta = {path:p.slice(3).join(\"/\")};\n                                                emit([p[0],p[2]],meta);\n                                            }\n                                        }"
+    },
+    "lib_entries_by_app_and_type": {
+      "map": "function (doc) {\n                                            var p = doc._id.split(\"/\");\n                                            if (p.length > 2) {\n                                                if (p[2] != \"flow\") {\n                                                    var pathParts = p.slice(3,-1);\n                                                    for (var i=0;i<pathParts.length;i++) {\n                                                        emit([p[0],p[2],pathParts.slice(0,i).join(\"/\")],{dir:pathParts.slice(i,i+1)[0]});\n                                                    }\n                                                    var meta = {};\n                                                    for (var key in doc.meta) {\n                                                        meta[key] = doc.meta[key];\n                                                    }\n                                                    meta.fn = p.slice(-1)[0];\n                                                    emit([p[0],p[2],pathParts.join(\"/\")],meta);\n                                                }\n                                            }\n                                        }"
+    },
+    "device_instances": {
+      "map": "function(doc) {\n    if(doc.type == \"device_instance\")\n        emit(doc._id, doc);\n}"
+    },
+    "sensor_data_for_device_instance": {
+      "map": "function(doc) {\n  if(doc.type == \"sensor_data\")\n     emit([doc.deviceClassId, doc.devicePin, doc.time], doc);\n}"
+    },
+    "sensor_data": {
+      "map": "function(doc) {\n  if(doc.type == \"sensor_data\")\n     emit(doc._id, doc);\n}"
+    },
+    "device_classes": {
+      "map": "function(doc) {\n    if(doc.type == \"device_class\")\n        emit(doc._id, doc);\n}"
+    },
+    "users": {
+      "map": "function(doc) {\n    if(doc.type == \"user\"){\n        emit(doc.username, doc);\n    }\n}"
+    },
+    "delete_view_by_pin": {
+      "map": "function(doc) {\n    if(doc.type == \"sensor_data\" || doc.type == \"device_instance\" || doc.type == \"notification\")\n        emit(doc.devicePin, doc);\n}"
+    },
+    "sensor_data_by_time": {
+      "map": "function(doc) {\n  if(doc.type == \"sensor_data\")\n     emit(doc.time, doc);\n}"
+    },
+    "notifications": {
+      "map": "function(doc) {\n    if(doc.type == \"notification\")\n        emit([doc.devicePin, doc.deviceClassId, doc.timestamp], doc);\n}"
+    },
+    "test-ricardo": {
+      "map": "function(doc) {\n  if(doc.type == \"sensor_data\")\n     emit([doc.devicePin, doc.deviceClassId], doc);\n}",
+      "reduce": "function(keys, values, rereduce) {\n    // When rereduce is true, keys is null.\n    // Note that the values array is one dimensional.\n    var maxIndex = 0;\n    var length = values.length;\n    for (var i = 1; i < length; ++i) {\n         if (values[maxIndex].time < values[i].time) {\n                maxIndex = i;\n        }\n    }\n    return values[maxIndex];\n}"
+    },
+    "tips": {
+      "map": "function(doc) {\n  if(doc.type == \"tip\")\n    emit([doc.userId, doc.timeDelta], doc);\n}"
+    },
+    "current_sensor_data": {
+      "reduce": "function(keys, values, rereduce) {\n    // When rereduce is true, keys is null.\n    // Note that the values array is one dimensional.\n    var maxIndex = 0;\n    var length = values.length;\n    for (var i = 1; i < length; ++i) {\n         if (values[maxIndex].time < values[i].time) {\n                maxIndex = i;\n        }\n    }\n    return values[maxIndex];\n}",
+      "map": "function(doc) {\n  if(doc.type == \"sensor_data\")\n     emit([doc.devicePin, doc.deviceClassId], doc);\n}"
+    },
+    "historical_data": {
+      "map": "function(doc) {\n    if(doc.type == \"historical_data\")\n        emit([doc.deviceClassId, doc._id], doc);\n}"
+    },
+    "historical_notifications": {
+      "map": "function(doc) {\n    if(doc.type == \"historical_notification\"){\n        emit([doc.deviceClassId, doc.timeDelta], doc);\n    }\n}"
+    },
+    "historical_data_test": {
+      "map": "function(doc) {\n    if(doc.type == \"historical_data\")\n        emit([doc.deviceClassId, doc.timeUnit, doc.timeDelta], doc);\n}"
+    },
+    "incentives": {
+      "map": "function(doc) {\n  if(doc.type === \"tip\" && doc.tipType === \"incentive\")\n    emit([doc.userId, doc.deviceClassId], doc);\n}"
+    }
+  }
+}]

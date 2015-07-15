@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D72i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Karla-Bold.ttf">
+            <string>Karla-Bold</string>
+            <string>Karla-Bold</string>
+            <string>Karla-Bold</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CoverageTableTopSectionHeaderView" customModule="Perch" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="404" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Premium" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="43h-L2-5XL">
+                    <rect key="frame" x="327" y="13" width="57" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="57" id="3yp-6L-ieU"/>
+                        <constraint firstAttribute="height" constant="21" id="NtN-Mi-yXS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Karla-Bold" family="Karla" pointSize="13"/>
+                    <color key="textColor" red="0.68235294120000001" green="0.68235294120000001" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Limit" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="8A3-fc-CuP">
+                    <rect key="frame" x="250" y="13" width="57" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="57" id="jXO-Po-Bb4"/>
+                        <constraint firstAttribute="height" constant="21" id="pb3-hk-m7g"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Karla-Bold" family="Karla" pointSize="13"/>
+                    <color key="textColor" red="0.68235294120000001" green="0.68235294120000001" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coverage" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="rAT-rc-8pv">
+                    <rect key="frame" x="20" y="17" width="141" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="141" id="2Li-fm-dro"/>
+                        <constraint firstAttribute="height" constant="14" id="57a-Is-PZy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Karla-Bold" family="Karla" pointSize="13"/>
+                    <color key="textColor" red="0.68235294120000001" green="0.68235294120000001" blue="0.68235294120000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="rAT-rc-8pv" secondAttribute="bottom" constant="9" id="2P8-zk-ob8"/>
+                <constraint firstItem="rAT-rc-8pv" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="Dxs-eM-2zn"/>
+                <constraint firstAttribute="trailing" secondItem="43h-L2-5XL" secondAttribute="trailing" constant="20" id="RWB-85-cH0"/>
+                <constraint firstItem="8A3-fc-CuP" firstAttribute="centerY" secondItem="rAT-rc-8pv" secondAttribute="centerY" constant="-2" id="XyN-tD-HZ5"/>
+                <constraint firstItem="rAT-rc-8pv" firstAttribute="centerY" secondItem="43h-L2-5XL" secondAttribute="centerY" constant="0.5" id="aej-ZE-r5p"/>
+                <constraint firstItem="8A3-fc-CuP" firstAttribute="centerY" secondItem="rAT-rc-8pv" secondAttribute="centerY" constant="-0.5" id="rRn-pX-y0q"/>
+                <constraint firstItem="43h-L2-5XL" firstAttribute="leading" secondItem="8A3-fc-CuP" secondAttribute="trailing" constant="20" id="vjg-Qv-0zL"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="XyN-tD-HZ5"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="coverageLabel" destination="rAT-rc-8pv" id="YgE-q3-Qof"/>
+                <outlet property="leftMargin" destination="Dxs-eM-2zn" id="c7b-lo-aLy"/>
+                <outlet property="rightMargin" destination="RWB-85-cH0" id="G2a-cY-NMh"/>
+            </connections>
+            <point key="canvasLocation" x="536" y="398"/>
+        </view>
+    </objects>
+</document>

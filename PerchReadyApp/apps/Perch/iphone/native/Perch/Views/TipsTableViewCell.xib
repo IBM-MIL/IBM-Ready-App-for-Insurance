@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Karla-Regular.ttf">
+            <string>Karla-Regular</string>
+            <string>Karla-Regular</string>
+            <string>Karla-Regular</string>
+        </mutableArray>
+        <mutableArray key="Merriweather-Regular.ttf">
+            <string>Merriweather</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="tipCell" id="KGk-i7-Jjw" customClass="TipsTableViewCell" customModule="Perch" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="120"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="27s-VT-DfJ">
+                        <rect key="frame" x="15" y="48" width="8" height="8"/>
+                        <color key="backgroundColor" red="1" green="0.64705882349999999" blue="0.45098039220000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="8" id="V7q-rt-Uh4"/>
+                            <constraint firstAttribute="height" constant="8" id="b9h-Fe-M1Q"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="4"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Heads up! Extreme heat coming" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5gn-kS-b79">
+                        <rect key="frame" x="43" y="40" width="262" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="UIc-CH-l39"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="17"/>
+                        <color key="textColor" red="0.35294117650000001" green="0.35294117650000001" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TODAY, 4:16 PM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bPt-9H-XAl">
+                        <rect key="frame" x="43" y="14" width="135" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="Mmk-pA-4sQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="9"/>
+                        <color key="textColor" red="1" green="0.47058823529999999" blue="0.1960784314" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WEATHER" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ek-wu-fe0">
+                        <rect key="frame" x="237" y="14" width="73" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="73" id="7rU-Xo-8Ka"/>
+                            <constraint firstAttribute="height" constant="16" id="tGt-X5-I6V"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="9"/>
+                        <color key="textColor" red="0.68235294120000001" green="0.68235294120000001" blue="0.68235294120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Charleston has a weather warning for this weekend. Here are lots of tips" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xf1-sy-eNM">
+                        <rect key="frame" x="43" y="69" width="224" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="bGR-3W-ZOa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Merriweather" family="Merriweather" pointSize="12"/>
+                        <color key="textColor" red="0.68235294120000001" green="0.68235294120000001" blue="0.68235294120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.99215686270000003" green="0.99215686270000003" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="5gn-kS-b79" secondAttribute="trailing" constant="15" id="0ER-ut-wgA"/>
+                    <constraint firstAttribute="trailing" secondItem="Xf1-sy-eNM" secondAttribute="trailing" constant="53" id="0N3-wS-wNQ"/>
+                    <constraint firstItem="Xf1-sy-eNM" firstAttribute="top" secondItem="5gn-kS-b79" secondAttribute="bottom" constant="8" id="86Z-fP-vNL"/>
+                    <constraint firstItem="5gn-kS-b79" firstAttribute="leading" secondItem="27s-VT-DfJ" secondAttribute="trailing" constant="20" id="JZM-rD-o6c"/>
+                    <constraint firstItem="27s-VT-DfJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Nux-BE-85M"/>
+                    <constraint firstAttribute="centerX" secondItem="27s-VT-DfJ" secondAttribute="centerX" constant="148" id="O24-E2-kpM"/>
+                    <constraint firstAttribute="centerY" secondItem="27s-VT-DfJ" secondAttribute="centerY" constant="7.5" id="Oay-Th-alk"/>
+                    <constraint firstItem="8Ek-wu-fe0" firstAttribute="leading" secondItem="bPt-9H-XAl" secondAttribute="trailing" constant="59" id="TDp-b8-f6v"/>
+                    <constraint firstItem="bPt-9H-XAl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="43" id="eo1-AF-ESD"/>
+                    <constraint firstAttribute="centerY" secondItem="5gn-kS-b79" secondAttribute="centerY" constant="9" id="gEb-46-PH7"/>
+                    <constraint firstItem="5gn-kS-b79" firstAttribute="top" secondItem="8Ek-wu-fe0" secondAttribute="bottom" constant="10" id="i95-bX-Q3Q"/>
+                    <constraint firstItem="Xf1-sy-eNM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="43" id="jC8-e9-m89"/>
+                    <constraint firstAttribute="trailing" secondItem="8Ek-wu-fe0" secondAttribute="trailing" constant="10" id="mRP-1n-htm"/>
+                    <constraint firstItem="5gn-kS-b79" firstAttribute="top" secondItem="bPt-9H-XAl" secondAttribute="bottom" constant="10" id="wVk-q0-K18"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="O24-E2-kpM"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.8784313725490196" green="0.8784313725490196" blue="0.8784313725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="dateLabel" destination="bPt-9H-XAl" id="B8E-gv-uOW"/>
+                <outlet property="descriptionLabel" destination="Xf1-sy-eNM" id="7b3-le-AXc"/>
+                <outlet property="statusIndicatorView" destination="27s-VT-DfJ" id="Br1-BY-bfJ"/>
+                <outlet property="titleLabel" destination="5gn-kS-b79" id="PEo-wK-lF1"/>
+                <outlet property="typeLabel" destination="8Ek-wu-fe0" id="GH8-a5-6fT"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

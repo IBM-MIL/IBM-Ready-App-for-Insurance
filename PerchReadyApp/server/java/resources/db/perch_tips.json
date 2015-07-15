@@ -1,0 +1,128 @@
+[{
+	"_id": "300001",
+	"type": "tip",
+	"title": "Heads up! Extreme heat coming",
+	"detail": "It looks like there's a weather warning for this weekend and your Air Conditioner may have to work harder than usual. Don't worry; this is typically normal for times like this. However, I suggest increasing the threshold on your AC during this extreme heat.",
+	"tipType": "weather",
+	"read": true,
+	"highPriority": true,
+	"timeDelta": 1,
+	"userId": "20001"
+},{
+	"_id": "300002",
+	"type": "tip",
+	"title": "Save $14 on your policy",
+	"detail": "As a homeowner with a garage, did you know you have the opportunity to save $14 off if you connect sensors to your garage? Give me a call today and we can discuss what to do next!",
+	"tipType": "incentive",
+	"read": false,
+	"highPriority": false,
+	"timeDelta": 2,
+	"userId": "20001",
+	"tipAction": {
+		"type" : "Incentive Available",
+		"title": "Garage Door",
+		"message": "ADD SENSOR +",
+		"iconName": "garageDoor"
+	}
+},{
+	"_id": "300003",
+	"type": "tip",
+	"title": "Trend noticed in your area",
+	"detail": "Hi Lydia. \n\nI just wanted to let you know that there have been a few break-ins on your street. For the most part, these burglaries involve forced break-ins through a home's garage. Since you have a garage I suggest taking extra precautionary measures especially if you are away during the evening. ",
+	"tipType": "location",
+	"read": true,
+	"highPriority": true,
+	"timeDelta": 3,
+	"userId": "20001"
+},{
+	"_id": "300004",
+	"type": "tip",
+	"title": "Hail storm: Park in your garage",
+	"detail": "It's that time of the year again: rainy season! However, local weather states that we may see some hail storms in the next few days. Make sure to park your car in your garage this week to avoid any unexpected damage on your vehicle.",
+	"tipType": "weather",
+	"read": true,
+	"highPriority": true,
+	"timeDelta": 4,
+	"userId": "20001"
+},{
+	"_id": "300005",
+	"type": "tip",
+	"title": "Sale at Shopmart",
+	"detail": "Hey Lydia! \n\nWe noticed that your Ocean Breeze Horizontal Cased Coil may need to be replaced soon. I happened to stumble upon this great deal on new HVAC coils from Shopmart. They currently have $100 discount on Rhino and Arch products. Let me know if you do choose to replace your HVAC coil and we'll work out a discount on your policy.",
+	"tipType": "incentive",
+	"read": false,
+	"highPriority": false,
+	"timeDelta": 5,
+	"userId": "20001",
+	"deviceClassId": "10002",
+	"tipAction": {
+		"type" : "Featured Product",
+		"title": "Rhino 2 Ton HVAC Coil",
+		"message": "$197 on SHOPMART >",
+		"iconName": "airConditioner"
+	}
+},{
+	"_id": "300006",
+	"type": "tip",
+	"title": "Heads up! Extreme heat coming",
+	"detail": "It looks like there's a weather warning for this weekend and your Air Conditioner may have to work harder than usual. Don't worry; this is typically normal for times like this. However, I suggest increasing the threshold on your AC during this extreme heat.",
+	"tipType": "weather",
+	"read": true,
+	"highPriority": true,
+	"timeDelta": 1,
+	"userId": "20002"
+},{
+	"_id": "300007",
+	"type": "tip",
+	"title": "Save $14 on your policy",
+	"detail": "As a homeowner with a garage, did you know you have the opportunity to save $14 off if you connect sensors to your garage? Give me a call today and we can discuss what to do next!",
+	"tipType": "incentive",
+	"read": false,
+	"highPriority": false,
+	"timeDelta": 2,
+	"userId": "20002",
+	"tipAction": {
+		"type" : "Incentive Available",
+		"title": "Garage Door",
+		"message": "ADD SENSOR +",
+		"iconName": "garageDoor"
+	}
+},{
+	"_id": "300008",
+	"type": "tip",
+	"title": "Trend noticed in your area",
+	"detail": "Hi Lydia. \n\nI just wanted to let you know that there have been a few break-ins on your street. For the most part, these burglaries involve forced break-ins through a home's garage. Since you have a garage I suggest taking extra precautionary measures especially if you are away during the evening. ",
+	"tipType": "location",
+	"read": true,
+	"highPriority": true,
+	"timeDelta": 3,
+	"userId": "20002"
+},{
+	"_id": "300009",
+	"type": "tip",
+	"title": "Hail storm: Park in your garage",
+	"detail": "It's that time of the year again: rainy season! However, local weather states that we may see some hail storms in the next few days. Make sure to park your car in your garage this week to avoid any unexpected damage on your vehicle.",
+	"tipType": "weather",
+	"read": true,
+	"highPriority": true,
+	"timeDelta": 4,
+	"userId": "20002"
+},{
+	"_id": "300010",
+	"type": "tip",
+	"title": "Sale at Shopmart",
+	"detail": "Hey Lydia! \n\nWe noticed that your Ocean Breeze Horizontal Cased Coil may need to be replaced soon. I happened to stumble upon this great deal on new HVAC coils from Shopmart. They currently have $100 discount on Rhino and Arch products. Let me know if you do choose to replace your HVAC coil and we'll work out a discount on your policy.",
+	"tipType": "incentive",
+	"read": false,
+	"highPriority": false,
+	"timeDelta": 5,
+	"userId": "20002",
+	"deviceClassId": "10002",
+	"tipAction": {
+		"type" : "Featured Product",
+		"title": "Rhino 2 Ton HVAC Coil",
+		"message": "$197 on SHOPMART >",
+		"iconName": "airConditioner"
+	}
+}
+]

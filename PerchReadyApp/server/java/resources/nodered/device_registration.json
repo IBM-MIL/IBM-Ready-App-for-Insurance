@@ -1,0 +1,359 @@
+[
+  {
+    "id": "4730b210.b8cf4c",
+    "type": "subflow",
+    "name": "(cloudant) deleteByPin",
+    "in": [
+      {
+        "x": 44,
+        "y": 236,
+        "wires": [
+          {
+            "id": "75edef32.8a121"
+          },
+          {
+            "id": "34e865e5.cb179a"
+          }
+        ]
+      }
+    ],
+    "out": []
+  },
+  {
+    "id": "bedb6e5e.41249",
+    "type": "function",
+    "name": "DocToDelete",
+    "func": "//\tThis method is executed for every returned array from getAllForPin().\n//\tIt then generates the url to delete each document from the cloudant database.\n\nvar newmsg = {};\n\nif (msg.docId == null || msg.docRev == null)\n\treturn null;\nelse {\n\n\tnewmsg.url = \"https://\" + context.global.cloudantUser + \":\" + context.global.cloudantPassword \n\t\t\t+ \"@\" + context.global.cloudantDBURL + msg.docId + \"?rev=\" + msg.docRev; \n\tnewmsg.method = \"DELETE\";\n\tnewmsg.headers = { 'IBM-Application-Secret' : context.global.appSecret};\n\tnewmsg.payload = {};\n\t\n\treturn newmsg;\n}\n",
+    "outputs": 1,
+    "x": 859,
+    "y": 235.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": [
+      [
+        "bd90e740.426f18",
+        "27aa5b63.d855a4"
+      ]
+    ]
+  },
+  {
+    "id": "27aa5b63.d855a4",
+    "type": "http request",
+    "name": "sendDeleteDoc",
+    "method": "use",
+    "ret": "txt",
+    "url": "",
+    "x": 1077,
+    "y": 234.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": [
+      [
+        "bb8e69dd.447198"
+      ]
+    ]
+  },
+  {
+    "id": "bb8e69dd.447198",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 1237,
+    "y": 164.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": []
+  },
+  {
+    "id": "75edef32.8a121",
+    "type": "function",
+    "name": "searchForPin",
+    "func": "//\tThis method takes in a device pin as an input (msg.device_pin)\n//\tand prepares the url for the GET request. It gets all the device\n//\tinstance and sensor data documents associated with that device pin. \n\nvar newmsg = {};\nnewmsg.device_pin = msg.device_pin;\nnewmsg.url = \"https://\" + context.global.cloudantUser + \":\" + context.global.cloudantPassword \n\t\t\t+ \"@\" + context.global.cloudantDBURL + \"_design/library/_view/delete_view_by_pin?key=\\\"\" \n\t\t\t+ newmsg.device_pin  +\"\\\"&limit=\" + context.global.queryLimit; \nnewmsg.method = \"GET\";\n//clearing the payload from unnecessary data\nnewmsg.payload = {} ; \n\n\nreturn  newmsg;\n",
+    "outputs": 1,
+    "x": 215,
+    "y": 234.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": [
+      [
+        "78f7e398.87081c",
+        "ad6f7739.529088"
+      ]
+    ]
+  },
+  {
+    "id": "ad6f7739.529088",
+    "type": "http request",
+    "name": "sendGetViewByPin",
+    "method": "use",
+    "ret": "txt",
+    "url": "",
+    "x": 438,
+    "y": 235.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": [
+      [
+        "f52759a2.0ad8a8",
+        "237d4f.ffdc82b"
+      ]
+    ]
+  },
+  {
+    "id": "237d4f.ffdc82b",
+    "type": "function",
+    "name": "getAllForPin",
+    "func": "//\tThis method parses results from the GET request.\n\nvar result = JSON.parse(msg.payload); \nvar retData = []; \n//\tFor all the rows in the results, extract the document id and rev\nfor (i = 0; i < result.rows.length; i++){\n\tvar jsonIdRev = {};\n\tjsonIdRev.docId = result.rows[i].value._id;\t\t\n\tjsonIdRev.docRev = result.rows[i].value._rev;\n\t//add each pair to the return array\n\tretData.push(jsonIdRev);\t\n}\n\n//\treturning an array of arrays since each returned array \n//\tis considered as a separate message going into the rest of the flow\nreturn [retData]; \n\n",
+    "outputs": "1",
+    "x": 652,
+    "y": 235.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": [
+      [
+        "d0c118a8.2f3ee8",
+        "bedb6e5e.41249"
+      ]
+    ]
+  },
+  {
+    "id": "d0c118a8.2f3ee8",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 801,
+    "y": 168.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": []
+  },
+  {
+    "id": "78f7e398.87081c",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 400,
+    "y": 167.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": []
+  },
+  {
+    "id": "bd90e740.426f18",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 1001,
+    "y": 169.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": []
+  },
+  {
+    "id": "f52759a2.0ad8a8",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 601,
+    "y": 168.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": []
+  },
+  {
+    "id": "34e865e5.cb179a",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 209,
+    "y": 165.4444580078125,
+    "z": "4730b210.b8cf4c",
+    "wires": []
+  },
+  {
+    "id": "a25c0019.5da4",
+    "type": "websocket-listener",
+    "path": "/ws/deviceregistration",
+    "wholemsg": "false"
+  },
+  {
+    "id": "914221bb.6ebde",
+    "type": "websocket in",
+    "name": "deviceRegistrationEvents",
+    "server": "a25c0019.5da4",
+    "client": "",
+    "x": 109,
+    "y": 274.4285659790039,
+    "z": "91d6776b.6e2988",
+    "wires": [
+      [
+        "a9f602df.560a",
+        "4a6c70ea.b5939"
+      ]
+    ]
+  },
+  {
+    "id": "95705681.6a8fa8",
+    "type": "function",
+    "name": "(IBMPush) createTag",
+    "func": "//\tThis method prepares the body for the POST request\n//\tthat will create the appropriate tag for IBM Push\n//\tNote: needs the app secret for authentication\n\n\nvar newmsg = {};\n\n\nnewmsg.headers = { 'IBM-Application-Secret' : context.global.appSecret };\n\nnewmsg.url = context.global.pushURL + \"tags\"; \nnewmsg.payload = {\n\t\t\t\t  \"name\": msg.device_pin,\n\t\t\t\t  \"description\" : \"IBM Push tag for IoT deviceId : \" + msg.device_pin\n\t\t\t     };\n\nreturn newmsg;",
+    "outputs": 1,
+    "x": 742.2500114440918,
+    "y": 173.67856884002686,
+    "z": "91d6776b.6e2988",
+    "wires": [
+      [
+        "8fc7217f.7038e",
+        "5a90783c.a56f88"
+      ]
+    ]
+  },
+  {
+    "id": "fe161df0.01e9e",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": true,
+    "console": "true",
+    "complete": "true",
+    "x": 1248,
+    "y": 173.4285659790039,
+    "z": "91d6776b.6e2988",
+    "wires": []
+  },
+  {
+    "id": "5a90783c.a56f88",
+    "type": "http request",
+    "name": "(IBMPush) sendCreateTag",
+    "method": "POST",
+    "ret": "txt",
+    "url": "",
+    "x": 1006,
+    "y": 173.4285659790039,
+    "z": "91d6776b.6e2988",
+    "wires": [
+      [
+        "fe161df0.01e9e"
+      ]
+    ]
+  },
+  {
+    "id": "8fc7217f.7038e",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": true,
+    "console": "true",
+    "complete": "true",
+    "x": 945.1428489685059,
+    "y": 117,
+    "z": "91d6776b.6e2988",
+    "wires": []
+  },
+  {
+    "id": "4a6c70ea.b5939",
+    "type": "function",
+    "name": "deviceRegister?",
+    "func": "//\tThis method parses the data recived from the simulator app.\n//\tIt determines whether to register or unregister a specific tag.\n\n\nmsg.payload = JSON.parse(msg.payload);\n\n\n//  The [msg.payload, null] returned array format\n//  is to choose the appropriate output port. \nif (msg.payload.register === 1)\n\treturn [msg.payload, null]; \nelse if(msg.payload.register === 0)\n\treturn [null, msg.payload];\n\n",
+    "outputs": "2",
+    "x": 397,
+    "y": 275.4285659790039,
+    "z": "91d6776b.6e2988",
+    "wires": [
+      [
+        "95705681.6a8fa8"
+      ],
+      [
+        "3e6ef08.fc1911",
+        "602ddd29.9fd224",
+        "968bf2cc.69741"
+      ]
+    ]
+  },
+  {
+    "id": "a9f602df.560a",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 303,
+    "y": 151.4285659790039,
+    "z": "91d6776b.6e2988",
+    "wires": []
+  },
+  {
+    "id": "602ddd29.9fd224",
+    "type": "function",
+    "name": "(IBMPush) deleteTag",
+    "func": "//\tThis method prepares the body for the DELETE request\n//\tthat will delete the appropriate tag for IBM Push\n//\tNote: needs the app secret for authentication\n\n\nvar newmsg = {};\n\nnewmsg.url = context.global.pushURL + \"tags/\" + msg.device_pin; \n//newmsg.url = context.global.tagURL + msg.device_pin; \nnewmsg.method = \"DELETE\";\nnewmsg.headers = { 'IBM-Application-Secret' : context.global.appSecret  };\nnewmsg.payload = {};\n  \nreturn newmsg;",
+    "outputs": 1,
+    "x": 744.3863639831543,
+    "y": 336.04222106933594,
+    "z": "91d6776b.6e2988",
+    "wires": [
+      [
+        "d018c76f.2fe738"
+      ]
+    ]
+  },
+  {
+    "id": "d018c76f.2fe738",
+    "type": "http request",
+    "name": "(IBMPush) sendDeleteTag",
+    "method": "use",
+    "ret": "txt",
+    "url": "",
+    "x": 1046,
+    "y": 335.4285659790039,
+    "z": "91d6776b.6e2988",
+    "wires": [
+      [
+        "14c5b948.eb3a47"
+      ]
+    ]
+  },
+  {
+    "id": "14c5b948.eb3a47",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": true,
+    "console": "true",
+    "complete": "true",
+    "x": 1265,
+    "y": 335.4285659790039,
+    "z": "91d6776b.6e2988",
+    "wires": []
+  },
+  {
+    "id": "3e6ef08.fc1911",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": true,
+    "console": "true",
+    "complete": "true",
+    "x": 703.9643058776855,
+    "y": 235.46430778503418,
+    "z": "91d6776b.6e2988",
+    "wires": []
+  },
+  {
+    "id": "968bf2cc.69741",
+    "type": "subflow:4730b210.b8cf4c",
+    "name": "(cloudant) deleteByPin",
+    "x": 750.6168899536133,
+    "y": 286.3831024169922,
+    "z": "91d6776b.6e2988",
+    "wires": []
+  },
+  {
+    "id": "c57c0c63.3a83f",
+    "type": "comment",
+    "name": "Device Registration Flow Description",
+    "info": "The device registration flow receives register/unregister packets from the IOT Simulator via the MQTT web socket. Below is the description for all of the nodes in this flow.\n\n* **deviceRegistrationEvents**:\nThis is an input type websocket node that listens for when an instance of the simulator opens or closes. The received packets contain information such as the pin of the simulator and all the sensor device class ids associated with this simulator.\n\n* **deviceRegister?**:\nThis node parses the IOT payload received from the websocket and reroutes the flow of the instance based on which request was received. Note: This node has two different outputs. In case of a register request, only the route flowing off of the top output will continue executing. This is accomplished by the following code:\n```\nif (msg.payload.register === 1)\n\treturn [msg.payload, null];\nelse if(msg.payload.register === 0)\n\treturn [null, msg.payload];\n```\nThe reason we pass in null for first or second output is that if we choose the top flow we don't want the bottom flow to execute anything.\n\n* **(IBMPush)createTag**:\tThis node uses the simulator instance pin received from the websocket to prepare the HTTP POST request to the [IBM Push REST API](https://mobile.ng.bluemix.net/mbaas-api/#!/push). This request needs to be authenticated using the IBM Bluemix Application Secret. This can we found in the dashboard of the bluemix application by clicking **Overview->Mobile Options**. The URL for this request is saved in the settings file and is available as a global variable though the nodered flows. To register the tag inside the IBM Push service, we also need to provide a tag name and a description in the body of the POST request. The IOT simulator pin is used as the tag name in Perch.\n\n* **(IBMPush)sendCreateTag**:\nThis node sends the HTTP POST request from the *createTag* node to the IBM Push service associated with the Perch Bluemix application. When the POST request is successfully sent, the new tag will be registered in the Push service and the iOS device using the simulator will be able to subscribe to it to receive push notifications.\n\n* **(IBMPush)deleteTag**: This node uses the simulator instance pin received from the websocket to prepare the HTTP DELETE request to the [IBM Push REST API](https://mobile.ng.bluemix.net/mbaas-api/#!/push). This request needs to be authenticated using the IBM Bluemix Application Secret. This can we found in the dashboard of the bluemix application by clicking **Overview->Mobile Options**. The URL for this request is saved in the settings file and is available as a global variable though the nodered flows. To delete the tag from the IBM Push service, we also need to add IOT simulator pin to the URL.\n\n* **(IBMPush)sendDeletteTag**:\nThis node sends the HTTP DELETE request from the *deleteTag* node to the IBM Push service associated with the Perch Bluemix application. When the DELETE request is successfully sent, the new tag will be deleted in the Push service.\n\n* **(cloudant)deleteByPin (Subflow)**:\nGiven a device pin, this subflow will delete all the *sensor_data* and *notification* documents associated with the unregistered pin.\n",
+    "x": 155.55555725097656,
+    "y": 72.85713386535645,
+    "z": "91d6776b.6e2988",
+    "wires": []
+  }
+]

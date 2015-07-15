@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="PerchReadyApp">
+        <wb-resource deploy-path="/" source-path="/apps/Perch/common"/>
+        <wb-resource deploy-path="/" source-path="/apps/Perch/iphone"/>
+        <wb-resource deploy-path="/" source-path="/tests/mobilefirst"/>
+        <property name="context-root" value="PerchReadyApp"/>
+    </wb-module>
+</project-modules>

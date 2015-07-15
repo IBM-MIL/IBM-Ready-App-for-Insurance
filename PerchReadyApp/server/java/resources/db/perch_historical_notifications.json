@@ -1,0 +1,101 @@
+[{
+	"_id": "70001",
+	"type": "historical_notification",
+	"deviceClassId": "10001",
+	"title": "Water Meter",
+	"message": "Unusual levels of water consumption.",
+	"detail": "Sensors have detected suspicious usage on your Poseidon Water Meter. You are currently using 20 Litres over your average measurement. We highly suggest that you investigate this issue immediately.",
+	"read": false,
+	"timeDelta": 0,
+	"status": 2,
+	"value": 90
+},{
+	"_id": "70002",
+	"type": "historical_notification",
+	"deviceClassId": "10001",
+	"title": "Water Meter",
+	"message": "Water usage has returned to normal.",
+	"detail": "Sensors have detected that usage on your Poseidon Water Meter has returned to normal on (Date, Time).",
+	"read": true,
+	"timeDelta": 1,
+	"status": 0,
+	"value": 89
+},{
+	"_id": "70003",
+	"type": "historical_notification",
+	"deviceClassId": "10001",
+	"title": "Water Meter",
+	"message": "Unusual levels of water consumption.",
+	"detail": "Sensors have detected suspicious usage on your Poseidon Water Meter. You are currently using 20 Litres over your average measurement. We highly suggest that you investigate this issue immediately.",
+	"read": true,
+	"timeDelta": 2,
+	"status": 2,
+	"value": 90
+},{
+	"_id": "70004",
+	"type": "historical_notification",
+	"deviceClassId": "10002",
+	"title": "Air Conditioner",
+	"message": "Temperature increase in drain coil.",
+	"detail": "Sensors have detected a drastic temperature increase on your Ocean Breeze AC Horizontal Cased Coil. Its temperature is currently 15º Celsius above its average measurement. We highly suggest that you investigate this issue immediately.",
+	"read": false,
+	"timeDelta": 0,
+	"status": 2,
+	"value": 50
+},{
+	"_id": "70005",
+	"type": "historical_notification",
+	"deviceClassId": "10002",
+	"title": "Air Conditioner",
+	"message": "Temperature has returned to normal.",
+	"detail": "Sensors have detected that the temperature of your Ocean Breeze AC Horizontal Cased Coil has returned to normal on (Date, Time).",
+	"read": true,
+	"timeDelta": 1,
+	"status": 0,
+	"value": 49
+},{
+	"_id": "70006",
+	"type": "historical_notification",
+	"deviceClassId": "10002",
+	"title": "Air Conditioner",
+	"message": "Temperature increase in drain coil.",
+	"detail": "Sensors have detected a drastic temperature increase on your Ocean Breeze AC Horizontal Cased Coil. Its temperature is currently 15º Celsius above its average measurement. We highly suggest that you investigate this issue immediately.",
+	"read": true,
+	"timeDelta": 2,
+	"status": 2,
+	"value": 50
+},{
+	"_id": "70007",
+	"type": "historical_notification",
+	"deviceClassId": "10003",
+	"title": "Sewer System",
+	"message": "Unsafe sewage levels.",
+	"detail": "Sensors have detected a drastic increase in sewage levels in your Pipeline 5000 Litre Septic Tank. Your usage levels are currently increasing 5% above your average measurement. We highly suggest that you investigate this issue immediately.",
+	"read": false,
+	"timeDelta": 0,
+	"status": 2,
+	"value": 5
+},{
+	"_id": "70008",
+	"type": "historical_notification",
+	"deviceClassId": "10003",
+	"title": "Sewer System",
+	"message": "Sewage levels returned to normal.",
+	"detail": "Sensors have detected that the sewage levels in your Pipleine 5000 Litre has returned to normal on (Date, Time).",
+	"read": true,
+	"timeDelta": 1,
+	"status": 0,
+	"value": 4
+},{
+	"_id": "70009",
+	"type": "historical_notification",
+	"deviceClassId": "10003",
+	"title": "Sewer System",
+	"message": "Unsafe sewage levels.",
+	"detail": "Sensors have detected a drastic increase in sewage levels in your Pipeline 5000 Litre Septic Tank. Your usage levels are currently increasing 5% above your average measurement. We highly suggest that you investigate this issue immediately.",
+	"read": true,
+	"timeDelta": 2,
+	"status": 2,
+	"value": 5
+}
+]

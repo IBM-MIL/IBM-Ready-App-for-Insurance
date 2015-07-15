@@ -1,0 +1,70 @@
+<!--
+  Licensed Materials - Property of IBM
+  © Copyright IBM Corporation 2015. All Rights Reserved.
+  This sample program is provided AS IS and may be used, executed, copied and modified without royalty
+  payment by customer (a) for its own instruction and study, (b) in order to develop applications designed to
+  run with an IBM product, either for customer's own internal use or for redistribution by customer, as part
+  of such an application, in customer's own products.
+-->
+
+<hr class="top-buffer-line" ng-class="{'gold-line': SensorDetail.alertState, 'gray-line': !SensorDetail.alertState}"/>
+<div class="nav-bar" ng-class="{'alert': SensorDetail.alertState}">
+    <div id="scrollHeader" class="karla dark-gray-text size17pt header-text">{{SensorDetail.currentDevice.displayName}}</div>
+</div>
+<div id="sensor-container" class="sensor-container" data-ng-model="SensorDetail.currentSensor">
+    <div class="nav-buffer" ng-class="{'alert': SensorDetail.alertState}"></div>
+    <div class="status-div" ng-class="{'alert': SensorDetail.alertState}">
+        <div class="device-name-div">
+            <img width="101px" ng-src="{{SensorDetail.imageToView.displayIcon}}"/>
+            <!-- ------------------- -->
+            <!-- TODO MAKE THIS WORK -->
+            <!-- ------------------- -->
+            <div ng-if="SensorDetail.noDataMessage !== undefined" style="margin-top: 30px;">
+                <p><span class="merriweather dark-gray-text size18pt" style="letter-spacing: -1px;">{{SensorDetail.noDataMessage}}</span></p>
+            </div>
+            <div class="alert-message" ng-if="SensorDetail.alertState" style="margin-top: 30px;">
+                <p><span class="merriweather dark-gray-text size18pt" style="letter-spacing: -1px;"><span class="merriweather-bold">{{ 'WARNING' | translate }}:</span> {{SensorDetail.currentSensor.alertDetail.message}}</span></p>
+                <p class="karla-bold white-text size12pt" style="letter-spacing: 3px;margin-top: -3px;" ng-click="SensorDetail.pathChange('alert')">{{ 'VIEW_ALERT' | translate }} <img height="12px" ng-src="{{SensorDetail.rightArrow}}"></p>
+            </div>
+        </div>
+        <hr class="mid-line" ng-class="{'gold-line': SensorDetail.alertState, 'gray-line': !SensorDetail.alertState}" />
+        <div class="data-div">
+            <div id="current-data" class="current-data">
+                <span><img ng-src="{{SensorDetail.alertIcon}}" ng-if="SensorDetail.alertState" height="17px"> <span class="size18pt">{{SensorDetail.currentSensor.sensorValue}}{{SensorDetail.currentDevice.displayUnit}}</span></span>
+                <p style="margin-top: 3px;line-height: 100%;"><span class="karla-bold size12pt">{{ 'CURRENT_MEASUREMENT' | translate }}</span></p>
+            </div>
+            <div id="average-data" class="average-data">
+                <span class="size18pt">{{SensorDetail.currentDevice.displayAvgVal}}</span>
+                <p style="margin-top: 3px;line-height: 100%;"><span class="karla-bold size12pt">{{SensorDetail.currentDevice.displayAvgMsg}}</span></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="device-info-div">
+        <div class="karla size18pt dark-gray-text" style="margin-bottom: 15px;">{{SensorDetail.currentDevice.detailName}}</div>
+        <div class="karla size12pt light-gray-text">
+            <span class="karla-bold">{{ 'AGE' | translate }}</span> {{SensorDetail.currentDevice.detailAge}} Years&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="karla-bold">{{ 'MFR_PART_NO' | translate }}</span> {{SensorDetail.currentDevice.detailMfrNo}}
+        </div>
+        <div ng-if="SensorDetail.currentDevice.tip == true" class="karla-bold orange-text size12pt" style="letter-spacing: 2px;-webkit-tap-highlight-color: rgba(0,0,0,0);margin-top: 22px;" ng-click="SensorDetail.pathChange('incentive')">{{SensorDetail.currentDevice.tipText}}&nbsp;&nbsp;<img height="12px" ng-src="{{SensorDetail.orangeArrow}}"></div>
+    </div>
+
+    <!-- Tab bar -->
+    <div class='graph-tab-container karla-bold light-gray-text'>
+      <div class='graph-tab' ng-class='{ "active": SensorDetail.graphType === 0 }' ng-click='SensorDetail.handleGraphTabTouch("day")'>
+        {{ 'DAY' | translate }}
+      </div>
+      <div class='graph-tab' ng-class='{ "active": SensorDetail.graphType === 1 }' ng-click='SensorDetail.handleGraphTabTouch("week")'>
+        {{ 'WEEK' | translate }}
+      </div>
+      <div class='graph-tab' ng-class='{ "active": SensorDetail.graphType === 2 }' ng-click='SensorDetail.handleGraphTabTouch("month")'>
+        {{ 'MONTH' | translate }}
+      </div>
+    </div>
+
+    <!-- Perch graph -->
+    <perch-graph strategy='SensorDetail.currentStrategy'></perch-graph>
+
+    </div>
+
+</div>

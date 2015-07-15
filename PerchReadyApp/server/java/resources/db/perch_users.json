@@ -1,0 +1,31 @@
+[
+  {
+    "_id": "20001",
+    "type": "user",
+    "username": "u1",
+    "firstName": "Billy",
+    "lastName": "Duncan",
+    "password": "p1",
+    "locale": "en_US",
+    "deviceClassIds": [
+      "10001",
+      "10002",
+      "10003"
+    ]
+  },
+  {
+    "_id": "20002",
+    "type": "user",
+    "username": "user1",
+    "firstName": "Lydia",
+    "lastName": "Mitchell",
+    "password": "password1",
+    "locale": "en_US",
+    "deviceClassIds": [
+      "10001",
+      "10002",
+      "10003",
+      "10004"
+    ]
+  }
+]

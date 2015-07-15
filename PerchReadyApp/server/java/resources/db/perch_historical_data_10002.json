@@ -1,0 +1,7683 @@
+[{
+	"timeDelta": 0,
+	"value": 27,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61097",
+	"type": "historical_data"
+},{
+	"timeDelta": 1,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61098",
+	"type": "historical_data"
+},{
+	"timeDelta": 2,
+	"value": 63,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61099",
+	"type": "historical_data"
+},{
+	"timeDelta": 3,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61100",
+	"type": "historical_data"
+},{
+	"timeDelta": 4,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61101",
+	"type": "historical_data"
+},{
+	"timeDelta": 5,
+	"value": 57,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61102",
+	"type": "historical_data"
+},{
+	"timeDelta": 6,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61103",
+	"type": "historical_data"
+},{
+	"timeDelta": 7,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61104",
+	"type": "historical_data"
+},{
+	"timeDelta": 8,
+	"value": 58,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61105",
+	"type": "historical_data"
+},{
+	"timeDelta": 9,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61106",
+	"type": "historical_data"
+},{
+	"timeDelta": 10,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61107",
+	"type": "historical_data"
+},{
+	"timeDelta": 11,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61108",
+	"type": "historical_data"
+},{
+	"timeDelta": 12,
+	"value": 21,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61109",
+	"type": "historical_data"
+},{
+	"timeDelta": 13,
+	"value": 22,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61110",
+	"type": "historical_data"
+},{
+	"timeDelta": 14,
+	"value": 34,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61111",
+	"type": "historical_data"
+},{
+	"timeDelta": 15,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61112",
+	"type": "historical_data"
+},{
+	"timeDelta": 16,
+	"value": 64,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61113",
+	"type": "historical_data"
+},{
+	"timeDelta": 17,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61114",
+	"type": "historical_data"
+},{
+	"timeDelta": 18,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61115",
+	"type": "historical_data"
+},{
+	"timeDelta": 19,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61116",
+	"type": "historical_data"
+},{
+	"timeDelta": 20,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61117",
+	"type": "historical_data"
+},{
+	"timeDelta": 21,
+	"value": 55,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61118",
+	"type": "historical_data"
+},{
+	"timeDelta": 22,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61119",
+	"type": "historical_data"
+},{
+	"timeDelta": 23,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61120",
+	"type": "historical_data"
+},{
+	"timeDelta": 24,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61121",
+	"type": "historical_data"
+},{
+	"timeDelta": 25,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61122",
+	"type": "historical_data"
+},{
+	"timeDelta": 26,
+	"value": 61,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61123",
+	"type": "historical_data"
+},{
+	"timeDelta": 27,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61124",
+	"type": "historical_data"
+},{
+	"timeDelta": 28,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61125",
+	"type": "historical_data"
+},{
+	"timeDelta": 29,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61126",
+	"type": "historical_data"
+},{
+	"timeDelta": 30,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61127",
+	"type": "historical_data"
+},{
+	"timeDelta": 31,
+	"value": 28,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61128",
+	"type": "historical_data"
+},{
+	"timeDelta": 32,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61129",
+	"type": "historical_data"
+},{
+	"timeDelta": 33,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61130",
+	"type": "historical_data"
+},{
+	"timeDelta": 34,
+	"value": 22,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61131",
+	"type": "historical_data"
+},{
+	"timeDelta": 35,
+	"value": 27,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61132",
+	"type": "historical_data"
+},{
+	"timeDelta": 36,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61133",
+	"type": "historical_data"
+},{
+	"timeDelta": 37,
+	"value": 50,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61134",
+	"type": "historical_data"
+},{
+	"timeDelta": 38,
+	"value": 24,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61135",
+	"type": "historical_data"
+},{
+	"timeDelta": 39,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61136",
+	"type": "historical_data"
+},{
+	"timeDelta": 40,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61137",
+	"type": "historical_data"
+},{
+	"timeDelta": 41,
+	"value": 64,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61138",
+	"type": "historical_data"
+},{
+	"timeDelta": 42,
+	"value": 60,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61139",
+	"type": "historical_data"
+},{
+	"timeDelta": 43,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61140",
+	"type": "historical_data"
+},{
+	"timeDelta": 44,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61141",
+	"type": "historical_data"
+},{
+	"timeDelta": 45,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61142",
+	"type": "historical_data"
+},{
+	"timeDelta": 46,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61143",
+	"type": "historical_data"
+},{
+	"timeDelta": 47,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61144",
+	"type": "historical_data"
+},{
+	"timeDelta": 48,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61145",
+	"type": "historical_data"
+},{
+	"timeDelta": 49,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61146",
+	"type": "historical_data"
+},{
+	"timeDelta": 50,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61147",
+	"type": "historical_data"
+},{
+	"timeDelta": 51,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61148",
+	"type": "historical_data"
+},{
+	"timeDelta": 52,
+	"value": 21,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61149",
+	"type": "historical_data"
+},{
+	"timeDelta": 53,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61150",
+	"type": "historical_data"
+},{
+	"timeDelta": 54,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61151",
+	"type": "historical_data"
+},{
+	"timeDelta": 55,
+	"value": 60,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61152",
+	"type": "historical_data"
+},{
+	"timeDelta": 56,
+	"value": 20,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61153",
+	"type": "historical_data"
+},{
+	"timeDelta": 57,
+	"value": 27,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61154",
+	"type": "historical_data"
+},{
+	"timeDelta": 58,
+	"value": 28,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61155",
+	"type": "historical_data"
+},{
+	"timeDelta": 59,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61156",
+	"type": "historical_data"
+},{
+	"timeDelta": 60,
+	"value": 57,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61157",
+	"type": "historical_data"
+},{
+	"timeDelta": 61,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61158",
+	"type": "historical_data"
+},{
+	"timeDelta": 62,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61159",
+	"type": "historical_data"
+},{
+	"timeDelta": 63,
+	"value": 21,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61160",
+	"type": "historical_data"
+},{
+	"timeDelta": 64,
+	"value": 23,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61161",
+	"type": "historical_data"
+},{
+	"timeDelta": 65,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61162",
+	"type": "historical_data"
+},{
+	"timeDelta": 66,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61163",
+	"type": "historical_data"
+},{
+	"timeDelta": 67,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61164",
+	"type": "historical_data"
+},{
+	"timeDelta": 68,
+	"value": 61,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61165",
+	"type": "historical_data"
+},{
+	"timeDelta": 69,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61166",
+	"type": "historical_data"
+},{
+	"timeDelta": 70,
+	"value": 77,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61167",
+	"type": "historical_data"
+},{
+	"timeDelta": 71,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61168",
+	"type": "historical_data"
+},{
+	"timeDelta": 72,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61169",
+	"type": "historical_data"
+},{
+	"timeDelta": 73,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61170",
+	"type": "historical_data"
+},{
+	"timeDelta": 74,
+	"value": 28,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61171",
+	"type": "historical_data"
+},{
+	"timeDelta": 75,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61172",
+	"type": "historical_data"
+},{
+	"timeDelta": 76,
+	"value": 50,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61173",
+	"type": "historical_data"
+},{
+	"timeDelta": 77,
+	"value": 24,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61174",
+	"type": "historical_data"
+},{
+	"timeDelta": 78,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61175",
+	"type": "historical_data"
+},{
+	"timeDelta": 79,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61176",
+	"type": "historical_data"
+},{
+	"timeDelta": 80,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61177",
+	"type": "historical_data"
+},{
+	"timeDelta": 81,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61178",
+	"type": "historical_data"
+},{
+	"timeDelta": 82,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61179",
+	"type": "historical_data"
+},{
+	"timeDelta": 83,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61180",
+	"type": "historical_data"
+},{
+	"timeDelta": 84,
+	"value": 60,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61181",
+	"type": "historical_data"
+},{
+	"timeDelta": 85,
+	"value": 22,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61182",
+	"type": "historical_data"
+},{
+	"timeDelta": 86,
+	"value": 26,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61183",
+	"type": "historical_data"
+},{
+	"timeDelta": 87,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61184",
+	"type": "historical_data"
+},{
+	"timeDelta": 88,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61185",
+	"type": "historical_data"
+},{
+	"timeDelta": 89,
+	"value": 58,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61186",
+	"type": "historical_data"
+},{
+	"timeDelta": 90,
+	"value": 25,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61187",
+	"type": "historical_data"
+},{
+	"timeDelta": 91,
+	"value": 34,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61188",
+	"type": "historical_data"
+},{
+	"timeDelta": 92,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61189",
+	"type": "historical_data"
+},{
+	"timeDelta": 93,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61190",
+	"type": "historical_data"
+},{
+	"timeDelta": 94,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61191",
+	"type": "historical_data"
+},{
+	"timeDelta": 95,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61192",
+	"type": "historical_data"
+},{
+	"timeDelta": 96,
+	"value": 50,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61193",
+	"type": "historical_data"
+},{
+	"timeDelta": 97,
+	"value": 34,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61194",
+	"type": "historical_data"
+},{
+	"timeDelta": 98,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61195",
+	"type": "historical_data"
+},{
+	"timeDelta": 99,
+	"value": 63,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61196",
+	"type": "historical_data"
+},{
+	"timeDelta": 100,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61197",
+	"type": "historical_data"
+},{
+	"timeDelta": 101,
+	"value": 22,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61198",
+	"type": "historical_data"
+},{
+	"timeDelta": 102,
+	"value": 31,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61199",
+	"type": "historical_data"
+},{
+	"timeDelta": 103,
+	"value": 34,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61200",
+	"type": "historical_data"
+},{
+	"timeDelta": 104,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61201",
+	"type": "historical_data"
+},{
+	"timeDelta": 105,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61202",
+	"type": "historical_data"
+},{
+	"timeDelta": 106,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61203",
+	"type": "historical_data"
+},{
+	"timeDelta": 107,
+	"value": 27,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61204",
+	"type": "historical_data"
+},{
+	"timeDelta": 108,
+	"value": 28,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61205",
+	"type": "historical_data"
+},{
+	"timeDelta": 109,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61206",
+	"type": "historical_data"
+},{
+	"timeDelta": 110,
+	"value": 63,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61207",
+	"type": "historical_data"
+},{
+	"timeDelta": 111,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61208",
+	"type": "historical_data"
+},{
+	"timeDelta": 112,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61209",
+	"type": "historical_data"
+},{
+	"timeDelta": 113,
+	"value": 70,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61210",
+	"type": "historical_data"
+},{
+	"timeDelta": 114,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61211",
+	"type": "historical_data"
+},{
+	"timeDelta": 115,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61212",
+	"type": "historical_data"
+},{
+	"timeDelta": 116,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61213",
+	"type": "historical_data"
+},{
+	"timeDelta": 117,
+	"value": 58,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61214",
+	"type": "historical_data"
+},{
+	"timeDelta": 118,
+	"value": 55,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61215",
+	"type": "historical_data"
+},{
+	"timeDelta": 119,
+	"value": 24,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61216",
+	"type": "historical_data"
+},{
+	"timeDelta": 120,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61217",
+	"type": "historical_data"
+},{
+	"timeDelta": 121,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61218",
+	"type": "historical_data"
+},{
+	"timeDelta": 122,
+	"value": 58,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61219",
+	"type": "historical_data"
+},{
+	"timeDelta": 123,
+	"value": 21,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61220",
+	"type": "historical_data"
+},{
+	"timeDelta": 124,
+	"value": 28,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61221",
+	"type": "historical_data"
+},{
+	"timeDelta": 125,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61222",
+	"type": "historical_data"
+},{
+	"timeDelta": 126,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61223",
+	"type": "historical_data"
+},{
+	"timeDelta": 127,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61224",
+	"type": "historical_data"
+},{
+	"timeDelta": 128,
+	"value": 73,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61225",
+	"type": "historical_data"
+},{
+	"timeDelta": 129,
+	"value": 21,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61226",
+	"type": "historical_data"
+},{
+	"timeDelta": 130,
+	"value": 30,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61227",
+	"type": "historical_data"
+},{
+	"timeDelta": 131,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61228",
+	"type": "historical_data"
+},{
+	"timeDelta": 132,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61229",
+	"type": "historical_data"
+},{
+	"timeDelta": 133,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61230",
+	"type": "historical_data"
+},{
+	"timeDelta": 134,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61231",
+	"type": "historical_data"
+},{
+	"timeDelta": 135,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61232",
+	"type": "historical_data"
+},{
+	"timeDelta": 136,
+	"value": 31,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61233",
+	"type": "historical_data"
+},{
+	"timeDelta": 137,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61234",
+	"type": "historical_data"
+},{
+	"timeDelta": 138,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61235",
+	"type": "historical_data"
+},{
+	"timeDelta": 139,
+	"value": 22,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61236",
+	"type": "historical_data"
+},{
+	"timeDelta": 140,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61237",
+	"type": "historical_data"
+},{
+	"timeDelta": 141,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61238",
+	"type": "historical_data"
+},{
+	"timeDelta": 142,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61239",
+	"type": "historical_data"
+},{
+	"timeDelta": 143,
+	"value": 69,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61240",
+	"type": "historical_data"
+},{
+	"timeDelta": 144,
+	"value": 50,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61241",
+	"type": "historical_data"
+},{
+	"timeDelta": 145,
+	"value": 27,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61242",
+	"type": "historical_data"
+},{
+	"timeDelta": 146,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61243",
+	"type": "historical_data"
+},{
+	"timeDelta": 147,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61244",
+	"type": "historical_data"
+},{
+	"timeDelta": 148,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61245",
+	"type": "historical_data"
+},{
+	"timeDelta": 149,
+	"value": 55,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61246",
+	"type": "historical_data"
+},{
+	"timeDelta": 150,
+	"value": 25,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61247",
+	"type": "historical_data"
+},{
+	"timeDelta": 151,
+	"value": 25,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61248",
+	"type": "historical_data"
+},{
+	"timeDelta": 152,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61249",
+	"type": "historical_data"
+},{
+	"timeDelta": 153,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61250",
+	"type": "historical_data"
+},{
+	"timeDelta": 154,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61251",
+	"type": "historical_data"
+},{
+	"timeDelta": 155,
+	"value": 64,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61252",
+	"type": "historical_data"
+},{
+	"timeDelta": 156,
+	"value": 23,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61253",
+	"type": "historical_data"
+},{
+	"timeDelta": 157,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61254",
+	"type": "historical_data"
+},{
+	"timeDelta": 158,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61255",
+	"type": "historical_data"
+},{
+	"timeDelta": 159,
+	"value": 68,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61256",
+	"type": "historical_data"
+},{
+	"timeDelta": 160,
+	"value": 67,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61257",
+	"type": "historical_data"
+},{
+	"timeDelta": 161,
+	"value": 65,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61258",
+	"type": "historical_data"
+},{
+	"timeDelta": 162,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61259",
+	"type": "historical_data"
+},{
+	"timeDelta": 163,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61260",
+	"type": "historical_data"
+},{
+	"timeDelta": 164,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61261",
+	"type": "historical_data"
+},{
+	"timeDelta": 165,
+	"value": 22,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61262",
+	"type": "historical_data"
+},{
+	"timeDelta": 166,
+	"value": 28,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61263",
+	"type": "historical_data"
+},{
+	"timeDelta": 167,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61264",
+	"type": "historical_data"
+},{
+	"timeDelta": 168,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61265",
+	"type": "historical_data"
+},{
+	"timeDelta": 169,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61266",
+	"type": "historical_data"
+},{
+	"timeDelta": 170,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61267",
+	"type": "historical_data"
+},{
+	"timeDelta": 171,
+	"value": 69,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61268",
+	"type": "historical_data"
+},{
+	"timeDelta": 172,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61269",
+	"type": "historical_data"
+},{
+	"timeDelta": 173,
+	"value": 26,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61270",
+	"type": "historical_data"
+},{
+	"timeDelta": 174,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61271",
+	"type": "historical_data"
+},{
+	"timeDelta": 175,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61272",
+	"type": "historical_data"
+},{
+	"timeDelta": 176,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61273",
+	"type": "historical_data"
+},{
+	"timeDelta": 177,
+	"value": 68,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61274",
+	"type": "historical_data"
+},{
+	"timeDelta": 178,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61275",
+	"type": "historical_data"
+},{
+	"timeDelta": 179,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61276",
+	"type": "historical_data"
+},{
+	"timeDelta": 180,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61277",
+	"type": "historical_data"
+},{
+	"timeDelta": 181,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61278",
+	"type": "historical_data"
+},{
+	"timeDelta": 182,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61279",
+	"type": "historical_data"
+},{
+	"timeDelta": 183,
+	"value": 75,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61280",
+	"type": "historical_data"
+},{
+	"timeDelta": 184,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61281",
+	"type": "historical_data"
+},{
+	"timeDelta": 185,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61282",
+	"type": "historical_data"
+},{
+	"timeDelta": 186,
+	"value": 58,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61283",
+	"type": "historical_data"
+},{
+	"timeDelta": 187,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61284",
+	"type": "historical_data"
+},{
+	"timeDelta": 188,
+	"value": 31,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61285",
+	"type": "historical_data"
+},{
+	"timeDelta": 189,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61286",
+	"type": "historical_data"
+},{
+	"timeDelta": 190,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61287",
+	"type": "historical_data"
+},{
+	"timeDelta": 191,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61288",
+	"type": "historical_data"
+},{
+	"timeDelta": 192,
+	"value": 30,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61289",
+	"type": "historical_data"
+},{
+	"timeDelta": 193,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61290",
+	"type": "historical_data"
+},{
+	"timeDelta": 194,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61291",
+	"type": "historical_data"
+},{
+	"timeDelta": 195,
+	"value": 58,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61292",
+	"type": "historical_data"
+},{
+	"timeDelta": 196,
+	"value": 57,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61293",
+	"type": "historical_data"
+},{
+	"timeDelta": 197,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61294",
+	"type": "historical_data"
+},{
+	"timeDelta": 198,
+	"value": 66,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61295",
+	"type": "historical_data"
+},{
+	"timeDelta": 199,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61296",
+	"type": "historical_data"
+},{
+	"timeDelta": 200,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61297",
+	"type": "historical_data"
+},{
+	"timeDelta": 201,
+	"value": 61,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61298",
+	"type": "historical_data"
+},{
+	"timeDelta": 202,
+	"value": 25,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61299",
+	"type": "historical_data"
+},{
+	"timeDelta": 203,
+	"value": 28,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61300",
+	"type": "historical_data"
+},{
+	"timeDelta": 204,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61301",
+	"type": "historical_data"
+},{
+	"timeDelta": 205,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61302",
+	"type": "historical_data"
+},{
+	"timeDelta": 206,
+	"value": 26,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61303",
+	"type": "historical_data"
+},{
+	"timeDelta": 207,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61304",
+	"type": "historical_data"
+},{
+	"timeDelta": 208,
+	"value": 59,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61305",
+	"type": "historical_data"
+},{
+	"timeDelta": 209,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61306",
+	"type": "historical_data"
+},{
+	"timeDelta": 210,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61307",
+	"type": "historical_data"
+},{
+	"timeDelta": 211,
+	"value": 24,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61308",
+	"type": "historical_data"
+},{
+	"timeDelta": 212,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61309",
+	"type": "historical_data"
+},{
+	"timeDelta": 213,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61310",
+	"type": "historical_data"
+},{
+	"timeDelta": 214,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61311",
+	"type": "historical_data"
+},{
+	"timeDelta": 215,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61312",
+	"type": "historical_data"
+},{
+	"timeDelta": 216,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61313",
+	"type": "historical_data"
+},{
+	"timeDelta": 217,
+	"value": 59,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61314",
+	"type": "historical_data"
+},{
+	"timeDelta": 218,
+	"value": 22,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61315",
+	"type": "historical_data"
+},{
+	"timeDelta": 219,
+	"value": 34,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61316",
+	"type": "historical_data"
+},{
+	"timeDelta": 220,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61317",
+	"type": "historical_data"
+},{
+	"timeDelta": 221,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61318",
+	"type": "historical_data"
+},{
+	"timeDelta": 222,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61319",
+	"type": "historical_data"
+},{
+	"timeDelta": 223,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61320",
+	"type": "historical_data"
+},{
+	"timeDelta": 224,
+	"value": 59,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61321",
+	"type": "historical_data"
+},{
+	"timeDelta": 225,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61322",
+	"type": "historical_data"
+},{
+	"timeDelta": 226,
+	"value": 30,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61323",
+	"type": "historical_data"
+},{
+	"timeDelta": 227,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61324",
+	"type": "historical_data"
+},{
+	"timeDelta": 228,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61325",
+	"type": "historical_data"
+},{
+	"timeDelta": 229,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61326",
+	"type": "historical_data"
+},{
+	"timeDelta": 230,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61327",
+	"type": "historical_data"
+},{
+	"timeDelta": 231,
+	"value": 57,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61328",
+	"type": "historical_data"
+},{
+	"timeDelta": 232,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61329",
+	"type": "historical_data"
+},{
+	"timeDelta": 233,
+	"value": 70,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61330",
+	"type": "historical_data"
+},{
+	"timeDelta": 234,
+	"value": 24,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61331",
+	"type": "historical_data"
+},{
+	"timeDelta": 235,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61332",
+	"type": "historical_data"
+},{
+	"timeDelta": 236,
+	"value": 50,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61333",
+	"type": "historical_data"
+},{
+	"timeDelta": 237,
+	"value": 25,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61334",
+	"type": "historical_data"
+},{
+	"timeDelta": 238,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61335",
+	"type": "historical_data"
+},{
+	"timeDelta": 239,
+	"value": 64,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61336",
+	"type": "historical_data"
+},{
+	"timeDelta": 240,
+	"value": 58,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61337",
+	"type": "historical_data"
+},{
+	"timeDelta": 241,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61338",
+	"type": "historical_data"
+},{
+	"timeDelta": 242,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61339",
+	"type": "historical_data"
+},{
+	"timeDelta": 243,
+	"value": 60,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61340",
+	"type": "historical_data"
+},{
+	"timeDelta": 244,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61341",
+	"type": "historical_data"
+},{
+	"timeDelta": 245,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61342",
+	"type": "historical_data"
+},{
+	"timeDelta": 246,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61343",
+	"type": "historical_data"
+},{
+	"timeDelta": 247,
+	"value": 63,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61344",
+	"type": "historical_data"
+},{
+	"timeDelta": 248,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61345",
+	"type": "historical_data"
+},{
+	"timeDelta": 249,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61346",
+	"type": "historical_data"
+},{
+	"timeDelta": 250,
+	"value": 28,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61347",
+	"type": "historical_data"
+},{
+	"timeDelta": 251,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61348",
+	"type": "historical_data"
+},{
+	"timeDelta": 252,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61349",
+	"type": "historical_data"
+},{
+	"timeDelta": 253,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61350",
+	"type": "historical_data"
+},{
+	"timeDelta": 254,
+	"value": 31,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61351",
+	"type": "historical_data"
+},{
+	"timeDelta": 255,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61352",
+	"type": "historical_data"
+},{
+	"timeDelta": 256,
+	"value": 59,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61353",
+	"type": "historical_data"
+},{
+	"timeDelta": 257,
+	"value": 23,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61354",
+	"type": "historical_data"
+},{
+	"timeDelta": 258,
+	"value": 30,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61355",
+	"type": "historical_data"
+},{
+	"timeDelta": 259,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61356",
+	"type": "historical_data"
+},{
+	"timeDelta": 260,
+	"value": 66,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61357",
+	"type": "historical_data"
+},{
+	"timeDelta": 261,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61358",
+	"type": "historical_data"
+},{
+	"timeDelta": 262,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61359",
+	"type": "historical_data"
+},{
+	"timeDelta": 263,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61360",
+	"type": "historical_data"
+},{
+	"timeDelta": 264,
+	"value": 73,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61361",
+	"type": "historical_data"
+},{
+	"timeDelta": 265,
+	"value": 21,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61362",
+	"type": "historical_data"
+},{
+	"timeDelta": 266,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61363",
+	"type": "historical_data"
+},{
+	"timeDelta": 267,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61364",
+	"type": "historical_data"
+},{
+	"timeDelta": 268,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61365",
+	"type": "historical_data"
+},{
+	"timeDelta": 269,
+	"value": 55,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61366",
+	"type": "historical_data"
+},{
+	"timeDelta": 270,
+	"value": 27,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61367",
+	"type": "historical_data"
+},{
+	"timeDelta": 271,
+	"value": 34,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61368",
+	"type": "historical_data"
+},{
+	"timeDelta": 272,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61369",
+	"type": "historical_data"
+},{
+	"timeDelta": 273,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61370",
+	"type": "historical_data"
+},{
+	"timeDelta": 274,
+	"value": 62,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61371",
+	"type": "historical_data"
+},{
+	"timeDelta": 275,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61372",
+	"type": "historical_data"
+},{
+	"timeDelta": 276,
+	"value": 59,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61373",
+	"type": "historical_data"
+},{
+	"timeDelta": 277,
+	"value": 30,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61374",
+	"type": "historical_data"
+},{
+	"timeDelta": 278,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61375",
+	"type": "historical_data"
+},{
+	"timeDelta": 279,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61376",
+	"type": "historical_data"
+},{
+	"timeDelta": 280,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61377",
+	"type": "historical_data"
+},{
+	"timeDelta": 281,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61378",
+	"type": "historical_data"
+},{
+	"timeDelta": 282,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61379",
+	"type": "historical_data"
+},{
+	"timeDelta": 283,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61380",
+	"type": "historical_data"
+},{
+	"timeDelta": 284,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61381",
+	"type": "historical_data"
+},{
+	"timeDelta": 285,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61382",
+	"type": "historical_data"
+},{
+	"timeDelta": 286,
+	"value": 64,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61383",
+	"type": "historical_data"
+},{
+	"timeDelta": 287,
+	"value": 57,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61384",
+	"type": "historical_data"
+},{
+	"timeDelta": 288,
+	"value": 26,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61385",
+	"type": "historical_data"
+},{
+	"timeDelta": 289,
+	"value": 28,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61386",
+	"type": "historical_data"
+},{
+	"timeDelta": 290,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61387",
+	"type": "historical_data"
+},{
+	"timeDelta": 291,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61388",
+	"type": "historical_data"
+},{
+	"timeDelta": 292,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61389",
+	"type": "historical_data"
+},{
+	"timeDelta": 293,
+	"value": 71,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61390",
+	"type": "historical_data"
+},{
+	"timeDelta": 294,
+	"value": 58,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61391",
+	"type": "historical_data"
+},{
+	"timeDelta": 295,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61392",
+	"type": "historical_data"
+},{
+	"timeDelta": 296,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61393",
+	"type": "historical_data"
+},{
+	"timeDelta": 297,
+	"value": 55,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61394",
+	"type": "historical_data"
+},{
+	"timeDelta": 298,
+	"value": 55,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61395",
+	"type": "historical_data"
+},{
+	"timeDelta": 299,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61396",
+	"type": "historical_data"
+},{
+	"timeDelta": 300,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61397",
+	"type": "historical_data"
+},{
+	"timeDelta": 301,
+	"value": 67,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61398",
+	"type": "historical_data"
+},{
+	"timeDelta": 302,
+	"value": 58,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61399",
+	"type": "historical_data"
+},{
+	"timeDelta": 303,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61400",
+	"type": "historical_data"
+},{
+	"timeDelta": 304,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61401",
+	"type": "historical_data"
+},{
+	"timeDelta": 305,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61402",
+	"type": "historical_data"
+},{
+	"timeDelta": 306,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61403",
+	"type": "historical_data"
+},{
+	"timeDelta": 307,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61404",
+	"type": "historical_data"
+},{
+	"timeDelta": 308,
+	"value": 65,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61405",
+	"type": "historical_data"
+},{
+	"timeDelta": 309,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61406",
+	"type": "historical_data"
+},{
+	"timeDelta": 310,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61407",
+	"type": "historical_data"
+},{
+	"timeDelta": 311,
+	"value": 21,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61408",
+	"type": "historical_data"
+},{
+	"timeDelta": 312,
+	"value": 27,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61409",
+	"type": "historical_data"
+},{
+	"timeDelta": 313,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61410",
+	"type": "historical_data"
+},{
+	"timeDelta": 314,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61411",
+	"type": "historical_data"
+},{
+	"timeDelta": 315,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61412",
+	"type": "historical_data"
+},{
+	"timeDelta": 316,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61413",
+	"type": "historical_data"
+},{
+	"timeDelta": 317,
+	"value": 65,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61414",
+	"type": "historical_data"
+},{
+	"timeDelta": 318,
+	"value": 20,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61415",
+	"type": "historical_data"
+},{
+	"timeDelta": 319,
+	"value": 25,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61416",
+	"type": "historical_data"
+},{
+	"timeDelta": 320,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61417",
+	"type": "historical_data"
+},{
+	"timeDelta": 321,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61418",
+	"type": "historical_data"
+},{
+	"timeDelta": 322,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61419",
+	"type": "historical_data"
+},{
+	"timeDelta": 323,
+	"value": 60,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61420",
+	"type": "historical_data"
+},{
+	"timeDelta": 324,
+	"value": 20,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61421",
+	"type": "historical_data"
+},{
+	"timeDelta": 325,
+	"value": 23,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61422",
+	"type": "historical_data"
+},{
+	"timeDelta": 326,
+	"value": 30,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61423",
+	"type": "historical_data"
+},{
+	"timeDelta": 327,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61424",
+	"type": "historical_data"
+},{
+	"timeDelta": 328,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61425",
+	"type": "historical_data"
+},{
+	"timeDelta": 329,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61426",
+	"type": "historical_data"
+},{
+	"timeDelta": 330,
+	"value": 62,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61427",
+	"type": "historical_data"
+},{
+	"timeDelta": 331,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61428",
+	"type": "historical_data"
+},{
+	"timeDelta": 332,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61429",
+	"type": "historical_data"
+},{
+	"timeDelta": 333,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61430",
+	"type": "historical_data"
+},{
+	"timeDelta": 334,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61431",
+	"type": "historical_data"
+},{
+	"timeDelta": 335,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61432",
+	"type": "historical_data"
+},{
+	"timeDelta": 336,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61433",
+	"type": "historical_data"
+},{
+	"timeDelta": 337,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61434",
+	"type": "historical_data"
+},{
+	"timeDelta": 338,
+	"value": 61,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61435",
+	"type": "historical_data"
+},{
+	"timeDelta": 339,
+	"value": 25,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61436",
+	"type": "historical_data"
+},{
+	"timeDelta": 340,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61437",
+	"type": "historical_data"
+},{
+	"timeDelta": 341,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61438",
+	"type": "historical_data"
+},{
+	"timeDelta": 342,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61439",
+	"type": "historical_data"
+},{
+	"timeDelta": 343,
+	"value": 59,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61440",
+	"type": "historical_data"
+},{
+	"timeDelta": 344,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61441",
+	"type": "historical_data"
+},{
+	"timeDelta": 345,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61442",
+	"type": "historical_data"
+},{
+	"timeDelta": 346,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61443",
+	"type": "historical_data"
+},{
+	"timeDelta": 347,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61444",
+	"type": "historical_data"
+},{
+	"timeDelta": 348,
+	"value": 67,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61445",
+	"type": "historical_data"
+},{
+	"timeDelta": 349,
+	"value": 24,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61446",
+	"type": "historical_data"
+},{
+	"timeDelta": 350,
+	"value": 25,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61447",
+	"type": "historical_data"
+},{
+	"timeDelta": 351,
+	"value": 27,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61448",
+	"type": "historical_data"
+},{
+	"timeDelta": 352,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61449",
+	"type": "historical_data"
+},{
+	"timeDelta": 353,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61450",
+	"type": "historical_data"
+},{
+	"timeDelta": 354,
+	"value": 60,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61451",
+	"type": "historical_data"
+},{
+	"timeDelta": 355,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61452",
+	"type": "historical_data"
+},{
+	"timeDelta": 356,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61453",
+	"type": "historical_data"
+},{
+	"timeDelta": 357,
+	"value": 60,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61454",
+	"type": "historical_data"
+},{
+	"timeDelta": 358,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61455",
+	"type": "historical_data"
+},{
+	"timeDelta": 359,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61456",
+	"type": "historical_data"
+},{
+	"timeDelta": 360,
+	"value": 59,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61457",
+	"type": "historical_data"
+},{
+	"timeDelta": 361,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61458",
+	"type": "historical_data"
+},{
+	"timeDelta": 362,
+	"value": 60,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61459",
+	"type": "historical_data"
+},{
+	"timeDelta": 363,
+	"value": 30,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61460",
+	"type": "historical_data"
+},{
+	"timeDelta": 364,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61461",
+	"type": "historical_data"
+},{
+	"timeDelta": 365,
+	"value": 55,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61462",
+	"type": "historical_data"
+},{
+	"timeDelta": 366,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61463",
+	"type": "historical_data"
+},{
+	"timeDelta": 367,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61464",
+	"type": "historical_data"
+},{
+	"timeDelta": 368,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61465",
+	"type": "historical_data"
+},{
+	"timeDelta": 369,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61466",
+	"type": "historical_data"
+},{
+	"timeDelta": 370,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61467",
+	"type": "historical_data"
+},{
+	"timeDelta": 371,
+	"value": 34,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61468",
+	"type": "historical_data"
+},{
+	"timeDelta": 372,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61469",
+	"type": "historical_data"
+},{
+	"timeDelta": 373,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61470",
+	"type": "historical_data"
+},{
+	"timeDelta": 374,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61471",
+	"type": "historical_data"
+},{
+	"timeDelta": 375,
+	"value": 72,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61472",
+	"type": "historical_data"
+},{
+	"timeDelta": 376,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61473",
+	"type": "historical_data"
+},{
+	"timeDelta": 377,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61474",
+	"type": "historical_data"
+},{
+	"timeDelta": 378,
+	"value": 26,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61475",
+	"type": "historical_data"
+},{
+	"timeDelta": 379,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61476",
+	"type": "historical_data"
+},{
+	"timeDelta": 380,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61477",
+	"type": "historical_data"
+},{
+	"timeDelta": 381,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61478",
+	"type": "historical_data"
+},{
+	"timeDelta": 382,
+	"value": 61,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61479",
+	"type": "historical_data"
+},{
+	"timeDelta": 383,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61480",
+	"type": "historical_data"
+},{
+	"timeDelta": 384,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61481",
+	"type": "historical_data"
+},{
+	"timeDelta": 385,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61482",
+	"type": "historical_data"
+},{
+	"timeDelta": 386,
+	"value": 30,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61483",
+	"type": "historical_data"
+},{
+	"timeDelta": 387,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61484",
+	"type": "historical_data"
+},{
+	"timeDelta": 388,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61485",
+	"type": "historical_data"
+},{
+	"timeDelta": 389,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61486",
+	"type": "historical_data"
+},{
+	"timeDelta": 390,
+	"value": 31,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61487",
+	"type": "historical_data"
+},{
+	"timeDelta": 391,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61488",
+	"type": "historical_data"
+},{
+	"timeDelta": 392,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61489",
+	"type": "historical_data"
+},{
+	"timeDelta": 393,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61490",
+	"type": "historical_data"
+},{
+	"timeDelta": 394,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61491",
+	"type": "historical_data"
+},{
+	"timeDelta": 395,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61492",
+	"type": "historical_data"
+},{
+	"timeDelta": 396,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61493",
+	"type": "historical_data"
+},{
+	"timeDelta": 397,
+	"value": 62,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61494",
+	"type": "historical_data"
+},{
+	"timeDelta": 398,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61495",
+	"type": "historical_data"
+},{
+	"timeDelta": 399,
+	"value": 57,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61496",
+	"type": "historical_data"
+},{
+	"timeDelta": 400,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61497",
+	"type": "historical_data"
+},{
+	"timeDelta": 401,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61498",
+	"type": "historical_data"
+},{
+	"timeDelta": 402,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61499",
+	"type": "historical_data"
+},{
+	"timeDelta": 403,
+	"value": 72,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61500",
+	"type": "historical_data"
+},{
+	"timeDelta": 404,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61501",
+	"type": "historical_data"
+},{
+	"timeDelta": 405,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61502",
+	"type": "historical_data"
+},{
+	"timeDelta": 406,
+	"value": 70,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61503",
+	"type": "historical_data"
+},{
+	"timeDelta": 407,
+	"value": 31,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61504",
+	"type": "historical_data"
+},{
+	"timeDelta": 408,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61505",
+	"type": "historical_data"
+},{
+	"timeDelta": 409,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61506",
+	"type": "historical_data"
+},{
+	"timeDelta": 410,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61507",
+	"type": "historical_data"
+},{
+	"timeDelta": 411,
+	"value": 59,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61508",
+	"type": "historical_data"
+},{
+	"timeDelta": 412,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61509",
+	"type": "historical_data"
+},{
+	"timeDelta": 413,
+	"value": 34,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61510",
+	"type": "historical_data"
+},{
+	"timeDelta": 414,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61511",
+	"type": "historical_data"
+},{
+	"timeDelta": 415,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61512",
+	"type": "historical_data"
+},{
+	"timeDelta": 416,
+	"value": 61,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61513",
+	"type": "historical_data"
+},{
+	"timeDelta": 417,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61514",
+	"type": "historical_data"
+},{
+	"timeDelta": 418,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61515",
+	"type": "historical_data"
+},{
+	"timeDelta": 419,
+	"value": 66,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61516",
+	"type": "historical_data"
+},{
+	"timeDelta": 420,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61517",
+	"type": "historical_data"
+},{
+	"timeDelta": 421,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61518",
+	"type": "historical_data"
+},{
+	"timeDelta": 422,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61519",
+	"type": "historical_data"
+},{
+	"timeDelta": 423,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61520",
+	"type": "historical_data"
+},{
+	"timeDelta": 424,
+	"value": 67,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61521",
+	"type": "historical_data"
+},{
+	"timeDelta": 425,
+	"value": 22,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61522",
+	"type": "historical_data"
+},{
+	"timeDelta": 426,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61523",
+	"type": "historical_data"
+},{
+	"timeDelta": 427,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61524",
+	"type": "historical_data"
+},{
+	"timeDelta": 428,
+	"value": 57,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61525",
+	"type": "historical_data"
+},{
+	"timeDelta": 429,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61526",
+	"type": "historical_data"
+},{
+	"timeDelta": 430,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61527",
+	"type": "historical_data"
+},{
+	"timeDelta": 431,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61528",
+	"type": "historical_data"
+},{
+	"timeDelta": 432,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61529",
+	"type": "historical_data"
+},{
+	"timeDelta": 433,
+	"value": 61,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61530",
+	"type": "historical_data"
+},{
+	"timeDelta": 434,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61531",
+	"type": "historical_data"
+},{
+	"timeDelta": 435,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61532",
+	"type": "historical_data"
+},{
+	"timeDelta": 436,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61533",
+	"type": "historical_data"
+},{
+	"timeDelta": 437,
+	"value": 70,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61534",
+	"type": "historical_data"
+},{
+	"timeDelta": 438,
+	"value": 70,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61535",
+	"type": "historical_data"
+},{
+	"timeDelta": 439,
+	"value": 67,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61536",
+	"type": "historical_data"
+},{
+	"timeDelta": 440,
+	"value": 30,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61537",
+	"type": "historical_data"
+},{
+	"timeDelta": 441,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61538",
+	"type": "historical_data"
+},{
+	"timeDelta": 442,
+	"value": 70,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61539",
+	"type": "historical_data"
+},{
+	"timeDelta": 443,
+	"value": 22,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61540",
+	"type": "historical_data"
+},{
+	"timeDelta": 444,
+	"value": 25,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61541",
+	"type": "historical_data"
+},{
+	"timeDelta": 445,
+	"value": 31,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61542",
+	"type": "historical_data"
+},{
+	"timeDelta": 446,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61543",
+	"type": "historical_data"
+},{
+	"timeDelta": 447,
+	"value": 65,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61544",
+	"type": "historical_data"
+},{
+	"timeDelta": 448,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61545",
+	"type": "historical_data"
+},{
+	"timeDelta": 449,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61546",
+	"type": "historical_data"
+},{
+	"timeDelta": 450,
+	"value": 28,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61547",
+	"type": "historical_data"
+},{
+	"timeDelta": 451,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61548",
+	"type": "historical_data"
+},{
+	"timeDelta": 452,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61549",
+	"type": "historical_data"
+},{
+	"timeDelta": 453,
+	"value": 66,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61550",
+	"type": "historical_data"
+},{
+	"timeDelta": 454,
+	"value": 27,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61551",
+	"type": "historical_data"
+},{
+	"timeDelta": 455,
+	"value": 31,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61552",
+	"type": "historical_data"
+},{
+	"timeDelta": 456,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61553",
+	"type": "historical_data"
+},{
+	"timeDelta": 457,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61554",
+	"type": "historical_data"
+},{
+	"timeDelta": 458,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61555",
+	"type": "historical_data"
+},{
+	"timeDelta": 459,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61556",
+	"type": "historical_data"
+},{
+	"timeDelta": 460,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61557",
+	"type": "historical_data"
+},{
+	"timeDelta": 461,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61558",
+	"type": "historical_data"
+},{
+	"timeDelta": 462,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61559",
+	"type": "historical_data"
+},{
+	"timeDelta": 463,
+	"value": 34,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61560",
+	"type": "historical_data"
+},{
+	"timeDelta": 464,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61561",
+	"type": "historical_data"
+},{
+	"timeDelta": 465,
+	"value": 60,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61562",
+	"type": "historical_data"
+},{
+	"timeDelta": 466,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61563",
+	"type": "historical_data"
+},{
+	"timeDelta": 467,
+	"value": 62,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61564",
+	"type": "historical_data"
+},{
+	"timeDelta": 468,
+	"value": 59,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61565",
+	"type": "historical_data"
+},{
+	"timeDelta": 469,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61566",
+	"type": "historical_data"
+},{
+	"timeDelta": 470,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61567",
+	"type": "historical_data"
+},{
+	"timeDelta": 471,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61568",
+	"type": "historical_data"
+},{
+	"timeDelta": 472,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61569",
+	"type": "historical_data"
+},{
+	"timeDelta": 473,
+	"value": 75,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61570",
+	"type": "historical_data"
+},{
+	"timeDelta": 474,
+	"value": 68,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61571",
+	"type": "historical_data"
+},{
+	"timeDelta": 475,
+	"value": 22,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61572",
+	"type": "historical_data"
+},{
+	"timeDelta": 476,
+	"value": 27,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61573",
+	"type": "historical_data"
+},{
+	"timeDelta": 477,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61574",
+	"type": "historical_data"
+},{
+	"timeDelta": 478,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61575",
+	"type": "historical_data"
+},{
+	"timeDelta": 479,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61576",
+	"type": "historical_data"
+},{
+	"timeDelta": 480,
+	"value": 50,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61577",
+	"type": "historical_data"
+},{
+	"timeDelta": 481,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61578",
+	"type": "historical_data"
+},{
+	"timeDelta": 482,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61579",
+	"type": "historical_data"
+},{
+	"timeDelta": 483,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61580",
+	"type": "historical_data"
+},{
+	"timeDelta": 484,
+	"value": 65,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61581",
+	"type": "historical_data"
+},{
+	"timeDelta": 485,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61582",
+	"type": "historical_data"
+},{
+	"timeDelta": 486,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61583",
+	"type": "historical_data"
+},{
+	"timeDelta": 487,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61584",
+	"type": "historical_data"
+},{
+	"timeDelta": 488,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61585",
+	"type": "historical_data"
+},{
+	"timeDelta": 489,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61586",
+	"type": "historical_data"
+},{
+	"timeDelta": 490,
+	"value": 23,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61587",
+	"type": "historical_data"
+},{
+	"timeDelta": 491,
+	"value": 26,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61588",
+	"type": "historical_data"
+},{
+	"timeDelta": 492,
+	"value": 30,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61589",
+	"type": "historical_data"
+},{
+	"timeDelta": 493,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61590",
+	"type": "historical_data"
+},{
+	"timeDelta": 494,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61591",
+	"type": "historical_data"
+},{
+	"timeDelta": 495,
+	"value": 34,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61592",
+	"type": "historical_data"
+},{
+	"timeDelta": 496,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61593",
+	"type": "historical_data"
+},{
+	"timeDelta": 497,
+	"value": 74,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61594",
+	"type": "historical_data"
+},{
+	"timeDelta": 498,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61595",
+	"type": "historical_data"
+},{
+	"timeDelta": 499,
+	"value": 59,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61596",
+	"type": "historical_data"
+},{
+	"timeDelta": 500,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61597",
+	"type": "historical_data"
+},{
+	"timeDelta": 501,
+	"value": 57,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61598",
+	"type": "historical_data"
+},{
+	"timeDelta": 502,
+	"value": 28,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61599",
+	"type": "historical_data"
+},{
+	"timeDelta": 503,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61600",
+	"type": "historical_data"
+},{
+	"timeDelta": 504,
+	"value": 50,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61601",
+	"type": "historical_data"
+},{
+	"timeDelta": 505,
+	"value": 25,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61602",
+	"type": "historical_data"
+},{
+	"timeDelta": 506,
+	"value": 31,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61603",
+	"type": "historical_data"
+},{
+	"timeDelta": 507,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61604",
+	"type": "historical_data"
+},{
+	"timeDelta": 508,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61605",
+	"type": "historical_data"
+},{
+	"timeDelta": 509,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61606",
+	"type": "historical_data"
+},{
+	"timeDelta": 510,
+	"value": 59,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61607",
+	"type": "historical_data"
+},{
+	"timeDelta": 511,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61608",
+	"type": "historical_data"
+},{
+	"timeDelta": 512,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61609",
+	"type": "historical_data"
+},{
+	"timeDelta": 513,
+	"value": 26,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61610",
+	"type": "historical_data"
+},{
+	"timeDelta": 514,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61611",
+	"type": "historical_data"
+},{
+	"timeDelta": 515,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61612",
+	"type": "historical_data"
+},{
+	"timeDelta": 516,
+	"value": 60,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61613",
+	"type": "historical_data"
+},{
+	"timeDelta": 517,
+	"value": 30,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61614",
+	"type": "historical_data"
+},{
+	"timeDelta": 518,
+	"value": 30,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61615",
+	"type": "historical_data"
+},{
+	"timeDelta": 519,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61616",
+	"type": "historical_data"
+},{
+	"timeDelta": 520,
+	"value": 66,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61617",
+	"type": "historical_data"
+},{
+	"timeDelta": 521,
+	"value": 65,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61618",
+	"type": "historical_data"
+},{
+	"timeDelta": 522,
+	"value": 26,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61619",
+	"type": "historical_data"
+},{
+	"timeDelta": 523,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61620",
+	"type": "historical_data"
+},{
+	"timeDelta": 524,
+	"value": 57,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61621",
+	"type": "historical_data"
+},{
+	"timeDelta": 525,
+	"value": 57,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61622",
+	"type": "historical_data"
+},{
+	"timeDelta": 526,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61623",
+	"type": "historical_data"
+},{
+	"timeDelta": 527,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61624",
+	"type": "historical_data"
+},{
+	"timeDelta": 528,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61625",
+	"type": "historical_data"
+},{
+	"timeDelta": 529,
+	"value": 75,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61626",
+	"type": "historical_data"
+},{
+	"timeDelta": 530,
+	"value": 25,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61627",
+	"type": "historical_data"
+},{
+	"timeDelta": 531,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61628",
+	"type": "historical_data"
+},{
+	"timeDelta": 532,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61629",
+	"type": "historical_data"
+},{
+	"timeDelta": 533,
+	"value": 70,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61630",
+	"type": "historical_data"
+},{
+	"timeDelta": 534,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61631",
+	"type": "historical_data"
+},{
+	"timeDelta": 535,
+	"value": 55,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61632",
+	"type": "historical_data"
+},{
+	"timeDelta": 536,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61633",
+	"type": "historical_data"
+},{
+	"timeDelta": 537,
+	"value": 55,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61634",
+	"type": "historical_data"
+},{
+	"timeDelta": 538,
+	"value": 24,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61635",
+	"type": "historical_data"
+},{
+	"timeDelta": 539,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61636",
+	"type": "historical_data"
+},{
+	"timeDelta": 540,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61637",
+	"type": "historical_data"
+},{
+	"timeDelta": 541,
+	"value": 21,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61638",
+	"type": "historical_data"
+},{
+	"timeDelta": 542,
+	"value": 25,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61639",
+	"type": "historical_data"
+},{
+	"timeDelta": 543,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61640",
+	"type": "historical_data"
+},{
+	"timeDelta": 544,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61641",
+	"type": "historical_data"
+},{
+	"timeDelta": 545,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61642",
+	"type": "historical_data"
+},{
+	"timeDelta": 546,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61643",
+	"type": "historical_data"
+},{
+	"timeDelta": 547,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61644",
+	"type": "historical_data"
+},{
+	"timeDelta": 548,
+	"value": 30,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61645",
+	"type": "historical_data"
+},{
+	"timeDelta": 549,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61646",
+	"type": "historical_data"
+},{
+	"timeDelta": 550,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61647",
+	"type": "historical_data"
+},{
+	"timeDelta": 551,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61648",
+	"type": "historical_data"
+},{
+	"timeDelta": 552,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61649",
+	"type": "historical_data"
+},{
+	"timeDelta": 553,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61650",
+	"type": "historical_data"
+},{
+	"timeDelta": 554,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61651",
+	"type": "historical_data"
+},{
+	"timeDelta": 555,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61652",
+	"type": "historical_data"
+},{
+	"timeDelta": 556,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61653",
+	"type": "historical_data"
+},{
+	"timeDelta": 557,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61654",
+	"type": "historical_data"
+},{
+	"timeDelta": 558,
+	"value": 58,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61655",
+	"type": "historical_data"
+},{
+	"timeDelta": 559,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61656",
+	"type": "historical_data"
+},{
+	"timeDelta": 560,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61657",
+	"type": "historical_data"
+},{
+	"timeDelta": 561,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61658",
+	"type": "historical_data"
+},{
+	"timeDelta": 562,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61659",
+	"type": "historical_data"
+},{
+	"timeDelta": 563,
+	"value": 71,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61660",
+	"type": "historical_data"
+},{
+	"timeDelta": 564,
+	"value": 34,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61661",
+	"type": "historical_data"
+},{
+	"timeDelta": 565,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61662",
+	"type": "historical_data"
+},{
+	"timeDelta": 566,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61663",
+	"type": "historical_data"
+},{
+	"timeDelta": 567,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61664",
+	"type": "historical_data"
+},{
+	"timeDelta": 568,
+	"value": 58,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61665",
+	"type": "historical_data"
+},{
+	"timeDelta": 569,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61666",
+	"type": "historical_data"
+},{
+	"timeDelta": 570,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61667",
+	"type": "historical_data"
+},{
+	"timeDelta": 571,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61668",
+	"type": "historical_data"
+},{
+	"timeDelta": 572,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61669",
+	"type": "historical_data"
+},{
+	"timeDelta": 573,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61670",
+	"type": "historical_data"
+},{
+	"timeDelta": 574,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61671",
+	"type": "historical_data"
+},{
+	"timeDelta": 575,
+	"value": 55,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61672",
+	"type": "historical_data"
+},{
+	"timeDelta": 576,
+	"value": 22,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61673",
+	"type": "historical_data"
+},{
+	"timeDelta": 577,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61674",
+	"type": "historical_data"
+},{
+	"timeDelta": 578,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61675",
+	"type": "historical_data"
+},{
+	"timeDelta": 579,
+	"value": 70,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61676",
+	"type": "historical_data"
+},{
+	"timeDelta": 580,
+	"value": 26,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61677",
+	"type": "historical_data"
+},{
+	"timeDelta": 581,
+	"value": 34,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61678",
+	"type": "historical_data"
+},{
+	"timeDelta": 582,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61679",
+	"type": "historical_data"
+},{
+	"timeDelta": 583,
+	"value": 30,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61680",
+	"type": "historical_data"
+},{
+	"timeDelta": 584,
+	"value": 34,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61681",
+	"type": "historical_data"
+},{
+	"timeDelta": 585,
+	"value": 50,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61682",
+	"type": "historical_data"
+},{
+	"timeDelta": 586,
+	"value": 23,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61683",
+	"type": "historical_data"
+},{
+	"timeDelta": 587,
+	"value": 26,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61684",
+	"type": "historical_data"
+},{
+	"timeDelta": 588,
+	"value": 30,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61685",
+	"type": "historical_data"
+},{
+	"timeDelta": 589,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61686",
+	"type": "historical_data"
+},{
+	"timeDelta": 590,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61687",
+	"type": "historical_data"
+},{
+	"timeDelta": 591,
+	"value": 72,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61688",
+	"type": "historical_data"
+},{
+	"timeDelta": 592,
+	"value": 70,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61689",
+	"type": "historical_data"
+},{
+	"timeDelta": 593,
+	"value": 69,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61690",
+	"type": "historical_data"
+},{
+	"timeDelta": 594,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61691",
+	"type": "historical_data"
+},{
+	"timeDelta": 595,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61692",
+	"type": "historical_data"
+},{
+	"timeDelta": 596,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61693",
+	"type": "historical_data"
+},{
+	"timeDelta": 597,
+	"value": 62,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61694",
+	"type": "historical_data"
+},{
+	"timeDelta": 598,
+	"value": 58,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61695",
+	"type": "historical_data"
+},{
+	"timeDelta": 599,
+	"value": 55,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61696",
+	"type": "historical_data"
+},{
+	"timeDelta": 600,
+	"value": 27,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61697",
+	"type": "historical_data"
+},{
+	"timeDelta": 601,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61698",
+	"type": "historical_data"
+},{
+	"timeDelta": 602,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61699",
+	"type": "historical_data"
+},{
+	"timeDelta": 603,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61700",
+	"type": "historical_data"
+},{
+	"timeDelta": 604,
+	"value": 58,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61701",
+	"type": "historical_data"
+},{
+	"timeDelta": 605,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61702",
+	"type": "historical_data"
+},{
+	"timeDelta": 606,
+	"value": 68,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61703",
+	"type": "historical_data"
+},{
+	"timeDelta": 607,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61704",
+	"type": "historical_data"
+},{
+	"timeDelta": 608,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61705",
+	"type": "historical_data"
+},{
+	"timeDelta": 609,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61706",
+	"type": "historical_data"
+},{
+	"timeDelta": 610,
+	"value": 68,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61707",
+	"type": "historical_data"
+},{
+	"timeDelta": 611,
+	"value": 31,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61708",
+	"type": "historical_data"
+},{
+	"timeDelta": 612,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61709",
+	"type": "historical_data"
+},{
+	"timeDelta": 613,
+	"value": 63,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61710",
+	"type": "historical_data"
+},{
+	"timeDelta": 614,
+	"value": 27,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61711",
+	"type": "historical_data"
+},{
+	"timeDelta": 615,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61712",
+	"type": "historical_data"
+},{
+	"timeDelta": 616,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61713",
+	"type": "historical_data"
+},{
+	"timeDelta": 617,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61714",
+	"type": "historical_data"
+},{
+	"timeDelta": 618,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61715",
+	"type": "historical_data"
+},{
+	"timeDelta": 619,
+	"value": 50,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61716",
+	"type": "historical_data"
+},{
+	"timeDelta": 620,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61717",
+	"type": "historical_data"
+},{
+	"timeDelta": 621,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61718",
+	"type": "historical_data"
+},{
+	"timeDelta": 622,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61719",
+	"type": "historical_data"
+},{
+	"timeDelta": 623,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61720",
+	"type": "historical_data"
+},{
+	"timeDelta": 624,
+	"value": 61,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61721",
+	"type": "historical_data"
+},{
+	"timeDelta": 625,
+	"value": 55,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61722",
+	"type": "historical_data"
+},{
+	"timeDelta": 626,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61723",
+	"type": "historical_data"
+},{
+	"timeDelta": 627,
+	"value": 20,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61724",
+	"type": "historical_data"
+},{
+	"timeDelta": 628,
+	"value": 22,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61725",
+	"type": "historical_data"
+},{
+	"timeDelta": 629,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61726",
+	"type": "historical_data"
+},{
+	"timeDelta": 630,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61727",
+	"type": "historical_data"
+},{
+	"timeDelta": 631,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61728",
+	"type": "historical_data"
+},{
+	"timeDelta": 632,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61729",
+	"type": "historical_data"
+},{
+	"timeDelta": 633,
+	"value": 22,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61730",
+	"type": "historical_data"
+},{
+	"timeDelta": 634,
+	"value": 22,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61731",
+	"type": "historical_data"
+},{
+	"timeDelta": 635,
+	"value": 24,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61732",
+	"type": "historical_data"
+},{
+	"timeDelta": 636,
+	"value": 31,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61733",
+	"type": "historical_data"
+},{
+	"timeDelta": 637,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61734",
+	"type": "historical_data"
+},{
+	"timeDelta": 638,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61735",
+	"type": "historical_data"
+},{
+	"timeDelta": 639,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61736",
+	"type": "historical_data"
+},{
+	"timeDelta": 640,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61737",
+	"type": "historical_data"
+},{
+	"timeDelta": 641,
+	"value": 31,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61738",
+	"type": "historical_data"
+},{
+	"timeDelta": 642,
+	"value": 31,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61739",
+	"type": "historical_data"
+},{
+	"timeDelta": 643,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61740",
+	"type": "historical_data"
+},{
+	"timeDelta": 644,
+	"value": 72,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61741",
+	"type": "historical_data"
+},{
+	"timeDelta": 645,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61742",
+	"type": "historical_data"
+},{
+	"timeDelta": 646,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61743",
+	"type": "historical_data"
+},{
+	"timeDelta": 647,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61744",
+	"type": "historical_data"
+},{
+	"timeDelta": 648,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61745",
+	"type": "historical_data"
+},{
+	"timeDelta": 649,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61746",
+	"type": "historical_data"
+},{
+	"timeDelta": 650,
+	"value": 24,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61747",
+	"type": "historical_data"
+},{
+	"timeDelta": 651,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61748",
+	"type": "historical_data"
+},{
+	"timeDelta": 652,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61749",
+	"type": "historical_data"
+},{
+	"timeDelta": 653,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61750",
+	"type": "historical_data"
+},{
+	"timeDelta": 654,
+	"value": 28,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61751",
+	"type": "historical_data"
+},{
+	"timeDelta": 655,
+	"value": 30,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61752",
+	"type": "historical_data"
+},{
+	"timeDelta": 656,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61753",
+	"type": "historical_data"
+},{
+	"timeDelta": 657,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61754",
+	"type": "historical_data"
+},{
+	"timeDelta": 658,
+	"value": 70,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61755",
+	"type": "historical_data"
+},{
+	"timeDelta": 659,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61756",
+	"type": "historical_data"
+},{
+	"timeDelta": 660,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61757",
+	"type": "historical_data"
+},{
+	"timeDelta": 661,
+	"value": 73,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61758",
+	"type": "historical_data"
+},{
+	"timeDelta": 662,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61759",
+	"type": "historical_data"
+},{
+	"timeDelta": 663,
+	"value": 60,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61760",
+	"type": "historical_data"
+},{
+	"timeDelta": 664,
+	"value": 59,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61761",
+	"type": "historical_data"
+},{
+	"timeDelta": 665,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61762",
+	"type": "historical_data"
+},{
+	"timeDelta": 666,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61763",
+	"type": "historical_data"
+},{
+	"timeDelta": 667,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61764",
+	"type": "historical_data"
+},{
+	"timeDelta": 668,
+	"value": 59,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61765",
+	"type": "historical_data"
+},{
+	"timeDelta": 669,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61766",
+	"type": "historical_data"
+},{
+	"timeDelta": 670,
+	"value": 26,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61767",
+	"type": "historical_data"
+},{
+	"timeDelta": 671,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61768",
+	"type": "historical_data"
+},{
+	"timeDelta": 672,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61769",
+	"type": "historical_data"
+},{
+	"timeDelta": 673,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61770",
+	"type": "historical_data"
+},{
+	"timeDelta": 674,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61771",
+	"type": "historical_data"
+},{
+	"timeDelta": 675,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61772",
+	"type": "historical_data"
+},{
+	"timeDelta": 676,
+	"value": 59,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61773",
+	"type": "historical_data"
+},{
+	"timeDelta": 677,
+	"value": 26,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61774",
+	"type": "historical_data"
+},{
+	"timeDelta": 678,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61775",
+	"type": "historical_data"
+},{
+	"timeDelta": 679,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61776",
+	"type": "historical_data"
+},{
+	"timeDelta": 680,
+	"value": 25,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61777",
+	"type": "historical_data"
+},{
+	"timeDelta": 681,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61778",
+	"type": "historical_data"
+},{
+	"timeDelta": 682,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61779",
+	"type": "historical_data"
+},{
+	"timeDelta": 683,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61780",
+	"type": "historical_data"
+},{
+	"timeDelta": 684,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61781",
+	"type": "historical_data"
+},{
+	"timeDelta": 685,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61782",
+	"type": "historical_data"
+},{
+	"timeDelta": 686,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61783",
+	"type": "historical_data"
+},{
+	"timeDelta": 687,
+	"value": 58,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61784",
+	"type": "historical_data"
+},{
+	"timeDelta": 688,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61785",
+	"type": "historical_data"
+},{
+	"timeDelta": 689,
+	"value": 28,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61786",
+	"type": "historical_data"
+},{
+	"timeDelta": 690,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61787",
+	"type": "historical_data"
+},{
+	"timeDelta": 691,
+	"value": 34,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61788",
+	"type": "historical_data"
+},{
+	"timeDelta": 692,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61789",
+	"type": "historical_data"
+},{
+	"timeDelta": 693,
+	"value": 50,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61790",
+	"type": "historical_data"
+},{
+	"timeDelta": 694,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61791",
+	"type": "historical_data"
+},{
+	"timeDelta": 695,
+	"value": 61,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61792",
+	"type": "historical_data"
+},{
+	"timeDelta": 696,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61793",
+	"type": "historical_data"
+},{
+	"timeDelta": 697,
+	"value": 76,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61794",
+	"type": "historical_data"
+},{
+	"timeDelta": 698,
+	"value": 75,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61795",
+	"type": "historical_data"
+},{
+	"timeDelta": 699,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61796",
+	"type": "historical_data"
+},{
+	"timeDelta": 700,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61797",
+	"type": "historical_data"
+},{
+	"timeDelta": 701,
+	"value": 64,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61798",
+	"type": "historical_data"
+},{
+	"timeDelta": 702,
+	"value": 25,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61799",
+	"type": "historical_data"
+},{
+	"timeDelta": 703,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61800",
+	"type": "historical_data"
+},{
+	"timeDelta": 704,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61801",
+	"type": "historical_data"
+},{
+	"timeDelta": 705,
+	"value": 63,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61802",
+	"type": "historical_data"
+},{
+	"timeDelta": 706,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61803",
+	"type": "historical_data"
+},{
+	"timeDelta": 707,
+	"value": 76,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61804",
+	"type": "historical_data"
+},{
+	"timeDelta": 708,
+	"value": 58,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61805",
+	"type": "historical_data"
+},{
+	"timeDelta": 709,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61806",
+	"type": "historical_data"
+},{
+	"timeDelta": 710,
+	"value": 28,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61807",
+	"type": "historical_data"
+},{
+	"timeDelta": 711,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61808",
+	"type": "historical_data"
+},{
+	"timeDelta": 712,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61809",
+	"type": "historical_data"
+},{
+	"timeDelta": 713,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61810",
+	"type": "historical_data"
+},{
+	"timeDelta": 714,
+	"value": 57,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61811",
+	"type": "historical_data"
+},{
+	"timeDelta": 715,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61812",
+	"type": "historical_data"
+},{
+	"timeDelta": 716,
+	"value": 50,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61813",
+	"type": "historical_data"
+},{
+	"timeDelta": 717,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61814",
+	"type": "historical_data"
+},{
+	"timeDelta": 718,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61815",
+	"type": "historical_data"
+},{
+	"timeDelta": 719,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61816",
+	"type": "historical_data"
+},{
+	"timeDelta": 720,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61817",
+	"type": "historical_data"
+},{
+	"timeDelta": 721,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61818",
+	"type": "historical_data"
+},{
+	"timeDelta": 722,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61819",
+	"type": "historical_data"
+},{
+	"timeDelta": 723,
+	"value": 61,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61820",
+	"type": "historical_data"
+},{
+	"timeDelta": 724,
+	"value": 26,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61821",
+	"type": "historical_data"
+},{
+	"timeDelta": 725,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61822",
+	"type": "historical_data"
+},{
+	"timeDelta": 726,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61823",
+	"type": "historical_data"
+},{
+	"timeDelta": 727,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61824",
+	"type": "historical_data"
+},{
+	"timeDelta": 728,
+	"value": 55,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61825",
+	"type": "historical_data"
+},{
+	"timeDelta": 729,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61826",
+	"type": "historical_data"
+},{
+	"timeDelta": 730,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61827",
+	"type": "historical_data"
+},{
+	"timeDelta": 731,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61828",
+	"type": "historical_data"
+},{
+	"timeDelta": 732,
+	"value": 24,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61829",
+	"type": "historical_data"
+},{
+	"timeDelta": 733,
+	"value": 27,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61830",
+	"type": "historical_data"
+},{
+	"timeDelta": 734,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61831",
+	"type": "historical_data"
+},{
+	"timeDelta": 735,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61832",
+	"type": "historical_data"
+},{
+	"timeDelta": 736,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61833",
+	"type": "historical_data"
+},{
+	"timeDelta": 737,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61834",
+	"type": "historical_data"
+},{
+	"timeDelta": 738,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61835",
+	"type": "historical_data"
+},{
+	"timeDelta": 739,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61836",
+	"type": "historical_data"
+},{
+	"timeDelta": 740,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61837",
+	"type": "historical_data"
+},{
+	"timeDelta": 741,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61838",
+	"type": "historical_data"
+},{
+	"timeDelta": 742,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61839",
+	"type": "historical_data"
+},{
+	"timeDelta": 743,
+	"value": 71,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61840",
+	"type": "historical_data"
+},{
+	"timeDelta": 744,
+	"value": 66,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61841",
+	"type": "historical_data"
+},{
+	"timeDelta": 745,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61842",
+	"type": "historical_data"
+},{
+	"timeDelta": 746,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61843",
+	"type": "historical_data"
+},{
+	"timeDelta": 747,
+	"value": 61,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61844",
+	"type": "historical_data"
+},{
+	"timeDelta": 748,
+	"value": 20,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61845",
+	"type": "historical_data"
+},{
+	"timeDelta": 749,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61846",
+	"type": "historical_data"
+},{
+	"timeDelta": 750,
+	"value": 31,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61847",
+	"type": "historical_data"
+},{
+	"timeDelta": 751,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61848",
+	"type": "historical_data"
+},{
+	"timeDelta": 752,
+	"value": 55,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61849",
+	"type": "historical_data"
+},{
+	"timeDelta": 753,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61850",
+	"type": "historical_data"
+},{
+	"timeDelta": 754,
+	"value": 69,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61851",
+	"type": "historical_data"
+},{
+	"timeDelta": 755,
+	"value": 64,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61852",
+	"type": "historical_data"
+},{
+	"timeDelta": 756,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61853",
+	"type": "historical_data"
+},{
+	"timeDelta": 757,
+	"value": 59,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61854",
+	"type": "historical_data"
+},{
+	"timeDelta": 758,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61855",
+	"type": "historical_data"
+},{
+	"timeDelta": 759,
+	"value": 65,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61856",
+	"type": "historical_data"
+},{
+	"timeDelta": 760,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61857",
+	"type": "historical_data"
+},{
+	"timeDelta": 761,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61858",
+	"type": "historical_data"
+},{
+	"timeDelta": 762,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61859",
+	"type": "historical_data"
+},{
+	"timeDelta": 763,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61860",
+	"type": "historical_data"
+},{
+	"timeDelta": 764,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61861",
+	"type": "historical_data"
+},{
+	"timeDelta": 765,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61862",
+	"type": "historical_data"
+},{
+	"timeDelta": 766,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61863",
+	"type": "historical_data"
+},{
+	"timeDelta": 767,
+	"value": 67,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61864",
+	"type": "historical_data"
+},{
+	"timeDelta": 768,
+	"value": 65,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61865",
+	"type": "historical_data"
+},{
+	"timeDelta": 769,
+	"value": 65,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61866",
+	"type": "historical_data"
+},{
+	"timeDelta": 770,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61867",
+	"type": "historical_data"
+},{
+	"timeDelta": 771,
+	"value": 67,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61868",
+	"type": "historical_data"
+},{
+	"timeDelta": 772,
+	"value": 21,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61869",
+	"type": "historical_data"
+},{
+	"timeDelta": 773,
+	"value": 30,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61870",
+	"type": "historical_data"
+},{
+	"timeDelta": 774,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61871",
+	"type": "historical_data"
+},{
+	"timeDelta": 775,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61872",
+	"type": "historical_data"
+},{
+	"timeDelta": 776,
+	"value": 58,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61873",
+	"type": "historical_data"
+},{
+	"timeDelta": 777,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61874",
+	"type": "historical_data"
+},{
+	"timeDelta": 778,
+	"value": 27,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61875",
+	"type": "historical_data"
+},{
+	"timeDelta": 779,
+	"value": 30,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61876",
+	"type": "historical_data"
+},{
+	"timeDelta": 780,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61877",
+	"type": "historical_data"
+},{
+	"timeDelta": 781,
+	"value": 65,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61878",
+	"type": "historical_data"
+},{
+	"timeDelta": 782,
+	"value": 57,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61879",
+	"type": "historical_data"
+},{
+	"timeDelta": 783,
+	"value": 24,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61880",
+	"type": "historical_data"
+},{
+	"timeDelta": 784,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61881",
+	"type": "historical_data"
+},{
+	"timeDelta": 785,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61882",
+	"type": "historical_data"
+},{
+	"timeDelta": 786,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61883",
+	"type": "historical_data"
+},{
+	"timeDelta": 787,
+	"value": 22,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61884",
+	"type": "historical_data"
+},{
+	"timeDelta": 788,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61885",
+	"type": "historical_data"
+},{
+	"timeDelta": 789,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61886",
+	"type": "historical_data"
+},{
+	"timeDelta": 790,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61887",
+	"type": "historical_data"
+},{
+	"timeDelta": 791,
+	"value": 24,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61888",
+	"type": "historical_data"
+},{
+	"timeDelta": 792,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61889",
+	"type": "historical_data"
+},{
+	"timeDelta": 793,
+	"value": 50,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61890",
+	"type": "historical_data"
+},{
+	"timeDelta": 794,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61891",
+	"type": "historical_data"
+},{
+	"timeDelta": 795,
+	"value": 69,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61892",
+	"type": "historical_data"
+},{
+	"timeDelta": 796,
+	"value": 28,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61893",
+	"type": "historical_data"
+},{
+	"timeDelta": 797,
+	"value": 31,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61894",
+	"type": "historical_data"
+},{
+	"timeDelta": 798,
+	"value": 31,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61895",
+	"type": "historical_data"
+},{
+	"timeDelta": 799,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61896",
+	"type": "historical_data"
+},{
+	"timeDelta": 800,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61897",
+	"type": "historical_data"
+},{
+	"timeDelta": 801,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61898",
+	"type": "historical_data"
+},{
+	"timeDelta": 802,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61899",
+	"type": "historical_data"
+},{
+	"timeDelta": 803,
+	"value": 58,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61900",
+	"type": "historical_data"
+},{
+	"timeDelta": 804,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61901",
+	"type": "historical_data"
+},{
+	"timeDelta": 805,
+	"value": 67,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61902",
+	"type": "historical_data"
+},{
+	"timeDelta": 806,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61903",
+	"type": "historical_data"
+},{
+	"timeDelta": 807,
+	"value": 62,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61904",
+	"type": "historical_data"
+},{
+	"timeDelta": 808,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61905",
+	"type": "historical_data"
+},{
+	"timeDelta": 809,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61906",
+	"type": "historical_data"
+},{
+	"timeDelta": 810,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61907",
+	"type": "historical_data"
+},{
+	"timeDelta": 811,
+	"value": 67,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61908",
+	"type": "historical_data"
+},{
+	"timeDelta": 812,
+	"value": 31,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61909",
+	"type": "historical_data"
+},{
+	"timeDelta": 813,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61910",
+	"type": "historical_data"
+},{
+	"timeDelta": 814,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61911",
+	"type": "historical_data"
+},{
+	"timeDelta": 815,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61912",
+	"type": "historical_data"
+},{
+	"timeDelta": 816,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61913",
+	"type": "historical_data"
+},{
+	"timeDelta": 817,
+	"value": 67,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61914",
+	"type": "historical_data"
+},{
+	"timeDelta": 818,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61915",
+	"type": "historical_data"
+},{
+	"timeDelta": 819,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61916",
+	"type": "historical_data"
+},{
+	"timeDelta": 820,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61917",
+	"type": "historical_data"
+},{
+	"timeDelta": 821,
+	"value": 68,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61918",
+	"type": "historical_data"
+},{
+	"timeDelta": 822,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61919",
+	"type": "historical_data"
+},{
+	"timeDelta": 823,
+	"value": 59,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61920",
+	"type": "historical_data"
+},{
+	"timeDelta": 824,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61921",
+	"type": "historical_data"
+},{
+	"timeDelta": 825,
+	"value": 61,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61922",
+	"type": "historical_data"
+},{
+	"timeDelta": 826,
+	"value": 30,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61923",
+	"type": "historical_data"
+},{
+	"timeDelta": 827,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61924",
+	"type": "historical_data"
+},{
+	"timeDelta": 828,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61925",
+	"type": "historical_data"
+},{
+	"timeDelta": 829,
+	"value": 60,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61926",
+	"type": "historical_data"
+},{
+	"timeDelta": 830,
+	"value": 22,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61927",
+	"type": "historical_data"
+},{
+	"timeDelta": 831,
+	"value": 30,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61928",
+	"type": "historical_data"
+},{
+	"timeDelta": 832,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61929",
+	"type": "historical_data"
+},{
+	"timeDelta": 833,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61930",
+	"type": "historical_data"
+},{
+	"timeDelta": 834,
+	"value": 21,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61931",
+	"type": "historical_data"
+},{
+	"timeDelta": 835,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61932",
+	"type": "historical_data"
+},{
+	"timeDelta": 836,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61933",
+	"type": "historical_data"
+},{
+	"timeDelta": 837,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61934",
+	"type": "historical_data"
+},{
+	"timeDelta": 838,
+	"value": 50,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61935",
+	"type": "historical_data"
+},{
+	"timeDelta": 839,
+	"value": 22,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61936",
+	"type": "historical_data"
+},{
+	"timeDelta": 840,
+	"value": 27,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61937",
+	"type": "historical_data"
+},{
+	"timeDelta": 841,
+	"value": 28,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61938",
+	"type": "historical_data"
+},{
+	"timeDelta": 842,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61939",
+	"type": "historical_data"
+},{
+	"timeDelta": 843,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61940",
+	"type": "historical_data"
+},{
+	"timeDelta": 844,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61941",
+	"type": "historical_data"
+},{
+	"timeDelta": 845,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61942",
+	"type": "historical_data"
+},{
+	"timeDelta": 846,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61943",
+	"type": "historical_data"
+},{
+	"timeDelta": 847,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61944",
+	"type": "historical_data"
+},{
+	"timeDelta": 848,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61945",
+	"type": "historical_data"
+},{
+	"timeDelta": 849,
+	"value": 66,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61946",
+	"type": "historical_data"
+},{
+	"timeDelta": 850,
+	"value": 58,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61947",
+	"type": "historical_data"
+},{
+	"timeDelta": 851,
+	"value": 21,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61948",
+	"type": "historical_data"
+},{
+	"timeDelta": 852,
+	"value": 22,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61949",
+	"type": "historical_data"
+},{
+	"timeDelta": 853,
+	"value": 22,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61950",
+	"type": "historical_data"
+},{
+	"timeDelta": 854,
+	"value": 22,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61951",
+	"type": "historical_data"
+},{
+	"timeDelta": 855,
+	"value": 25,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61952",
+	"type": "historical_data"
+},{
+	"timeDelta": 856,
+	"value": 26,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61953",
+	"type": "historical_data"
+},{
+	"timeDelta": 857,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61954",
+	"type": "historical_data"
+},{
+	"timeDelta": 858,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61955",
+	"type": "historical_data"
+},{
+	"timeDelta": 859,
+	"value": 63,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61956",
+	"type": "historical_data"
+},{
+	"timeDelta": 860,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61957",
+	"type": "historical_data"
+},{
+	"timeDelta": 861,
+	"value": 57,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61958",
+	"type": "historical_data"
+},{
+	"timeDelta": 862,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61959",
+	"type": "historical_data"
+},{
+	"timeDelta": 863,
+	"value": 20,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61960",
+	"type": "historical_data"
+},{
+	"timeDelta": 864,
+	"value": 25,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61961",
+	"type": "historical_data"
+},{
+	"timeDelta": 865,
+	"value": 31,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61962",
+	"type": "historical_data"
+},{
+	"timeDelta": 866,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61963",
+	"type": "historical_data"
+},{
+	"timeDelta": 867,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61964",
+	"type": "historical_data"
+},{
+	"timeDelta": 868,
+	"value": 75,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61965",
+	"type": "historical_data"
+},{
+	"timeDelta": 869,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61966",
+	"type": "historical_data"
+},{
+	"timeDelta": 870,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61967",
+	"type": "historical_data"
+},{
+	"timeDelta": 871,
+	"value": 58,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61968",
+	"type": "historical_data"
+},{
+	"timeDelta": 872,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61969",
+	"type": "historical_data"
+},{
+	"timeDelta": 873,
+	"value": 64,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61970",
+	"type": "historical_data"
+},{
+	"timeDelta": 874,
+	"value": 60,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61971",
+	"type": "historical_data"
+},{
+	"timeDelta": 875,
+	"value": 27,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61972",
+	"type": "historical_data"
+},{
+	"timeDelta": 876,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61973",
+	"type": "historical_data"
+},{
+	"timeDelta": 877,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61974",
+	"type": "historical_data"
+},{
+	"timeDelta": 878,
+	"value": 60,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61975",
+	"type": "historical_data"
+},{
+	"timeDelta": 879,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61976",
+	"type": "historical_data"
+},{
+	"timeDelta": 880,
+	"value": 58,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61977",
+	"type": "historical_data"
+},{
+	"timeDelta": 881,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61978",
+	"type": "historical_data"
+},{
+	"timeDelta": 882,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61979",
+	"type": "historical_data"
+},{
+	"timeDelta": 883,
+	"value": 62,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61980",
+	"type": "historical_data"
+},{
+	"timeDelta": 884,
+	"value": 31,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61981",
+	"type": "historical_data"
+},{
+	"timeDelta": 885,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61982",
+	"type": "historical_data"
+},{
+	"timeDelta": 886,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61983",
+	"type": "historical_data"
+},{
+	"timeDelta": 887,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61984",
+	"type": "historical_data"
+},{
+	"timeDelta": 888,
+	"value": 56,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61985",
+	"type": "historical_data"
+},{
+	"timeDelta": 889,
+	"value": 27,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61986",
+	"type": "historical_data"
+},{
+	"timeDelta": 890,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61987",
+	"type": "historical_data"
+},{
+	"timeDelta": 891,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61988",
+	"type": "historical_data"
+},{
+	"timeDelta": 892,
+	"value": 61,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61989",
+	"type": "historical_data"
+},{
+	"timeDelta": 893,
+	"value": 58,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61990",
+	"type": "historical_data"
+},{
+	"timeDelta": 894,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61991",
+	"type": "historical_data"
+},{
+	"timeDelta": 895,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61992",
+	"type": "historical_data"
+},{
+	"timeDelta": 896,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61993",
+	"type": "historical_data"
+},{
+	"timeDelta": 897,
+	"value": 51,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61994",
+	"type": "historical_data"
+},{
+	"timeDelta": 898,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61995",
+	"type": "historical_data"
+},{
+	"timeDelta": 899,
+	"value": 72,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61996",
+	"type": "historical_data"
+},{
+	"timeDelta": 900,
+	"value": 20,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61997",
+	"type": "historical_data"
+},{
+	"timeDelta": 901,
+	"value": 21,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61998",
+	"type": "historical_data"
+},{
+	"timeDelta": 902,
+	"value": 31,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "61999",
+	"type": "historical_data"
+},{
+	"timeDelta": 903,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62000",
+	"type": "historical_data"
+},{
+	"timeDelta": 904,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62001",
+	"type": "historical_data"
+},{
+	"timeDelta": 905,
+	"value": 55,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62002",
+	"type": "historical_data"
+},{
+	"timeDelta": 906,
+	"value": 26,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62003",
+	"type": "historical_data"
+},{
+	"timeDelta": 907,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62004",
+	"type": "historical_data"
+},{
+	"timeDelta": 908,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62005",
+	"type": "historical_data"
+},{
+	"timeDelta": 909,
+	"value": 61,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62006",
+	"type": "historical_data"
+},{
+	"timeDelta": 910,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62007",
+	"type": "historical_data"
+},{
+	"timeDelta": 911,
+	"value": 50,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62008",
+	"type": "historical_data"
+},{
+	"timeDelta": 912,
+	"value": 29,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62009",
+	"type": "historical_data"
+},{
+	"timeDelta": 913,
+	"value": 33,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62010",
+	"type": "historical_data"
+},{
+	"timeDelta": 914,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62011",
+	"type": "historical_data"
+},{
+	"timeDelta": 915,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62012",
+	"type": "historical_data"
+},{
+	"timeDelta": 916,
+	"value": 27,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62013",
+	"type": "historical_data"
+},{
+	"timeDelta": 917,
+	"value": 30,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62014",
+	"type": "historical_data"
+},{
+	"timeDelta": 918,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62015",
+	"type": "historical_data"
+},{
+	"timeDelta": 919,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62016",
+	"type": "historical_data"
+},{
+	"timeDelta": 920,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62017",
+	"type": "historical_data"
+},{
+	"timeDelta": 921,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62018",
+	"type": "historical_data"
+},{
+	"timeDelta": 922,
+	"value": 22,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62019",
+	"type": "historical_data"
+},{
+	"timeDelta": 923,
+	"value": 23,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62020",
+	"type": "historical_data"
+},{
+	"timeDelta": 924,
+	"value": 25,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62021",
+	"type": "historical_data"
+},{
+	"timeDelta": 925,
+	"value": 34,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62022",
+	"type": "historical_data"
+},{
+	"timeDelta": 926,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62023",
+	"type": "historical_data"
+},{
+	"timeDelta": 927,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62024",
+	"type": "historical_data"
+},{
+	"timeDelta": 928,
+	"value": 76,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62025",
+	"type": "historical_data"
+},{
+	"timeDelta": 929,
+	"value": 20,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62026",
+	"type": "historical_data"
+},{
+	"timeDelta": 930,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62027",
+	"type": "historical_data"
+},{
+	"timeDelta": 931,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62028",
+	"type": "historical_data"
+},{
+	"timeDelta": 932,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62029",
+	"type": "historical_data"
+},{
+	"timeDelta": 933,
+	"value": 28,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62030",
+	"type": "historical_data"
+},{
+	"timeDelta": 934,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62031",
+	"type": "historical_data"
+},{
+	"timeDelta": 935,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62032",
+	"type": "historical_data"
+},{
+	"timeDelta": 936,
+	"value": 65,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62033",
+	"type": "historical_data"
+},{
+	"timeDelta": 937,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62034",
+	"type": "historical_data"
+},{
+	"timeDelta": 938,
+	"value": 55,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62035",
+	"type": "historical_data"
+},{
+	"timeDelta": 939,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62036",
+	"type": "historical_data"
+},{
+	"timeDelta": 940,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62037",
+	"type": "historical_data"
+},{
+	"timeDelta": 941,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62038",
+	"type": "historical_data"
+},{
+	"timeDelta": 942,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62039",
+	"type": "historical_data"
+},{
+	"timeDelta": 943,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62040",
+	"type": "historical_data"
+},{
+	"timeDelta": 944,
+	"value": 34,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62041",
+	"type": "historical_data"
+},{
+	"timeDelta": 945,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62042",
+	"type": "historical_data"
+},{
+	"timeDelta": 946,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62043",
+	"type": "historical_data"
+},{
+	"timeDelta": 947,
+	"value": 64,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62044",
+	"type": "historical_data"
+},{
+	"timeDelta": 948,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62045",
+	"type": "historical_data"
+},{
+	"timeDelta": 949,
+	"value": 71,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62046",
+	"type": "historical_data"
+},{
+	"timeDelta": 950,
+	"value": 34,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62047",
+	"type": "historical_data"
+},{
+	"timeDelta": 951,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62048",
+	"type": "historical_data"
+},{
+	"timeDelta": 952,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62049",
+	"type": "historical_data"
+},{
+	"timeDelta": 953,
+	"value": 73,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62050",
+	"type": "historical_data"
+},{
+	"timeDelta": 954,
+	"value": 34,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62051",
+	"type": "historical_data"
+},{
+	"timeDelta": 955,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62052",
+	"type": "historical_data"
+},{
+	"timeDelta": 956,
+	"value": 53,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62053",
+	"type": "historical_data"
+},{
+	"timeDelta": 957,
+	"value": 24,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62054",
+	"type": "historical_data"
+},{
+	"timeDelta": 958,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62055",
+	"type": "historical_data"
+},{
+	"timeDelta": 959,
+	"value": 50,
+	"deviceClassId": "10002",
+	"timeUnit": "hour",
+	"_id": "62056",
+	"type": "historical_data"
+},{
+	"timeDelta": 0,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62057",
+	"type": "historical_data"
+},{
+	"timeDelta": 1,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62058",
+	"type": "historical_data"
+},{
+	"timeDelta": 2,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62059",
+	"type": "historical_data"
+},{
+	"timeDelta": 3,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62060",
+	"type": "historical_data"
+},{
+	"timeDelta": 4,
+	"value": 35,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62061",
+	"type": "historical_data"
+},{
+	"timeDelta": 5,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62062",
+	"type": "historical_data"
+},{
+	"timeDelta": 6,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62063",
+	"type": "historical_data"
+},{
+	"timeDelta": 7,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62064",
+	"type": "historical_data"
+},{
+	"timeDelta": 8,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62065",
+	"type": "historical_data"
+},{
+	"timeDelta": 9,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62066",
+	"type": "historical_data"
+},{
+	"timeDelta": 10,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62067",
+	"type": "historical_data"
+},{
+	"timeDelta": 11,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62068",
+	"type": "historical_data"
+},{
+	"timeDelta": 12,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62069",
+	"type": "historical_data"
+},{
+	"timeDelta": 13,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62070",
+	"type": "historical_data"
+},{
+	"timeDelta": 14,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62071",
+	"type": "historical_data"
+},{
+	"timeDelta": 15,
+	"value": 34,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62072",
+	"type": "historical_data"
+},{
+	"timeDelta": 16,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62073",
+	"type": "historical_data"
+},{
+	"timeDelta": 17,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62074",
+	"type": "historical_data"
+},{
+	"timeDelta": 18,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62075",
+	"type": "historical_data"
+},{
+	"timeDelta": 19,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62076",
+	"type": "historical_data"
+},{
+	"timeDelta": 20,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62077",
+	"type": "historical_data"
+},{
+	"timeDelta": 21,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62078",
+	"type": "historical_data"
+},{
+	"timeDelta": 22,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62079",
+	"type": "historical_data"
+},{
+	"timeDelta": 23,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62080",
+	"type": "historical_data"
+},{
+	"timeDelta": 24,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62081",
+	"type": "historical_data"
+},{
+	"timeDelta": 25,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62082",
+	"type": "historical_data"
+},{
+	"timeDelta": 26,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62083",
+	"type": "historical_data"
+},{
+	"timeDelta": 27,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62084",
+	"type": "historical_data"
+},{
+	"timeDelta": 28,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62085",
+	"type": "historical_data"
+},{
+	"timeDelta": 29,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62086",
+	"type": "historical_data"
+},{
+	"timeDelta": 30,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62087",
+	"type": "historical_data"
+},{
+	"timeDelta": 31,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62088",
+	"type": "historical_data"
+},{
+	"timeDelta": 32,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62089",
+	"type": "historical_data"
+},{
+	"timeDelta": 33,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62090",
+	"type": "historical_data"
+},{
+	"timeDelta": 34,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62091",
+	"type": "historical_data"
+},{
+	"timeDelta": 35,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62092",
+	"type": "historical_data"
+},{
+	"timeDelta": 36,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62093",
+	"type": "historical_data"
+},{
+	"timeDelta": 37,
+	"value": 50,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62094",
+	"type": "historical_data"
+},{
+	"timeDelta": 38,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62095",
+	"type": "historical_data"
+},{
+	"timeDelta": 39,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62096",
+	"type": "historical_data"
+},{
+	"timeDelta": 40,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62097",
+	"type": "historical_data"
+},{
+	"timeDelta": 41,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62098",
+	"type": "historical_data"
+},{
+	"timeDelta": 42,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62099",
+	"type": "historical_data"
+},{
+	"timeDelta": 43,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62100",
+	"type": "historical_data"
+},{
+	"timeDelta": 44,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62101",
+	"type": "historical_data"
+},{
+	"timeDelta": 45,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62102",
+	"type": "historical_data"
+},{
+	"timeDelta": 46,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62103",
+	"type": "historical_data"
+},{
+	"timeDelta": 47,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62104",
+	"type": "historical_data"
+},{
+	"timeDelta": 48,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62105",
+	"type": "historical_data"
+},{
+	"timeDelta": 49,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62106",
+	"type": "historical_data"
+},{
+	"timeDelta": 50,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62107",
+	"type": "historical_data"
+},{
+	"timeDelta": 51,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62108",
+	"type": "historical_data"
+},{
+	"timeDelta": 52,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62109",
+	"type": "historical_data"
+},{
+	"timeDelta": 53,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62110",
+	"type": "historical_data"
+},{
+	"timeDelta": 54,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62111",
+	"type": "historical_data"
+},{
+	"timeDelta": 55,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62112",
+	"type": "historical_data"
+},{
+	"timeDelta": 56,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62113",
+	"type": "historical_data"
+},{
+	"timeDelta": 57,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62114",
+	"type": "historical_data"
+},{
+	"timeDelta": 58,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62115",
+	"type": "historical_data"
+},{
+	"timeDelta": 59,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62116",
+	"type": "historical_data"
+},{
+	"timeDelta": 60,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62117",
+	"type": "historical_data"
+},{
+	"timeDelta": 61,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62118",
+	"type": "historical_data"
+},{
+	"timeDelta": 62,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62119",
+	"type": "historical_data"
+},{
+	"timeDelta": 63,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62120",
+	"type": "historical_data"
+},{
+	"timeDelta": 64,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62121",
+	"type": "historical_data"
+},{
+	"timeDelta": 65,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62122",
+	"type": "historical_data"
+},{
+	"timeDelta": 66,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62123",
+	"type": "historical_data"
+},{
+	"timeDelta": 67,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62124",
+	"type": "historical_data"
+},{
+	"timeDelta": 68,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62125",
+	"type": "historical_data"
+},{
+	"timeDelta": 69,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62126",
+	"type": "historical_data"
+},{
+	"timeDelta": 70,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62127",
+	"type": "historical_data"
+},{
+	"timeDelta": 71,
+	"value": 47,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62128",
+	"type": "historical_data"
+},{
+	"timeDelta": 72,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62129",
+	"type": "historical_data"
+},{
+	"timeDelta": 73,
+	"value": 34,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62130",
+	"type": "historical_data"
+},{
+	"timeDelta": 74,
+	"value": 55,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62131",
+	"type": "historical_data"
+},{
+	"timeDelta": 75,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62132",
+	"type": "historical_data"
+},{
+	"timeDelta": 76,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62133",
+	"type": "historical_data"
+},{
+	"timeDelta": 77,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62134",
+	"type": "historical_data"
+},{
+	"timeDelta": 78,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62135",
+	"type": "historical_data"
+},{
+	"timeDelta": 79,
+	"value": 32,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62136",
+	"type": "historical_data"
+},{
+	"timeDelta": 80,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62137",
+	"type": "historical_data"
+},{
+	"timeDelta": 81,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62138",
+	"type": "historical_data"
+},{
+	"timeDelta": 82,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62139",
+	"type": "historical_data"
+},{
+	"timeDelta": 83,
+	"value": 50,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62140",
+	"type": "historical_data"
+},{
+	"timeDelta": 84,
+	"value": 40,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62141",
+	"type": "historical_data"
+},{
+	"timeDelta": 85,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62142",
+	"type": "historical_data"
+},{
+	"timeDelta": 86,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62143",
+	"type": "historical_data"
+},{
+	"timeDelta": 87,
+	"value": 52,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62144",
+	"type": "historical_data"
+},{
+	"timeDelta": 88,
+	"value": 50,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62145",
+	"type": "historical_data"
+},{
+	"timeDelta": 89,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62146",
+	"type": "historical_data"
+},{
+	"timeDelta": 90,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62147",
+	"type": "historical_data"
+},{
+	"timeDelta": 91,
+	"value": 39,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62148",
+	"type": "historical_data"
+},{
+	"timeDelta": 92,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62149",
+	"type": "historical_data"
+},{
+	"timeDelta": 93,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62150",
+	"type": "historical_data"
+},{
+	"timeDelta": 94,
+	"value": 54,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62151",
+	"type": "historical_data"
+},{
+	"timeDelta": 95,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62152",
+	"type": "historical_data"
+},{
+	"timeDelta": 96,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62153",
+	"type": "historical_data"
+},{
+	"timeDelta": 97,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62154",
+	"type": "historical_data"
+},{
+	"timeDelta": 98,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62155",
+	"type": "historical_data"
+},{
+	"timeDelta": 99,
+	"value": 38,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62156",
+	"type": "historical_data"
+},{
+	"timeDelta": 100,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62157",
+	"type": "historical_data"
+},{
+	"timeDelta": 101,
+	"value": 49,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62158",
+	"type": "historical_data"
+},{
+	"timeDelta": 102,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62159",
+	"type": "historical_data"
+},{
+	"timeDelta": 103,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62160",
+	"type": "historical_data"
+},{
+	"timeDelta": 104,
+	"value": 36,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62161",
+	"type": "historical_data"
+},{
+	"timeDelta": 105,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62162",
+	"type": "historical_data"
+},{
+	"timeDelta": 106,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62163",
+	"type": "historical_data"
+},{
+	"timeDelta": 107,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62164",
+	"type": "historical_data"
+},{
+	"timeDelta": 108,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62165",
+	"type": "historical_data"
+},{
+	"timeDelta": 109,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62166",
+	"type": "historical_data"
+},{
+	"timeDelta": 110,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62167",
+	"type": "historical_data"
+},{
+	"timeDelta": 111,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62168",
+	"type": "historical_data"
+},{
+	"timeDelta": 112,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62169",
+	"type": "historical_data"
+},{
+	"timeDelta": 113,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62170",
+	"type": "historical_data"
+},{
+	"timeDelta": 114,
+	"value": 37,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62171",
+	"type": "historical_data"
+},{
+	"timeDelta": 115,
+	"value": 34,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62172",
+	"type": "historical_data"
+},{
+	"timeDelta": 116,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62173",
+	"type": "historical_data"
+},{
+	"timeDelta": 117,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62174",
+	"type": "historical_data"
+},{
+	"timeDelta": 118,
+	"value": 48,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62175",
+	"type": "historical_data"
+},{
+	"timeDelta": 119,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "day",
+	"_id": "62176",
+	"type": "historical_data"
+},{
+	"timeDelta": 0,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "week",
+	"_id": "62177",
+	"type": "historical_data"
+},{
+	"timeDelta": 1,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "week",
+	"_id": "62178",
+	"type": "historical_data"
+},{
+	"timeDelta": 2,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "week",
+	"_id": "62179",
+	"type": "historical_data"
+},{
+	"timeDelta": 3,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "week",
+	"_id": "62180",
+	"type": "historical_data"
+},{
+	"timeDelta": 4,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "week",
+	"_id": "62181",
+	"type": "historical_data"
+},{
+	"timeDelta": 5,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "week",
+	"_id": "62182",
+	"type": "historical_data"
+},{
+	"timeDelta": 6,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "week",
+	"_id": "62183",
+	"type": "historical_data"
+},{
+	"timeDelta": 7,
+	"value": 46,
+	"deviceClassId": "10002",
+	"timeUnit": "week",
+	"_id": "62184",
+	"type": "historical_data"
+},{
+	"timeDelta": 8,
+	"value": 44,
+	"deviceClassId": "10002",
+	"timeUnit": "week",
+	"_id": "62185",
+	"type": "historical_data"
+},{
+	"timeDelta": 9,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "week",
+	"_id": "62186",
+	"type": "historical_data"
+},{
+	"timeDelta": 10,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "week",
+	"_id": "62187",
+	"type": "historical_data"
+},{
+	"timeDelta": 11,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "week",
+	"_id": "62188",
+	"type": "historical_data"
+},{
+	"timeDelta": 12,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "week",
+	"_id": "62189",
+	"type": "historical_data"
+},{
+	"timeDelta": 13,
+	"value": 45,
+	"deviceClassId": "10002",
+	"timeUnit": "week",
+	"_id": "62190",
+	"type": "historical_data"
+},{
+	"timeDelta": 14,
+	"value": 43,
+	"deviceClassId": "10002",
+	"timeUnit": "week",
+	"_id": "62191",
+	"type": "historical_data"
+},{
+	"timeDelta": 15,
+	"value": 42,
+	"deviceClassId": "10002",
+	"timeUnit": "week",
+	"_id": "62192",
+	"type": "historical_data"
+},{
+	"timeDelta": 16,
+	"value": 41,
+	"deviceClassId": "10002",
+	"timeUnit": "week",
+	"_id": "62193",
+	"type": "historical_data"
+}
+]
+  
+  

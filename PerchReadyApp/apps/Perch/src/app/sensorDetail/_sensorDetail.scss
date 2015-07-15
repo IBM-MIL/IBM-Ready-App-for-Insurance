@@ -1,0 +1,265 @@
+//
+//  Licensed Materials - Property of IBM
+//  © Copyright IBM Corporation 2015. All Rights Reserved.
+//  This sample program is provided AS IS and may be used, executed, copied and modified without royalty
+//  payment by customer (a) for its own instruction and study, (b) in order to develop applications designed to
+//  run with an IBM product, either for customer's own internal use or for redistribution by customer, as part
+//  of such an application, in customer's own products.
+//
+
+//
+// Some simple classes to act as quick and easy text modifiers.
+//
+
+.karla { font-family: 'Karla'; }
+.merriweather { font-family: 'Merriweather'; }
+.bold { font-weight: bold; }
+.bolder { font-weight: bolder; }
+.lighter { font-weight: lighter; }
+.italic { font-style: italic; }
+
+.karla-bold { font-family: 'Karla-Bold'; }
+.merriweather-bold { font-family: 'Merriweather-Bold'; }
+
+.size12pt { font-size: 12pt; }
+.size14pt { font-size: 14pt; }
+.size17pt { font-size: 17pt; }
+.size18pt { font-size: 18pt; }
+.size19pt { font-size: 19pt; }
+.size20pt { font-size: 20pt; }
+.size22pt { font-size: 22pt; }
+.size23pt { font-size: 23pt; }
+.size26pt { font-size: 26pt; }
+
+.gray-text { color: $gray-text; }
+.dark-gray-text { color: $dark-gray-text; }
+.light-gray-text { color: $light-gray-text; }
+.white-text { color: $white; }
+.orange-text { color: $orange-text; }
+
+//
+// Now for more item-specific classes.
+//
+
+$status-bar-height: 15pt;
+//$nav-bar-height: 64pt;
+$header-text-height: 19pt;
+$nav-bar-height: 49pt;
+
+.nav-bar {
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: $nav-bar-height;
+    background-color: $warm-gray-background;
+    text-align: center;
+    overflow: hidden;
+}
+
+.header-text {
+    position: relative;
+    top: $header-text-height;
+}
+
+.sensor-container {
+    position: relative;
+}
+
+.nav-buffer {
+    width: 100%;
+    height: $nav-bar-height;
+    background-color: $warm-gray-background;
+}
+
+.top-buffer-line {
+    z-index: 50;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0;
+    margin-top: 0;
+    height: 2px;
+    border-width: 0;
+}
+
+.status-div {
+    width: 100%;
+    padding-top: 24px;
+    padding-bottom: 18px;
+    background-color: $warm-gray-background;
+}
+
+.device-name-div {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.alert {
+    background-color: $yellow;
+}
+
+.alert-message {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.mid-line {
+    height: 1px;
+    border-width: 0;
+}
+
+.gold-line {
+    background-color: $gold-stroke;
+    color: $gold-stroke;
+}
+
+.gray-line {
+    background-color: $gray-stroke;
+    color: $gray-stroke;
+}
+
+.data-div {
+    position: relative;
+    padding-top: 17px;
+    padding-bottom: 2px;
+    padding-left: 8%;
+    //padding-left: 12.5%;
+    //padding-left: 60px;
+    padding-right: 8%;
+    //padding-right: 12.5%;
+    //padding-right: 60px;
+    font-family: 'Karla';
+    color: $gray-text;
+}
+
+.current-data {
+    width: 130px;
+    text-align: center;
+    display: inline-block;
+}
+
+.average-data {
+    width: 130px;
+    text-align: center;
+    position: absolute;
+    right: 8%;
+    //right: 12.5%;
+    //right: 60px;
+    display: inline-block;
+}
+
+.device-info-div {
+    background-color: $light-gray-background;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+
+//
+//  Graphs
+//
+
+.graph-tab-container {
+  height: 60px;
+  width: 100%;
+  letter-spacing: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  .graph-tab {
+    width: 30%;
+    height: 100%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+
+    &.active {
+      color: $orange-text;
+      border-bottom: 3px solid $orange-text;
+			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+  }
+}
+
+perch-graph {
+  display: block;
+  width: 100%;
+  height: 50vh;
+}
+
+// style for line graph.
+path {
+  fill: none;
+  stroke-width: 2.5px;
+  stroke: $gray-graph-line;
+}
+.threshold {
+  fill: none;
+  stroke: $gray-threshold-line;
+  stroke-width: 1.5px;
+  stroke-dasharray: 2,5;
+}
+circle {
+  stroke-width: 3px;
+  stroke: $white;
+}
+circle.ok {
+  fill: $gray-dot;
+}
+circle.warning {
+  fill: $yellow;
+}
+rect.ok {
+  fill: $gray-dot;
+}
+rect.warning {
+  fill: $yellow;
+}
+.scrubber-text {
+  fill: $gray-text;
+  font-family: 'Karla';
+  stroke-width: 10px;
+  text-anchor: middle;
+  font-size: 17pt;
+}
+.threshold-text {
+  fill: $light-gray-text;
+  font-family: 'Karla';
+  stroke-width: 10px;
+  text-anchor: right;
+  font-size: 10pt;
+}
+
+.axis-line {
+  fill: none;
+  stroke: $gray-threshold-line;
+  stroke-width: 1.5px;
+  stroke-dasharray: 2,5;
+}
+
+.axis-group path,
+.axis-group .tick,
+.axis-group line {
+	fill: $light-gray-text;
+  font-family: 'Karla';
+  font-size: 9pt;
+	stroke: $gray-date-text;
+	stroke-width: 0;
+}
+
+.mask-axis-group path,
+.mask-axis-group .tick,
+.mask-axis-group line {
+	fill: $light-gray-text;
+  font-family: 'Karla';
+  font-size: 9pt;
+	stroke: $white;
+	stroke-width: 0;
+}

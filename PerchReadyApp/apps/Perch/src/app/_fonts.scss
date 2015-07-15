@@ -1,0 +1,93 @@
+//
+//  Licensed Materials - Property of IBM
+//  © Copyright IBM Corporation 2015. All Rights Reserved.
+//  This sample program is provided AS IS and may be used, executed, copied and modified without royalty
+//  payment by customer (a) for its own instruction and study, (b) in order to develop applications designed to
+//  run with an IBM product, either for customer's own internal use or for redistribution by customer, as part
+//  of such an application, in customer's own products.
+//
+
+@font-face {
+	font-family: 'Karla';
+	src: url('../assets/fonts/Karla/Karla-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Karla';
+	src: url('../assets/fonts/Karla/Karla-Bold.ttf');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Karla';
+	src: url('../assets/fonts/Karla/Karla-Italic.ttf');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Karla';
+	src: url('../assets/fonts/Karla/Karla-BoldItalic.ttf');
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Merriweather';
+	src: url('../assets/fonts/Merriweather/Merriweather-Regular.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Merriweather';
+	src: url('../assets/fonts/Merriweather/Merriweather-Italic.ttf');
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Merriweather';
+	src: url('../assets/fonts/Merriweather/Merriweather-Bold.ttf');
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Merriweather';
+	src: url('../assets/fonts/Merriweather/Merriweather-BoldItalic.ttf');
+	font-weight: bold;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Merriweather';
+	src: url('../assets/fonts/Merriweather/Merriweather-Black.ttf');
+	font-weight: bolder;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Merriweather';
+	src: url('../assets/fonts/Merriweather/Merriweather-HeavyItalic.ttf');
+	font-weight: bolder;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Merriweather';
+	src: url('../assets/fonts/Merriweather/Merriweather-Light.ttf');
+	font-weight: lighter;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Merriweather';
+	src: url('../assets/fonts/Merriweather/Merriweather-LightItalic.ttf');
+	font-weight: lighter;
+	font-style: italic;
+}
+@font-face {
+	font-family: 'Karla-Bold';
+	src: url('../assets/fonts/Karla/Karla-Bold.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Merriweather-Bold';
+	src: url('../assets/fonts/Merriweather/Merriweather-Bold.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
