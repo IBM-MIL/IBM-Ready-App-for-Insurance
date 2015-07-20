@@ -13,4 +13,4 @@ Press **Yes** to launch the demo. If **No** is pressed, the user will have to en
 | user1   | password1 |
 
 ##Documentation
-For access to the full documentation please visit http://lexdcy040194.ecloud.edst.ibm.com/hatch_1_0_0/home
+For access to the full documentation please visit http://lexdcy040194.ecloud.edst.ibm.com/perch_1_0_0/home
