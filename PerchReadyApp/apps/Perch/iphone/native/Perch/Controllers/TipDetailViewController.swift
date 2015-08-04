@@ -307,6 +307,8 @@ extension TipDetailViewController: UIGestureRecognizerDelegate {
         self.panningInProgress = true
         let yTranslation = sender.translationInView(view).y
         
+        // Check if we have reached vertical limit and should start stretching rubber band
+        // rubber band effect originally from: https://gist.github.com/victorBaro/89f26a7d787807b52c3b#file-gistfile1-swift
         if (topConstraint.hasExceeded(verticalLimit)) {
             
             totalTranslation += yTranslation
@@ -324,12 +326,14 @@ extension TipDetailViewController: UIGestureRecognizerDelegate {
             var alphaVal = abs(tempVal * 0.011)
             self.toggleIncentiveVisibility(alphaVal)
             
+            // detects bottom limit for how far we can pan down
             if topConstraint.constant + yTranslation <= self.minimizedBottomConstraint {
                 topConstraint.constant += yTranslation
             }
             
             if (sender.state == UIGestureRecognizerState.Ended) {
                 
+                // finish animating view if in between resting points
                 if self.topConstraint.constant > self.verticalLimit && self.topConstraint.constant != minimizedBottomConstraint {
                     
                     self.incentiveView.userInteractionEnabled = false
@@ -348,10 +352,20 @@ extension TipDetailViewController: UIGestureRecognizerDelegate {
         self.panningInProgress = false
     }
     
+    /**
+    Method that creates a gradually smaller value as yPosition decreases
+    
+    :param: yPosition value from constraint
+    
+    :returns: computed value
+    */
     func logConstraintValueForYPosition(yPosition : CGFloat) -> CGFloat {
         return verticalLimit * (1 + log10(yPosition/verticalLimit))
     }
     
+    /**
+    Simply pops view back into place with a rubber effect
+    */
     func animateViewBackToLimit() {
         self.topConstraint.constant = self.verticalLimit
         
