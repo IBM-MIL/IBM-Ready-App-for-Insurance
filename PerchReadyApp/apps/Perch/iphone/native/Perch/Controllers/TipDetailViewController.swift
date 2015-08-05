@@ -27,16 +27,19 @@ class TipDetailViewController: UIViewController {
     @IBOutlet weak var incentiveTitle: UILabel!
     @IBOutlet weak var addSensorLabel: UILabel!
     @IBOutlet weak var pullUpView: UIView!
-    @IBOutlet weak var incentiveBottomConstraint: NSLayoutConstraint!
     
     // MARK: Data variables
     
     /// index of current tip in array of tips
     var selectedIndex: Int!
-    let minimizedBottomConstraint: CGFloat = -90
+    let minimizedBottomConstraint: CGFloat = -50
+    
+    @IBOutlet weak var topConstraint: NSLayoutConstraint!
+    let verticalLimit: CGFloat = -140
+    var totalTranslation: CGFloat = -140
     
     /// Records bottom incentive constraint constant when switching tips
-    var visibilityOnHide: CGFloat = 0
+    var visibilityOnHide: CGFloat = -140
     var alreadyHitBottom = false
     var panningInProgress = false
     
@@ -68,7 +71,7 @@ class TipDetailViewController: UIViewController {
         
         // Minimize incentive view if we haven't already scrolled to the bottom in 2.5 seconds
         Utils.delay(5) {
-            if !self.alreadyHitBottom {
+            if !self.alreadyHitBottom && !self.panningInProgress {
                 self.minimizeBottomIncentiveView()
             }
         }
@@ -122,10 +125,10 @@ class TipDetailViewController: UIViewController {
             self.addSensorLabel.setKernAttribute(1.5)
             
             // reset to last value of a shown incentive
-            self.incentiveBottomConstraint.constant = self.visibilityOnHide
+            self.topConstraint.constant = self.visibilityOnHide
         } else {
             // move incentive view off screen
-            self.incentiveBottomConstraint.constant = -(self.incentiveView.frame.size.height)
+            self.topConstraint.constant = 0
         }
     }
     
@@ -166,7 +169,7 @@ class TipDetailViewController: UIViewController {
         
         var tipObject = TipDataManager.sharedInstance.tips[self.selectedIndex] as Tip
         if let tipAction = tipObject.tipAction {
-            self.visibilityOnHide = self.incentiveBottomConstraint.constant
+            self.visibilityOnHide = self.topConstraint.constant
         }
     }
     
@@ -214,9 +217,9 @@ class TipDetailViewController: UIViewController {
     */
     func minimizeBottomIncentiveView() {
 
-        if self.incentiveBottomConstraint.constant > minimizedBottomConstraint {
+        if self.topConstraint.constant <= minimizedBottomConstraint {
             
-            self.incentiveBottomConstraint.constant = minimizedBottomConstraint
+            self.topConstraint.constant = minimizedBottomConstraint
             self.view.setNeedsUpdateConstraints()
             
             UIView.animateWithDuration(0.25) {
@@ -231,9 +234,9 @@ class TipDetailViewController: UIViewController {
     */
     func maximizeBottomIncentiveView() {
         
-        if self.incentiveBottomConstraint.constant == minimizedBottomConstraint || self.incentiveBottomConstraint.constant >= minimizedBottomConstraint/2 {
+        if self.topConstraint.constant > self.verticalLimit {
             
-            self.incentiveBottomConstraint.constant = 0
+            self.topConstraint.constant = verticalLimit
             self.view.setNeedsUpdateConstraints()
             
             UIView.animateWithDuration(0.25) {
@@ -296,46 +299,87 @@ extension TipDetailViewController: UIScrollViewDelegate {
 // MARK: UIPanGestureRecognizerDelegate for Incentive view
 
 extension TipDetailViewController: UIGestureRecognizerDelegate {
-    
-    @IBAction func panning(sender: UIPanGestureRecognizer) {
-        self.alreadyHitBottom = true
         
-        if sender.state == UIGestureRecognizerState.Began || sender.state == UIGestureRecognizerState.Changed {
-            self.panningInProgress = true
+    @IBAction func viewDragged(sender: UIPanGestureRecognizer) {
+        
+        self.panningInProgress = true
+        let yTranslation = sender.translationInView(view).y
+        
+        // Check if we have reached vertical limit and should start stretching rubber band
+        // rubber band effect originally from: https://gist.github.com/victorBaro/89f26a7d787807b52c3b#file-gistfile1-swift
+        if (topConstraint.hasExceeded(verticalLimit)) {
             
-            var translatedPoint = sender.translationInView(self.view)
-            var constraintCandidate = self.incentiveBottomConstraint.constant - translatedPoint.y
-
-            // keeps constraint value between allowed values
-            if constraintCandidate >= minimizedBottomConstraint && constraintCandidate <= 0 {
-                
-                self.incentiveBottomConstraint.constant = constraintCandidate
-                self.view.setNeedsUpdateConstraints()
-                self.view.layoutIfNeeded()
-                
-                // create a slow transition of incentive UI components appearance
-                var alphaVal = (90 + constraintCandidate) * 0.01
-                self.toggleIncentiveVisibility(alphaVal)
-                
-                // reset translation after every change, so movement is reasonable
-                sender.setTranslation(CGPointMake(0, 0), inView: self.view)
+            totalTranslation += yTranslation
+            topConstraint.constant = logConstraintValueForYPosition(totalTranslation)
+            self.pullUpView.alpha = 0.0
+            
+            if(sender.state == UIGestureRecognizerState.Ended ) {
+                animateViewBackToLimit()
+                self.panningInProgress = false
             }
-        
-        } else if sender.state == UIGestureRecognizerState.Ended {
-            if self.incentiveBottomConstraint.constant != 0 && self.incentiveBottomConstraint.constant != minimizedBottomConstraint {
+            
+        } else {
+            
+            // detects bottom limit for how far we can pan down
+            if topConstraint.constant + yTranslation <= self.minimizedBottomConstraint {
+                topConstraint.constant += yTranslation
+            }
+            
+            // create a slow transition of incentive UI components appearance
+            var tempVal = self.topConstraint.constant - self.minimizedBottomConstraint
+            var alphaVal = abs(tempVal * 0.011) // multiple by (1.1 * 0.01) to get appropriate value where 90 = 100%
+            self.toggleIncentiveVisibility(alphaVal)
+            
+            if (sender.state == UIGestureRecognizerState.Ended) {
                 
-                self.incentiveView.userInteractionEnabled = false
-                
-                if self.incentiveBottomConstraint.constant < minimizedBottomConstraint/2 {
-                    self.minimizeBottomIncentiveView()
-                } else {
-                    self.maximizeBottomIncentiveView()
+                // finish animating view if in between resting points
+                if self.topConstraint.constant > self.verticalLimit && self.topConstraint.constant != minimizedBottomConstraint {
+                    
+                    self.incentiveView.userInteractionEnabled = false
+                    var diff = (self.verticalLimit - self.minimizedBottomConstraint) / 2
+                    if self.topConstraint.constant > self.minimizedBottomConstraint + diff {
+                        self.minimizeBottomIncentiveView()
+                    } else {
+                        self.maximizeBottomIncentiveView()
+                    }
+                    self.incentiveView.userInteractionEnabled = true
+                    self.panningInProgress = false
                 }
-                self.incentiveView.userInteractionEnabled = true
-
             }
-            self.panningInProgress = false
         }
+        sender.setTranslation(CGPointZero, inView: view)
+        
+    }
+    
+    /**
+    Method that creates a gradually smaller value as yPosition decreases
+    
+    :param: yPosition value from constraint
+    
+    :returns: computed value
+    */
+    func logConstraintValueForYPosition(yPosition : CGFloat) -> CGFloat {
+        return verticalLimit * (1 + log10(yPosition/verticalLimit))
+    }
+    
+    /**
+    Simply pops view back into place with a rubber effect
+    */
+    func animateViewBackToLimit() {
+        self.topConstraint.constant = self.verticalLimit
+        
+        UIView.animateWithDuration(0.5, delay: 0, usingSpringWithDamping: 0.3, initialSpringVelocity: 10, options: UIViewAnimationOptions.AllowUserInteraction, animations: { () -> Void in
+            self.view.layoutIfNeeded()
+            self.totalTranslation = -140
+            self.toggleIncentiveVisibility(1.0)
+            }, completion: { (completed: Bool) -> Void in
+            
+        })
+    }
+}
 
+extension NSLayoutConstraint {
+    func hasExceeded(verticalLimit: CGFloat) -> Bool {
+        return self.constant <= verticalLimit
     }
 }

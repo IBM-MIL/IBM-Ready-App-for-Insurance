@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E17e" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9cO-ze-Pv2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9cO-ze-Pv2">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
@@ -436,7 +436,7 @@
                                             <rect key="frame" x="55" y="5.5" width="240" height="33"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Water Meter Alert History" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1d7-vk-8Iv">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Water Meter Alert History" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1d7-vk-8Iv">
                                                     <rect key="frame" x="23" y="7" width="195" height="20"/>
                                                     <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="17"/>
                                                     <color key="textColor" red="0.68235294117647061" green="0.68235294117647061" blue="0.68235294117647061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -471,7 +471,7 @@
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="0P3-zS-n1R" id="Owh-bh-2j3">
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TODAY, 4:16 PM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shc-17-COF">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="TODAY, 4:16 PM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="shc-17-COF">
                                                     <rect key="frame" x="48" y="20" width="61" height="11"/>
                                                     <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="9"/>
                                                     <color key="textColor" red="1" green="0.47058823704719543" blue="0.19607843458652496" alpha="1" colorSpace="calibratedRGB"/>
@@ -483,7 +483,7 @@
                                                     <color key="textColor" red="0.3529411764705882" green="0.3529411764705882" blue="0.3529411764705882" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sensors have detected suspicious usage on your water meter. You are going to need to do something about this." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FAR-kf-PWT">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Sensors have detected suspicious usage on your water meter. You are going to need to do something about this." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FAR-kf-PWT">
                                                     <rect key="frame" x="48" y="67" width="224" height="30"/>
                                                     <fontDescription key="fontDescription" name="Merriweather" family="Merriweather" pointSize="12"/>
                                                     <color key="textColor" red="0.68235294117647061" green="0.68235294117647061" blue="0.68235294117647061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -595,7 +595,7 @@
                                             <rect key="frame" x="59" y="5.5" width="172" height="33"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Water Meter" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZd-kr-aBR">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Water Meter" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SZd-kr-aBR">
                                                     <rect key="frame" x="39" y="7" width="95" height="20"/>
                                                     <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="17"/>
                                                     <color key="textColor" red="0.35294117647058826" green="0.35294117647058826" blue="0.35294117647058826" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -668,14 +668,14 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pcZ-Tl-JGX" userLabel="LeftCurrentContainerView">
                                         <rect key="frame" x="0.0" y="0.0" width="160" height="90"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="72 L" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4OV-H7-Mbu">
-                                                <rect key="frame" x="67" y="18" width="36" height="24"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="72 L" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4OV-H7-Mbu">
+                                                <rect key="frame" x="67.5" y="18.5" width="35.5" height="23.5"/>
                                                 <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="20"/>
                                                 <color key="textColor" red="0.68235294117647061" green="0.68235294117647061" blue="0.68235294117647061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZG-uD-IwF">
-                                                <rect key="frame" x="35" y="42" width="90" height="31"/>
+                                                <rect key="frame" x="35" y="42" width="90" height="30.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="90" id="6cP-jz-6ft"/>
                                                 </constraints>
@@ -685,8 +685,8 @@ Exceeded</string>
                                                 <color key="textColor" red="0.68235294117647061" green="0.68235294117647061" blue="0.68235294117647061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alert_icon_gray" translatesAutoresizingMaskIntoConstraints="NO" id="yIw-UJ-tIc">
-                                                <rect key="frame" x="42" y="18" width="25" height="25"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="alert_icon_gray" translatesAutoresizingMaskIntoConstraints="NO" id="yIw-UJ-tIc">
+                                                <rect key="frame" x="42.5" y="18" width="25" height="25"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="25" id="BdI-ds-icy"/>
                                                     <constraint firstAttribute="height" constant="25" id="Rux-7H-Wj8"/>
@@ -706,14 +706,14 @@ Exceeded</string>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZhG-G2-XoD" userLabel="RightAverageContainerView">
                                         <rect key="frame" x="160" y="0.0" width="160" height="90"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15-16 L" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lr6-qS-NHm">
-                                                <rect key="frame" x="51" y="18" width="58" height="24"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="15-16 L" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lr6-qS-NHm">
+                                                <rect key="frame" x="51.5" y="18.5" width="57.5" height="23.5"/>
                                                 <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="20"/>
                                                 <color key="textColor" red="0.68235294120000001" green="0.68235294120000001" blue="0.68235294120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWC-J9-Zxf">
-                                                <rect key="frame" x="35" y="42" width="90" height="31"/>
+                                                <rect key="frame" x="35" y="42" width="90" height="30.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="90" id="keS-ut-Ohh"/>
                                                 </constraints>
@@ -771,8 +771,8 @@ per Minute</string>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zYZ-bx-5E9">
                                         <rect key="frame" x="0.0" y="0.0" width="318" height="750"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TODAY, 4:16 PM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Etd-oX-Zmg">
-                                                <rect key="frame" x="40" y="20" width="61" height="11"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="TODAY, 4:16 PM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Etd-oX-Zmg">
+                                                <rect key="frame" x="40" y="20" width="60.5" height="11"/>
                                                 <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="9"/>
                                                 <color key="textColor" red="1" green="0.47058823704719543" blue="0.19607843458652496" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -831,29 +831,29 @@ per Minute</string>
                                 </connections>
                             </scrollView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HrY-hU-WNR" userLabel="BottomAdView">
-                                <rect key="frame" x="0.0" y="428" width="320" height="140"/>
+                                <rect key="frame" x="0.0" y="428" width="320" height="400"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recommended Plumber" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3WU-jR-xC5">
-                                        <rect key="frame" x="20" y="20" width="137" height="15"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Recommended Plumber" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3WU-jR-xC5">
+                                        <rect key="frame" x="20" y="20" width="136.5" height="14.5"/>
                                         <fontDescription key="fontDescription" name="Karla-Bold" family="Karla" pointSize="12"/>
                                         <color key="textColor" red="0.68235294117647061" green="0.68235294117647061" blue="0.68235294117647061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="harbor_plumbing" translatesAutoresizingMaskIntoConstraints="NO" id="Mkq-BW-W5u">
-                                        <rect key="frame" x="20" y="43" width="70" height="70"/>
+                                        <rect key="frame" x="20" y="42.5" width="70" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="o79-ZO-kMN"/>
                                             <constraint firstAttribute="width" constant="70" id="x2Y-a7-uKO"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Harbor Plumbing Co." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTw-Tg-FAQ">
-                                        <rect key="frame" x="105" y="52" width="195" height="22"/>
+                                        <rect key="frame" x="105" y="52" width="195" height="21.5"/>
                                         <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="18"/>
                                         <color key="textColor" red="0.35294117647058826" green="0.35294117647058826" blue="0.35294117647058826" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b00-aL-D0T" userLabel="PhoneButton">
-                                        <rect key="frame" x="98" y="76" width="35" height="35"/>
+                                        <rect key="frame" x="98" y="75.5" width="35" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="vcR-hW-4uV"/>
                                             <constraint firstAttribute="width" constant="35" id="zuY-9e-YvZ"/>
@@ -866,7 +866,7 @@ per Minute</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4GM-Mp-ar8" userLabel="EmailButton">
-                                        <rect key="frame" x="141" y="76" width="35" height="35"/>
+                                        <rect key="frame" x="141" y="75.5" width="35" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="35" id="0Gf-Bn-Vg3"/>
                                             <constraint firstAttribute="height" constant="35" id="CWB-5d-ZYM"/>
@@ -879,7 +879,7 @@ per Minute</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zk3-k3-BNC" userLabel="MapButton">
-                                        <rect key="frame" x="184" y="76" width="35" height="35"/>
+                                        <rect key="frame" x="184" y="75.5" width="35" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="35" id="2bW-mb-V5x"/>
                                             <constraint firstAttribute="height" constant="35" id="zRP-er-gTB"/>
@@ -926,7 +926,7 @@ per Minute</string>
                                     <constraint firstItem="BhC-WX-4S6" firstAttribute="top" secondItem="HrY-hU-WNR" secondAttribute="top" constant="20" id="mi6-Mo-z5L"/>
                                     <constraint firstItem="xTw-Tg-FAQ" firstAttribute="leading" secondItem="Mkq-BW-W5u" secondAttribute="trailing" constant="15" id="qb3-Mn-mNG"/>
                                     <constraint firstItem="b00-aL-D0T" firstAttribute="centerY" secondItem="4GM-Mp-ar8" secondAttribute="centerY" id="rFs-Ty-2DT"/>
-                                    <constraint firstAttribute="height" constant="140" id="vnK-3Q-yf8"/>
+                                    <constraint firstAttribute="height" constant="400" id="vnK-3Q-yf8"/>
                                     <constraint firstItem="zk3-k3-BNC" firstAttribute="centerY" secondItem="4GM-Mp-ar8" secondAttribute="centerY" id="yR3-wR-6q9"/>
                                     <constraint firstItem="b00-aL-D0T" firstAttribute="leading" secondItem="xTw-Tg-FAQ" secondAttribute="leading" constant="-7" id="yVX-zw-lIz"/>
                                     <constraint firstAttribute="centerX" secondItem="BhC-WX-4S6" secondAttribute="centerX" id="zDs-c2-wNx"/>
@@ -963,12 +963,18 @@ per Minute</string>
                             <constraint firstAttribute="trailing" secondItem="yco-OH-RZY" secondAttribute="trailing" id="aBX-tZ-GZk"/>
                             <constraint firstItem="2nU-RD-dKN" firstAttribute="top" secondItem="EPV-ed-rne" secondAttribute="bottom" id="bGf-FC-pcc"/>
                             <constraint firstItem="dfH-zp-wRm" firstAttribute="top" secondItem="yco-OH-RZY" secondAttribute="bottom" id="j2b-eU-rYp"/>
+                            <constraint firstItem="HrY-hU-WNR" firstAttribute="top" secondItem="GVG-fk-RSS" secondAttribute="top" constant="-140" id="pWN-rL-U8Q"/>
                             <constraint firstAttribute="trailing" secondItem="HrY-hU-WNR" secondAttribute="trailing" id="pny-Gg-059"/>
                             <constraint firstAttribute="trailing" secondItem="ljZ-ll-4RL" secondAttribute="trailing" id="rjB-DT-Qiv"/>
                             <constraint firstItem="HrY-hU-WNR" firstAttribute="leading" secondItem="lki-Bh-9Kd" secondAttribute="leading" id="tey-f6-5Vq"/>
                             <constraint firstItem="EPV-ed-rne" firstAttribute="top" secondItem="ljZ-ll-4RL" secondAttribute="bottom" id="vnd-jZ-u9M"/>
                             <constraint firstAttribute="trailing" secondItem="2nU-RD-dKN" secondAttribute="trailing" constant="1" id="yeF-Yj-iFN"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="KDx-tK-roA"/>
+                            </mask>
+                        </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
@@ -977,7 +983,6 @@ per Minute</string>
                         <outlet property="averageMeasurementTextLabel" destination="IWC-J9-Zxf" id="cmT-Ur-emA"/>
                         <outlet property="averageMeasurementValueLabel" destination="lr6-qS-NHm" id="7YX-5h-z8Q"/>
                         <outlet property="bottomAdView" destination="HrY-hU-WNR" id="wPD-yH-xtV"/>
-                        <outlet property="bottomAdViewBottomPosition" destination="KDx-tK-roA" id="hbM-yh-yzm"/>
                         <outlet property="currentMeasurementTextLabel" destination="MZG-uD-IwF" id="LHI-36-e8L"/>
                         <outlet property="currentMeasurementValueLabel" destination="4OV-H7-Mbu" id="h17-aN-RNV"/>
                         <outlet property="detailLabel" destination="v0W-8x-BIm" id="FRK-YD-wW4"/>
@@ -993,6 +998,7 @@ per Minute</string>
                         <outlet property="scrollView" destination="2nU-RD-dKN" id="syr-cu-fU9"/>
                         <outlet property="timestampLabel" destination="Etd-oX-Zmg" id="Drr-C0-SWL"/>
                         <outlet property="titleLabel" destination="Fnk-yx-H8E" id="qLX-af-RMG"/>
+                        <outlet property="topConstraint" destination="pWN-rL-U8Q" id="ImX-5x-Cip"/>
                         <outlet property="upAndDownArrowsInNavBar" destination="TV3-Th-CVc" id="K26-cH-9uA"/>
                         <outlet property="upButton" destination="883-wT-Vlb" id="dpH-Rm-pcM"/>
                     </connections>
@@ -1000,7 +1006,7 @@ per Minute</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yul-Fu-9ot" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="Peo-Bd-FH8">
                     <connections>
-                        <action selector="handlePan:" destination="bGK-A8-oec" id="wcp-TL-Vav"/>
+                        <action selector="viewDragged:" destination="bGK-A8-oec" id="3Vo-2C-KUM"/>
                     </connections>
                 </panGestureRecognizer>
             </objects>
@@ -1813,17 +1819,17 @@ per Minute</string>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WaC-bi-QeX">
-                                <rect key="frame" x="0.0" y="428" width="320" height="140"/>
+                                <rect key="frame" x="0.0" y="428" width="320" height="400"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="circle_gray" translatesAutoresizingMaskIntoConstraints="NO" id="JJL-oj-Gn2">
-                                        <rect key="frame" x="24" y="41" width="80" height="80"/>
+                                        <rect key="frame" x="24" y="32" width="80" height="80"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="80" id="5hU-pT-ROG"/>
                                             <constraint firstAttribute="height" constant="80" id="PkQ-pc-Pz4"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Incentive Available" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JU8-Oe-6QQ">
-                                        <rect key="frame" x="24" y="14" width="136" height="22"/>
+                                        <rect key="frame" x="24" y="5" width="136" height="22"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="7RE-Cu-egK"/>
                                             <constraint firstAttribute="width" constant="136" id="bcu-Fi-hC7"/>
@@ -1833,13 +1839,13 @@ per Minute</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Electrical Panel" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zjb-BP-DeT">
-                                        <rect key="frame" x="124" y="59" width="176" height="22"/>
+                                        <rect key="frame" x="124" y="50.5" width="176" height="21.5"/>
                                         <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="18"/>
                                         <color key="textColor" red="0.3529411764705882" green="0.3529411764705882" blue="0.3529411764705882" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ADD SENSOR +" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VgH-nr-srn">
-                                        <rect key="frame" x="124" y="87" width="168" height="16"/>
+                                        <rect key="frame" x="124" y="78" width="168" height="16"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="16" id="UZc-t6-JGc"/>
                                             <constraint firstAttribute="width" constant="168" id="pR6-ch-v71"/>
@@ -1867,25 +1873,17 @@ per Minute</string>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="zjb-BP-DeT" secondAttribute="trailing" constant="20" id="4ie-Zk-F1Z"/>
                                     <constraint firstItem="JJL-oj-Gn2" firstAttribute="leading" secondItem="WaC-bi-QeX" secondAttribute="leading" constant="24" id="Far-L7-bTs"/>
-                                    <constraint firstAttribute="height" constant="140" id="OpR-dV-Qbl"/>
+                                    <constraint firstAttribute="height" constant="400" id="OpR-dV-Qbl"/>
                                     <constraint firstItem="VgH-nr-srn" firstAttribute="leading" secondItem="JJL-oj-Gn2" secondAttribute="trailing" constant="20" id="QMT-13-ydo"/>
-                                    <constraint firstAttribute="centerY" secondItem="JJL-oj-Gn2" secondAttribute="centerY" constant="-11" id="QmV-8A-5zX"/>
                                     <constraint firstItem="iLi-ju-ZpB" firstAttribute="top" secondItem="WaC-bi-QeX" secondAttribute="top" constant="20" id="UIa-3N-Vsz"/>
                                     <constraint firstItem="JU8-Oe-6QQ" firstAttribute="leading" secondItem="WaC-bi-QeX" secondAttribute="leading" constant="24" id="dJj-6m-fNp"/>
                                     <constraint firstItem="VgH-nr-srn" firstAttribute="top" secondItem="zjb-BP-DeT" secondAttribute="bottom" constant="6" id="ecr-CK-4qg"/>
-                                    <constraint firstAttribute="centerY" secondItem="iLi-ju-ZpB" secondAttribute="centerY" id="edm-4g-DtV"/>
                                     <constraint firstAttribute="centerX" secondItem="iLi-ju-ZpB" secondAttribute="centerX" id="j9v-7a-wbX"/>
                                     <constraint firstItem="zjb-BP-DeT" firstAttribute="leading" secondItem="JJL-oj-Gn2" secondAttribute="trailing" constant="20" id="k4e-SP-KhU"/>
-                                    <constraint firstItem="JU8-Oe-6QQ" firstAttribute="top" secondItem="WaC-bi-QeX" secondAttribute="top" constant="13" id="l31-PT-GSa"/>
                                     <constraint firstItem="JJL-oj-Gn2" firstAttribute="top" secondItem="JU8-Oe-6QQ" secondAttribute="bottom" constant="5" id="qhu-Zo-b33"/>
-                                    <constraint firstAttribute="centerY" secondItem="zjb-BP-DeT" secondAttribute="centerY" constant="0.5" id="sVu-5S-aev"/>
+                                    <constraint firstItem="zjb-BP-DeT" firstAttribute="top" secondItem="WaC-bi-QeX" secondAttribute="top" constant="50.5" id="tLB-ZH-hqa"/>
+                                    <constraint firstItem="JU8-Oe-6QQ" firstAttribute="top" secondItem="WaC-bi-QeX" secondAttribute="top" constant="5" id="vPA-xe-RQh"/>
                                 </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="l31-PT-GSa"/>
-                                        <exclude reference="edm-4g-DtV"/>
-                                    </mask>
-                                </variation>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="E9B-DF-pRV" appends="YES" id="u2j-1z-0no"/>
                                 </connections>
@@ -1982,16 +1980,16 @@ per Minute</string>
                         <constraints>
                             <constraint firstItem="q3S-fH-uYB" firstAttribute="leading" secondItem="d9m-ap-Jui" secondAttribute="leading" id="8V1-n5-rbV"/>
                             <constraint firstItem="q3S-fH-uYB" firstAttribute="top" secondItem="pHF-4b-jPT" secondAttribute="bottom" id="AGr-0a-HjX"/>
+                            <constraint firstItem="WaC-bi-QeX" firstAttribute="top" secondItem="X3k-iN-LH2" secondAttribute="bottom" id="Bah-4b-96E"/>
                             <constraint firstAttribute="trailing" secondItem="WaC-bi-QeX" secondAttribute="trailing" id="ELu-kr-dhm"/>
                             <constraint firstItem="X3k-iN-LH2" firstAttribute="leading" secondItem="d9m-ap-Jui" secondAttribute="leading" id="Elq-SJ-vP1"/>
                             <constraint firstItem="WaC-bi-QeX" firstAttribute="leading" secondItem="d9m-ap-Jui" secondAttribute="leading" id="GfV-TX-XA9"/>
+                            <constraint firstItem="WaC-bi-QeX" firstAttribute="top" secondItem="fz0-gt-lSQ" secondAttribute="top" constant="-140" id="Q57-Hb-uNE"/>
                             <constraint firstAttribute="trailing" secondItem="pHF-4b-jPT" secondAttribute="trailing" id="XY5-d9-7fq"/>
-                            <constraint firstItem="WaC-bi-QeX" firstAttribute="top" secondItem="X3k-iN-LH2" secondAttribute="bottom" id="cAO-ic-klV"/>
                             <constraint firstItem="pHF-4b-jPT" firstAttribute="leading" secondItem="d9m-ap-Jui" secondAttribute="leading" id="fTJ-bh-P7D"/>
                             <constraint firstItem="pHF-4b-jPT" firstAttribute="top" secondItem="d9m-ap-Jui" secondAttribute="top" constant="20" id="fk8-Lj-AWH"/>
                             <constraint firstAttribute="trailing" secondItem="q3S-fH-uYB" secondAttribute="trailing" id="oxb-ED-vZo"/>
                             <constraint firstAttribute="trailing" secondItem="X3k-iN-LH2" secondAttribute="trailing" id="rxY-zS-gYS"/>
-                            <constraint firstAttribute="bottom" secondItem="WaC-bi-QeX" secondAttribute="bottom" id="sCd-dz-z5Q"/>
                             <constraint firstItem="X3k-iN-LH2" firstAttribute="top" secondItem="q3S-fH-uYB" secondAttribute="bottom" id="yic-TF-Gab"/>
                         </constraints>
                     </view>
@@ -2007,7 +2005,6 @@ per Minute</string>
                         <outlet property="forwardArrowButton" destination="Pgq-g3-2K8" id="FGY-Pl-bOA"/>
                         <outlet property="forwardArrowView" destination="t6x-m7-0Nf" id="mce-dv-r1i"/>
                         <outlet property="iconBackgroundView" destination="JJL-oj-Gn2" id="e0n-XQ-Fzq"/>
-                        <outlet property="incentiveBottomConstraint" destination="sCd-dz-z5Q" id="e9r-bN-FgG"/>
                         <outlet property="incentiveTitle" destination="zjb-BP-DeT" id="seK-Hr-FBw"/>
                         <outlet property="incentiveType" destination="JU8-Oe-6QQ" id="fRk-fX-4nY"/>
                         <outlet property="incentiveView" destination="WaC-bi-QeX" id="uAj-uP-VMU"/>
@@ -2015,13 +2012,14 @@ per Minute</string>
                         <outlet property="pullUpView" destination="iLi-ju-ZpB" id="ceP-e4-CRK"/>
                         <outlet property="scrollView" destination="X3k-iN-LH2" id="PBb-vM-FCT"/>
                         <outlet property="titleLabel" destination="UDE-lY-7aS" id="N6s-A8-2PY"/>
+                        <outlet property="topConstraint" destination="Q57-Hb-uNE" id="jKF-c8-Jku"/>
                         <outlet property="upArrowButton" destination="74I-OS-NVp" id="f0i-YF-PSa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IeO-t1-Y11" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="E9B-DF-pRV">
                     <connections>
-                        <action selector="panning:" destination="YTZ-GH-zS5" id="9jK-o0-SwZ"/>
+                        <action selector="viewDragged:" destination="YTZ-GH-zS5" id="Hbr-0D-gqb"/>
                     </connections>
                 </panGestureRecognizer>
             </objects>
@@ -2080,7 +2078,7 @@ to your home</string>
                                     <constraint firstAttribute="width" constant="214" id="tcJ-eR-SpJ"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Syncing with sensors..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvj-5W-mF4" userLabel="Syncing with sensors...">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Syncing with sensors..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvj-5W-mF4" userLabel="Syncing with sensors...">
                                 <rect key="frame" x="118" y="172" width="140" height="18"/>
                                 <fontDescription key="fontDescription" name="Karla-Italic" family="Karla" pointSize="15"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -2447,7 +2445,7 @@ to your home</string>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="92f-nz-HP7" userLabel="NeedAPinContainerView">
                                 <rect key="frame" x="0.0" y="31" width="375" height="120"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QwL-Wo-eKN">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QwL-Wo-eKN">
                                         <rect key="frame" x="10" y="27" width="355" height="50"/>
                                         <string key="text">This pin is used to connect this app to your sensor simulator instance. To get an instance, visit this URL on a separate device:</string>
                                         <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="14"/>
@@ -2461,7 +2459,7 @@ to your home</string>
                                             <constraint firstAttribute="height" constant="1" id="D2o-Cf-qoB"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ibm.biz/ra-perch" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVp-lR-PvP">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ibm.biz/ra-perch" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVp-lR-PvP">
                                         <rect key="frame" x="126" y="84" width="123" height="19"/>
                                         <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="16"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -2537,7 +2535,7 @@ to your home</string>
                                             <constraint firstAttribute="height" constant="20" id="Hhd-Xo-kjh"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An error occurred" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHA-bg-Dxf">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="An error occurred" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHA-bg-Dxf">
                                         <rect key="frame" x="160" y="95" width="95" height="15"/>
                                         <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="12"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -2681,7 +2679,7 @@ to your home</string>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lEo-fr-dvo" userLabel="NeedAPinContainerView">
                                 <rect key="frame" x="0.0" y="31" width="375" height="120"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cbk-v9-fk2">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cbk-v9-fk2">
                                         <rect key="frame" x="10" y="27" width="355" height="50"/>
                                         <string key="text">This pin is used to connect this app to your sensor simulator instance. To get an instance, visit this URL on a separate device:</string>
                                         <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="14"/>
@@ -2695,7 +2693,7 @@ to your home</string>
                                             <constraint firstAttribute="height" constant="1" id="Jr2-nf-Xss"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ibm.biz/ra-perch" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXu-le-rRu">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ibm.biz/ra-perch" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXu-le-rRu">
                                         <rect key="frame" x="126" y="84" width="123" height="19"/>
                                         <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="16"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -2771,7 +2769,7 @@ to your home</string>
                                             <constraint firstAttribute="width" constant="20" id="jvL-gX-1A1"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An error occurred" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="si2-Yg-hE0">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="An error occurred" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="si2-Yg-hE0">
                                         <rect key="frame" x="160" y="95" width="95" height="15"/>
                                         <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="12"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
