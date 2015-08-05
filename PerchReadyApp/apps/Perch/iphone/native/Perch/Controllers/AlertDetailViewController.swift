@@ -42,7 +42,6 @@ class AlertDetailViewController: UIViewController {
     let verticalLimit: CGFloat = -140
     var totalTranslation: CGFloat = -140
     
-    var originalBottomAdViewPosition: CGFloat!
     var currentSensor: String!
     var alert: Alert!
     var comingFromHistoryList = false
@@ -64,9 +63,6 @@ class AlertDetailViewController: UIViewController {
         
         // Initially hide the expand button, because company info will show first
         self.expandButton.alpha = 0
-        
-        // Remember the original setting from storyboard, because we will come back to this setting later when maximizing the view after it has been minimized
-        self.originalBottomAdViewPosition = self.topConstraint.constant
         
         // Remember the original setting from storyboard, because we will come back to it after down arrow appears and pushes over up button
         self.originalUpArrowFrame = self.upButton.frame
@@ -217,7 +213,7 @@ class AlertDetailViewController: UIViewController {
     When navigating to a new alert detail via top right up/down arrows, we need to reset the bottom advertisement view
     */
     func resetBottomAdView() {
-        self.topConstraint.constant = self.originalBottomAdViewPosition
+        self.topConstraint.constant = self.verticalLimit
         self.showCompanyInfo()
         self.minimizeBottomAdViewAfterDelay()
     }
@@ -392,7 +388,7 @@ class AlertDetailViewController: UIViewController {
         
         // If we are currently minimized
         if self.topConstraint.constant == minimizedBottomAdViewPosition {
-            self.topConstraint.constant = self.originalBottomAdViewPosition
+            self.topConstraint.constant = self.verticalLimit
             
             // Update all other constraints that depend on the constraint that was just updated
             self.view.setNeedsUpdateConstraints()

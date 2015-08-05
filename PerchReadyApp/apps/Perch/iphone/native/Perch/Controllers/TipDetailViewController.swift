@@ -320,15 +320,15 @@ extension TipDetailViewController: UIGestureRecognizerDelegate {
             
         } else {
             
-            // create a slow transition of incentive UI components appearance
-            var tempVal = (self.topConstraint.constant - yTranslation) - self.minimizedBottomConstraint
-            var alphaVal = abs(tempVal * 0.011)
-            self.toggleIncentiveVisibility(alphaVal)
-            
             // detects bottom limit for how far we can pan down
             if topConstraint.constant + yTranslation <= self.minimizedBottomConstraint {
                 topConstraint.constant += yTranslation
             }
+            
+            // create a slow transition of incentive UI components appearance
+            var tempVal = self.topConstraint.constant - self.minimizedBottomConstraint
+            var alphaVal = abs(tempVal * 0.011) // multiple by (1.1 * 0.01) to get appropriate value where 90 = 100%
+            self.toggleIncentiveVisibility(alphaVal)
             
             if (sender.state == UIGestureRecognizerState.Ended) {
                 
