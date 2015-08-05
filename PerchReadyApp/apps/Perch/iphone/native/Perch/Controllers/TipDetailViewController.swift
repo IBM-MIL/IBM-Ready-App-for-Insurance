@@ -71,7 +71,7 @@ class TipDetailViewController: UIViewController {
         
         // Minimize incentive view if we haven't already scrolled to the bottom in 2.5 seconds
         Utils.delay(5) {
-            if !self.alreadyHitBottom {
+            if !self.alreadyHitBottom && !self.panningInProgress {
                 self.minimizeBottomIncentiveView()
             }
         }
@@ -299,11 +299,9 @@ extension TipDetailViewController: UIScrollViewDelegate {
 // MARK: UIPanGestureRecognizerDelegate for Incentive view
 
 extension TipDetailViewController: UIGestureRecognizerDelegate {
-    
-    
+        
     @IBAction func viewDragged(sender: UIPanGestureRecognizer) {
         
-        self.alreadyHitBottom = true
         self.panningInProgress = true
         let yTranslation = sender.translationInView(view).y
         
@@ -317,6 +315,7 @@ extension TipDetailViewController: UIGestureRecognizerDelegate {
             
             if(sender.state == UIGestureRecognizerState.Ended ) {
                 animateViewBackToLimit()
+                self.panningInProgress = false
             }
             
         } else {
@@ -344,12 +343,12 @@ extension TipDetailViewController: UIGestureRecognizerDelegate {
                         self.maximizeBottomIncentiveView()
                     }
                     self.incentiveView.userInteractionEnabled = true
-                    
+                    self.panningInProgress = false
                 }
             }
         }
         sender.setTranslation(CGPointZero, inView: view)
-        self.panningInProgress = false
+        
     }
     
     /**
@@ -379,7 +378,7 @@ extension TipDetailViewController: UIGestureRecognizerDelegate {
     }
 }
 
-private extension NSLayoutConstraint {
+extension NSLayoutConstraint {
     func hasExceeded(verticalLimit: CGFloat) -> Bool {
         return self.constant <= verticalLimit
     }

@@ -669,13 +669,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="160" height="90"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="72 L" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4OV-H7-Mbu">
-                                                <rect key="frame" x="67" y="18" width="36" height="24"/>
+                                                <rect key="frame" x="67.5" y="18.5" width="35.5" height="23.5"/>
                                                 <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="20"/>
                                                 <color key="textColor" red="0.68235294117647061" green="0.68235294117647061" blue="0.68235294117647061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZG-uD-IwF">
-                                                <rect key="frame" x="35" y="42" width="90" height="31"/>
+                                                <rect key="frame" x="35" y="42" width="90" height="30.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="90" id="6cP-jz-6ft"/>
                                                 </constraints>
@@ -686,7 +686,7 @@ Exceeded</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="alert_icon_gray" translatesAutoresizingMaskIntoConstraints="NO" id="yIw-UJ-tIc">
-                                                <rect key="frame" x="42" y="18" width="25" height="25"/>
+                                                <rect key="frame" x="42.5" y="18" width="25" height="25"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="25" id="BdI-ds-icy"/>
                                                     <constraint firstAttribute="height" constant="25" id="Rux-7H-Wj8"/>
@@ -707,13 +707,13 @@ Exceeded</string>
                                         <rect key="frame" x="160" y="0.0" width="160" height="90"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15-16 L" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lr6-qS-NHm">
-                                                <rect key="frame" x="51" y="18" width="58" height="24"/>
+                                                <rect key="frame" x="51.5" y="18.5" width="57.5" height="23.5"/>
                                                 <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="20"/>
                                                 <color key="textColor" red="0.68235294120000001" green="0.68235294120000001" blue="0.68235294120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWC-J9-Zxf">
-                                                <rect key="frame" x="35" y="42" width="90" height="31"/>
+                                                <rect key="frame" x="35" y="42" width="90" height="30.5"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="90" id="keS-ut-Ohh"/>
                                                 </constraints>
@@ -772,7 +772,7 @@ per Minute</string>
                                         <rect key="frame" x="0.0" y="0.0" width="318" height="750"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TODAY, 4:16 PM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Etd-oX-Zmg">
-                                                <rect key="frame" x="40" y="20" width="61" height="11"/>
+                                                <rect key="frame" x="40" y="20" width="60.5" height="11"/>
                                                 <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="9"/>
                                                 <color key="textColor" red="1" green="0.47058823704719543" blue="0.19607843458652496" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -831,29 +831,29 @@ per Minute</string>
                                 </connections>
                             </scrollView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HrY-hU-WNR" userLabel="BottomAdView">
-                                <rect key="frame" x="0.0" y="428" width="320" height="140"/>
+                                <rect key="frame" x="0.0" y="428" width="320" height="400"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Recommended Plumber" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3WU-jR-xC5">
-                                        <rect key="frame" x="20" y="20" width="137" height="15"/>
+                                        <rect key="frame" x="20" y="20" width="136.5" height="14.5"/>
                                         <fontDescription key="fontDescription" name="Karla-Bold" family="Karla" pointSize="12"/>
                                         <color key="textColor" red="0.68235294117647061" green="0.68235294117647061" blue="0.68235294117647061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="harbor_plumbing" translatesAutoresizingMaskIntoConstraints="NO" id="Mkq-BW-W5u">
-                                        <rect key="frame" x="20" y="43" width="70" height="70"/>
+                                        <rect key="frame" x="20" y="42.5" width="70" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="o79-ZO-kMN"/>
                                             <constraint firstAttribute="width" constant="70" id="x2Y-a7-uKO"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Harbor Plumbing Co." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTw-Tg-FAQ">
-                                        <rect key="frame" x="105" y="52" width="195" height="22"/>
+                                        <rect key="frame" x="105" y="52" width="195" height="21.5"/>
                                         <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="18"/>
                                         <color key="textColor" red="0.35294117647058826" green="0.35294117647058826" blue="0.35294117647058826" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b00-aL-D0T" userLabel="PhoneButton">
-                                        <rect key="frame" x="98" y="76" width="35" height="35"/>
+                                        <rect key="frame" x="98" y="75.5" width="35" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="vcR-hW-4uV"/>
                                             <constraint firstAttribute="width" constant="35" id="zuY-9e-YvZ"/>
@@ -866,7 +866,7 @@ per Minute</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4GM-Mp-ar8" userLabel="EmailButton">
-                                        <rect key="frame" x="141" y="76" width="35" height="35"/>
+                                        <rect key="frame" x="141" y="75.5" width="35" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="35" id="0Gf-Bn-Vg3"/>
                                             <constraint firstAttribute="height" constant="35" id="CWB-5d-ZYM"/>
@@ -879,7 +879,7 @@ per Minute</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zk3-k3-BNC" userLabel="MapButton">
-                                        <rect key="frame" x="184" y="76" width="35" height="35"/>
+                                        <rect key="frame" x="184" y="75.5" width="35" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="35" id="2bW-mb-V5x"/>
                                             <constraint firstAttribute="height" constant="35" id="zRP-er-gTB"/>
@@ -926,7 +926,7 @@ per Minute</string>
                                     <constraint firstItem="BhC-WX-4S6" firstAttribute="top" secondItem="HrY-hU-WNR" secondAttribute="top" constant="20" id="mi6-Mo-z5L"/>
                                     <constraint firstItem="xTw-Tg-FAQ" firstAttribute="leading" secondItem="Mkq-BW-W5u" secondAttribute="trailing" constant="15" id="qb3-Mn-mNG"/>
                                     <constraint firstItem="b00-aL-D0T" firstAttribute="centerY" secondItem="4GM-Mp-ar8" secondAttribute="centerY" id="rFs-Ty-2DT"/>
-                                    <constraint firstAttribute="height" constant="140" id="vnK-3Q-yf8"/>
+                                    <constraint firstAttribute="height" constant="400" id="vnK-3Q-yf8"/>
                                     <constraint firstItem="zk3-k3-BNC" firstAttribute="centerY" secondItem="4GM-Mp-ar8" secondAttribute="centerY" id="yR3-wR-6q9"/>
                                     <constraint firstItem="b00-aL-D0T" firstAttribute="leading" secondItem="xTw-Tg-FAQ" secondAttribute="leading" constant="-7" id="yVX-zw-lIz"/>
                                     <constraint firstAttribute="centerX" secondItem="BhC-WX-4S6" secondAttribute="centerX" id="zDs-c2-wNx"/>
@@ -963,12 +963,18 @@ per Minute</string>
                             <constraint firstAttribute="trailing" secondItem="yco-OH-RZY" secondAttribute="trailing" id="aBX-tZ-GZk"/>
                             <constraint firstItem="2nU-RD-dKN" firstAttribute="top" secondItem="EPV-ed-rne" secondAttribute="bottom" id="bGf-FC-pcc"/>
                             <constraint firstItem="dfH-zp-wRm" firstAttribute="top" secondItem="yco-OH-RZY" secondAttribute="bottom" id="j2b-eU-rYp"/>
+                            <constraint firstItem="HrY-hU-WNR" firstAttribute="top" secondItem="GVG-fk-RSS" secondAttribute="top" constant="-140" id="pWN-rL-U8Q"/>
                             <constraint firstAttribute="trailing" secondItem="HrY-hU-WNR" secondAttribute="trailing" id="pny-Gg-059"/>
                             <constraint firstAttribute="trailing" secondItem="ljZ-ll-4RL" secondAttribute="trailing" id="rjB-DT-Qiv"/>
                             <constraint firstItem="HrY-hU-WNR" firstAttribute="leading" secondItem="lki-Bh-9Kd" secondAttribute="leading" id="tey-f6-5Vq"/>
                             <constraint firstItem="EPV-ed-rne" firstAttribute="top" secondItem="ljZ-ll-4RL" secondAttribute="bottom" id="vnd-jZ-u9M"/>
                             <constraint firstAttribute="trailing" secondItem="2nU-RD-dKN" secondAttribute="trailing" constant="1" id="yeF-Yj-iFN"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="KDx-tK-roA"/>
+                            </mask>
+                        </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
@@ -977,7 +983,6 @@ per Minute</string>
                         <outlet property="averageMeasurementTextLabel" destination="IWC-J9-Zxf" id="cmT-Ur-emA"/>
                         <outlet property="averageMeasurementValueLabel" destination="lr6-qS-NHm" id="7YX-5h-z8Q"/>
                         <outlet property="bottomAdView" destination="HrY-hU-WNR" id="wPD-yH-xtV"/>
-                        <outlet property="bottomAdViewBottomPosition" destination="KDx-tK-roA" id="hbM-yh-yzm"/>
                         <outlet property="currentMeasurementTextLabel" destination="MZG-uD-IwF" id="LHI-36-e8L"/>
                         <outlet property="currentMeasurementValueLabel" destination="4OV-H7-Mbu" id="h17-aN-RNV"/>
                         <outlet property="detailLabel" destination="v0W-8x-BIm" id="FRK-YD-wW4"/>
@@ -993,6 +998,7 @@ per Minute</string>
                         <outlet property="scrollView" destination="2nU-RD-dKN" id="syr-cu-fU9"/>
                         <outlet property="timestampLabel" destination="Etd-oX-Zmg" id="Drr-C0-SWL"/>
                         <outlet property="titleLabel" destination="Fnk-yx-H8E" id="qLX-af-RMG"/>
+                        <outlet property="topConstraint" destination="pWN-rL-U8Q" id="ImX-5x-Cip"/>
                         <outlet property="upAndDownArrowsInNavBar" destination="TV3-Th-CVc" id="K26-cH-9uA"/>
                         <outlet property="upButton" destination="883-wT-Vlb" id="dpH-Rm-pcM"/>
                     </connections>
@@ -1000,7 +1006,7 @@ per Minute</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yul-Fu-9ot" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <panGestureRecognizer minimumNumberOfTouches="1" id="Peo-Bd-FH8">
                     <connections>
-                        <action selector="handlePan:" destination="bGK-A8-oec" id="wcp-TL-Vav"/>
+                        <action selector="viewDragged:" destination="bGK-A8-oec" id="3Vo-2C-KUM"/>
                     </connections>
                 </panGestureRecognizer>
             </objects>
