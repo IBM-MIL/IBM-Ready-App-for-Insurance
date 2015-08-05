@@ -10,12 +10,11 @@ class AlertDetailViewController: UIViewController {
     // MARK: Instance Variables
     
     // The position we want the bottom ad view to be when it is minimized
-    let minimizedBottomAdViewPosition = -90
+    let minimizedBottomAdViewPosition: CGFloat = -50 //-90
     
     let alertCriticalStatus = 2
     let perchAlertManager = PerchAlertViewManager.sharedInstance
     
-    @IBOutlet weak var bottomAdViewBottomPosition: NSLayoutConstraint!
     @IBOutlet weak var recommendedLabel: UILabel!
     @IBOutlet weak var recommendedCompanyImage: UIImageView!
     @IBOutlet weak var recommendedCompanyNameLabel: UILabel!
@@ -39,7 +38,10 @@ class AlertDetailViewController: UIViewController {
     @IBOutlet weak var navBarTitleLabel: UILabel!
     @IBOutlet weak var alertIconImage: UIImageView!
     
-    var originalBottomAdViewPosition: CGFloat!
+    @IBOutlet weak var topConstraint: NSLayoutConstraint!
+    let verticalLimit: CGFloat = -140
+    var totalTranslation: CGFloat = -140
+    
     var currentSensor: String!
     var alert: Alert!
     var comingFromHistoryList = false
@@ -61,9 +63,6 @@ class AlertDetailViewController: UIViewController {
         
         // Initially hide the expand button, because company info will show first
         self.expandButton.alpha = 0
-        
-        // Remember the original setting from storyboard, because we will come back to this setting later when maximizing the view after it has been minimized
-        self.originalBottomAdViewPosition = bottomAdViewBottomPosition.constant
         
         // Remember the original setting from storyboard, because we will come back to it after down arrow appears and pushes over up button
         self.originalUpArrowFrame = self.upButton.frame
@@ -214,7 +213,7 @@ class AlertDetailViewController: UIViewController {
     When navigating to a new alert detail via top right up/down arrows, we need to reset the bottom advertisement view
     */
     func resetBottomAdView() {
-        self.bottomAdViewBottomPosition.constant = self.originalBottomAdViewPosition
+        self.topConstraint.constant = self.verticalLimit
         self.showCompanyInfo()
         self.minimizeBottomAdViewAfterDelay()
     }
@@ -256,7 +255,7 @@ class AlertDetailViewController: UIViewController {
         if alert.status != alertCriticalStatus {
             self.bottomAdView.hidden = true
             self.alertIconImage.hidden = true
-            self.bottomAdViewBottomPosition.constant = -bottomAdView.height
+            self.topConstraint.constant = 0
         } else {
             self.bottomAdView.hidden = false
             self.alertIconImage.hidden = false
@@ -367,16 +366,16 @@ class AlertDetailViewController: UIViewController {
     Helper method for minimizing the bottom advertisement view
     */
     func minimizeBottomAdView() {
-        self.hideCompanyInfo()
         
         // If we are currently maximized
-        if self.bottomAdViewBottomPosition.constant == 0 {
-            self.bottomAdViewBottomPosition.constant = CGFloat(minimizedBottomAdViewPosition)
+        if self.topConstraint.constant == self.verticalLimit {
+            self.topConstraint.constant = minimizedBottomAdViewPosition
             
             // Update all other constraints that depend on the constraint that was just updated
             self.view.setNeedsUpdateConstraints()
             
             UIView.animateWithDuration(0.25) {
+                self.hideCompanyInfo()
                 self.view.layoutIfNeeded()
             }
         }
@@ -386,16 +385,16 @@ class AlertDetailViewController: UIViewController {
     Helper method for expanding the bottom advertisement view
     */
     func expandBottomAdView() {
-        self.showCompanyInfo()
         
         // If we are currently minimized
-        if self.bottomAdViewBottomPosition.constant == CGFloat(minimizedBottomAdViewPosition) {
-            self.bottomAdViewBottomPosition.constant = self.originalBottomAdViewPosition
+        if self.topConstraint.constant == minimizedBottomAdViewPosition {
+            self.topConstraint.constant = self.verticalLimit
             
             // Update all other constraints that depend on the constraint that was just updated
             self.view.setNeedsUpdateConstraints()
             
             UIView.animateWithDuration(0.25) {
+                self.showCompanyInfo()
                 self.view.layoutIfNeeded()
             }
         }
@@ -436,48 +435,79 @@ class AlertDetailViewController: UIViewController {
     @IBAction func mapButtonTapped(sender: AnyObject) {
         Utils.openMaps(self.alert.partner!.location)
     }
+
+}
+
+// MARK: UIPanGestureRecognizerDelegate for Alert view
+
+extension AlertDetailViewController: UIGestureRecognizerDelegate {
     
     /**
     Method for determining the botton advertisement view position/alpha based on the user dragging it
     
     :param: recognizer The gesture recognizer
     */
-    @IBAction func handlePan(recognizer: UIPanGestureRecognizer) {
+    @IBAction func viewDragged(sender: UIPanGestureRecognizer) {
         
         // Notify we are currently dragging the view (so don't auto minimize the view from timer while dragging)
         self.draggingBottomView = true
+        let yTranslation = sender.translationInView(view).y
         
-        // Move the bottom view with a pan of a finger
-        var currentPositionY = recognizer.locationInView(self.view).y
-        
-        // Decide how much we should move the view based on where the user has dragged his finger compared to the user's last finger position
-        var sum = self.previousPanYPosition - currentPositionY
-        
-        // When coming back to the pan for the first time this number can be very low, so this is a way of basically ignoring the first pan back since it can cause the view to be hidden
-        if sum < -50 { sum = -1 }
-        
-        // Update the position of the view based on the sum
-        self.bottomAdViewBottomPosition.constant += CGFloat(sum)
-        
-        // Set the previous pan position for next time this method fires
-        self.previousPanYPosition = currentPositionY
-        
-        // Don't allow dragging the view up past maximum or down past minimum
-        if self.bottomAdViewBottomPosition.constant < CGFloat(minimizedBottomAdViewPosition) {
-            self.bottomAdViewBottomPosition.constant = CGFloat(minimizedBottomAdViewPosition)
-        } else if self.bottomAdViewBottomPosition.constant > CGFloat(originalBottomAdViewPosition) {
-            self.bottomAdViewBottomPosition.constant = CGFloat(originalBottomAdViewPosition)
+        // Check if we have reached vertical limit and should start stretching rubber band
+        if (topConstraint.hasExceeded(verticalLimit)) {
+            
+            totalTranslation += yTranslation
+            topConstraint.constant = logConstraintValueForYPosition(totalTranslation)
+            
+            if(sender.state == UIGestureRecognizerState.Ended ) {
+                animateViewBackToLimit()
+                self.draggingBottomView = false
+            }
+            
+        } else {
+            
+            // detects bottom limit for how far we can pan down
+            if topConstraint.constant + yTranslation <= self.minimizedBottomAdViewPosition {
+                topConstraint.constant += yTranslation
+            }
+            
+            // Every time this method fires from a finger drag, update the alpha of all the components based on the position of the drag
+            self.mapBottomPositionToAlpha()
+            
+            // Snap box to top or bottom position once the user stops dragging their finger
+            if sender.state == UIGestureRecognizerState.Ended {
+                self.previousPanYPosition = 0
+                self.snapIntoPlace()
+                self.draggingBottomView = false
+            }
         }
+        sender.setTranslation(CGPointZero, inView: view)
+    }
+    
+    /**
+    Method that creates a gradually smaller value as yPosition decreases
+    
+    :param: yPosition value from constraint
+    
+    :returns: computed value
+    */
+    func logConstraintValueForYPosition(yPosition : CGFloat) -> CGFloat {
+        return self.verticalLimit * (1 + log10(yPosition/self.verticalLimit))
+    }
+    
+    /**
+    Simply pops view back into place with a rubber effect
+    */
+    func animateViewBackToLimit() {
+        self.topConstraint.constant = self.verticalLimit
         
-        // Every time this method fires from a finger drag, update the alpha of all the components based on the position of the drag
-        self.mapBottomPositionToAlpha()
-        
-        // Snap box to top or bottom position once the user stops dragging their finger
-        if recognizer.state == UIGestureRecognizerState.Ended {
-            self.draggingBottomView = false
-            self.previousPanYPosition = 0
-            self.snapIntoPlace()
-        }
+        UIView.animateWithDuration(0.5, delay: 0, usingSpringWithDamping: 0.3, initialSpringVelocity: 10, options: UIViewAnimationOptions.AllowUserInteraction, animations: { () -> Void in
+            self.view.layoutIfNeeded()
+            self.totalTranslation = -140
+            self.mapBottomPositionToAlpha()
+            }, completion: { (completed: Bool) -> Void in
+                
+        })
     }
     
     /**
@@ -486,11 +516,11 @@ class AlertDetailViewController: UIViewController {
     and the more visible the expand button should come.
     */
     func mapBottomPositionToAlpha() {
-        let bottomPos = self.bottomAdViewBottomPosition.constant
         
         // A way to map the appropriate alphas based on the curent position of the bottom view
-        var expandButtonAlpha = -bottomPos * 0.01
-        var companyElementsAlpha = 1 - (-bottomPos * 0.01)
+        var tempVal = self.topConstraint.constant - self.minimizedBottomAdViewPosition
+        var companyElementsAlpha = abs(tempVal * 0.011)
+        var expandButtonAlpha =  1 - companyElementsAlpha
         
         self.expandButton.alpha = expandButtonAlpha
         self.setCompanyElementsAlpha(companyElementsAlpha)
@@ -500,21 +530,27 @@ class AlertDetailViewController: UIViewController {
     Helper method for snapping the bottom advertisement into place when the user stops dragging his finger
     */
     func snapIntoPlace() {
-        if self.bottomAdViewBottomPosition.constant < CGFloat(minimizedBottomAdViewPosition/2) {
-            self.bottomAdViewBottomPosition.constant = CGFloat(minimizedBottomAdViewPosition)
+        
+        self.bottomAdView.userInteractionEnabled = false
+        var diff = (self.verticalLimit - self.minimizedBottomAdViewPosition) / 2
+        if self.topConstraint.constant > self.minimizedBottomAdViewPosition + diff {
+            self.topConstraint.constant = self.minimizedBottomAdViewPosition
             self.hideCompanyInfo()
         } else {
-            self.bottomAdViewBottomPosition.constant = CGFloat(originalBottomAdViewPosition)
+            self.topConstraint.constant = self.verticalLimit
             self.showCompanyInfo()
         }
         
         self.view.setNeedsUpdateConstraints()
-        
-        UIView.animateWithDuration(0.25) {
+        UIView.animateWithDuration(0.25, animations: { () -> Void in
             self.view.layoutIfNeeded()
+            }) { (completed: Bool) -> Void in
+                self.bottomAdView.userInteractionEnabled = true
         }
+        
     }
 }
+
 
 // MARK: UINavigationBarDelegate
 
