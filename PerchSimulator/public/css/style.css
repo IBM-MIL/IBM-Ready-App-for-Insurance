@@ -1,0 +1,97 @@
+/* style.css
+ * This file provides css styles.
+ */
+
+body {
+	background-color: #333;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.header {
+	width: 100%;
+	max-width: 500px;
+	position: absolute;
+	height: 50px;
+	z-index: 1000;
+}
+
+.outerContainer {
+	max-width: 500px;
+	margin: auto;
+}
+
+.carousel {
+	height: 100%;
+}
+.carousel-caption {
+	bottom: 30px;
+	z-index: 10;
+}
+
+.carousel .item {
+	height: 100%;
+	background-color: #777;
+}
+.carousel-main {
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	min-width: 100%;
+	height: 400px;
+	margin-top: -24%;
+}
+.carousel-top {
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	top: 50px;
+	color: #fff;
+	text-align: center;
+	text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.faded {
+	opacity: 0.4;
+}
+.green {
+	background-color: rgb(24,188,156) !important;
+}
+.orange {
+	background-color: rgb(223,105,26) !important;
+}
+.blue {
+	background-color: rgb(50,165,232) !important;
+}
+.purple {
+	background-color: rgb(4,73,141) !important;
+}
+.navy {
+	background-color: rgb(44,62,80) !important;
+}
+
+.readingBox {
+	border-radius: 50%;
+	border: white solid 1px;
+	margin: auto;
+	text-align: center;
+	width: 150px;
+	height: 150px;
+}
+.readingValue {
+	margin-top: 54px;
+	text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.readingButtons {
+	margin-bottom: 10%;
+}
+.readingButton {
+	border: solid 1px white;
+	background-color: rgba(0,0,0,0.0);
+	color: white;
+}
+.readingButton:hover {
+	color: black;
+}
