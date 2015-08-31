@@ -2,7 +2,7 @@
 # IBM Ready App for Insurance
 
 
-##Overview
+### Overview
 
 IBM Ready App for Insurance is the fourth of the IBM Ready App Series.
 
@@ -17,13 +17,13 @@ This app
 Users are able to stay connected to their homes by syncing Internet of Things (IoT) sensors with select utility systems in their homes with the help of Insurance Providers. In turn, IBM Ready App for Insurance provides real time detailed information from the data it receives from these sensors, keeps track of a users' normal daily consumption levels, and notifies users if selected utility systems reach abnormal levels.
 
 
-## Getting started
+### Getting started
 Please visit the [Getting Started page](http://lexdcy040194.ecloud.edst.ibm.com/perch_1_0_0/getting_started) to set up the project.
 
 
-## Documentation
+### Documentation
 Please visit [this page](http://lexdcy040194.ecloud.edst.ibm.com/perch_1_0_0/home) for access to full documentation.
 
 
-## License
+### License
 IBM Ready App for Insurance is available under the IBM Ready Apps License Agreement. See the [License file](https://github.com/IBM-MIL/IBM-Ready-App-for-Banking/blob/master/License.txt) for more details.
