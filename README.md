@@ -1,5 +1,5 @@
 ![](README assets/banner.jpg)
-# IBM-Ready-App-for-Insurance
+# IBM Ready App for Insurance
 
 
 ##Overview
