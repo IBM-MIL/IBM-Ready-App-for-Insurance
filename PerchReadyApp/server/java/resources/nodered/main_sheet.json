@@ -1,11 +1,6 @@
 [
   {
-    "id": "fe3ff6ba.01c008",
-    "type": "ibmiot",
-    "name": "IOT-Auth"
-  },
-  {
-    "id": "d7ecd3d2.28133",
+    "id": "634c32df.9cb3cc",
     "type": "subflow",
     "name": "sendPushNotification",
     "in": [
@@ -14,168 +9,160 @@
         "y": 220.0833396911621,
         "wires": [
           {
-            "id": "c8f27f0f.370d8"
+            "id": "47d0590.fb82fa8"
           }
         ]
       }
     ],
-    "out": [
-      {
-        "x": 1070.0000038146973,
-        "y": 218.33332061767578,
-        "wires": [
-          {
-            "id": "c4ed2593.3b12d8",
-            "port": 0
-          }
-        ]
-      }
-    ]
+    "out": []
   },
   {
-    "id": "9e068dbc.61f97",
+    "id": "4f54967a.b0ab68",
     "type": "function",
     "name": "setupSendPushNotification",
-    "func": "//\tThis method prepares the body for the POST request\n//\tthat will send a pushs notification to the specified tag\n//\tNote: needs the app secret for authentication\n\n\nmsg.method = \"POST\";\nmsg.headers = { 'IBM-Application-Secret' : context.global.appSecret };\n\nmsg.url = context.global.pushURL + \"messages\"; \n\nmsg.payload = {\n\t   \"message\" : {\n\t        \"alert\" : msg.notifMsg\n\t        },\n\t   \"target\" : {\n\t    \t\"tagNames\" : [msg.devicePin]\n\t   },\n    \"settings\": {\n        \"apns\": {\n            \"payload\": {\n                \"title\": msg.name,\n                \"message\" : msg.notifMsg,\n                \"deviceClassId\": msg.device_class_id,\n                \"devciePin\" : msg.devicePin\n            },\n            \"badge\": 1\n        }\n    }\n};\n\nreturn msg;",
+    "func": "//\tThis method prepares the body for the POST request\n//\tthat will send a pushs notification to the specified tag\n//\tNote: needs the app secret for authentication\n\n\nmsg.method = \"POST\";\nmsg.headers = { 'IBM-Application-Secret' : context.global.appSecret };\n\nmsg.url = context.global.pushURL + \"/messages\"; \n\nmsg.payload = {\n\t   \"message\" : {\n\t        \"alert\" : msg.notifMsg\n\t        },\n\t   \"target\" : {\n\t    \t\"tagNames\" : [msg.devicePin]\n\t   },\n    \"settings\": {\n        \"apns\": {\n            \"payload\": {\n                \"title\": msg.name,\n                \"deviceClassId\": msg.device_class_id,\n                \"devciePin\" : msg.devicePin,\n                \"status\"    : msg.status,\n            },\n            \"badge\": 1\n        }\n    }\n};\n\nreturn msg;",
     "outputs": 1,
-    "x": 555,
-    "y": 216.66665649414062,
-    "z": "d7ecd3d2.28133",
+    "noerr": 0,
+    "x": 536,
+    "y": 213,
+    "z": "634c32df.9cb3cc",
     "wires": [
       [
-        "c4ed2593.3b12d8",
-        "c0df53a8.3f20b",
-        "974f693f.68b098"
+        "15185bfd.eae7a4",
+        "b6235fa7.49dca",
+        "3f64f12b.c09b0e"
       ]
     ]
   },
   {
-    "id": "c4ed2593.3b12d8",
+    "id": "15185bfd.eae7a4",
     "type": "http request",
     "name": "sendPushNotification",
     "method": "use",
     "ret": "obj",
     "url": "",
-    "x": 836,
-    "y": 217.66665649414062,
-    "z": "d7ecd3d2.28133",
+    "x": 817,
+    "y": 214,
+    "z": "634c32df.9cb3cc",
     "wires": [
       [
-        "d41fb009.2be05"
+        "dad75f63.2528a"
       ]
     ]
   },
   {
-    "id": "974f693f.68b098",
+    "id": "b6235fa7.49dca",
     "type": "debug",
     "name": "",
-    "active": false,
-    "console": "false",
+    "active": true,
+    "console": "true",
     "complete": "true",
-    "x": 780,
-    "y": 153.66665649414062,
-    "z": "d7ecd3d2.28133",
+    "x": 761,
+    "y": 150,
+    "z": "634c32df.9cb3cc",
     "wires": []
   },
   {
-    "id": "d41fb009.2be05",
+    "id": "dad75f63.2528a",
     "type": "debug",
     "name": "",
-    "active": false,
+    "active": true,
     "console": "false",
     "complete": "true",
-    "x": 1038,
-    "y": 152.66665649414062,
-    "z": "d7ecd3d2.28133",
+    "x": 1019,
+    "y": 149,
+    "z": "634c32df.9cb3cc",
     "wires": []
   },
   {
-    "id": "c8f27f0f.370d8",
+    "id": "47d0590.fb82fa8",
     "type": "function",
     "name": "getNotificationMessage",
     "func": "//\tThis method prepares the push notification message to be sent to iOS\n\nvar devices = JSON.parse(context.global.devices); \n\nmsg.deviceClassId = msg.device_class_id; \n\n//\t making sure prevStatusAll and associated fields are not undefined.\n//\t Note: these will be undefined for the first time the sensor runs \n//   as there will not be any entries in the database for the previous status\nif(msg.prevStatusAll === undefined || msg.prevStatusAll[msg.deviceClassId] === undefined \n\t\t|| msg.prevStatusAll[msg.deviceClassId].old === undefined){\n\tmsg.sendNotif = false;\n}\nelse{\n\t// a notification should be sent if the status of the sensor changed from \n\t// critical to normal or vice versa. \n\tif(msg.prevStatusAll[msg.deviceClassId].old !== msg.status)\n\t\tmsg.sendNotif = true; \n\telse\n\t\tmsg.sendNotif = false;\n}\n\n//\tThe *devices* global variable should be checked in case it has not been set by the `setGlobalDeviceClasses` subflow\n//\tThe appropriate message is chosen to be sent to the client based on the previous and current statuses of the sensor.\nif(msg.sendNotif === true && devices[msg.deviceClassId] !== undefined )\n{\n\tif(msg.prevStatusAll[msg.deviceClassId].old > msg.status)\n\t{\n\t\tmsg.notifMsg = devices[msg.deviceClassId].normalMessage;\n\t}\n\telse{\n\t\tmsg.notifMsg = devices[msg.deviceClassId].criticalMessage; \n\t}\t\n\tmsg.name = devices[msg.deviceClassId].name;\n}\n\n//\twe will only go pass the msg variable to the next node if the notifMsg variable was set\n//\totherwise we don't want the rest of the flow to be processed. \nif(msg.notifMsg !== undefined)\n\treturn [msg, null];\nelse\n\treturn [null, msg.status];\n",
     "outputs": "2",
-    "x": 254.21426391601562,
-    "y": 221.27382373809814,
-    "z": "d7ecd3d2.28133",
+    "noerr": 0,
+    "x": 235.21426391601562,
+    "y": 217.60716724395752,
+    "z": "634c32df.9cb3cc",
     "wires": [
       [
-        "be57f074.41a81",
-        "9e068dbc.61f97"
+        "57eb7ddf.a81484",
+        "4f54967a.b0ab68"
       ],
       [
-        "caaa2740.3555d8"
+        "a36139a.f5c9ec8"
       ]
     ]
   },
   {
-    "id": "be57f074.41a81",
+    "id": "57eb7ddf.a81484",
     "type": "debug",
     "name": "DEBUG",
     "active": true,
-    "console": "true",
+    "console": "false",
     "complete": "true",
-    "x": 494.8333930969238,
-    "y": 164.41666316986084,
-    "z": "d7ecd3d2.28133",
+    "x": 475.8333930969238,
+    "y": 160.75000667572021,
+    "z": "634c32df.9cb3cc",
     "wires": []
   },
   {
-    "id": "caaa2740.3555d8",
-    "type": "debug",
-    "name": "DEBUG",
-    "active": true,
-    "console": "true",
-    "complete": "true",
-    "x": 497.88890838623047,
-    "y": 275.77778244018555,
-    "z": "d7ecd3d2.28133",
-    "wires": []
-  },
-  {
-    "id": "c569a0e4.3a966",
-    "type": "cloudant out",
-    "service": "RA-Perch-cloudantNoSQLDB",
-    "cloudant": "",
-    "name": "savePushNotification",
-    "database": "nodered",
-    "payonly": true,
-    "operation": "insert",
-    "x": 1079.8213806152344,
-    "y": 274.4880905151367,
-    "z": "d7ecd3d2.28133",
-    "wires": []
-  },
-  {
-    "id": "c0df53a8.3f20b",
-    "type": "function",
-    "name": "createNotificationData",
-    "func": "//\tThis method prepares the cloudant push notification \n//  data model to insert into the database\nvar devices = JSON.parse(context.global.devices); \n\nvar resmsg = {}; \nvar detail = \"\"; \nif(msg.status === context.global.constants.CRITICAL)\n\tdetail = devices[msg.deviceClassId].criticalMessageDetail;\nelse{\n\tdetail = devices[msg.deviceClassId].normalMessageDetail;\n}\n\nresmsg.payload = {\n\t\t\"type\" : \"notification\", \n\t\t\"deviceClassId\": msg.deviceClassId,\n\t\t\"devicePin\" : msg.devicePin,\n\t\t\"title\" : msg.payload.settings.apns.payload.title,\n\t\t\"message\": msg.payload.settings.apns.payload.message,\n\t\t\"detail\": detail,\n\t\t\"timestamp\" :  new Date().getTime(),\n\t\t\"read\" :  false,\n\t\t\"value\" : msg.currentValue,\n\t\t\"status\" : msg.status\n\t\t};\n\nreturn resmsg;",
-    "outputs": 1,
-    "x": 812.6785888671875,
-    "y": 273.9166564941406,
-    "z": "d7ecd3d2.28133",
-    "wires": [
-      [
-        "c569a0e4.3a966",
-        "10212aaa.efded5"
-      ]
-    ]
-  },
-  {
-    "id": "10212aaa.efded5",
+    "id": "a36139a.f5c9ec8",
     "type": "debug",
     "name": "DEBUG",
     "active": false,
     "console": "true",
     "complete": "true",
-    "x": 1037.8570556640625,
-    "y": 369.5237731933594,
-    "z": "d7ecd3d2.28133",
+    "x": 478.88890838623047,
+    "y": 272.1111259460449,
+    "z": "634c32df.9cb3cc",
     "wires": []
   },
   {
-    "id": "b335a2dc.4cca6",
+    "id": "3f64f12b.c09b0e",
+    "type": "function",
+    "name": "createNotificationData",
+    "func": "//\tThis method prepares the cloudant push notification \n//  data model to insert into the database\nvar devices = JSON.parse(context.global.devices); \n\nvar resmsg = {}; \nvar detail = \"\"; \nif(msg.status === context.global.constants.CRITICAL)\n\tdetail = devices[msg.deviceClassId].criticalMessageDetail;\nelse{\n\tdetail = devices[msg.deviceClassId].normalMessageDetail;\n}\n\nresmsg.payload = {\n\t\t\"type\" : \"notification\", \n\t\t\"deviceClassId\": msg.deviceClassId,\n\t\t\"devicePin\" : msg.devicePin,\n\t\t\"title\" : msg.payload.settings.apns.payload.title,\n\t\t\"message\": msg.payload.message.alert,\n\t\t\"detail\": detail,\n\t\t\"timestamp\" :  new Date().getTime(),\n\t\t\"read\" :  false,\n\t\t\"value\" : msg.currentValue,\n\t\t\"status\" : msg.status\n\t\t};\n\nreturn resmsg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 793.6785888671875,
+    "y": 270.25,
+    "z": "634c32df.9cb3cc",
+    "wires": [
+      [
+        "97c725b1.6838d8",
+        "b2f28da4.4d0d7"
+      ]
+    ]
+  },
+  {
+    "id": "97c725b1.6838d8",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": true,
+    "console": "true",
+    "complete": "true",
+    "x": 1018.8570556640625,
+    "y": 365.85711669921875,
+    "z": "634c32df.9cb3cc",
+    "wires": []
+  },
+  {
+    "id": "b2f28da4.4d0d7",
+    "type": "cloudant out",
+    "service": "Ready App 4 Perch-cloudantNoSQLDB",
+    "cloudant": "",
+    "name": "saveNotification",
+    "database": "nodered",
+    "payonly": true,
+    "operation": "insert",
+    "x": 1045.1667785644531,
+    "y": 271.33338356018066,
+    "z": "634c32df.9cb3cc",
+    "wires": []
+  },
+  {
+    "id": "cd8811b9.3277f",
     "type": "subflow",
     "name": "setGlobalDeviceClasses",
     "in": [
@@ -184,7 +171,7 @@
         "y": 165.99999618530273,
         "wires": [
           {
-            "id": "b114a674.4eeb58"
+            "id": "1a9c340f.e563cc"
           }
         ]
       }
@@ -195,7 +182,7 @@
         "y": 165.99999237060547,
         "wires": [
           {
-            "id": "29fcfccd.d60304",
+            "id": "6ebeed79.914114",
             "port": 0
           }
         ]
@@ -203,319 +190,61 @@
     ]
   },
   {
-    "id": "293e4eeb.d6c1b2",
-    "type": "debug",
-    "name": "DEBUG",
-    "active": true,
-    "console": "true",
-    "complete": "true",
-    "x": 903.7222023010254,
-    "y": 86.66665649414062,
-    "z": "b335a2dc.4cca6",
-    "wires": []
-  },
-  {
-    "id": "b114a674.4eeb58",
+    "id": "1a9c340f.e563cc",
     "type": "function",
     "name": "getDeviceClasses",
-    "func": "//\tThis method gets the device_classes view from cloudant\n\n\nmsg.url =   \"https://\" + context.global.cloudantUser + \":\" + context.global.cloudantPassword \n\t\t\t+ \"@\" + context.global.cloudantDBURL\n\t\t\t+ \"_design/library/_view/device_classes\";\nmsg.method = \"GET\";\n\nreturn  msg;\n",
+    "func": "//\tThis method prepares the GET request URL for device_classes view from cloudant.\n//\tUses basic authentication\n\nmsg.url =   context.global.cloudantDBURL + \"/\" + context.global.cloudantDBName\n\t\t\t+ \"/_design/library/_view/device_classes\";\nmsg.method = \"GET\";\n\nreturn  msg;\n",
     "outputs": 1,
-    "x": 290,
-    "y": 165.61114120483398,
-    "z": "b335a2dc.4cca6",
+    "noerr": 0,
+    "x": 302,
+    "y": 165,
+    "z": "cd8811b9.3277f",
     "wires": [
       [
-        "99f0b218.660f5",
-        "96bb92fb.69447"
+        "30fa4be3.cf05b4"
       ]
     ]
   },
   {
-    "id": "99f0b218.660f5",
+    "id": "30fa4be3.cf05b4",
     "type": "http request",
     "name": "sendGetDeviceClasses",
     "method": "use",
     "ret": "txt",
     "url": "",
-    "x": 514.7777862548828,
-    "y": 164.50003242492676,
-    "z": "b335a2dc.4cca6",
+    "x": 526.7777862548828,
+    "y": 163.88889122009277,
+    "z": "cd8811b9.3277f",
     "wires": [
       [
-        "f5d7e9bd.0a2818",
-        "29fcfccd.d60304"
+        "6ebeed79.914114"
       ]
     ]
   },
   {
-    "id": "f5d7e9bd.0a2818",
-    "type": "debug",
-    "name": "DEBUG",
-    "active": true,
-    "console": "true",
-    "complete": "payload",
-    "x": 688,
-    "y": 93.61114120483398,
-    "z": "b335a2dc.4cca6",
-    "wires": []
-  },
-  {
-    "id": "96bb92fb.69447",
-    "type": "debug",
-    "name": "DEBUG",
-    "active": true,
-    "console": "true",
-    "complete": "true",
-    "x": 445,
-    "y": 92.61114120483398,
-    "z": "b335a2dc.4cca6",
-    "wires": []
-  },
-  {
-    "id": "29fcfccd.d60304",
+    "id": "6ebeed79.914114",
     "type": "function",
     "name": "parseResult",
     "func": "// This method gets all device_classes from the cloudant db\n// and saves the necessary data in a nodered global variable\n\nvar result = JSON.parse(msg.payload); \nvar dataList = \"\"; \nvar temp = {};\n\nvar count = result.rows.length; \nfor(var sensor=0; sensor<result.rows.length; sensor++){\n\tvar sensorData = result.rows[sensor];\n\tif(sensorData.value.enabled === true){\n\t\tvar sensorInfo = {};\n\t\tsensorInfo.maxThreshold = sensorData.value.maxThreshold;\n\t    sensorInfo.normalMessage = sensorData.value.messages.normal;\n\t    sensorInfo.normalMessageDetail = sensorData.value.messages.normalDetail;\n\t\tsensorInfo.criticalMessageDetail = sensorData.value.messages.criticalDetail;\n\t\tsensorInfo.name = sensorData.value.name;\n\t\tsensorInfo.criticalMessage = sensorData.value.messages.critical;\n\t\tsensorInfo.units = sensorData.value.units;\n\t\ttemp[sensorData.value._id] = sensorInfo;\n\t}\n}\ndataList = JSON.stringify(temp);\ncontext.global.devices = dataList; \n\nreturn [context.global.devices];",
     "outputs": 1,
-    "x": 737,
-    "y": 164.61114120483398,
-    "z": "b335a2dc.4cca6",
+    "noerr": 0,
+    "x": 749,
+    "y": 164,
+    "z": "cd8811b9.3277f",
     "wires": [
-      [
-        "293e4eeb.d6c1b2"
-      ]
+      []
     ]
   },
   {
-    "id": "1bc052fe.e43fad",
-    "type": "debug",
-    "name": "DEBUG",
-    "active": true,
-    "console": "true",
-    "complete": "true",
-    "x": 335.8888854980469,
-    "y": 108.50000286102295,
-    "z": "5f2d0b2.fa0d2f4",
-    "wires": []
+    "id": "25997b8.fda6684",
+    "type": "ibmiot",
+    "name": "IBM-IOT"
   },
   {
-    "id": "780d78c9.87f288",
-    "type": "function",
-    "name": "extractSensorData",
-    "func": "var result = msg.mainPayload.d;\nvar devices = JSON.parse(context.global.devices);\nvar retList = []; \n\nfor (sensor in result) {\n\tvar retValue = {};\n\tretValue.device_class_id = sensor; \n\tretValue.prevStatusAll = JSON.parse(msg.prevStatusAll); \n\tretValue.devicePin = msg.deviceId;\n\tretValue.currentValue = result[sensor]; \n\tif(devices[sensor] !== undefined){\n\t\tretValue.units = devices[sensor].units; \n\t\t\n\t\tif(devices[sensor].maxThreshold !== undefined && \n\t\t\tretValue.currentValue >= devices[sensor].maxThreshold){\n\t\t\tretValue.status = context.global.constants.CRITICAL;\n\t\t}\n\t\telse{\t\n\t\t\tretValue.status = context.global.constants.NORMAL;\t\n\t\t}\n\t}\n\tretList.push(retValue);\n}\n\nreturn [retList];",
-    "outputs": 1,
-    "x": 1022.1388778686523,
-    "y": 173.5,
-    "z": "5f2d0b2.fa0d2f4",
-    "wires": [
-      [
-        "2b38c942.d4c736",
-        "317f034.fce80fc",
-        "5732da74.a8cd24"
-      ]
-    ]
-  },
-  {
-    "id": "2b38c942.d4c736",
-    "type": "debug",
-    "name": "DEBUG",
-    "active": true,
-    "console": "true",
-    "complete": "true",
-    "x": 1240.1388778686523,
-    "y": 103,
-    "z": "5f2d0b2.fa0d2f4",
-    "wires": []
-  },
-  {
-    "id": "317f034.fce80fc",
-    "type": "function",
-    "name": "createSensorData",
-    "func": "//\tThis method prepares the cloudant sensor data model \n//\tto insert into the database\n\nvar resmsg = {}; \n\nresmsg.payload = {\n\t\t\"type\" : \"sensor_data\", \n\t\t\"deviceClassId\": msg.device_class_id,\n\t\t\"devicePin\" : msg.devicePin,\n\t\t\"units\" : msg.units, \n\t\t\"status\": msg.status,\n\t\t\"value\" : msg.currentValue,\n\t\t\"time\" :  new Date().getTime() \n\t\t};\n\nreturn resmsg;",
-    "outputs": 1,
-    "x": 1261.1388778686523,
-    "y": 174,
-    "z": "5f2d0b2.fa0d2f4",
-    "wires": [
-      [
-        "17ed3753.e812c9",
-        "a9c636db.5639c8"
-      ]
-    ]
-  },
-  {
-    "id": "a9c636db.5639c8",
-    "type": "debug",
-    "name": "DEBUG",
-    "active": false,
-    "console": "true",
-    "complete": "true",
-    "x": 1450.1388778686523,
-    "y": 102,
-    "z": "5f2d0b2.fa0d2f4",
-    "wires": []
-  },
-  {
-    "id": "17ed3753.e812c9",
-    "type": "cloudant out",
-    "service": "RA-Perch-cloudantNoSQLDB",
-    "cloudant": "",
-    "name": "saveSensorDataInfo",
-    "database": "nodered",
-    "payonly": true,
-    "operation": "insert",
-    "x": 1481.1388778686523,
-    "y": 174,
-    "z": "5f2d0b2.fa0d2f4",
-    "wires": []
-  },
-  {
-    "id": "448b7ffd.bb748",
-    "type": "subflow:b335a2dc.4cca6",
-    "name": "",
-    "x": 338.9166488647461,
-    "y": 252.4444580078125,
-    "z": "5f2d0b2.fa0d2f4",
-    "wires": [
-      [
-        "13f018c6.ec0fe7"
-      ]
-    ]
-  },
-  {
-    "id": "7c4fedfa.83b014",
-    "type": "inject",
-    "name": "",
-    "topic": "",
-    "payload": "",
-    "payloadType": "date",
-    "repeat": "",
-    "crontab": "",
-    "once": false,
-    "x": 112.58332443237305,
-    "y": 252.44451904296875,
-    "z": "5f2d0b2.fa0d2f4",
-    "wires": [
-      [
-        "448b7ffd.bb748"
-      ]
-    ]
-  },
-  {
-    "id": "16cd83bc.e9327c",
-    "type": "function",
-    "name": "sendGetPreviousStatus",
-    "func": "// This method sends the query for the sensor data using the reduce function\n\n\nmsg.mainPayload = msg.payload; \nmsg.url =   \"https://\" + context.global.cloudantUser + \":\" + context.global.cloudantPassword \n\t\t\t+ \"@\" + context.global.cloudantDBURL\n\t\t\t+ \"_design/library/_view/current_sensor_data?reduce=true&group_level=2&startkey=[\\\"\"\n\t\t\t+ msg.deviceId + \"\\\",\\\"0\\\",\\\"0\\\"]&endkey=[\\\"\"+ msg.deviceId +\"\\\",{}]\";\nmsg.method = \"GET\";\n\nreturn  msg;\n",
-    "outputs": 1,
-    "x": 387.80552673339844,
-    "y": 173.33326530456543,
-    "z": "5f2d0b2.fa0d2f4",
-    "wires": [
-      [
-        "fc494e5a.03b6b",
-        "63a30d3a.9c5cf4"
-      ]
-    ]
-  },
-  {
-    "id": "fc494e5a.03b6b",
-    "type": "http request",
-    "name": "getPreviousStatus",
-    "method": "use",
-    "ret": "txt",
-    "url": "",
-    "x": 599.2499847412109,
-    "y": 173.44442558288574,
-    "z": "5f2d0b2.fa0d2f4",
-    "wires": [
-      [
-        "a77238fd.588dc8",
-        "e3777758.1c8888"
-      ]
-    ]
-  },
-  {
-    "id": "63a30d3a.9c5cf4",
-    "type": "debug",
-    "name": "DEBUG",
-    "active": true,
-    "console": "true",
-    "complete": "true",
-    "x": 587.6944198608398,
-    "y": 107.6666259765625,
-    "z": "5f2d0b2.fa0d2f4",
-    "wires": []
-  },
-  {
-    "id": "a77238fd.588dc8",
-    "type": "function",
-    "name": "getPreviousStatus",
-    "func": "// This method gets the most recent value for each of the sensors\n\n\nvar prevStatusAll = []; \n\nvar result = JSON.parse(msg.payload); \nvar prevStatus;\n\nfor (item in result.rows){\n\tprevStatus = \"\\\"\" + result.rows[item].value.deviceClassId + \"\\\":{\" \n\t+ \"\\\"old\\\":\"+ result.rows[item].value.status +\"}\" ;\n\tprevStatusAll.push(prevStatus);\n}\n\nmsg.prevStatusAll = \"{\" + (prevStatusAll) + \"}\";\n\nreturn msg;",
-    "outputs": "1",
-    "x": 794.6944198608398,
-    "y": 173.6666259765625,
-    "z": "5f2d0b2.fa0d2f4",
-    "wires": [
-      [
-        "3a65b73b.c59a48",
-        "780d78c9.87f288"
-      ]
-    ]
-  },
-  {
-    "id": "3a65b73b.c59a48",
-    "type": "debug",
-    "name": "DEBUG",
-    "active": true,
-    "console": "true",
-    "complete": "true",
-    "x": 1011.6944198608398,
-    "y": 106.6666259765625,
-    "z": "5f2d0b2.fa0d2f4",
-    "wires": []
-  },
-  {
-    "id": "e3777758.1c8888",
-    "type": "debug",
-    "name": "DEBUG",
-    "active": true,
-    "console": "true",
-    "complete": "payload",
-    "x": 798.1388778686523,
-    "y": 109,
-    "z": "5f2d0b2.fa0d2f4",
-    "wires": []
-  },
-  {
-    "id": "5732da74.a8cd24",
-    "type": "subflow:d7ecd3d2.28133",
-    "name": "sendPushNotification",
-    "x": 1259.7222518920898,
-    "y": 249.55557250976562,
-    "z": "5f2d0b2.fa0d2f4",
-    "wires": [
-      [
-        "62101ce6.9defe4"
-      ]
-    ]
-  },
-  {
-    "id": "62101ce6.9defe4",
-    "type": "debug",
-    "name": "DEBUG",
-    "active": true,
-    "console": "true",
-    "complete": "true",
-    "x": 1457.7221298217773,
-    "y": 249.66665649414062,
-    "z": "5f2d0b2.fa0d2f4",
-    "wires": []
-  },
-  {
-    "id": "9addb591.652248",
+    "id": "9f627cac.609d8",
     "type": "ibmiot in",
     "authentication": "apiKey",
-    "apiKey": "fe3ff6ba.01c008",
+    "apiKey": "25997b8.fda6684",
     "inputType": "evt",
     "deviceId": "",
     "applicationId": "",
@@ -531,36 +260,249 @@
     "allEvents": true,
     "allCommands": "",
     "allFormats": true,
-    "x": 128.63887786865234,
-    "y": 172.5,
-    "z": "5f2d0b2.fa0d2f4",
+    "x": 199.33333587646484,
+    "y": 422.08331203460693,
+    "z": "f8e7c8b.f071838",
     "wires": [
       [
-        "1bc052fe.e43fad",
-        "16cd83bc.e9327c"
+        "e997c1c6.16684",
+        "5a9d892f.a56278"
       ]
     ]
   },
   {
-    "id": "13f018c6.ec0fe7",
+    "id": "5a9d892f.a56278",
     "type": "debug",
     "name": "DEBUG",
-    "active": true,
+    "active": false,
     "console": "true",
     "complete": "true",
-    "x": 552.3055038452148,
-    "y": 252.83331298828125,
-    "z": "5f2d0b2.fa0d2f4",
+    "x": 385.9999694824219,
+    "y": 358.9444274902344,
+    "z": "f8e7c8b.f071838",
     "wires": []
   },
   {
-    "id": "5bbbefa2.a4441",
+    "id": "2293d50e.dd6c2a",
+    "type": "function",
+    "name": "extractSensorData",
+    "func": "var result = msg.mainPayload.d;\nvar devices = JSON.parse(context.global.devices);\nvar retList = []; \n\nfor (var sensor in result) {\n\tvar retValue = {};\n\tretValue.device_class_id = sensor; \n\tretValue.prevStatusAll = JSON.parse(msg.prevStatusAll); \n\tretValue.devicePin = msg.deviceId;\n\tretValue.currentValue = result[sensor]; \n\tif(devices[sensor] !== undefined){\n\t\tretValue.units = devices[sensor].units; \n\t\t\n\t\tif(devices[sensor].maxThreshold !== undefined && \n\t\t\tretValue.currentValue >= devices[sensor].maxThreshold){\n\t\t\tretValue.status = context.global.constants.CRITICAL;\n\t\t}\n\t\telse{\t\n\t\t\tretValue.status = context.global.constants.NORMAL;\t\n\t\t}\n\t}\n\tretList.push(retValue);\n}\n\nreturn [retList];",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 1115.2499389648438,
+    "y": 422.9444274902344,
+    "z": "f8e7c8b.f071838",
+    "wires": [
+      [
+        "26189020.d9e77",
+        "f7d3954f.082c68",
+        "888741a8.7778c"
+      ]
+    ]
+  },
+  {
+    "id": "26189020.d9e77",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 1309.2499618530273,
+    "y": 352.4444389343262,
+    "z": "f8e7c8b.f071838",
+    "wires": []
+  },
+  {
+    "id": "f7d3954f.082c68",
+    "type": "function",
+    "name": "createSensorData",
+    "func": "//\tThis method prepares the cloudant sensor data model \n//\tto insert into the database\n\nvar resmsg = {}; \n\nresmsg.payload = {\n\t\t\"type\" : \"sensor_data\", \n\t\t\"deviceClassId\": msg.device_class_id,\n\t\t\"devicePin\" : msg.devicePin,\n\t\t\"units\" : msg.units, \n\t\t\"status\": msg.status,\n\t\t\"value\" : msg.currentValue,\n\t\t\"time\" :  new Date().getTime() \n\t\t};\n\nreturn resmsg;",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 1330.2499618530273,
+    "y": 423.4444389343262,
+    "z": "f8e7c8b.f071838",
+    "wires": [
+      [
+        "3924feb4.c6db02",
+        "469d08dc.b962f8"
+      ]
+    ]
+  },
+  {
+    "id": "3924feb4.c6db02",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 1519.2499618530273,
+    "y": 351.4444389343262,
+    "z": "f8e7c8b.f071838",
+    "wires": []
+  },
+  {
+    "id": "b9d47107.462b9",
+    "type": "inject",
+    "name": "",
+    "topic": "",
+    "payload": "",
+    "payloadType": "date",
+    "repeat": "7200",
+    "crontab": "",
+    "once": true,
+    "x": 181.69440841674805,
+    "y": 501.8889579772949,
+    "z": "f8e7c8b.f071838",
+    "wires": [
+      [
+        "ca0f3ab3.35f0c8"
+      ]
+    ]
+  },
+  {
+    "id": "e997c1c6.16684",
+    "type": "function",
+    "name": "sendGetPreviousStatus",
+    "func": "// This method sends the query for the sensor data using the reduce function\n\n\nmsg.mainPayload = msg.payload; \nmsg.url =  context.global.cloudantDBURL + \"/\" + context.global.cloudantDBName\n\t\t\t+ \"/_design/library/_view/current_sensor_data?reduce=true&group_level=2&startkey=[\\\"\"\n\t\t\t+ msg.deviceId + \"\\\",\\\"0\\\",\\\"0\\\"]&endkey=[\\\"\"+ msg.deviceId +\"\\\",{}]\";\nmsg.method = \"GET\";\n\nreturn  msg;\n",
+    "outputs": 1,
+    "noerr": 0,
+    "x": 436.91661071777344,
+    "y": 422.7777042388916,
+    "z": "f8e7c8b.f071838",
+    "wires": [
+      [
+        "dc0119f8.23fee8",
+        "eb19407.f14e6c"
+      ]
+    ]
+  },
+  {
+    "id": "dc0119f8.23fee8",
+    "type": "http request",
+    "name": "getPreviousStatus",
+    "method": "use",
+    "ret": "txt",
+    "url": "",
+    "x": 668.3610687255859,
+    "y": 422.8888645172119,
+    "z": "f8e7c8b.f071838",
+    "wires": [
+      [
+        "f295b585.0d6a48",
+        "cd9caaba.326358"
+      ]
+    ]
+  },
+  {
+    "id": "eb19407.f14e6c",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 656.8055038452148,
+    "y": 357.1110649108887,
+    "z": "f8e7c8b.f071838",
+    "wires": []
+  },
+  {
+    "id": "f295b585.0d6a48",
+    "type": "function",
+    "name": "getPreviousStatus",
+    "func": "// This method gets the most recent value for each of the sensors\n\n\nvar prevStatusAll = []; \nvar result = JSON.parse(msg.payload); \nvar prevStatus;\n\nfor (var item in result.rows){\n\tprevStatus = \"\\\"\" + result.rows[item].value.deviceClassId + \"\\\":{\" \n\t+ \"\\\"old\\\":\"+ result.rows[item].value.status +\"}\" ;\n\tprevStatusAll.push(prevStatus);\n}\n\nmsg.prevStatusAll = \"{\" + (prevStatusAll) + \"}\";\n\nreturn msg;",
+    "outputs": "1",
+    "noerr": 0,
+    "x": 883.8055038452148,
+    "y": 423.1110649108887,
+    "z": "f8e7c8b.f071838",
+    "wires": [
+      [
+        "fe10970d.01ef68",
+        "2293d50e.dd6c2a"
+      ]
+    ]
+  },
+  {
+    "id": "fe10970d.01ef68",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "prevStatusAll",
+    "x": 1080.8055038452148,
+    "y": 356.1110649108887,
+    "z": "f8e7c8b.f071838",
+    "wires": []
+  },
+  {
+    "id": "cd9caaba.326358",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "payload",
+    "x": 867.2499618530273,
+    "y": 358.4444389343262,
+    "z": "f8e7c8b.f071838",
+    "wires": []
+  },
+  {
+    "id": "73f9a051.8c066",
+    "type": "debug",
+    "name": "DEBUG",
+    "active": false,
+    "console": "true",
+    "complete": "true",
+    "x": 612.4165649414062,
+    "y": 501.2777099609375,
+    "z": "f8e7c8b.f071838",
+    "wires": []
+  },
+  {
+    "id": "817ca1b.f7e836",
     "type": "comment",
     "name": "Main Flow Description",
     "info": "The main purpose of this flow is to receive messages from the IOT mqtt broker with\ninformation about the current value of the IOT simulated sensor. This information\nwill then be processed through the following nodes as described below:\n\n* **Data from IOT Simulator**: This is the ibmIot node that connects to the [IOT Simulator](ra-perch-simulator.mybluemix.net)\nand receives updates on the current value of the simulator. This will inject data every time there is an IOT event triggered\nwith one of the IOT devices associated with the IOT Service associated with this application.\n* **sendGetPreviousStatus**: This node prepares the URL for a GET request to query for the most recent sensor data using\na reduce function in cloudant. Here we also save the current payload onto a different variable since nodered will overwrite\nmsg parameter every time we have an output from a node. Since we need to use the payload received directly from the IOT simulator, we need to save it in a different parameter to prevent it from being overwritten. We do this by the following line\nin the code: `msg.mainPayload = msg.payload;` So the `msg.mainPayload` now has the payload from the IOT simulator. On the other hand, the output of this node will have the `url` and the `method` fields in the `msg` parameter. Uses basic authentication to\nget access to the database.\n* **getPreviousStatus**: This is an HTTP Request node and it sends the GET request for the current sensor data query and returns\na payload with the current information for each of the existing sensors. This takes as an input the `url` to query and the\noutput is the result of the query saved inside `msg.payload`. Note: `msg.mainPayload` still has the data received from the\nIOT simulator.\n* **parsePreviousStatus**: This node parses the result received from the HTTP GET request. It creates an object called\n*prevStatusAll* which saves the current status of each sensor. The key is the devices class id of the sensor and the value\nis status corresponding to the status of that sensor at the time when it was saved to the cloudant database. Note: since\nwe are getting this status from the database, this is the previous status. On the other hand, the status that is being passed\nfrom the IOT simulator (that hasn't been saved to the database yet) is the current status.\n* **extractSensorData**: This node uses the mainPayload received from the IOT simulator and the `context.global.devices`\nvariable to determine the current status of the simulator (Critical or Normal) and extract the necessary dataa fields for\neach sensor. This node returns an array of sensor data and includes the current and previous status for that sensor.\n* **createSensorData**: This node prepares the payload to save all the fields for the sensor_data model to the database. In addition\nto fields received from the *extractSensorData* node, this node adds a `type` field and a `time` field to record the time when this\nsensor data was saved to the database.\n* **saveSensorData**: This is a cloudant node that inserts the payload received from *createSensorData* into the cloudant database associated with the nodered bluemix application.\n* **sendPushNotification (Subflow)**:\nThis subflow sends out a push notification to the client if the status of the sensor has changed from normal to critical or vice versa. It also saves the notification that was sent out to the client into the cloudant database of the nodered application.\n\n\t* **getNotificationMessage**: This node need as an input the `msg.device_class_id`, `msg.status`, `msg.prevStatusAll` and will determine whether or not a push notification should be sent to the client. It uses the global `context.global.devices` variable to select the correct message to use\n\tfor the corresponding push notification. If the node sets the msg.notifMsg then\n\tthe output for this node will be the whole `msg` variable, otherwise we don't want the rest of the flow to be processed.\n\t* **setupSendPushNotification**: This node will create the POST request URL and payload for the IBM Push notification that will be sent to the client (iOS Application). We are using the [REST API for IBM Push Service](https://mobile.ng.bluemix.net/mbaas-api/#!/push). The structure of the body of the push notification is defined in the [REST API Documentation](https://mobile.ng.bluemix.net/mbaas-api/#!/push/sendMessage_post_21) for sending messages. Custom fields can be added in *settings->apns->payload*. Use the *target->tagNames* field to specify which device pin this message should be sent to.\n\t**Note:** The application secret is used for authentication.\n\t* **sendPushNotification**: This node sends the HTTP POST request to the IBM Push service which handled sending a push notification to the iOS device subscribed to the corresponding tag names (pins for Perch).\n\t* **createNotificationData**: This nodes prepares the payload for saving the generated push notification into the cloudant database. It determines which detail to use from the global devices variable based on the critical or normal status of the sensor. This returns the payload to be saved to the db.\n\t* **savePushNotification**: This is a cloudant node that inserts the payload received from *createNotificationData* into the cloudant database associated with the nodered bluemix application.\n\n* **setGlobalDeviceClasses (Subflow)**:\nThis subflow is set to run every 2 hours and will refresh the `context.global.devices` variable based on the devices classes documents\nsaved in the database for each sensor.\n\n\t* **getDeviceClasses**: This method prepares the GET request URL for device_classes view from cloudant.\n\tUses basic authentication to get access to the database.\n\t* **sendGetDeviceClasses**: This node takes the GET Request URL from `getDeviceClasses` and returns all the device class documents\n\tin the payload.\n\t* **parseResult**: This node takes the payload returned from the GET request and parses the necessary fields of only the sensors\n\tthat are *enabled*. The resulted array of sensors is saved in the `context.global.devices` variable which is accessable globally\n\tthroughtout all the nodered flows in this application.\n",
-    "x": 123.88888549804688,
-    "y": 88.88888549804688,
-    "z": "5f2d0b2.fa0d2f4",
+    "x": 192.99996948242188,
+    "y": 338.33332443237305,
+    "z": "f8e7c8b.f071838",
+    "wires": []
+  },
+  {
+    "id": "ca0f3ab3.35f0c8",
+    "type": "subflow:cd8811b9.3277f",
+    "name": "",
+    "x": 399.9999999999999,
+    "y": 501.9999999999999,
+    "z": "f8e7c8b.f071838",
+    "wires": [
+      [
+        "73f9a051.8c066"
+      ]
+    ]
+  },
+  {
+    "id": "469d08dc.b962f8",
+    "type": "cloudant out",
+    "service": "Ready App 4 Perch-cloudantNoSQLDB",
+    "cloudant": "",
+    "name": "saveSensorData",
+    "database": "nodered",
+    "payonly": true,
+    "operation": "insert",
+    "x": 1627.4999999999995,
+    "y": 422.4999999999999,
+    "z": "f8e7c8b.f071838",
+    "wires": []
+  },
+  {
+    "id": "888741a8.7778c",
+    "type": "subflow:634c32df.9cb3cc",
+    "name": "",
+    "x": 1338,
+    "y": 500,
+    "z": "f8e7c8b.f071838",
     "wires": []
   }
 ]
