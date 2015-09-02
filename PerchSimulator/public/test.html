@@ -1,0 +1,219 @@
+<html>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile.custom.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/mqttws31.js"></script>
+	<script src="js/fastclick.js"></script>
+	<script src="js/main.js"></script>
+	<script src="https://cdn.socket.io/socket.io-1.3.5.js"></script>
+
+	<head>
+		<title>IoT Sensor Simulator Test</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+		<!--link href="css/bootstrap-theme.min.css" rel="stylesheet" media="screen"-->
+		<!--<link href="css/style.css" rel="stylesheet">-->
+		<script>
+			var socket = null;
+			var currentPin;
+			var connected = false;
+			
+			function testCleanup() {
+				if (connected) {
+					document.getElementById("disconnectTestButton").style.visibility = "hidden";
+					connected = false;
+					socket.disconnect();
+					console.log("Setting timeout.");
+					setTimeout(function(){
+						disconnectTest();
+					}, 1000);
+				}
+			}
+			
+			function disconnectTest() {
+				console.log("Starting disconnectTest().");
+				
+				socket.connect();
+				
+				socket.emit('test_acquire_devices', 'disconnect');
+			}
+			
+			function testDeviceRemoved(deviceData, pin) {
+				var deviceList = parsePins(deviceData);
+				for (var i = 0; i < deviceList.length; i++) {
+					if (deviceList[i] === pin) {
+						$('#status').append('<p>Unregistration with IoT foundation: <span style="color: #f00">FAILED</span></p>');
+						return;
+					}
+				}
+				
+				$('#status').append('<p>Unregistration with IoT foundation: <span style="color: #0f0">SUCCESSFUL</span></p>');
+			}
+			
+			function initDataTest(msgData) {
+				var initPacket = JSON.parse(msgData);
+				if ("sensorDefinition" in initPacket &&
+					"connection" in initPacket &&
+					"interval" in initPacket) {
+					$('#status').append('<p>Received init data: <span style="color: #0f0">SUCCESSFUL</span></p>');
+				} else {
+					$('#status').append('<p>Received init data: <span style="color: #f00">FAILED</span></p>');
+				}
+			}
+			
+			function registerDataTest(msgData) {
+				var registerData = JSON.parse(msgData);
+				if ("uuid" in registerData &&
+					"password" in registerData &&
+					"id" in registerData) {
+					$('#status').append('<p>Received register data: <span style="color: #0f0">SUCCESSFUL</span></p>');
+				} else {
+					$('#status').append('<p>Received register data: <span style="color: #f00">FAILED</span></p>');
+				}
+			}
+			
+			// Inserting a couple of test hooks that will let us do tests in the middle of
+			// the connection process.
+			function testConnectSuccessHook () {
+				console.log("testConnectSuccessHook override succeeded.");
+				$('#status').append('<p>Connection to IoT broker: <span style="color: #0f0">SUCCESSFUL</span></p>');
+				socket.emit('test_acquire_devices', "connect");
+			}
+			function testConnectFailureHook () {
+				$('#status').append('<p>Connection to IoT broker: <span style="color: #f00">FAILED</span></p>');
+				console.log("testConnectFailureHook override succeeded.");
+			}
+		
+			function testSocketInit() {
+				if (socket === null) {
+					socket = io();
+				} else {
+					socket.connect();
+				}
+				
+				connected = true;
+				
+				// Receiving our initialization packet from the server.
+				socket.on('init_data', function(msg){
+					initDataTest(msg);
+					processInitPacket(JSON.parse(msg));
+				});
+				
+				// Receiving the registered device data. We parse the
+				// data, then connect to the IoT broker.
+				socket.on('register_data', function(msg){
+					registerDataTest(msg);
+					var registerData = JSON.parse(msg);
+					uuid = registerData.uuid;
+					iotPassword = registerData.password;
+					currentPin = registerData.id;
+					registerPin(currentPin);
+					
+					connectIoT();
+				});
+				
+				// Did the registration fail?
+				socket.on('register_failed', function(){
+					$("#pin").html("Too many devices.");
+					$('#status').append('<p>Received register data: <span style="color: #f00">FAILED</span></p>');
+					$('#status').append('<p>Registration with IoT foundation: <span style="color: #f00">FAILED</span></p>');
+				});
+				
+				// Did we lose our connection?
+				socket.on('disconnect', function(){
+					connectionDead = true;
+					$("#pin").html("Connection lost, refresh.");
+				});
+				
+				socket.on('device_list', function(msg) {
+					var JSONmsg = JSON.parse(msg);
+					var deviceData = JSONmsg.deviceData;
+					var connectStatus = JSONmsg.connectStatus;
+					if (connectStatus === "disconnect") {
+						testDeviceRemoved(deviceData, currentPin);
+					} else {
+						testDeviceAdded(deviceData, currentPin);
+					}
+				});
+				
+				// We'll start by sending a data request to the server.
+				// We do this from here because we only want to go through this
+				// whole process one time, max.
+				socket.emit('request_init_data');
+			}
+			
+			// A function to take device data and parse it into a list of
+			// currently used PINs.
+			function parsePins(devices) {
+				var activePins = [];
+				for (var i = 0; i < devices.length; i++) {
+					activePins.push(devices[i].id);
+				}
+				return activePins;
+			}
+			
+			function testDeviceAdded(deviceData, pin) {
+				var deviceList = parsePins(deviceData);
+				for (var i = 0; i < deviceList.length; i++) {
+					if (deviceList[i] === pin) {
+						$('#status').append('<p>Registration with IoT foundation: <span style="color: #0f0">SUCCESSFUL</span></p>');
+						return;
+					}
+				}
+				
+				$('#status').append('<p>Registration with IoT foundation: <span style="color: #f00">FAILED</span></p>');
+			}
+		
+			function testInit() {
+				document.getElementById("connectTestButton").style.visibility = "hidden";
+				// Begin the testing.
+				testSocketInit();
+			}
+		</script>
+		<style>
+			.border-box {
+				border-style: solid;
+				border-width: 1px;
+				border-color: #000;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="outerContainer">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="false" style="visibility: hidden">
+			<!-- Indicators -->
+				<!-- Will be populated by main.js -->
+				<ol class="carousel-indicators">
+				</ol>
+				<!-- Will be populated by main.js -->
+				<div class="carousel-inner">
+				</div>
+				<a class="left carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel" data-slide="prev"><span class="faded glyphicon glyphicon-chevron-left"></span></a>
+				<a class="right carousel-control" href="http://getbootstrap.com/examples/carousel/#myCarousel" data-slide="next"><span class="faded glyphicon glyphicon-chevron-right"></span></a>
+			</div>
+			
+			<p>
+				<button id="connectTestButton" onclick="testInit();">Run Connection Tests</button>
+				<button id="disconnectTestButton" onclick="testCleanup();">Run Disconnection Tests</button>
+			</p>
+			<div class="border-box" id="pinBox">
+				Current status of PIN box:
+				<br />
+				<span class="border-box" id="pin"></span>
+			</div>
+			<div class="border-box" id="statusBox">
+				Current test status:
+				<br />
+				<div class="border-box" id="status"></div>
+			</div>
+		</div>
+	</body>
+
+	<script type="application/javascript">
+		window.addEventListener('load', function () {
+			FastClick.attach(document.body);
+		}, false);
+	</script> 
+</html>

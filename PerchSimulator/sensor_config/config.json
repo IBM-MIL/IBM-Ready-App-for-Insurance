@@ -1,0 +1,49 @@
+{
+	"sensorDefinition": {
+		"water": {
+			"device_class_id": "10001",
+			"text": "Water Meter",
+			"units": " L/min",
+			"displayUnit": " L/min",
+			"defaultValue": 75,
+			"absoluteMin": 0,
+			"absoluteMax": 99,
+			"maxThreshold": 90
+		},
+		"ac": {
+			"device_class_id": "10002",
+			"text": "Air Conditioner",
+			"units": "°C",
+			"displayUnit": "&deg;C",
+			"defaultValue": 20,
+			"minThreshold": 0,
+			"maxThreshold": 50
+		},
+		"sewer": {
+			"device_class_id": "10003",
+			"text": "Sewer System",
+			"units": " kL",
+			"displayUnit": " kL",
+			"defaultValue": 1,
+			"absoluteMin": 0,
+			"absoluteMax": 10,
+			"maxThreshold": 7
+		}
+	},
+	"connection": {
+		"iot": {
+			"org": "<your org here>",
+			"host": ".messaging.internetofthings.ibmcloud.com",
+			"port": 1883,
+			"path": "/mqtt"
+		},
+		"bluemix": {
+            "user": "<username for IoT Foundation>",
+            "pass": "<passkey for IoT Foundation>"
+		},
+        "ws": {
+			"host": "<your websocket endpoint from Node-RED>"
+		}
+	},
+	"interval": 5
+}

@@ -1,0 +1,8 @@
+applications:
+- disk_quota: 1024M
+  host: ra-perch-simulator
+  name: RA-Perch-Simulator
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 256M
