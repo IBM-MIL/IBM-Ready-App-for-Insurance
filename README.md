@@ -4,10 +4,7 @@
 
 ### Overview
 
-IBM Ready App for Insurance is the fourth of the IBM Ready App Series.
-
-
-This app
+IBM Ready App for Insurance is the fourth of the IBM Ready App Series. This app
 * mitigates risks for insurance providers and increases policy holder loyalty
 * improves relationships between homeowners and insurance providers
 * connects users with their homes
