@@ -1,0 +1,1129 @@
+TCordovaLib
+v5
+r1
+cCheck dependencies
+cPhaseScriptExecution "Make cordova.js" /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Script-3044C11210BC6AEE00581BFB.sh
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDV.h
+c00000000505B34A30000000000000683
+t1348154531
+s1667
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVAccelerometer.h
+c00000000505B34A300000000000004EE
+t1348154531
+s1262
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVAvailability.h
+c00000000505B34A20000000000000747
+t1348154530
+s1863
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVBattery.h
+c00000000505B34A30000000000000582
+t1348154531
+s1410
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVCamera.h
+c00000000505B34A30000000000000D25
+t1348154531
+s3365
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVCapture.h
+c00000000505B34A300000000000012DA
+t1348154531
+s4826
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVCommandDelegate.h
+c00000000505B34A30000000000000455
+t1348154531
+s1109
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVConnection.h
+c00000000505B34A30000000000000421
+t1348154531
+s1057
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVContact.h
+c00000000505B34A300000000000016A8
+t1348154531
+s5800
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVContacts.h
+c00000000505B34A3000000000000137C
+t1348154531
+s4988
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVCordovaView.h
+c00000000505B34A30000000000000357
+t1348154531
+s855
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVDebug.h
+c00000000505B34A2000000000000038D
+t1348154530
+s909
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVDebugConsole.h
+c00000000505B34A300000000000003DC
+t1348154531
+s988
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVDevice.h
+c00000000505B34A200000000000003DE
+t1348154530
+s990
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVFile.h
+c00000000505B34A300000000000013CE
+t1348154531
+s5070
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVFileTransfer.h
+c00000000505B34A2000000000000099C
+t1348154530
+s2460
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVInvokedUrlCommand.h
+c00000000505B34A300000000000004CA
+t1348154531
+s1226
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVLocalStorage.h
+c00000000505B34A30000000000000779
+t1348154531
+s1913
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVLocation.h
+c00000000505B34A20000000000000F2F
+t1348154530
+s3887
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVLogger.h
+c00000000505B34A30000000000000396
+t1348154531
+s918
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVMotion.h
+c00000000505B34A200000000000004FB
+t1348154530
+s1275
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVNotification.h
+c00000000505B34A20000000000000533
+t1348154530
+s1331
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVPlugin.h
+c00000000505B34A300000000000007E5
+t1348154531
+s2021
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVPluginResult.h
+c00000000505B34A3000000000000097E
+t1348154531
+s2430
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVReachability.h
+c00000000505B34A30000000000000FF8
+t1348154531
+s4088
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVSound.h
+c00000000505B34A30000000000001100
+t1348154531
+s4352
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVSplashScreen.h
+c00000000505B34A20000000000000409
+t1348154530
+s1033
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVURLProtocol.h
+c00000000505B34A200000000000004B1
+t1348154530
+s1201
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVViewController.h
+c00000000505B34A30000000000000996
+t1348154531
+s2454
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVWhitelist.h
+c00000000505B34A300000000000004B0
+t1348154531
+s1200
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/JSON/JSONKit.h
+c00000000505B34A60000000000002EA2
+t1348154534
+s11938
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/NSArray+Comparisons.h
+c00000000505B34A30000000000000396
+t1348154531
+s918
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/NSData+Base64.h
+c00000000505B34A30000000000000358
+t1348154531
+s856
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/NSDictionary+Extensions.h
+c00000000505B34A300000000000005ED
+t1348154531
+s1517
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+c00000000505B34A300000000000003A7
+t1348154531
+s935
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/UIDevice+Extensions.h
+c00000000505B34A2000000000000047A
+t1348154530
+s1146
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/CordovaLib_Prefix.pch
+c00000000505B349F0000000000000346
+t1348154527
+s838
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Script-3044C11210BC6AEE00581BFB.sh
+c000000005060DAF70000000000000010
+t1348524791
+s16
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Script-92E3E18915FEE2D3000294FA.sh
+c000000005060DAF7000000000000011B
+t1348524791
+s283
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDV.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVAccelerometer.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVAvailability.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVBattery.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVCamera.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVCapture.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVCommandDelegate.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVConnection.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVContact.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVContacts.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVCordovaView.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVDebug.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVDebugConsole.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVDevice.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVFile.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVFileTransfer.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVInvokedUrlCommand.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVLocalStorage.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVLocation.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVLogger.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVMotion.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVNotification.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVPlugin.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVPluginResult.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVReachability.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVSound.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVSplashScreen.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVURLProtocol.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVViewController.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVWhitelist.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/JSONKit.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/NSArray+Comparisons.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/NSData+Base64.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/NSDictionary+Extensions.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/NSMutableArray+QueueAdditions.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/UIDevice+Extensions.h
+t2
+s0
+
+N/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/libCordova.a
+c00000000000000000000000000000000
+t2
+s0
+
+N/var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcucsrfaobavweatbypsidazddpm/CordovaLib_Prefix.pch.pth
+t2
+s0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies206089771211b641^76aad8771211b641^-3958"warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVCamera.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/NSDictionary+Extensions.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVContacts.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVDebugConsole.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVFile.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVInvokedUrlCommand.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVLocation.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVNotification.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/NSData+Base64.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVReachability.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVSound.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVAccelerometer.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVContact.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVPluginResult.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVFileTransfer.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVConnection.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVMotion.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVCapture.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVPlugin.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVSplashScreen.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/NSMutableArray+QueueAdditions.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVBattery.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVWhitelist.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVURLProtocol.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/JSON/JSONKit.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVViewController.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVCordovaView.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVLocalStorage.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/UIDevice+Extensions.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVLogger.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/NSArray+Comparisons.m' of type sourcecode.c.objc for architecture armv6warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVDevice.m' of type sourcecode.c.objc for architecture armv632(21%IDEActivityLogMessage2@118"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVCamera.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@132"Warning: no rule to process file '$(PROJECT_DIR)/Classes/NSDictionary+Extensions.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@120"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVContacts.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@124"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVDebugConsole.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@116"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVFile.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@129"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVInvokedUrlCommand.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@120"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVLocation.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@124"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVNotification.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@122"Warning: no rule to process file '$(PROJECT_DIR)/Classes/NSData+Base64.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@124"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVReachability.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@117"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVSound.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@125"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVAccelerometer.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@119"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVContact.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@124"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVPluginResult.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@124"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVFileTransfer.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@122"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVConnection.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@118"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVMotion.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@119"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVCapture.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@118"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVPlugin.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@124"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVSplashScreen.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@138"Warning: no rule to process file '$(PROJECT_DIR)/Classes/NSMutableArray+QueueAdditions.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@119"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVBattery.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@121"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVWhitelist.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@123"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVURLProtocol.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@121"Warning: no rule to process file '$(PROJECT_DIR)/Classes/JSON/JSONKit.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@126"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVViewController.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@123"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVCordovaView.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@124"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVLocalStorage.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@128"Warning: no rule to process file '$(PROJECT_DIR)/Classes/UIDevice+Extensions.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@118"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVLogger.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@128"Warning: no rule to process file '$(PROJECT_DIR)/Classes/NSArray+Comparisons.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--2@118"Warning: no rule to process file '$(PROJECT_DIR)/Classes/CDVDevice.m' of type sourcecode.c.objc for architecture armv6-370217591#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#0#--18"Check dependencies36"434F7265-0877-43B0-8812-F21A88F1B2F7-
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVAccelerometer.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVAccelerometer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVBattery.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVBattery.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCamera.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVCamera.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCapture.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVCapture.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVConnection.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVConnection.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVContact.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVContact.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVContacts.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVContacts.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVCordovaView.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVCordovaView.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVDebugConsole.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVDebugConsole.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVDevice.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVDevice.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVFile.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVFile.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVFileTransfer.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVFileTransfer.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVInvokedUrlCommand.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVInvokedUrlCommand.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocalStorage.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVLocalStorage.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLocation.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVLocation.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVLogger.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVLogger.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVMotion.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVMotion.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVNotification.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVNotification.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPlugin.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVPlugin.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVPluginResult.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVPluginResult.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVReachability.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVReachability.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVSound.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVSound.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVSplashScreen.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVSplashScreen.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVURLProtocol.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVURLProtocol.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVViewController.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/CDVWhitelist.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVWhitelist.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/JSONKit.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/JSON/JSONKit.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSArray+Comparisons.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/NSArray+Comparisons.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSData+Base64.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/NSData+Base64.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSDictionary+Extensions.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/NSDictionary+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/NSMutableArray+QueueAdditions.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/UIDevice+Extensions.o /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/UIDevice+Extensions.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCpHeader Classes/CDV.h build/Debug-iphoneos/include/Cordova/CDV.h
+s370217502.940221
+e370217502.948855
+r1
+xCpHeader
+xClasses/CDV.h
+xbuild/Debug-iphoneos/include/Cordova/CDV.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/Debug-iphoneos/include/Cordova/CDV.ha1bff01e1211b641^8ee8f21e1211b641^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDV.h000000000080d041^694"CpHeader Classes/CDV.h build/Debug-iphoneos/include/Cordova/CDV.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDV.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"47A34B80-15DF-49A9-871A-B7B9179974E0-
+
+CCpHeader Classes/CDVAccelerometer.h build/Debug-iphoneos/include/Cordova/CDVAccelerometer.h
+s370217502.917543
+e370217502.926482
+r1
+xCpHeader
+xClasses/CDVAccelerometer.h
+xbuild/Debug-iphoneos/include/Cordova/CDVAccelerometer.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy build/Debug-iphoneos/include/Cordova/CDVAccelerometer.hb6f2ea1e1211b641^c72eed1e1211b641^---0#0#0#-19%DVTDocumentLocation2@161"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVAccelerometer.h000000000080d041^733"CpHeader Classes/CDVAccelerometer.h build/Debug-iphoneos/include/Cordova/CDVAccelerometer.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVAccelerometer.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"0482FDD1-2345-4568-9538-23F433999C25-
+
+CCpHeader Classes/CDVAvailability.h build/Debug-iphoneos/include/Cordova/CDVAvailability.h
+s370217502.941537
+e370217502.951176
+r1
+xCpHeader
+xClasses/CDVAvailability.h
+xbuild/Debug-iphoneos/include/Cordova/CDVAvailability.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphoneos/include/Cordova/CDVAvailability.hbd19f11e1211b641^0280f31e1211b641^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVAvailability.h000000000080d041^730"CpHeader Classes/CDVAvailability.h build/Debug-iphoneos/include/Cordova/CDVAvailability.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVAvailability.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"A4A7167E-5747-4DE9-B0D0-3CB58169F4A7-
+
+CCpHeader Classes/CDVBattery.h build/Debug-iphoneos/include/Cordova/CDVBattery.h
+s370217502.931535
+e370217502.940385
+r1
+xCpHeader
+xClasses/CDVBattery.h
+xbuild/Debug-iphoneos/include/Cordova/CDVBattery.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphoneos/include/Cordova/CDVBattery.hb686ee1e1211b641^2fbef01e1211b641^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVBattery.h000000000080d041^715"CpHeader Classes/CDVBattery.h build/Debug-iphoneos/include/Cordova/CDVBattery.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVBattery.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"D622AEBF-B8CC-4AD3-A15A-7B6D31A4304B-
+
+CCpHeader Classes/CDVCamera.h build/Debug-iphoneos/include/Cordova/CDVCamera.h
+s370217502.910412
+e370217502.920128
+r1
+xCpHeader
+xClasses/CDVCamera.h
+xbuild/Debug-iphoneos/include/Cordova/CDVCamera.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/Debug-iphoneos/include/Cordova/CDVCamera.h1b2be91e1211b641^1190eb1e1211b641^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVCamera.h000000000080d041^712"CpHeader Classes/CDVCamera.h build/Debug-iphoneos/include/Cordova/CDVCamera.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVCamera.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"A4D8C000-C45A-44FE-AC85-3B2503576195-
+
+CCpHeader Classes/CDVCapture.h build/Debug-iphoneos/include/Cordova/CDVCapture.h
+s370217502.925051
+e370217502.934141
+r1
+xCpHeader
+xClasses/CDVCapture.h
+xbuild/Debug-iphoneos/include/Cordova/CDVCapture.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphoneos/include/Cordova/CDVCapture.h50e1ec1e1211b641^9624ef1e1211b641^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVCapture.h000000000080d041^715"CpHeader Classes/CDVCapture.h build/Debug-iphoneos/include/Cordova/CDVCapture.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVCapture.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"3DBCDF51-8372-494B-BBC4-D616CC11B359-
+
+CCpHeader Classes/CDVCommandDelegate.h build/Debug-iphoneos/include/Cordova/CDVCommandDelegate.h
+s370217502.939056
+e370217502.947708
+r1
+xCpHeader
+xClasses/CDVCommandDelegate.h
+xbuild/Debug-iphoneos/include/Cordova/CDVCommandDelegate.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy build/Debug-iphoneos/include/Cordova/CDVCommandDelegate.h6075f01e1211b641^959df21e1211b641^---0#0#0#-19%DVTDocumentLocation2@163"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVCommandDelegate.h000000000080d041^739"CpHeader Classes/CDVCommandDelegate.h build/Debug-iphoneos/include/Cordova/CDVCommandDelegate.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVCommandDelegate.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"D10E1E7C-813A-4415-B1D3-4A71A8432EA4-
+
+CCpHeader Classes/CDVConnection.h build/Debug-iphoneos/include/Cordova/CDVConnection.h
+s370217502.922615
+e370217502.931577
+r1
+xCpHeader
+xClasses/CDVConnection.h
+xbuild/Debug-iphoneos/include/Cordova/CDVConnection.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphoneos/include/Cordova/CDVConnection.h0744ec1e1211b641^7c7cee1e1211b641^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVConnection.h000000000080d041^724"CpHeader Classes/CDVConnection.h build/Debug-iphoneos/include/Cordova/CDVConnection.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVConnection.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"7E72C364-EF06-4861-97EE-DE6B328298BC-
+
+CCpHeader Classes/CDVContact.h build/Debug-iphoneos/include/Cordova/CDVContact.h
+s370217502.918751
+e370217502.927691
+r1
+xCpHeader
+xClasses/CDVContact.h
+xbuild/Debug-iphoneos/include/Cordova/CDVContact.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphoneos/include/Cordova/CDVContact.h1841eb1e1211b641^467eed1e1211b641^---0#0#0#-19%DVTDocumentLocation2@155"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVContact.h000000000080d041^715"CpHeader Classes/CDVContact.h build/Debug-iphoneos/include/Cordova/CDVContact.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVContact.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"EEF36E13-368E-49B4-8E38-81CCDC66CB18-
+
+CCpHeader Classes/CDVContacts.h build/Debug-iphoneos/include/Cordova/CDVContacts.h
+s370217502.910414
+e370217502.912959
+r1
+xCpHeader
+xClasses/CDVContacts.h
+xbuild/Debug-iphoneos/include/Cordova/CDVContacts.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphoneos/include/Cordova/CDVContacts.hd028e91e1211b641^f1b7e91e1211b641^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVContacts.h000000000080d041^718"CpHeader Classes/CDVContacts.h build/Debug-iphoneos/include/Cordova/CDVContacts.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVContacts.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"4B7D4660-1A5E-4855-86F9-1053BD7B42BF-
+
+CCpHeader Classes/CDVCordovaView.h build/Debug-iphoneos/include/Cordova/CDVCordovaView.h
+s370217502.937639
+e370217502.946380
+r1
+xCpHeader
+xClasses/CDVCordovaView.h
+xbuild/Debug-iphoneos/include/Cordova/CDVCordovaView.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphoneos/include/Cordova/CDVCordovaView.h0d18f01e1211b641^5a46f21e1211b641^---0#0#0#-19%DVTDocumentLocation2@159"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVCordovaView.h000000000080d041^727"CpHeader Classes/CDVCordovaView.h build/Debug-iphoneos/include/Cordova/CDVCordovaView.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVCordovaView.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"CFFB7B66-7898-4234-A6F3-2A50BA31BF1D-
+
+CCpHeader Classes/CDVDebug.h build/Debug-iphoneos/include/Cordova/CDVDebug.h
+s370217502.927642
+e370217502.936543
+r1
+xCpHeader
+xClasses/CDVDebug.h
+xbuild/Debug-iphoneos/include/Cordova/CDVDebug.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/Debug-iphoneos/include/Cordova/CDVDebug.hc288ed1e1211b641^cec1ef1e1211b641^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVDebug.h000000000080d041^709"CpHeader Classes/CDVDebug.h build/Debug-iphoneos/include/Cordova/CDVDebug.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVDebug.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"73F5BA52-AB5C-4C6A-B67D-F04459F5CB88-
+
+CCpHeader Classes/CDVDebugConsole.h build/Debug-iphoneos/include/Cordova/CDVDebugConsole.h
+s370217502.910421
+e370217502.917623
+r1
+xCpHeader
+xClasses/CDVDebugConsole.h
+xbuild/Debug-iphoneos/include/Cordova/CDVDebugConsole.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphoneos/include/Cordova/CDVDebugConsole.he92ae91e1211b641^64eaea1e1211b641^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVDebugConsole.h000000000080d041^730"CpHeader Classes/CDVDebugConsole.h build/Debug-iphoneos/include/Cordova/CDVDebugConsole.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVDebugConsole.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"814194B3-82C6-490B-932E-59439234359D-
+
+CCpHeader Classes/CDVDevice.h build/Debug-iphoneos/include/Cordova/CDVDevice.h
+s370217502.947519
+e370217502.956883
+r1
+xCpHeader
+xClasses/CDVDevice.h
+xbuild/Debug-iphoneos/include/Cordova/CDVDevice.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/Debug-iphoneos/include/Cordova/CDVDevice.h83a1f21e1211b641^23f7f41e1211b641^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVDevice.h000000000080d041^712"CpHeader Classes/CDVDevice.h build/Debug-iphoneos/include/Cordova/CDVDevice.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVDevice.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"0F98B1A1-F6EA-4EC8-B3E4-AF120C54A809-
+
+CCpHeader Classes/CDVFile.h build/Debug-iphoneos/include/Cordova/CDVFile.h
+s370217502.910427
+e370217502.918944
+r1
+xCpHeader
+xClasses/CDVFile.h
+xbuild/Debug-iphoneos/include/Cordova/CDVFile.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/Debug-iphoneos/include/Cordova/CDVFile.h412ae91e1211b641^0c40eb1e1211b641^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVFile.h000000000080d041^706"CpHeader Classes/CDVFile.h build/Debug-iphoneos/include/Cordova/CDVFile.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVFile.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"756B6436-BE63-49B6-9FEA-4EEE224ABB2C-
+
+CCpHeader Classes/CDVFileTransfer.h build/Debug-iphoneos/include/Cordova/CDVFileTransfer.h
+s370217502.921261
+e370217502.930423
+r1
+xCpHeader
+xClasses/CDVFileTransfer.h
+xbuild/Debug-iphoneos/include/Cordova/CDVFileTransfer.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphoneos/include/Cordova/CDVFileTransfer.hebe5eb1e1211b641^2f31ee1e1211b641^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVFileTransfer.h000000000080d041^730"CpHeader Classes/CDVFileTransfer.h build/Debug-iphoneos/include/Cordova/CDVFileTransfer.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVFileTransfer.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"70477AB1-594C-4566-8E2B-E8E6CC7BE878-
+
+CCpHeader Classes/CDVInvokedUrlCommand.h build/Debug-iphoneos/include/Cordova/CDVInvokedUrlCommand.h
+s370217502.910444
+e370217502.915181
+r1
+xCpHeader
+xClasses/CDVInvokedUrlCommand.h
+xbuild/Debug-iphoneos/include/Cordova/CDVInvokedUrlCommand.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy build/Debug-iphoneos/include/Cordova/CDVInvokedUrlCommand.h9929e91e1211b641^c349ea1e1211b641^---0#0#0#-19%DVTDocumentLocation2@165"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVInvokedUrlCommand.h000000000080d041^745"CpHeader Classes/CDVInvokedUrlCommand.h build/Debug-iphoneos/include/Cordova/CDVInvokedUrlCommand.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVInvokedUrlCommand.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"99568E56-BED0-476A-A5C0-16CE60BCA8FD-
+
+CCpHeader Classes/CDVLocalStorage.h build/Debug-iphoneos/include/Cordova/CDVLocalStorage.h
+s370217502.942706
+e370217502.952206
+r1
+xCpHeader
+xClasses/CDVLocalStorage.h
+xbuild/Debug-iphoneos/include/Cordova/CDVLocalStorage.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphoneos/include/Cordova/CDVLocalStorage.hcf6af11e1211b641^3fc7f31e1211b641^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVLocalStorage.h000000000080d041^730"CpHeader Classes/CDVLocalStorage.h build/Debug-iphoneos/include/Cordova/CDVLocalStorage.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVLocalStorage.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"9662DD79-E92E-4B95-A7E4-D9EFE8FB6920-
+
+CCpHeader Classes/CDVLocation.h build/Debug-iphoneos/include/Cordova/CDVLocation.h
+s370217502.910433
+e370217502.914004
+r1
+xCpHeader
+xClasses/CDVLocation.h
+xbuild/Debug-iphoneos/include/Cordova/CDVLocation.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Copy build/Debug-iphoneos/include/Cordova/CDVLocation.h8027e91e1211b641^e3fce91e1211b641^---0#0#0#-19%DVTDocumentLocation2@156"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVLocation.h000000000080d041^718"CpHeader Classes/CDVLocation.h build/Debug-iphoneos/include/Cordova/CDVLocation.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVLocation.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"4D5556E8-33EA-469C-8192-2C729225A8E4-
+
+CCpHeader Classes/CDVLogger.h build/Debug-iphoneos/include/Cordova/CDVLogger.h
+s370217502.944956
+e370217502.954543
+r1
+xCpHeader
+xClasses/CDVLogger.h
+xbuild/Debug-iphoneos/include/Cordova/CDVLogger.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/Debug-iphoneos/include/Cordova/CDVLogger.h01f6f11e1211b641^6f62f41e1211b641^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVLogger.h000000000080d041^712"CpHeader Classes/CDVLogger.h build/Debug-iphoneos/include/Cordova/CDVLogger.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVLogger.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"E9AD142F-1209-442A-92BF-F1F007F5369B-
+
+CCpHeader Classes/CDVMotion.h build/Debug-iphoneos/include/Cordova/CDVMotion.h
+s370217502.923796
+e370217502.932812
+r1
+xCpHeader
+xClasses/CDVMotion.h
+xbuild/Debug-iphoneos/include/Cordova/CDVMotion.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/Debug-iphoneos/include/Cordova/CDVMotion.ha48cec1e1211b641^6ccdee1e1211b641^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVMotion.h000000000080d041^712"CpHeader Classes/CDVMotion.h build/Debug-iphoneos/include/Cordova/CDVMotion.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVMotion.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"61EF7AEF-9858-4108-AFC5-208C4C00A08B-
+
+CCpHeader Classes/CDVNotification.h build/Debug-iphoneos/include/Cordova/CDVNotification.h
+s370217502.910632
+e370217502.921452
+r1
+xCpHeader
+xClasses/CDVNotification.h
+xbuild/Debug-iphoneos/include/Cordova/CDVNotification.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphoneos/include/Cordova/CDVNotification.h8735e91e1211b641^8ae4eb1e1211b641^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVNotification.h000000000080d041^730"CpHeader Classes/CDVNotification.h build/Debug-iphoneos/include/Cordova/CDVNotification.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVNotification.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"56CB6332-C25F-492D-BDD6-37F15A6B8A5A-
+
+CCpHeader Classes/CDVPlugin.h build/Debug-iphoneos/include/Cordova/CDVPlugin.h
+s370217502.926319
+e370217502.935308
+r1
+xCpHeader
+xClasses/CDVPlugin.h
+xbuild/Debug-iphoneos/include/Cordova/CDVPlugin.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Copy build/Debug-iphoneos/include/Cordova/CDVPlugin.h7b30ed1e1211b641^ac70ef1e1211b641^---0#0#0#-19%DVTDocumentLocation2@154"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVPlugin.h000000000080d041^712"CpHeader Classes/CDVPlugin.h build/Debug-iphoneos/include/Cordova/CDVPlugin.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVPlugin.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"85EBD0BB-0119-42AC-A13F-585F1921C320-
+
+CCpHeader Classes/CDVPluginResult.h build/Debug-iphoneos/include/Cordova/CDVPluginResult.h
+s370217502.920070
+e370217502.928953
+r1
+xCpHeader
+xClasses/CDVPluginResult.h
+xbuild/Debug-iphoneos/include/Cordova/CDVPluginResult.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphoneos/include/Cordova/CDVPluginResult.h6398eb1e1211b641^53d0ed1e1211b641^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVPluginResult.h000000000080d041^730"CpHeader Classes/CDVPluginResult.h build/Debug-iphoneos/include/Cordova/CDVPluginResult.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVPluginResult.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"FF7D265A-FCFB-442F-AA3B-12535A838AD9-
+
+CCpHeader Classes/CDVReachability.h build/Debug-iphoneos/include/Cordova/CDVReachability.h
+s370217502.914124
+e370217502.923935
+r1
+xCpHeader
+xClasses/CDVReachability.h
+xbuild/Debug-iphoneos/include/Cordova/CDVReachability.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphoneos/include/Cordova/CDVReachability.hf513ea1e1211b641^2387ec1e1211b641^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVReachability.h000000000080d041^730"CpHeader Classes/CDVReachability.h build/Debug-iphoneos/include/Cordova/CDVReachability.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVReachability.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"20F16BA3-DBF3-4B2C-B860-1AABAC7B8BDE-
+
+CCpHeader Classes/CDVSound.h build/Debug-iphoneos/include/Cordova/CDVSound.h
+s370217502.916290
+e370217502.925177
+r1
+xCpHeader
+xClasses/CDVSound.h
+xbuild/Debug-iphoneos/include/Cordova/CDVSound.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"Copy build/Debug-iphoneos/include/Cordova/CDVSound.h90a2ea1e1211b641^2bdaec1e1211b641^---0#0#0#-19%DVTDocumentLocation2@153"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVSound.h000000000080d041^709"CpHeader Classes/CDVSound.h build/Debug-iphoneos/include/Cordova/CDVSound.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVSound.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"58B9C558-EF0C-4442-9968-545608075ED2-
+
+CCpHeader Classes/CDVSplashScreen.h build/Debug-iphoneos/include/Cordova/CDVSplashScreen.h
+s370217502.928795
+e370217502.937948
+r1
+xCpHeader
+xClasses/CDVSplashScreen.h
+xbuild/Debug-iphoneos/include/Cordova/CDVSplashScreen.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection59"Copy build/Debug-iphoneos/include/Cordova/CDVSplashScreen.h13d3ed1e1211b641^261ef01e1211b641^---0#0#0#-19%DVTDocumentLocation2@160"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVSplashScreen.h000000000080d041^730"CpHeader Classes/CDVSplashScreen.h build/Debug-iphoneos/include/Cordova/CDVSplashScreen.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVSplashScreen.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"6DA078B4-D081-4894-A758-E34E5EDC64CF-
+
+CCpHeader Classes/CDVURLProtocol.h build/Debug-iphoneos/include/Cordova/CDVURLProtocol.h
+s370217502.933911
+e370217502.942604
+r1
+xCpHeader
+xClasses/CDVURLProtocol.h
+xbuild/Debug-iphoneos/include/Cordova/CDVURLProtocol.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphoneos/include/Cordova/CDVURLProtocol.h2c29ef1e1211b641^a04ef11e1211b641^---0#0#0#-19%DVTDocumentLocation2@159"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVURLProtocol.h000000000080d041^727"CpHeader Classes/CDVURLProtocol.h build/Debug-iphoneos/include/Cordova/CDVURLProtocol.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVURLProtocol.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"8AD36BBC-30E6-44DE-9EED-B947150F2AC5-
+
+CCpHeader Classes/CDVViewController.h build/Debug-iphoneos/include/Cordova/CDVViewController.h
+s370217502.936425
+e370217502.944994
+r1
+xCpHeader
+xClasses/CDVViewController.h
+xbuild/Debug-iphoneos/include/Cordova/CDVViewController.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy build/Debug-iphoneos/include/Cordova/CDVViewController.ha8c6ef1e1211b641^b7ebf11e1211b641^---0#0#0#-19%DVTDocumentLocation2@162"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVViewController.h000000000080d041^736"CpHeader Classes/CDVViewController.h build/Debug-iphoneos/include/Cordova/CDVViewController.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVViewController.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"01862147-2DDA-4F0A-9CB2-F662F025304D-
+
+CCpHeader Classes/CDVWhitelist.h build/Debug-iphoneos/include/Cordova/CDVWhitelist.h
+s370217502.932722
+e370217502.941540
+r1
+xCpHeader
+xClasses/CDVWhitelist.h
+xbuild/Debug-iphoneos/include/Cordova/CDVWhitelist.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/Debug-iphoneos/include/Cordova/CDVWhitelist.h39d5ee1e1211b641^d508f11e1211b641^---0#0#0#-19%DVTDocumentLocation2@157"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/CDVWhitelist.h000000000080d041^721"CpHeader Classes/CDVWhitelist.h build/Debug-iphoneos/include/Cordova/CDVWhitelist.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/CDVWhitelist.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"4314BD55-650E-4C6B-A064-37748DD49633-
+
+CCpHeader Classes/JSON/JSONKit.h build/Debug-iphoneos/include/Cordova/JSONKit.h
+s370217502.935296
+e370217502.943805
+r1
+xCpHeader
+xClasses/JSON/JSONKit.h
+xbuild/Debug-iphoneos/include/Cordova/JSONKit.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Copy build/Debug-iphoneos/include/Cordova/JSONKit.h6b7fef1e1211b641^dc9df11e1211b641^---0#0#0#-19%DVTDocumentLocation2@152"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/JSONKit.h000000000080d041^716"CpHeader Classes/JSON/JSONKit.h build/Debug-iphoneos/include/Cordova/JSONKit.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/JSON/JSONKit.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"48348FC7-84EB-40F9-BE4D-5A308D4FA631-
+
+CCpHeader Classes/NSArray+Comparisons.h build/Debug-iphoneos/include/Cordova/NSArray+Comparisons.h
+s370217502.946111
+e370217502.955628
+r1
+xCpHeader
+xClasses/NSArray+Comparisons.h
+xbuild/Debug-iphoneos/include/Cordova/NSArray+Comparisons.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphoneos/include/Cordova/NSArray+Comparisons.hf641f21e1211b641^5da4f41e1211b641^---0#0#0#-19%DVTDocumentLocation2@164"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/NSArray+Comparisons.h000000000080d041^742"CpHeader Classes/NSArray+Comparisons.h build/Debug-iphoneos/include/Cordova/NSArray+Comparisons.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/NSArray+Comparisons.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"45F9F89D-CECE-404F-9409-9761E985A4F0-
+
+CCpHeader Classes/NSData+Base64.h build/Debug-iphoneos/include/Cordova/NSData+Base64.h
+s370217502.914130
+e370217502.922679
+r1
+xCpHeader
+xClasses/NSData+Base64.h
+xbuild/Debug-iphoneos/include/Cordova/NSData+Base64.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphoneos/include/Cordova/NSData+Base64.h3c13ea1e1211b641^6935ec1e1211b641^---0#0#0#-19%DVTDocumentLocation2@158"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/NSData+Base64.h000000000080d041^724"CpHeader Classes/NSData+Base64.h build/Debug-iphoneos/include/Cordova/NSData+Base64.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/NSData+Base64.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"B49D4A5A-4134-499A-A20B-BA2C2468BA3D-
+
+CCpHeader Classes/NSDictionary+Extensions.h build/Debug-iphoneos/include/Cordova/NSDictionary+Extensions.h
+s370217502.910403
+e370217502.916430
+r1
+xCpHeader
+xClasses/NSDictionary+Extensions.h
+xbuild/Debug-iphoneos/include/Cordova/NSDictionary+Extensions.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Debug-iphoneos/include/Cordova/NSDictionary+Extensions.h7027e91e1211b641^bf9bea1e1211b641^---0#0#0#-19%DVTDocumentLocation2@168"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/NSDictionary+Extensions.h000000000080d041^754"CpHeader Classes/NSDictionary+Extensions.h build/Debug-iphoneos/include/Cordova/NSDictionary+Extensions.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/NSDictionary+Extensions.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"E30DBDD6-47F3-43C6-801C-1A30CCF1BC7B-
+
+CCpHeader Classes/NSMutableArray+QueueAdditions.h build/Debug-iphoneos/include/Cordova/NSMutableArray+QueueAdditions.h
+s370217502.930060
+e370217502.939120
+r1
+xCpHeader
+xClasses/NSMutableArray+QueueAdditions.h
+xbuild/Debug-iphoneos/include/Cordova/NSMutableArray+QueueAdditions.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Debug-iphoneos/include/Cordova/NSMutableArray+QueueAdditions.h7c27ee1e1211b641^7f6af01e1211b641^---0#0#0#-19%DVTDocumentLocation2@174"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/NSMutableArray+QueueAdditions.h000000000080d041^772"CpHeader Classes/NSMutableArray+QueueAdditions.h build/Debug-iphoneos/include/Cordova/NSMutableArray+QueueAdditions.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/NSMutableArray+QueueAdditions.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"39FE0742-E254-4297-8410-46868AAF7CC6-
+
+CCpHeader Classes/UIDevice+Extensions.h build/Debug-iphoneos/include/Cordova/UIDevice+Extensions.h
+s370217502.942708
+e370217502.953408
+r1
+xCpHeader
+xClasses/UIDevice+Extensions.h
+xbuild/Debug-iphoneos/include/Cordova/UIDevice+Extensions.h
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy build/Debug-iphoneos/include/Cordova/UIDevice+Extensions.hba6bf11e1211b641^1f14f41e1211b641^---0#0#0#-19%DVTDocumentLocation2@164"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova/UIDevice+Extensions.h000000000080d041^742"CpHeader Classes/UIDevice+Extensions.h build/Debug-iphoneos/include/Cordova/UIDevice+Extensions.h    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/Classes/UIDevice+Extensions.h /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include/Cordova36"EDF04D0D-0EFB-48B4-9A13-F117B5F83B20-
+
+CLibtool /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/libCordova.a normal armv7
+r0
+
+CPhaseScriptExecution "Make cordova.js" /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Script-3044C11210BC6AEE00581BFB.sh
+s370217591.852286
+e370217591.876239
+r0
+xPhaseScriptExecution
+xMake cordova.js
+x/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Script-3044C11210BC6AEE00581BFB.sh
+omake: head: Command not found
+omake: head: Command not found
+orm -f javascript/cordova-*.js
+o/bin/sh: rm: command not found
+omake: *** [clean] Error 127
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection41"Run custom shell script 'Make cordova.js'a9bfda771211b641^0d52e0771211b641^-189"make: head: Command not foundmake: head: Command not foundrm -f javascript/cordova-*.js/bin/sh: rm: command not foundmake: *** [clean] Error 127Command /bin/sh failed with exit code 26(21%IDEActivityLogMessage2@30"make: head: Command not found-370217591#0#30#-0#-----2@30"make: head: Command not found-370217591#30#30#-0#-----2@30"rm -f javascript/cordova-*.js-370217591#60#30#-0#-----2@31"/bin/sh: rm: command not found-370217591#90#31#-0#-----2@28"make: *** [clean] Error 127-370217591#121#28#-0#-----2@39"Command /bin/sh failed with exit code 2-370217591#18446744073709551615#0#-2#--29"Shell Script Invocation Error--0#0#0#--21321"PhaseScriptExecution "Make cordova.js" build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Script-3044C11210BC6AEE00581BFB.sh    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER carlosmarx    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS "armv6 armv7"    setenv ARCHS_STANDARD_32_64_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_32_BIT "armv7 armv7s"    setenv ARCHS_UNIVERSAL_IPHONE_OS "armv7 armv7s"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build    setenv BUILD_ROOT /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos    setenv CACHE_ROOT /var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/libCordova.a    setenv CODE_SIGNING_ALLOWED NO    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos    setenv CONFIGURATION_TEMP_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/carlosmarx/Documents/CordovaLib    setenv CP /bin/cp    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/CordovaLib.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME libCordova.a.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLE_EXTENSION a    setenv EXECUTABLE_NAME libCordova.a    setenv EXECUTABLE_PATH libCordova.a    setenv EXECUTABLE_PREFIX lib    setenv EXECUTABLE_SUFFIX .a    setenv FILE_LIST /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/FixedFiles    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME libCordova.a    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_SYMBOL_SEPARATION NO    setenv GCC_MODEL_TUNING G5    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER CordovaLib_Prefix.pch    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include\"  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PREPROCESS NO    setenv INSTALL_DIR /tmp/CordovaLib.dst/usr/local/lib    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER carlosmarx    setenv INSTALL_PATH /usr/local/lib    setenv INSTALL_ROOT /tmp/CordovaLib.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-LinkMap-normal-armv7.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv6 /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv6/Cordova.LinkFileList    setenv LINK_FILE_LIST_normal_armv7 /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/Cordova.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE staticlib    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12C54    setenv MAC_OS_X_VERSION_ACTUAL 1082    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0802    setenv NATIVE_ARCH armv7    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal    setenv OBJROOT /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPENSSL_SRC /usr/local/Cellar/openssl/1.0.1c    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CFLAGS -DDEBUG    setenv OTHER_CPLUSPLUSFLAGS -DDEBUG    setenv OTHER_LDFLAGS "-all_load -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.static-library    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Applications/Xcode.app/Contents/Developer/usr/bin(null)"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10A403    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH /usr/local/include    setenv PRODUCT_NAME Cordova    setenv PRODUCT_SETTINGS_PATH     setenv PRODUCT_TYPE com.apple.product-type.library.static    setenv PROFILING_CODE NO    setenv PROJECT CordovaLib    setenv PROJECT_DERIVED_FILE_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/DerivedSources    setenv PROJECT_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PROJECT_FILE_PATH /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/CordovaLib.xcodeproj    setenv PROJECT_NAME CordovaLib    setenv PROJECT_TEMP_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build    setenv PUBLIC_HEADERS_FOLDER_PATH include/Cordova    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/ResourceManagerResources    setenv REZ_EXECUTABLE YES    setenv REZ_OBJECTS_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk    setenv SDK_NAME iphoneos6.0    setenv SDK_PRODUCT_BUILD_VERSION 10A403    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP YES    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/DerivedSources    setenv SHARED_PRECOMPS_DIR /var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv SRCROOT /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE debugging    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME CordovaLib    setenv TARGET_BUILD_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos    setenv TARGET_NAME CordovaLib    setenv TARGET_TEMP_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build    setenv TEMP_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build    setenv TEMP_FILES_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build    setenv TEMP_FILE_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build    setenv TEMP_ROOT /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNSTRIPPED_PRODUCT NO    setenv USER carlosmarx    setenv USER_APPS_DIR /Applications    setenv USER_LIBRARY_DIR /Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 armv6 armv7"    setenv VERBOSE_PBXCP NO    setenv VERSION_INFO_BUILDER carlosmarx    setenv VERSION_INFO_FILE Cordova_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Cordova  PROJECT:CordovaLib-\""    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4G182    setenv XCODE_VERSION_ACTUAL 0450    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0450    setenv YACC yacc    /bin/sh -c /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Script-3044C11210BC6AEE00581BFB.sh36"322514DD-5B9F-4E24-AB19-2BA5A0569620-
+
+CPhaseScriptExecution "Run Script" /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Script-92E3E18915FEE2D3000294FA.sh
+s370217503.159319
+e370217503.205669
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Script-92E3E18915FEE2D3000294FA.sh
+o/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib
+oCOPY_PHASE_STRIP=NO
+oJAVA_ZIP_FLAGS=-urg
+oSDK_PRODUCT_BUILD_VERSION=10A403
+oHEADERMAP_INCLUDES_PROJECT_HEADERS=YES
+oLOCAL_APPS_DIR=/Applications
+oREMOVE_CVS_FROM_RESOURCES=YES
+oSED=/usr/bin/sed
+oSYSTEM_DEVELOPER_UTILITIES_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities
+oCORDOVALIB=/Users/carlosmarx/Documents/CordovaLib
+oAPP_ICON_13568=../Resources/Eclipse.icns
+oPRESERVE_DEAD_CODE_INITS_AND_TERMS=NO
+oSYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools
+oPRODUCT_NAME=Cordova
+oTEMP_FILES_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build
+oLIBRARY_FLAG_NOSPACE=YES
+oUSE_DYNAMIC_NO_PIC=YES
+oDEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+oLD_GENERATE_MAP_FILE=NO
+oDEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs
+oREZ_COLLECTOR_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/ResourceManagerResources
+oMAC_OS_X_PRODUCT_BUILD_VERSION=12C54
+oTOOLCHAINS=com.apple.dt.toolchain.XcodeDefault
+oAPPLE_INTERNAL_TOOLS=/AppleInternal/Developer/Tools
+oGCC_C_LANGUAGE_STANDARD=c99
+oDEVELOPER_FRAMEWORKS_DIR_QUOTED="/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+oPRIVATE_HEADERS_FOLDER_PATH=/usr/local/include
+oOPENSSL_SRC=/usr/local/Cellar/openssl/1.0.1c
+oNATIVE_ARCH_64_BIT=x86_64
+oLIBRARY_FLAG_PREFIX=-l
+oCONFIGURATION=Debug
+oSHELL=/bin/bash
+oGCC_WARN_ABOUT_RETURN_TYPE=YES
+oCOPY_RESOURCES_FROM_STATIC_FRAMEWORKS=YES
+oPROJECT=CordovaLib
+oVERSION_INFO_BUILDER=carlosmarx
+oOBJROOT=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build
+oDEVELOPMENT_LANGUAGE=English
+oPRODUCT_TYPE=com.apple.product-type.library.static
+oSYSTEM_DEVELOPER_TOOLS=/Applications/Xcode.app/Contents/Developer/Tools
+oJAVA_STARTED_ON_FIRST_THREAD_19933=1
+oDT_TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
+oSYSTEM_DOCUMENTATION_DIR=/Library/Documentation
+oSYSTEM_DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer
+oLINK_FILE_LIST_normal_armv7=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/Cordova.LinkFileList
+oMACH_O_TYPE=staticlib
+oTMPDIR=/var/folders/x_/t006601532ng034dv_z7vsxh0000gn/T/
+oPLATFORM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr
+oCLASS_FILE_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/JavaClasses
+oLINK_FILE_LIST_normal_armv6=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv6/Cordova.LinkFileList
+oApple_PubSub_Socket_Render=/tmp/launch-Fl2PoW/Render
+oINSTALL_DIR=/tmp/CordovaLib.dst/usr/local/lib
+oTARGET_BUILD_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos
+oCLEAN_PRECOMPS=YES
+oSYSTEM_DEVELOPER_DOC_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library
+oJAVA_APP_STUB=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub
+oPLIST_FILE_OUTPUT_FORMAT=binary
+oJAVA_MAIN_CLASS_24715=org.codehaus.plexus.classworlds.launcher.Launcher
+oCONFIGURATION_TEMP_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos
+oTARGETED_DEVICE_FAMILY=1,2
+oARCHS_STANDARD_32_64_BIT=armv7 armv7s
+oAPPLE_INTERNAL_DIR=/AppleInternal
+oAVAILABLE_PLATFORMS=iphonesimulator macosx iphoneos
+oPFE_FILE_C_DIALECTS=objective-c
+oMAC_OS_X_VERSION_MINOR=0802
+oSDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+oNATIVE_ARCH_32_BIT=i386
+oLIBRARY_SEARCH_PATHS="/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos" 
+oBUILD_VARIANTS=normal
+oPLATFORM_NAME=iphoneos
+oINFOPLIST_PREPROCESS=NO
+oREMOVE_HG_FROM_RESOURCES=YES
+oSYSTEM_DEVELOPER_RELEASENOTES_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes
+oUSER_LIBRARY_DIR=/Users/carlosmarx/Library
+oDSTROOT=/tmp/CordovaLib.dst
+oSDK_NAME=iphoneos6.0
+oTEMP_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build
+oOS=MACOS
+oLD_MAP_FILE_PATH=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-LinkMap-normal-armv7.txt
+oAPP_ICON_19921=../Resources/Eclipse.icns
+oCONFIGURATION_BUILD_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos
+oAPPLE_INTERNAL_DEVELOPER_DIR=/AppleInternal/Developer
+oXCODE_PRODUCT_BUILD_VERSION=4G182
+oEFFECTIVE_PLATFORM_NAME=-iphoneos
+oDERIVED_FILES_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources
+oOBJECT_FILE_DIR_normal=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal
+oDEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applications
+oPATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES=/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms
+oGCC_PFE_FILE_C_DIALECTS=c objective-c c++ objective-c++
+oGROUP=staff
+oVERSION_INFO_STRING="@(#)PROGRAM:Cordova  PROJECT:CordovaLib-"
+oUSER=carlosmarx
+ocom.apple.java.jvmTask=JNI.java
+oTEST_AFTER_BUILD=NO
+oCURRENT_ARCH=armv7
+oJAVA_JAR_FLAGS=cv
+oEXECUTABLE_PATH=libCordova.a
+oOSAC=/usr/bin/osacompile
+oOTHER_LDFLAGS=-all_load -ObjC
+oCOMMAND_MODE=legacy
+oEXECUTABLE_PREFIX=lib
+oDEPLOYMENT_POSTPROCESSING=NO
+oTARGET_NAME=CordovaLib
+oEXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES=*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj
+oCLONE_HEADERS=NO
+oYACC=yacc
+oSTRIP_STYLE=debugging
+oDEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr
+oOTHER_CFLAGS=-DDEBUG
+oGCC3_VERSION=3.3
+oOTHER_CPLUSPLUSFLAGS=-DDEBUG
+oVALIDATE_PRODUCT=NO
+oSSH_AUTH_SOCK=/tmp/launch-oLRfbB/Listeners
+oOBJECT_FILE_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects
+oPLATFORM_PREFERRED_ARCH=i386
+oTARGETNAME=CordovaLib
+oSYSTEM_APPS_DIR=/Applications
+o__CF_USER_TEXT_ENCODING=0x1F5:0:0
+oBUILT_PRODUCTS_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos
+oICONV=/usr/bin/iconv
+oPACKAGE_TYPE=com.apple.package-type.static-library
+oXCODE_APP_SUPPORT_DIR=/Applications/Xcode.app/Contents/Developer/Library/Xcode
+oXCODE_VERSION_ACTUAL=0450
+oApple_Ubiquity_Message=/tmp/launch-203KA8/Apple_Ubiquity_Message
+oHEADER_SEARCH_PATHS="/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include"  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+oDERIVED_FILE_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources
+oLOCAL_ADMIN_APPS_DIR=/Applications/Utilities
+oUSER_APPS_DIR=/Users/carlosmarx/Applications
+oDO_HEADER_SCANNING_IN_JAM=NO
+oSCRIPT_OUTPUT_FILE_COUNT=0
+oGCC_VERSION=com.apple.compilers.llvm.clang.1_0
+oDERIVED_SOURCES_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources
+oGCC_OPTIMIZATION_LEVEL=0
+oJAVA_STARTED_ON_FIRST_THREAD_19921=1
+oDEAD_CODE_STRIPPING=YES
+oDWARF_DSYM_FOLDER_PATH=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos
+oENABLE_HEADER_DEPENDENCIES=YES
+oSET_FILE_MODE_OWNER_GROUP=NO
+oSHARED_DERIVED_FILE_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/DerivedSources
+oPRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR=YES
+oGCC_VERSION_IDENTIFIER=com_apple_compilers_llvm_clang_1_0
+oSYSTEM_DEMOS_DIR=/Applications/Extras
+oCOPYING_PRESERVES_HFS_DATA=NO
+oREZ_SEARCH_PATHS="/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos" 
+oGCC_TREAT_WARNINGS_AS_ERRORS=NO
+oDWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NO
+oBUILD_COMPONENTS=headers build
+oJAVA_USE_DEPENDENCIES=YES
+oALTERNATE_MODE=u+w,go-w,a+rX
+oOPTIMIZATION_LEVEL=0
+oGCC_THUMB_SUPPORT=NO
+oINSTALL_GROUP=staff
+oPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin
+oONLY_ACTIVE_ARCH=NO
+oINFOPLIST_OUTPUT_FORMAT=binary
+oINSTALL_MODE_FLAG=u+w,go-w,a+rX
+oACTION=build
+oCODE_SIGNING_ALLOWED=NO
+oDEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Tools
+oAPP_ICON_19933=../Resources/Eclipse.icns
+oSHARED_PRECOMPS_DIR=/var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders
+oPROJECT_NAME=CordovaLib
+oSTRINGS_FILE_OUTPUT_ENCODING=binary
+oFULL_PRODUCT_NAME=libCordova.a
+oHEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES=YES
+oSDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk
+oCOMPRESS_PNG_FILES=YES
+oGID=20
+oSEPARATE_STRIP=YES
+oINSTALL_OWNER=carlosmarx
+oPLATFORM_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform
+oPWD=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib
+oSTRIP_INSTALLED_PRODUCT=YES
+oJAVAC_DEFAULT_FLAGS=-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8
+oFILE_LIST=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects/LinkFileList
+oJAVA_FRAMEWORK_RESOURCES_DIRS=Resources
+oREMOVE_GIT_FROM_RESOURCES=YES
+oCCHROOT=/var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501
+oGCC_DYNAMIC_NO_PIC=NO
+oPROJECT_FILE_PATH=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/CordovaLib.xcodeproj
+oFRAMEWORK_SEARCH_PATHS="/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos" 
+oEXECUTABLE_NAME=libCordova.a
+oSUPPORTED_DEVICE_FAMILIES=1 2
+oNO_COMMON=YES
+oEXECUTABLE_SUFFIX=.a
+oPLATFORM_DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications
+oJAVA_COMPILER=/usr/bin/javac
+oHEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS=YES
+oVERSION_INFO_FILE=Cordova_vers.c
+oUNSTRIPPED_PRODUCT=NO
+oSYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools
+oJAVA_SOURCE_SUBDIR=.
+oDEFAULT_COMPILER=com.apple.compilers.llvm.clang.1_0
+oDEPLOYMENT_LOCATION=NO
+oCODE_SIGNING_REQUIRED=YES
+oAD_HOC_CODE_SIGNING_ALLOWED=NO
+oSEPARATE_SYMBOL_EDIT=NO
+oREZ_EXECUTABLE=YES
+oDEVELOPER_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Library/Frameworks
+oSRCROOT=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib
+oLOCAL_DEVELOPER_DIR=/Library/Developer
+oREZ_OBJECTS_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/ResourceManagerResources/Objects
+oCHOWN=/usr/sbin/chown
+oSYSTEM_DEVELOPER_JAVA_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Java Tools
+oPUBLIC_HEADERS_FOLDER_PATH=include/Cordova
+oPROJECT_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib
+oPASCAL_STRINGS=YES
+oCOMPOSITE_SDK_DIRS=/var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501/CompositeSDKs
+oTEMP_FILE_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build
+ocom.apple.java.jvmMode=client
+oPROJECT_TEMP_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build
+oMAC_OS_X_VERSION_MAJOR=1080
+oCODE_SIGN_CONTEXT_CLASS=XCiPhoneOSCodeSignContext
+oSYMROOT=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build
+oCP=/bin/cp
+oSKIP_INSTALL=YES
+oSCRIPT_INPUT_FILE_COUNT=0
+oJAVA_STARTED_ON_FIRST_THREAD_13568=1
+oJAVA_ARCHIVE_CLASSES=YES
+oPLATFORM_DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools
+oDWARF_DSYM_FILE_NAME=libCordova.a.dSYM
+oAPPLE_INTERNAL_DOCUMENTATION_DIR=/AppleInternal/Documentation
+oSYSTEM_DEVELOPER_APPS_DIR=/Applications/Xcode.app/Contents/Developer/Applications
+oMAC_OS_X_VERSION_ACTUAL=1082
+oLEX=lex
+oFRAMEWORK_FLAG_PREFIX=-framework
+oINSTALL_ROOT=/tmp/CordovaLib.dst
+oRECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS=YES
+oHOME=/Users/carlosmarx
+oSHLVL=3
+oPLATFORM_DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library
+oEXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS=.DS_Store .svn .git .hg CVS
+oPROFILING_CODE=NO
+oGENERATE_PROFILING_CODE=NO
+oSET_DIR_MODE_OWNER_GROUP=YES
+oAPPLY_RULES_IN_COPY_FILES=NO
+oREMOVE_SVN_FROM_RESOURCES=YES
+oRUN_CLANG_STATIC_ANALYZER=NO
+oSYSTEM_LIBRARY_DIR=/System/Library
+oDEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin
+oVERBOSE_PBXCP=NO
+oXCODE_VERSION_MINOR=0450
+oVALID_ARCHS=i386 armv6 armv7
+oINSTALL_PATH=/usr/local/lib
+oLD_NO_PIE=NO
+oCACHE_ROOT=/var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501
+oSYSTEM_DEVELOPER_DEMOS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples
+oPROJECT_DERIVED_FILE_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/DerivedSources
+oJAVA_ARCHIVE_TYPE=JAR
+oLEGACY_DEVELOPER_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer
+oSYSTEM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/bin
+oDEBUGGING_SYMBOLS=YES
+oCODESIGNING_FOLDER_PATH=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/libCordova.a
+oLOGNAME=carlosmarx
+oPRECOMP_DESTINATION_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/PrefixHeaders
+oPKGINFO_FILE_PATH=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/PkgInfo
+oAPPLE_INTERNAL_LIBRARY_DIR=/AppleInternal/Library
+oBUILD_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build
+oXCODE_VERSION_MAJOR=0400
+oPLATFORM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin
+oARCHS_UNIVERSAL_IPHONE_OS=armv7 armv7s
+oGCC_WARN_UNUSED_VARIABLE=YES
+oJIKES_DEFAULT_FLAGS=+E +OLDCSO
+oLINK_WITH_STANDARD_LIBRARIES=YES
+oLOCAL_LIBRARY_DIR=/Library
+oCURRENT_VARIANT=normal
+oALWAYS_SEARCH_USER_PATHS=NO
+oUSE_HEADER_SYMLINKS=NO
+oUID=501
+oALTERNATE_GROUP=staff
+oPLATFORM_DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs
+oKEEP_PRIVATE_EXTERNS=NO
+oGCC_PRECOMPILE_PREFIX_HEADER=YES
+oSYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools
+oSUPPORTED_PLATFORMS=iphonesimulator iphoneos
+oSYSTEM_DEVELOPER_TOOLS_DOC_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools
+oSYSTEM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr
+oIPHONEOS_DEPLOYMENT_TARGET=3.0
+oSCAN_ALL_SOURCE_FILES_FOR_INCLUDES=NO
+oGCC_PREFIX_HEADER=CordovaLib_Prefix.pch
+oPLATFORM_PRODUCT_BUILD_VERSION=10A403
+oGENERATE_MASTER_OBJECT_FILE=NO
+oNATIVE_ARCH_ACTUAL=x86_64
+oEMBEDDED_PROFILE_NAME=embedded.mobileprovision
+oSYSTEM_CORE_SERVICES_DIR=/System/Library/CoreServices
+oALTERNATE_OWNER=carlosmarx
+oDEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/Library
+oINFOPLIST_EXPAND_BUILD_SETTINGS=YES
+oBUILD_STYLE=
+oARCHS=armv6 armv7
+oARCHS_STANDARD_32_BIT=armv7 armv7s
+oGENERATE_PKGINFO_FILE=NO
+oCHMOD=/bin/chmod
+oLINKER_DISPLAYS_MANGLED_NAMES=NO
+oDEBUG_INFORMATION_FORMAT=dwarf-with-dsym
+oTARGET_TEMP_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build
+oENTITLEMENTS_REQUIRED=YES
+oNATIVE_ARCH=armv7
+oFRAMEWORK_VERSION=A
+oGCC_MODEL_TUNING=G5
+oHEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT=YES
+oTEMP_ROOT=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build
+oFIXED_FILES_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/FixedFiles
+oSYSTEM_ADMIN_APPS_DIR=/Applications/Utilities
+oSOURCE_ROOT=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib
+oEXECUTABLE_EXTENSION=a
+oGCC_ENABLE_SYMBOL_SEPARATION=NO
+oBUILD_ROOT=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build
+oUSE_HEADERMAP=YES
+oPRODUCT_SETTINGS_PATH=
+o_=/usr/bin/env
+oremoving /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/../include
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'0150291f1211b641^61a7341f1211b641^-18690"/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLibCOPY_PHASE_STRIP=NOJAVA_ZIP_FLAGS=-urgSDK_PRODUCT_BUILD_VERSION=10A403HEADERMAP_INCLUDES_PROJECT_HEADERS=YESLOCAL_APPS_DIR=/ApplicationsREMOVE_CVS_FROM_RESOURCES=YESSED=/usr/bin/sedSYSTEM_DEVELOPER_UTILITIES_DIR=/Applications/Xcode.app/Contents/Developer/Applications/UtilitiesCORDOVALIB=/Users/carlosmarx/Documents/CordovaLibAPP_ICON_13568=../Resources/Eclipse.icnsPRESERVE_DEAD_CODE_INITS_AND_TERMS=NOSYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperToolsPRODUCT_NAME=CordovaTEMP_FILES_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.buildLIBRARY_FLAG_NOSPACE=YESUSE_DYNAMIC_NO_PIC=YESDEVELOPER_DIR=/Applications/Xcode.app/Contents/DeveloperLD_GENERATE_MAP_FILE=NODEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKsREZ_COLLECTOR_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/ResourceManagerResourcesMAC_OS_X_PRODUCT_BUILD_VERSION=12C54TOOLCHAINS=com.apple.dt.toolchain.XcodeDefaultAPPLE_INTERNAL_TOOLS=/AppleInternal/Developer/ToolsGCC_C_LANGUAGE_STANDARD=c99DEVELOPER_FRAMEWORKS_DIR_QUOTED="/Applications/Xcode.app/Contents/Developer/Library/Frameworks"PRIVATE_HEADERS_FOLDER_PATH=/usr/local/includeOPENSSL_SRC=/usr/local/Cellar/openssl/1.0.1cNATIVE_ARCH_64_BIT=x86_64LIBRARY_FLAG_PREFIX=-lCONFIGURATION=DebugSHELL=/bin/bashGCC_WARN_ABOUT_RETURN_TYPE=YESCOPY_RESOURCES_FROM_STATIC_FRAMEWORKS=YESPROJECT=CordovaLibVERSION_INFO_BUILDER=carlosmarxOBJROOT=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/buildDEVELOPMENT_LANGUAGE=EnglishPRODUCT_TYPE=com.apple.product-type.library.staticSYSTEM_DEVELOPER_TOOLS=/Applications/Xcode.app/Contents/Developer/ToolsJAVA_STARTED_ON_FIRST_THREAD_19933=1DT_TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchainSYSTEM_DOCUMENTATION_DIR=/Library/DocumentationSYSTEM_DEVELOPER_DIR=/Applications/Xcode.app/Contents/DeveloperLINK_FILE_LIST_normal_armv7=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/Cordova.LinkFileListMACH_O_TYPE=staticlibTMPDIR=/var/folders/x_/t006601532ng034dv_z7vsxh0000gn/T/PLATFORM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usrCLASS_FILE_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/JavaClassesLINK_FILE_LIST_normal_armv6=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv6/Cordova.LinkFileListApple_PubSub_Socket_Render=/tmp/launch-Fl2PoW/RenderINSTALL_DIR=/tmp/CordovaLib.dst/usr/local/libTARGET_BUILD_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneosCLEAN_PRECOMPS=YESSYSTEM_DEVELOPER_DOC_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference LibraryJAVA_APP_STUB=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStubPLIST_FILE_OUTPUT_FORMAT=binaryJAVA_MAIN_CLASS_24715=org.codehaus.plexus.classworlds.launcher.LauncherCONFIGURATION_TEMP_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneosTARGETED_DEVICE_FAMILY=1,2ARCHS_STANDARD_32_64_BIT=armv7 armv7sAPPLE_INTERNAL_DIR=/AppleInternalAVAILABLE_PLATFORMS=iphonesimulator macosx iphoneosPFE_FILE_C_DIALECTS=objective-cMAC_OS_X_VERSION_MINOR=0802SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdkNATIVE_ARCH_32_BIT=i386LIBRARY_SEARCH_PATHS="/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos" BUILD_VARIANTS=normalPLATFORM_NAME=iphoneosINFOPLIST_PREPROCESS=NOREMOVE_HG_FROM_RESOURCES=YESSYSTEM_DEVELOPER_RELEASENOTES_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotesUSER_LIBRARY_DIR=/Users/carlosmarx/LibraryDSTROOT=/tmp/CordovaLib.dstSDK_NAME=iphoneos6.0TEMP_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.buildOS=MACOSLD_MAP_FILE_PATH=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-LinkMap-normal-armv7.txtAPP_ICON_19921=../Resources/Eclipse.icnsCONFIGURATION_BUILD_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneosAPPLE_INTERNAL_DEVELOPER_DIR=/AppleInternal/DeveloperXCODE_PRODUCT_BUILD_VERSION=4G182EFFECTIVE_PLATFORM_NAME=-iphoneosDERIVED_FILES_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSourcesOBJECT_FILE_DIR_normal=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normalDEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/ApplicationsPATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES=/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/PlatformsGCC_PFE_FILE_C_DIALECTS=c objective-c c++ objective-c++GROUP=staffVERSION_INFO_STRING="@(#)PROGRAM:Cordova  PROJECT:CordovaLib-"USER=carlosmarxcom.apple.java.jvmTask=JNI.javaTEST_AFTER_BUILD=NOCURRENT_ARCH=armv7JAVA_JAR_FLAGS=cvEXECUTABLE_PATH=libCordova.aOSAC=/usr/bin/osacompileOTHER_LDFLAGS=-all_load -ObjCCOMMAND_MODE=legacyEXECUTABLE_PREFIX=libDEPLOYMENT_POSTPROCESSING=NOTARGET_NAME=CordovaLibEXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES=*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxprojCLONE_HEADERS=NOYACC=yaccSTRIP_STYLE=debuggingDEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usrOTHER_CFLAGS=-DDEBUGGCC3_VERSION=3.3OTHER_CPLUSPLUSFLAGS=-DDEBUGVALIDATE_PRODUCT=NOSSH_AUTH_SOCK=/tmp/launch-oLRfbB/ListenersOBJECT_FILE_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/ObjectsPLATFORM_PREFERRED_ARCH=i386TARGETNAME=CordovaLibSYSTEM_APPS_DIR=/Applications__CF_USER_TEXT_ENCODING=0x1F5:0:0BUILT_PRODUCTS_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneosICONV=/usr/bin/iconvPACKAGE_TYPE=com.apple.package-type.static-libraryXCODE_APP_SUPPORT_DIR=/Applications/Xcode.app/Contents/Developer/Library/XcodeXCODE_VERSION_ACTUAL=0450Apple_Ubiquity_Message=/tmp/launch-203KA8/Apple_Ubiquity_MessageHEADER_SEARCH_PATHS="/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include"  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/includeDERIVED_FILE_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSourcesLOCAL_ADMIN_APPS_DIR=/Applications/UtilitiesUSER_APPS_DIR=/Users/carlosmarx/ApplicationsDO_HEADER_SCANNING_IN_JAM=NOSCRIPT_OUTPUT_FILE_COUNT=0GCC_VERSION=com.apple.compilers.llvm.clang.1_0DERIVED_SOURCES_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSourcesGCC_OPTIMIZATION_LEVEL=0JAVA_STARTED_ON_FIRST_THREAD_19921=1DEAD_CODE_STRIPPING=YESDWARF_DSYM_FOLDER_PATH=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneosENABLE_HEADER_DEPENDENCIES=YESSET_FILE_MODE_OWNER_GROUP=NOSHARED_DERIVED_FILE_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/DerivedSourcesPRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR=YESGCC_VERSION_IDENTIFIER=com_apple_compilers_llvm_clang_1_0SYSTEM_DEMOS_DIR=/Applications/ExtrasCOPYING_PRESERVES_HFS_DATA=NOREZ_SEARCH_PATHS="/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos" GCC_TREAT_WARNINGS_AS_ERRORS=NODWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NOBUILD_COMPONENTS=headers buildJAVA_USE_DEPENDENCIES=YESALTERNATE_MODE=u+w,go-w,a+rXOPTIMIZATION_LEVEL=0GCC_THUMB_SUPPORT=NOINSTALL_GROUP=staffPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbinONLY_ACTIVE_ARCH=NOINFOPLIST_OUTPUT_FORMAT=binaryINSTALL_MODE_FLAG=u+w,go-w,a+rXACTION=buildCODE_SIGNING_ALLOWED=NODEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/ToolsAPP_ICON_19933=../Resources/Eclipse.icnsSHARED_PRECOMPS_DIR=/var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeadersPROJECT_NAME=CordovaLibSTRINGS_FILE_OUTPUT_ENCODING=binaryFULL_PRODUCT_NAME=libCordova.aHEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES=YESSDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdkCOMPRESS_PNG_FILES=YESGID=20SEPARATE_STRIP=YESINSTALL_OWNER=carlosmarxPLATFORM_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platformPWD=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLibSTRIP_INSTALLED_PRODUCT=YESJAVAC_DEFAULT_FLAGS=-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8FILE_LIST=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects/LinkFileListJAVA_FRAMEWORK_RESOURCES_DIRS=ResourcesREMOVE_GIT_FROM_RESOURCES=YESCCHROOT=/var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501GCC_DYNAMIC_NO_PIC=NOPROJECT_FILE_PATH=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/CordovaLib.xcodeprojFRAMEWORK_SEARCH_PATHS="/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos" EXECUTABLE_NAME=libCordova.aSUPPORTED_DEVICE_FAMILIES=1 2NO_COMMON=YESEXECUTABLE_SUFFIX=.aPLATFORM_DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/ApplicationsJAVA_COMPILER=/usr/bin/javacHEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS=YESVERSION_INFO_FILE=Cordova_vers.cUNSTRIPPED_PRODUCT=NOSYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Graphics ToolsJAVA_SOURCE_SUBDIR=.DEFAULT_COMPILER=com.apple.compilers.llvm.clang.1_0DEPLOYMENT_LOCATION=NOCODE_SIGNING_REQUIRED=YESAD_HOC_CODE_SIGNING_ALLOWED=NOSEPARATE_SYMBOL_EDIT=NOREZ_EXECUTABLE=YESDEVELOPER_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Library/FrameworksSRCROOT=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLibLOCAL_DEVELOPER_DIR=/Library/DeveloperREZ_OBJECTS_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/ResourceManagerResources/ObjectsCHOWN=/usr/sbin/chownSYSTEM_DEVELOPER_JAVA_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Java ToolsPUBLIC_HEADERS_FOLDER_PATH=include/CordovaPROJECT_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLibPASCAL_STRINGS=YESCOMPOSITE_SDK_DIRS=/var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501/CompositeSDKsTEMP_FILE_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.buildcom.apple.java.jvmMode=clientPROJECT_TEMP_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.buildMAC_OS_X_VERSION_MAJOR=1080CODE_SIGN_CONTEXT_CLASS=XCiPhoneOSCodeSignContextSYMROOT=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/buildCP=/bin/cpSKIP_INSTALL=YESSCRIPT_INPUT_FILE_COUNT=0JAVA_STARTED_ON_FIRST_THREAD_13568=1JAVA_ARCHIVE_CLASSES=YESPLATFORM_DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/ToolsDWARF_DSYM_FILE_NAME=libCordova.a.dSYMAPPLE_INTERNAL_DOCUMENTATION_DIR=/AppleInternal/DocumentationSYSTEM_DEVELOPER_APPS_DIR=/Applications/Xcode.app/Contents/Developer/ApplicationsMAC_OS_X_VERSION_ACTUAL=1082LEX=lexFRAMEWORK_FLAG_PREFIX=-frameworkINSTALL_ROOT=/tmp/CordovaLib.dstRECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS=YESHOME=/Users/carlosmarxSHLVL=3PLATFORM_DEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/LibraryEXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS=.DS_Store .svn .git .hg CVSPROFILING_CODE=NOGENERATE_PROFILING_CODE=NOSET_DIR_MODE_OWNER_GROUP=YESAPPLY_RULES_IN_COPY_FILES=NOREMOVE_SVN_FROM_RESOURCES=YESRUN_CLANG_STATIC_ANALYZER=NOSYSTEM_LIBRARY_DIR=/System/LibraryDEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/binVERBOSE_PBXCP=NOXCODE_VERSION_MINOR=0450VALID_ARCHS=i386 armv6 armv7INSTALL_PATH=/usr/local/libLD_NO_PIE=NOCACHE_ROOT=/var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501SYSTEM_DEVELOPER_DEMOS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built ExamplesPROJECT_DERIVED_FILE_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/DerivedSourcesJAVA_ARCHIVE_TYPE=JARLEGACY_DEVELOPER_DIR=/Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/DeveloperSYSTEM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/usr/binDEBUGGING_SYMBOLS=YESCODESIGNING_FOLDER_PATH=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/libCordova.aLOGNAME=carlosmarxPRECOMP_DESTINATION_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/PrefixHeadersPKGINFO_FILE_PATH=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/PkgInfoAPPLE_INTERNAL_LIBRARY_DIR=/AppleInternal/LibraryBUILD_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/buildXCODE_VERSION_MAJOR=0400PLATFORM_DEVELOPER_BIN_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/binARCHS_UNIVERSAL_IPHONE_OS=armv7 armv7sGCC_WARN_UNUSED_VARIABLE=YESJIKES_DEFAULT_FLAGS=+E +OLDCSOLINK_WITH_STANDARD_LIBRARIES=YESLOCAL_LIBRARY_DIR=/LibraryCURRENT_VARIANT=normalALWAYS_SEARCH_USER_PATHS=NOUSE_HEADER_SYMLINKS=NOUID=501ALTERNATE_GROUP=staffPLATFORM_DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKsKEEP_PRIVATE_EXTERNS=NOGCC_PRECOMPILE_PREFIX_HEADER=YESSYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Performance ToolsSUPPORTED_PLATFORMS=iphonesimulator iphoneosSYSTEM_DEVELOPER_TOOLS_DOC_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperToolsSYSTEM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usrIPHONEOS_DEPLOYMENT_TARGET=3.0SCAN_ALL_SOURCE_FILES_FOR_INCLUDES=NOGCC_PREFIX_HEADER=CordovaLib_Prefix.pchPLATFORM_PRODUCT_BUILD_VERSION=10A403GENERATE_MASTER_OBJECT_FILE=NONATIVE_ARCH_ACTUAL=x86_64EMBEDDED_PROFILE_NAME=embedded.mobileprovisionSYSTEM_CORE_SERVICES_DIR=/System/Library/CoreServicesALTERNATE_OWNER=carlosmarxDEVELOPER_LIBRARY_DIR=/Applications/Xcode.app/Contents/Developer/LibraryINFOPLIST_EXPAND_BUILD_SETTINGS=YESBUILD_STYLE=ARCHS=armv6 armv7ARCHS_STANDARD_32_BIT=armv7 armv7sGENERATE_PKGINFO_FILE=NOCHMOD=/bin/chmodLINKER_DISPLAYS_MANGLED_NAMES=NODEBUG_INFORMATION_FORMAT=dwarf-with-dsymTARGET_TEMP_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.buildENTITLEMENTS_REQUIRED=YESNATIVE_ARCH=armv7FRAMEWORK_VERSION=AGCC_MODEL_TUNING=G5HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT=YESTEMP_ROOT=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/buildFIXED_FILES_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/FixedFilesSYSTEM_ADMIN_APPS_DIR=/Applications/UtilitiesSOURCE_ROOT=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLibEXECUTABLE_EXTENSION=aGCC_ENABLE_SYMBOL_SEPARATION=NOBUILD_ROOT=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/buildUSE_HEADERMAP=YESPRODUCT_SETTINGS_PATH=_=/usr/bin/envremoving /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/../includeShowing first 200 notices only201(21%IDEActivityLogMessage2@90"/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib-370217503#0#90#-0#-----2@20"COPY_PHASE_STRIP=NO-370217503#90#20#-0#-----2@20"JAVA_ZIP_FLAGS=-urg-370217503#110#20#-0#-----2@33"SDK_PRODUCT_BUILD_VERSION=10A403-370217503#130#33#-0#-----2@39"HEADERMAP_INCLUDES_PROJECT_HEADERS=YES-370217503#163#39#-0#-----2@29"LOCAL_APPS_DIR=/Applications-370217503#202#29#-0#-----2@30"REMOVE_CVS_FROM_RESOURCES=YES-370217503#231#30#-0#-----2@17"SED=/usr/bin/sed-370217503#261#17#-0#-----2@97"SYSTEM_DEVELOPER_UTILITIES_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Utilities-370217503#278#97#-0#-----2@50"CORDOVALIB=/Users/carlosmarx/Documents/CordovaLib-370217503#375#50#-0#-----2@41"APP_ICON_13568=../Resources/Eclipse.icns-370217503#425#41#-0#-----2@38"PRESERVE_DEAD_CODE_INITS_AND_TERMS=NO-370217503#466#38#-0#-----2@133"SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools-370217503#504#133#-0#-----2@21"PRODUCT_NAME=Cordova-370217503#637#21#-0#-----2@160"TEMP_FILES_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build-370217503#658#160#-0#-----2@25"LIBRARY_FLAG_NOSPACE=YES-370217503#818#25#-0#-----2@23"USE_DYNAMIC_NO_PIC=YES-370217503#843#23#-0#-----2@57"DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer-370217503#866#57#-0#-----2@24"LD_GENERATE_MAP_FILE=NO-370217503#923#24#-0#-----2@102"DEVELOPER_SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs-370217503#947#102#-0#-----2@188"REZ_COLLECTOR_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/ResourceManagerResources-370217503#1049#188#-0#-----2@37"MAC_OS_X_PRODUCT_BUILD_VERSION=12C54-370217503#1237#37#-0#-----2@47"TOOLCHAINS=com.apple.dt.toolchain.XcodeDefault-370217503#1274#47#-0#-----2@52"APPLE_INTERNAL_TOOLS=/AppleInternal/Developer/Tools-370217503#1321#52#-0#-----2@28"GCC_C_LANGUAGE_STANDARD=c99-370217503#1373#28#-0#-----2@96"DEVELOPER_FRAMEWORKS_DIR_QUOTED="/Applications/Xcode.app/Contents/Developer/Library/Frameworks"-370217503#1401#96#-0#-----2@47"PRIVATE_HEADERS_FOLDER_PATH=/usr/local/include-370217503#1497#47#-0#-----2@45"OPENSSL_SRC=/usr/local/Cellar/openssl/1.0.1c-370217503#1544#45#-0#-----2@26"NATIVE_ARCH_64_BIT=x86_64-370217503#1589#26#-0#-----2@23"LIBRARY_FLAG_PREFIX=-l-370217503#1615#23#-0#-----2@20"CONFIGURATION=Debug-370217503#1638#20#-0#-----2@16"SHELL=/bin/bash-370217503#1658#16#-0#-----2@31"GCC_WARN_ABOUT_RETURN_TYPE=YES-370217503#1674#31#-0#-----2@42"COPY_RESOURCES_FROM_STATIC_FRAMEWORKS=YES-370217503#1705#42#-0#-----2@19"PROJECT=CordovaLib-370217503#1747#19#-0#-----2@32"VERSION_INFO_BUILDER=carlosmarx-370217503#1766#32#-0#-----2@104"OBJROOT=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build-370217503#1798#104#-0#-----2@29"DEVELOPMENT_LANGUAGE=English-370217503#1902#29#-0#-----2@51"PRODUCT_TYPE=com.apple.product-type.library.static-370217503#1931#51#-0#-----2@72"SYSTEM_DEVELOPER_TOOLS=/Applications/Xcode.app/Contents/Developer/Tools-370217503#1982#72#-0#-----2@37"JAVA_STARTED_ON_FIRST_THREAD_19933=1-370217503#2054#37#-0#-----2@96"DT_TOOLCHAIN_DIR=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain-370217503#2091#96#-0#-----2@48"SYSTEM_DOCUMENTATION_DIR=/Library/Documentation-370217503#2187#48#-0#-----2@64"SYSTEM_DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer-370217503#2235#64#-0#-----2@215"LINK_FILE_LIST_normal_armv7=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/Cordova.LinkFileList-370217503#2299#215#-0#-----2@22"MACH_O_TYPE=staticlib-370217503#2514#22#-0#-----2@57"TMPDIR=/var/folders/x_/t006601532ng034dv_z7vsxh0000gn/T/-370217503#2536#57#-0#-----2@112"PLATFORM_DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr-370217503#2593#112#-0#-----2@172"CLASS_FILE_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/JavaClasses-370217503#2705#172#-0#-----2@215"LINK_FILE_LIST_normal_armv6=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv6/Cordova.LinkFileList-370217503#2877#215#-0#-----2@53"Apple_PubSub_Socket_Render=/tmp/launch-Fl2PoW/Render-370217503#3092#53#-0#-----2@46"INSTALL_DIR=/tmp/CordovaLib.dst/usr/local/lib-370217503#3145#46#-0#-----2@128"TARGET_BUILD_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos-370217503#3191#128#-0#-----2@19"CLEAN_PRECOMPS=YES-370217503#3319#19#-0#-----2@90"SYSTEM_DEVELOPER_DOC_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library-370217503#3338#90#-0#-----2@94"JAVA_APP_STUB=/System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub-370217503#3428#94#-0#-----2@32"PLIST_FILE_OUTPUT_FORMAT=binary-370217503#3522#32#-0#-----2@72"JAVA_MAIN_CLASS_24715=org.codehaus.plexus.classworlds.launcher.Launcher-370217503#3554#72#-0#-----2@151"CONFIGURATION_TEMP_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos-370217503#3626#151#-0#-----2@27"TARGETED_DEVICE_FAMILY=1,2-370217503#3777#27#-0#-----2@38"ARCHS_STANDARD_32_64_BIT=armv7 armv7s-370217503#3804#38#-0#-----2@34"APPLE_INTERNAL_DIR=/AppleInternal-370217503#3842#34#-0#-----2@52"AVAILABLE_PLATFORMS=iphonesimulator macosx iphoneos-370217503#3876#52#-0#-----2@32"PFE_FILE_C_DIALECTS=objective-c-370217503#3928#32#-0#-----2@28"MAC_OS_X_VERSION_MINOR=0802-370217503#3960#28#-0#-----2@110"SDKROOT=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk-370217503#3988#110#-0#-----2@24"NATIVE_ARCH_32_BIT=i386-370217503#4098#24#-0#-----2@135"LIBRARY_SEARCH_PATHS="/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos" -370217503#4122#135#-0#-----2@22"BUILD_VARIANTS=normal-370217503#4257#22#-0#-----2@23"PLATFORM_NAME=iphoneos-370217503#4279#23#-0#-----2@24"INFOPLIST_PREPROCESS=NO-370217503#4302#24#-0#-----2@29"REMOVE_HG_FROM_RESOURCES=YES-370217503#4326#29#-0#-----2@112"SYSTEM_DEVELOPER_RELEASENOTES_DIR=/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes-370217503#4355#112#-0#-----2@43"USER_LIBRARY_DIR=/Users/carlosmarx/Library-370217503#4467#43#-0#-----2@28"DSTROOT=/tmp/CordovaLib.dst-370217503#4510#28#-0#-----2@21"SDK_NAME=iphoneos6.0-370217503#4538#21#-0#-----2@154"TEMP_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build-370217503#4559#154#-0#-----2@9"OS=MACOS-370217503#4713#9#-0#-----2@195"LD_MAP_FILE_PATH=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-LinkMap-normal-armv7.txt-370217503#4722#195#-0#-----2@41"APP_ICON_19921=../Resources/Eclipse.icns-370217503#4917#41#-0#-----2@135"CONFIGURATION_BUILD_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos-370217503#4958#135#-0#-----2@54"APPLE_INTERNAL_DEVELOPER_DIR=/AppleInternal/Developer-370217503#5093#54#-0#-----2@34"XCODE_PRODUCT_BUILD_VERSION=4G182-370217503#5147#34#-0#-----2@34"EFFECTIVE_PLATFORM_NAME=-iphoneos-370217503#5181#34#-0#-----2@178"DERIVED_FILES_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources-370217503#5215#178#-0#-----2@183"OBJECT_FILE_DIR_normal=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal-370217503#5393#183#-0#-----2@83"DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Applications-370217503#5576#83#-0#-----2@293"PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES=/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms-370217503#5659#293#-0#-----2@56"GCC_PFE_FILE_C_DIALECTS=c objective-c c++ objective-c++-370217503#5952#56#-0#-----2@12"GROUP=staff-370217503#6008#12#-0#-----2@63"VERSION_INFO_STRING="@(#)PROGRAM:Cordova  PROJECT:CordovaLib-"-370217503#6020#63#-0#-----2@16"USER=carlosmarx-370217503#6083#16#-0#-----2@32"com.apple.java.jvmTask=JNI.java-370217503#6099#32#-0#-----2@20"TEST_AFTER_BUILD=NO-370217503#6131#20#-0#-----2@19"CURRENT_ARCH=armv7-370217503#6151#19#-0#-----2@18"JAVA_JAR_FLAGS=cv-370217503#6170#18#-0#-----2@29"EXECUTABLE_PATH=libCordova.a-370217503#6188#29#-0#-----2@25"OSAC=/usr/bin/osacompile-370217503#6217#25#-0#-----2@30"OTHER_LDFLAGS=-all_load -ObjC-370217503#6242#30#-0#-----2@20"COMMAND_MODE=legacy-370217503#6272#20#-0#-----2@22"EXECUTABLE_PREFIX=lib-370217503#6292#22#-0#-----2@29"DEPLOYMENT_POSTPROCESSING=NO-370217503#6314#29#-0#-----2@23"TARGET_NAME=CordovaLib-370217503#6343#23#-0#-----2@149"EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES=*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj-370217503#6366#149#-0#-----2@17"CLONE_HEADERS=NO-370217503#6515#17#-0#-----2@10"YACC=yacc-370217503#6532#10#-0#-----2@22"STRIP_STYLE=debugging-370217503#6542#22#-0#-----2@65"DEVELOPER_USR_DIR=/Applications/Xcode.app/Contents/Developer/usr-370217503#6564#65#-0#-----2@21"OTHER_CFLAGS=-DDEBUG-370217503#6629#21#-0#-----2@17"GCC3_VERSION=3.3-370217503#6650#17#-0#-----2@29"OTHER_CPLUSPLUSFLAGS=-DDEBUG-370217503#6667#29#-0#-----2@20"VALIDATE_PRODUCT=NO-370217503#6696#20#-0#-----2@43"SSH_AUTH_SOCK=/tmp/launch-oLRfbB/Listeners-370217503#6716#43#-0#-----2@169"OBJECT_FILE_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-370217503#6759#169#-0#-----2@29"PLATFORM_PREFERRED_ARCH=i386-370217503#6928#29#-0#-----2@22"TARGETNAME=CordovaLib-370217503#6957#22#-0#-----2@30"SYSTEM_APPS_DIR=/Applications-370217503#6979#30#-0#-----2@34"__CF_USER_TEXT_ENCODING=0x1F5:0:0-370217503#7009#34#-0#-----2@130"BUILT_PRODUCTS_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos-370217503#7043#130#-0#-----2@21"ICONV=/usr/bin/iconv-370217503#7173#21#-0#-----2@51"PACKAGE_TYPE=com.apple.package-type.static-library-370217503#7194#51#-0#-----2@79"XCODE_APP_SUPPORT_DIR=/Applications/Xcode.app/Contents/Developer/Library/Xcode-370217503#7245#79#-0#-----2@26"XCODE_VERSION_ACTUAL=0450-370217503#7324#26#-0#-----2@65"Apple_Ubiquity_Message=/tmp/launch-203KA8/Apple_Ubiquity_Message-370217503#7350#65#-0#-----2@415"HEADER_SEARCH_PATHS="/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include"  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include-370217503#7415#415#-0#-----2@177"DERIVED_FILE_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources-370217503#7830#177#-0#-----2@45"LOCAL_ADMIN_APPS_DIR=/Applications/Utilities-370217503#8007#45#-0#-----2@45"USER_APPS_DIR=/Users/carlosmarx/Applications-370217503#8052#45#-0#-----2@29"DO_HEADER_SCANNING_IN_JAM=NO-370217503#8097#29#-0#-----2@27"SCRIPT_OUTPUT_FILE_COUNT=0-370217503#8126#27#-0#-----2@47"GCC_VERSION=com.apple.compilers.llvm.clang.1_0-370217503#8153#47#-0#-----2@180"DERIVED_SOURCES_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources-370217503#8200#180#-0#-----2@25"GCC_OPTIMIZATION_LEVEL=0-370217503#8380#25#-0#-----2@37"JAVA_STARTED_ON_FIRST_THREAD_19921=1-370217503#8405#37#-0#-----2@24"DEAD_CODE_STRIPPING=YES-370217503#8442#24#-0#-----2@134"DWARF_DSYM_FOLDER_PATH=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos-370217503#8466#134#-0#-----2@31"ENABLE_HEADER_DEPENDENCIES=YES-370217503#8600#31#-0#-----2@29"SET_FILE_MODE_OWNER_GROUP=NO-370217503#8631#29#-0#-----2@150"SHARED_DERIVED_FILE_DIR=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/DerivedSources-370217503#8660#150#-0#-----2@53"PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR=YES-370217503#8810#53#-0#-----2@58"GCC_VERSION_IDENTIFIER=com_apple_compilers_llvm_clang_1_0-370217503#8863#58#-0#-----2@38"SYSTEM_DEMOS_DIR=/Applications/Extras-370217503#8921#38#-0#-----2@30"COPYING_PRESERVES_HFS_DATA=NO-370217503#8959#30#-0#-----2@131"REZ_SEARCH_PATHS="/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos" -370217503#8989#131#-0#-----2@32"GCC_TREAT_WARNINGS_AS_ERRORS=NO-370217503#9120#32#-0#-----2@44"DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT=NO-370217503#9152#44#-0#-----2@31"BUILD_COMPONENTS=headers build-370217503#9196#31#-0#-----2@26"JAVA_USE_DEPENDENCIES=YES-370217503#9227#26#-0#-----2@29"ALTERNATE_MODE=u+w,go-w,a+rX-370217503#9253#29#-0#-----2@21"OPTIMIZATION_LEVEL=0-370217503#9282#21#-0#-----2@21"GCC_THUMB_SUPPORT=NO-370217503#9303#21#-0#-----2@20"INSTALL_GROUP=staff-370217503#9324#20#-0#-----2@718"PATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin-370217503#9344#718#-0#-----2@20"ONLY_ACTIVE_ARCH=NO-370217503#10062#20#-0#-----2@31"INFOPLIST_OUTPUT_FORMAT=binary-370217503#10082#31#-0#-----2@32"INSTALL_MODE_FLAG=u+w,go-w,a+rX-370217503#10113#32#-0#-----2@13"ACTION=build-370217503#10145#13#-0#-----2@24"CODE_SIGNING_ALLOWED=NO-370217503#10158#24#-0#-----2@69"DEVELOPER_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Tools-370217503#10182#69#-0#-----2@41"APP_ICON_19933=../Resources/Eclipse.icns-370217503#10251#41#-0#-----2@114"SHARED_PRECOMPS_DIR=/var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders-370217503#10292#114#-0#-----2@24"PROJECT_NAME=CordovaLib-370217503#10406#24#-0#-----2@36"STRINGS_FILE_OUTPUT_ENCODING=binary-370217503#10430#36#-0#-----2@31"FULL_PRODUCT_NAME=libCordova.a-370217503#10466#31#-0#-----2@63"HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES=YES-370217503#10497#63#-0#-----2@110"SDK_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk-370217503#10560#110#-0#-----2@23"COMPRESS_PNG_FILES=YES-370217503#10670#23#-0#-----2@7"GID=20-370217503#10693#7#-0#-----2@19"SEPARATE_STRIP=YES-370217503#10700#19#-0#-----2@25"INSTALL_OWNER=carlosmarx-370217503#10719#25#-0#-----2@84"PLATFORM_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform-370217503#10744#84#-0#-----2@94"PWD=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib-370217503#10828#94#-0#-----2@28"STRIP_INSTALLED_PRODUCT=YES-370217503#10922#28#-0#-----2@70"JAVAC_DEFAULT_FLAGS=-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8-370217503#10950#70#-0#-----2@176"FILE_LIST=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects/LinkFileList-370217503#11020#176#-0#-----2@40"JAVA_FRAMEWORK_RESOURCES_DIRS=Resources-370217503#11196#40#-0#-----2@30"REMOVE_GIT_FROM_RESOURCES=YES-370217503#11236#30#-0#-----2@77"CCHROOT=/var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501-370217503#11266#77#-0#-----2@22"GCC_DYNAMIC_NO_PIC=NO-370217503#11343#22#-0#-----2@129"PROJECT_FILE_PATH=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/CordovaLib.xcodeproj-370217503#11365#129#-0#-----2@137"FRAMEWORK_SEARCH_PATHS="/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos" -370217503#11494#137#-0#-----2@29"EXECUTABLE_NAME=libCordova.a-370217503#11631#29#-0#-----2@30"SUPPORTED_DEVICE_FAMILIES=1 2-370217503#11660#30#-0#-----2@14"NO_COMMON=YES-370217503#11690#14#-0#-----2@21"EXECUTABLE_SUFFIX=.a-370217503#11704#21#-0#-----2@130"PLATFORM_DEVELOPER_APPLICATIONS_DIR=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications-370217503#11725#130#-0#-----2@29"JAVA_COMPILER=/usr/bin/javac-370217503#11855#29#-0#-----2@52"HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS=YES-370217503#11884#52#-0#-----2@33"VERSION_INFO_FILE=Cordova_vers.c-370217503#11936#33#-0#-----2@22"UNSTRIPPED_PRODUCT=NO-370217503#11969#22#-0#-----2@107"SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR=/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools-370217503#11991#107#-0#-----2@21"JAVA_SOURCE_SUBDIR=.-370217503#12098#21#-0#-----2@52"DEFAULT_COMPILER=com.apple.compilers.llvm.clang.1_0-370217503#12119#52#-0#-----2@23"DEPLOYMENT_LOCATION=NO-370217503#12171#23#-0#-----2@26"CODE_SIGNING_REQUIRED=YES-370217503#12194#26#-0#-----2@31"AD_HOC_CODE_SIGNING_ALLOWED=NO-370217503#12220#31#-0#-----2@24"SEPARATE_SYMBOL_EDIT=NO-370217503#12251#24#-0#-----2@19"REZ_EXECUTABLE=YES-370217503#12275#19#-0#-----2@87"DEVELOPER_FRAMEWORKS_DIR=/Applications/Xcode.app/Contents/Developer/Library/Frameworks-370217503#12294#87#-0#-----2@98"SRCROOT=/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib-370217503#12381#98#-0#-----2@30"Showing first 200 notices only-370217503#18446744073709551615#0#-0#--21"Notice limit exceeded--0#0#0#--21323"PhaseScriptExecution "Run Script" build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Script-92E3E18915FEE2D3000294FA.sh    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER carlosmarx    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS "armv6 armv7"    setenv ARCHS_STANDARD_32_64_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_32_BIT "armv7 armv7s"    setenv ARCHS_UNIVERSAL_IPHONE_OS "armv7 armv7s"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build    setenv BUILD_ROOT /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos    setenv CACHE_ROOT /var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501    setenv CCHROOT /var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/libCordova.a    setenv CODE_SIGNING_ALLOWED NO    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos    setenv CONFIGURATION_TEMP_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CORDOVALIB /Users/carlosmarx/Documents/CordovaLib    setenv CP /bin/cp    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Applications/Xcode.app/Contents/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/CordovaLib.dst    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME libCordova.a.dSYM    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLE_EXTENSION a    setenv EXECUTABLE_NAME libCordova.a    setenv EXECUTABLE_PATH libCordova.a    setenv EXECUTABLE_PREFIX lib    setenv EXECUTABLE_SUFFIX .a    setenv FILE_LIST /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/FixedFiles    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME libCordova.a    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_ENABLE_SYMBOL_SEPARATION NO    setenv GCC_MODEL_TUNING G5    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER CordovaLib_Prefix.pch    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE NO    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include\"  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PREPROCESS NO    setenv INSTALL_DIR /tmp/CordovaLib.dst/usr/local/lib    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER carlosmarx    setenv INSTALL_PATH /usr/local/lib    setenv INSTALL_ROOT /tmp/CordovaLib.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-LinkMap-normal-armv7.txt    setenv LD_NO_PIE NO    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos\" "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv6 /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv6/Cordova.LinkFileList    setenv LINK_FILE_LIST_normal_armv7 /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal/armv7/Cordova.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE staticlib    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12C54    setenv MAC_OS_X_VERSION_ACTUAL 1082    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0802    setenv NATIVE_ARCH armv7    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Objects-normal    setenv OBJROOT /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build    setenv ONLY_ACTIVE_ARCH NO    setenv OPENSSL_SRC /usr/local/Cellar/openssl/1.0.1c    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_CFLAGS -DDEBUG    setenv OTHER_CPLUSPLUSFLAGS -DDEBUG    setenv OTHER_LDFLAGS "-all_load -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.static-library    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PREFERRED_ARCH i386    setenv PLATFORM_PRODUCT_BUILD_VERSION 10A403    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH /usr/local/include    setenv PRODUCT_NAME Cordova    setenv PRODUCT_SETTINGS_PATH     setenv PRODUCT_TYPE com.apple.product-type.library.static    setenv PROFILING_CODE NO    setenv PROJECT CordovaLib    setenv PROJECT_DERIVED_FILE_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/DerivedSources    setenv PROJECT_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv PROJECT_FILE_PATH /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/CordovaLib.xcodeproj    setenv PROJECT_NAME CordovaLib    setenv PROJECT_TEMP_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build    setenv PUBLIC_HEADERS_FOLDER_PATH include/Cordova    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/ResourceManagerResources    setenv REZ_EXECUTABLE YES    setenv REZ_OBJECTS_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk    setenv SDK_NAME iphoneos6.0    setenv SDK_PRODUCT_BUILD_VERSION 10A403    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP YES    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHARED_DERIVED_FILE_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/DerivedSources    setenv SHARED_PRECOMPS_DIR /var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv SRCROOT /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE debugging    setenv SUPPORTED_DEVICE_FAMILIES "1 2"    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME CordovaLib    setenv TARGET_BUILD_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos    setenv TARGET_NAME CordovaLib    setenv TARGET_TEMP_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build    setenv TEMP_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build    setenv TEMP_FILES_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build    setenv TEMP_FILE_DIR /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build    setenv TEMP_ROOT /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build    setenv TEST_AFTER_BUILD NO    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNSTRIPPED_PRODUCT NO    setenv USER carlosmarx    setenv USER_APPS_DIR /Users/carlosmarx/Applications    setenv USER_LIBRARY_DIR /Users/carlosmarx/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "i386 armv6 armv7"    setenv VERBOSE_PBXCP NO    setenv VERSION_INFO_BUILDER carlosmarx    setenv VERSION_INFO_FILE Cordova_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:Cordova  PROJECT:CordovaLib-\""    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 4G182    setenv XCODE_VERSION_ACTUAL 0450    setenv XCODE_VERSION_MAJOR 0400    setenv XCODE_VERSION_MINOR 0450    setenv YACC yacc    /bin/sh -c /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Script-92E3E18915FEE2D3000294FA.sh36"9E752111-C88A-4535-B03F-6F4B70B76124-
+
+CProcessPCH /var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcucsrfaobavweatbypsidazddpm/CordovaLib_Prefix.pch.pth CordovaLib_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s370217502.964852
+e370217503.151183
+r1
+xProcessPCH
+x/var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcucsrfaobavweatbypsidazddpm/CordovaLib_Prefix.pch.pth
+xCordovaLib_Prefix.pch
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile CordovaLib_Prefix.pch971cf71e1211b641^4ab6261f1211b641^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/CordovaLib_Prefix.pch0000000000000000^3914"ProcessPCH /var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcucsrfaobavweatbypsidazddpm/CordovaLib_Prefix.pch.pth CordovaLib_Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7 -fmessage-length=0 -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.0.sdk -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion "-DIBOutlet=__attribute__((iboutlet))" "-DIBOutletCollection(ClassName)=__attribute__((iboutletcollection(ClassName)))" "-DIBAction=void)__attribute__((ibaction)" -miphoneos-version-min=3.0 -iquote /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-generated-files.hmap -I/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-own-target-headers.hmap -I/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/Cordova-project-headers.hmap -I/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources/armv7 -I/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/CordovaLib.build/Debug-iphoneos/CordovaLib.build/DerivedSources -F/Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/build/Debug-iphoneos -DDEBUG --serialize-diagnostics /var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcucsrfaobavweatbypsidazddpm/CordovaLib_Prefix.pch.dia -c /Users/carlosmarx/Workspaces/main-stream/worklight-ios/framework-xcode-project/CordovaLib/CordovaLib_Prefix.pch -o /var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcucsrfaobavweatbypsidazddpm/CordovaLib_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/x_/t006601532ng034dv_z7vsxh0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/CordovaLib_Prefix-dcucsrfaobavweatbypsidazddpm/CordovaLib_Prefix.pch.d36"B93A4066-5EF6-43D9-BE51-0489526CCCFA-
+
