@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title></title>
+		<script src="default/worklight/cordova.js"></script>
+		<script src="default/js/skinLoader.js"></script>
+		<style>
+			html, body{
+				margin: 0;
+				width: 100%;
+				overflow: hidden;
+			}
+			body {
+				background-image: url(../splash.png);
+				background-position: center;
+				background-repeat: no-repeat;
+				background-color: white;
+			}
+		</style>
+		<script>
+			var mainFile = "index.html";
+			var timeoutID;
+			function loadSkin(){
+				var skinName = "default";
+				if (typeof window.getSkinName == "function") {
+					skinName = getSkinName();
+				}
+				
+				// save the skin name to device local data as part of skinLoader optimization
+				cordova.exec(null,null,"WLApp","writeUserPref", [{'key' : 'wlSkinName', 'value': skinName}] );
+				if (!skinExists(skinName)) {
+					console.log("Error loading skin '" + skinName + "'. Will load default skin.");
+					navigator.notification.alert("The application is not supported on this device. You may face problems while using it.", function(){
+						skinName = "default";
+						cordova.exec(null,null,"WLApp","writeUserPref", [{'key' : 'wlSkinName', 'value': skinName}] );
+						safeDocumentLocation(""+ skinName + "/" + mainFile );
+					}, "Device Unsupported");
+				} else {
+					safeDocumentLocation(""+ skinName + "/" + mainFile );
+				}
+			}
+			
+			// in iOS, setting the document.location is not reliable, and sometimes does not "catch".
+			// changing the document.location each 50 miliseconds ensures it will "catch" eventually,
+			// and when it does, the next setTimeout will never execute since the page has been replaced
+			// (unless its a slow device like iPhone 3G, for which there is a solution - the 'cancelSafeDocumentLocation' function)
+			function safeDocumentLocation(url){
+				timeoutID = window.setTimeout(function(){safeDocumentLocation(url);}, 50);
+				document.location = url;
+			}
+			
+			// The Native code executes this to avoid re-curring document.location calls on slower devices.
+			function cancelSafeDocumentLocation(){
+				window.clearTimeout(timeoutID);
+			}
+			
+			function skinExists(skinName) {
+				var xhr = new XMLHttpRequest();
+				xhr.open("GET", skinName + "/" + mainFile, false);
+				xhr.send();
+				// iOS xhr requests for local files under Cordova never receive the status of 200.
+				// testing the responseXML yeilds the desire results.
+				return (xhr.responseText != null) && (xhr.responseText.length > 0);
+			}
+			
+			document.addEventListener("deviceready", function() {
+				loadSkin();
+			}, false);
+		</script>
+	</head>
+	<body id="content">&nbsp;</body>
+</html>
