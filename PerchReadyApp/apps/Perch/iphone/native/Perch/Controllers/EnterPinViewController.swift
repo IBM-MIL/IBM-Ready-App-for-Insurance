@@ -157,7 +157,7 @@ class EnterPinViewController: UIViewController {
         }
         
         // Prevent call if we are already subscribed to this pin
-        if self.pinTextField.text == CurrentUser.sharedInstance.userPin {
+        if self.pinTextField.text == CurrentUser.sharedInstance.userPin && self.pinTextField.text != "0000"{
             shakeAndShowError(NSLocalizedString("You are already subscribed to that pin", comment: ""))
             return
         }

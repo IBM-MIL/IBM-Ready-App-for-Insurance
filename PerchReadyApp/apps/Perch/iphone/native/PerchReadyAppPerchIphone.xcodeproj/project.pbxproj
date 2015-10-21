@@ -1198,8 +1198,12 @@
 			attributes = {
 				LastUpgradeCheck = 0630;
 				TargetAttributes = {
+					1D6058900D05DD3D006BFB54 = {
+						DevelopmentTeam = PP64RT7P8Z;
+					};
 					2E2479611AD87C8900E7F9B9 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = PP64RT7P8Z;
 						TestTargetID = 1D6058900D05DD3D006BFB54;
 					};
 				};
@@ -1565,6 +1569,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "Entitlements-Debug.plist";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
 				COPY_PHASE_STRIP = NO;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -1604,7 +1609,7 @@
 					"${BUILT_PRODUCTS_DIR}/libCordova.a",
 				);
 				PRODUCT_NAME = Perch;
-				PROVISIONING_PROFILE = "2805fff2-b8ed-4062-9e5c-aad6cb90bf20";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Perch/Supporting Files/PerchReadyAppPerchIphone-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -1624,6 +1629,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "Entitlements-Release.plist";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
 				COPY_PHASE_STRIP = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -1655,7 +1661,7 @@
 					"\"$(SRCROOT)/WorklightSDK\"",
 				);
 				PRODUCT_NAME = Perch;
-				PROVISIONING_PROFILE = "2805fff2-b8ed-4062-9e5c-aad6cb90bf20";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Perch/Supporting Files/PerchReadyAppPerchIphone-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1680,6 +1686,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -1712,7 +1720,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2805fff2-b8ed-4062-9e5c-aad6cb90bf20";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/PerchReadyAppPerchIphoneTests/Supporting Files/PerchTest-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Perch.app/Perch";
@@ -1737,6 +1745,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1763,7 +1773,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2805fff2-b8ed-4062-9e5c-aad6cb90bf20";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/PerchReadyAppPerchIphoneTests/Supporting Files/PerchTest-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Perch.app/Perch";
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/WorklightSDK/include ${SRCROOT}/Perch/ExternalLibraries/SVProgressHUD";
@@ -1788,6 +1798,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				ENABLE_NS_ASSERTIONS = NO;
@@ -1813,7 +1825,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "2805fff2-b8ed-4062-9e5c-aad6cb90bf20";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/PerchReadyAppPerchIphoneTests/Supporting Files/PerchTest-Bridging-Header.h";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Perch.app/Perch";
 				USER_HEADER_SEARCH_PATHS = "${SRCROOT}/WorklightSDK/include ${SRCROOT}/Perch/ExternalLibraries/SVProgressHUD";
@@ -1849,6 +1861,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "Entitlements-Debug.plist";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_RESOURCE_RULES_PATH = "$(SDKROOT)/ResourceRules.plist";
 				COPY_PHASE_STRIP = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -1884,7 +1897,7 @@
 					"\"$(SRCROOT)/WorklightSDK\"",
 				);
 				PRODUCT_NAME = Perch;
-				PROVISIONING_PROFILE = "2805fff2-b8ed-4062-9e5c-aad6cb90bf20";
+				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "Perch/Supporting Files/PerchReadyAppPerchIphone-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";

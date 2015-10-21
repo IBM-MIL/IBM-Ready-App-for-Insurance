@@ -62,7 +62,6 @@ public class AssetOverviewDataManager: NSObject {
 
         caller.invokeWithResponse(self, params: params)
         var userExists = false
-        
     }
     
     /**
@@ -203,8 +202,7 @@ extension AssetOverviewDataManager: WLDataDelegate {
         callback(false)
         
     }
-    
-    
+
     /**
     Delgate method for WorkLight. Task to do before executing a call.
     */
