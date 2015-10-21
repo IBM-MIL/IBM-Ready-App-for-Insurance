@@ -70,6 +70,7 @@ class PinViewController: UIViewController {
     var currentErrorMessage = ""
     
     var loginCallback: (()->())!
+    var loginVC: LoginViewController?
     
     // MARK: View Controller Overrides
     override func viewDidLoad() {
@@ -166,7 +167,7 @@ class PinViewController: UIViewController {
     /** Animate the orange view down to invisible again */
     func hideOrange() {
         self.fillOrangeViewHeight.constant = 0
-        
+
         /** Update any other constraints associated with the constraint(s) just updated */
         self.view.setNeedsUpdateConstraints()
         
@@ -336,14 +337,16 @@ class PinViewController: UIViewController {
     
     // This is called when the query for asset data finishes. Once finished and succesful, tells the login view that it was succesful.
     func assetQueryFinished(success: Bool) {
+        if let loginVC = self.presentedViewController as? LoginViewController {
+            self.loginVC = loginVC
+        }
+
         if success {
-            if let loginVC = self.presentedViewController as? LoginViewController {
-                loginVC.syncSensorsFinished()
-            }
+            self.loginVC?.syncSensorsFinished()
         } else {
             loadingFinished = true
             pendingError = true
-            
+            self.loginVC?.dismissViewControllerAnimated(true, completion: nil)
             enterPinVC?.shakeAndShowError("Failed to sync with sensors. Try again or enter a new pin.")
         }
     }

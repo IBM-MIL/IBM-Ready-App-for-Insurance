@@ -53,7 +53,6 @@ public class LoginViewController: UIViewController {
         loggingInView.frame = view.frame
         loggingInView.alpha = 0.0
         self.view.addSubview(loggingInView)
-
     }
     
     public override func viewWillAppear(animated: Bool) {

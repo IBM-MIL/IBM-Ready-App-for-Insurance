@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9cO-ze-Pv2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9cO-ze-Pv2">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
@@ -669,13 +669,13 @@
                                         <rect key="frame" x="0.0" y="0.0" width="160" height="90"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="72 L" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4OV-H7-Mbu">
-                                                <rect key="frame" x="67.5" y="18.5" width="35.5" height="23.5"/>
+                                                <rect key="frame" x="68" y="19" width="36" height="24"/>
                                                 <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="20"/>
                                                 <color key="textColor" red="0.68235294117647061" green="0.68235294117647061" blue="0.68235294117647061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MZG-uD-IwF">
-                                                <rect key="frame" x="35" y="42" width="90" height="30.5"/>
+                                                <rect key="frame" x="35" y="42" width="90" height="31"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="90" id="6cP-jz-6ft"/>
                                                 </constraints>
@@ -686,7 +686,7 @@ Exceeded</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="alert_icon_gray" translatesAutoresizingMaskIntoConstraints="NO" id="yIw-UJ-tIc">
-                                                <rect key="frame" x="42.5" y="18" width="25" height="25"/>
+                                                <rect key="frame" x="43" y="18" width="25" height="25"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="25" id="BdI-ds-icy"/>
                                                     <constraint firstAttribute="height" constant="25" id="Rux-7H-Wj8"/>
@@ -707,13 +707,13 @@ Exceeded</string>
                                         <rect key="frame" x="160" y="0.0" width="160" height="90"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="15-16 L" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lr6-qS-NHm">
-                                                <rect key="frame" x="51.5" y="18.5" width="57.5" height="23.5"/>
+                                                <rect key="frame" x="52" y="19" width="58" height="24"/>
                                                 <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="20"/>
                                                 <color key="textColor" red="0.68235294120000001" green="0.68235294120000001" blue="0.68235294120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWC-J9-Zxf">
-                                                <rect key="frame" x="35" y="42" width="90" height="30.5"/>
+                                                <rect key="frame" x="35" y="42" width="90" height="31"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="90" id="keS-ut-Ohh"/>
                                                 </constraints>
@@ -772,7 +772,7 @@ per Minute</string>
                                         <rect key="frame" x="0.0" y="0.0" width="318" height="750"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="TODAY, 4:16 PM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Etd-oX-Zmg">
-                                                <rect key="frame" x="40" y="20" width="60.5" height="11"/>
+                                                <rect key="frame" x="40" y="20" width="61" height="11"/>
                                                 <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="9"/>
                                                 <color key="textColor" red="1" green="0.47058823704719543" blue="0.19607843458652496" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -834,26 +834,26 @@ per Minute</string>
                                 <rect key="frame" x="0.0" y="428" width="320" height="400"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Recommended Plumber" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3WU-jR-xC5">
-                                        <rect key="frame" x="20" y="20" width="136.5" height="14.5"/>
+                                        <rect key="frame" x="20" y="20" width="137" height="15"/>
                                         <fontDescription key="fontDescription" name="Karla-Bold" family="Karla" pointSize="12"/>
                                         <color key="textColor" red="0.68235294117647061" green="0.68235294117647061" blue="0.68235294117647061" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="harbor_plumbing" translatesAutoresizingMaskIntoConstraints="NO" id="Mkq-BW-W5u">
-                                        <rect key="frame" x="20" y="42.5" width="70" height="70"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="harbor_plumbing" translatesAutoresizingMaskIntoConstraints="NO" id="Mkq-BW-W5u">
+                                        <rect key="frame" x="20" y="43" width="70" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="o79-ZO-kMN"/>
                                             <constraint firstAttribute="width" constant="70" id="x2Y-a7-uKO"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Harbor Plumbing Co." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTw-Tg-FAQ">
-                                        <rect key="frame" x="105" y="52" width="195" height="21.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Harbor Plumbing Co." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTw-Tg-FAQ">
+                                        <rect key="frame" x="105" y="52" width="195" height="22"/>
                                         <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="18"/>
                                         <color key="textColor" red="0.35294117647058826" green="0.35294117647058826" blue="0.35294117647058826" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b00-aL-D0T" userLabel="PhoneButton">
-                                        <rect key="frame" x="98" y="75.5" width="35" height="35"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b00-aL-D0T" userLabel="PhoneButton">
+                                        <rect key="frame" x="98" y="76" width="35" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="vcR-hW-4uV"/>
                                             <constraint firstAttribute="width" constant="35" id="zuY-9e-YvZ"/>
@@ -865,8 +865,8 @@ per Minute</string>
                                             <action selector="phoneButtonTapped:" destination="bGK-A8-oec" eventType="touchUpInside" id="qlc-xp-78U"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4GM-Mp-ar8" userLabel="EmailButton">
-                                        <rect key="frame" x="141" y="75.5" width="35" height="35"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4GM-Mp-ar8" userLabel="EmailButton">
+                                        <rect key="frame" x="141" y="76" width="35" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="35" id="0Gf-Bn-Vg3"/>
                                             <constraint firstAttribute="height" constant="35" id="CWB-5d-ZYM"/>
@@ -878,8 +878,8 @@ per Minute</string>
                                             <action selector="emailButtonTapped:" destination="bGK-A8-oec" eventType="touchUpInside" id="VGh-JG-PWX"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zk3-k3-BNC" userLabel="MapButton">
-                                        <rect key="frame" x="184" y="75.5" width="35" height="35"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zk3-k3-BNC" userLabel="MapButton">
+                                        <rect key="frame" x="184" y="76" width="35" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="35" id="2bW-mb-V5x"/>
                                             <constraint firstAttribute="height" constant="35" id="zRP-er-gTB"/>
@@ -1839,7 +1839,7 @@ per Minute</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Electrical Panel" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zjb-BP-DeT">
-                                        <rect key="frame" x="124" y="50.5" width="176" height="21.5"/>
+                                        <rect key="frame" x="124" y="51" width="176" height="22"/>
                                         <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="18"/>
                                         <color key="textColor" red="0.3529411764705882" green="0.3529411764705882" blue="0.3529411764705882" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -2078,7 +2078,7 @@ to your home</string>
                                     <constraint firstAttribute="width" constant="214" id="tcJ-eR-SpJ"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Syncing with sensors..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvj-5W-mF4" userLabel="Syncing with sensors...">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Syncing with sensors..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dvj-5W-mF4" userLabel="Syncing with sensors...">
                                 <rect key="frame" x="118" y="172" width="140" height="18"/>
                                 <fontDescription key="fontDescription" name="Karla-Italic" family="Karla" pointSize="15"/>
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -2445,7 +2445,7 @@ to your home</string>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="92f-nz-HP7" userLabel="NeedAPinContainerView">
                                 <rect key="frame" x="0.0" y="31" width="375" height="120"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QwL-Wo-eKN">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QwL-Wo-eKN">
                                         <rect key="frame" x="10" y="27" width="355" height="50"/>
                                         <string key="text">This pin is used to connect this app to your sensor simulator instance. To get an instance, visit this URL on a separate device:</string>
                                         <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="14"/>
@@ -2459,7 +2459,7 @@ to your home</string>
                                             <constraint firstAttribute="height" constant="1" id="D2o-Cf-qoB"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ibm.biz/ra-perch" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVp-lR-PvP">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ibm.biz/ra-perch" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iVp-lR-PvP">
                                         <rect key="frame" x="126" y="84" width="123" height="19"/>
                                         <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="16"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -2535,7 +2535,7 @@ to your home</string>
                                             <constraint firstAttribute="height" constant="20" id="Hhd-Xo-kjh"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="An error occurred" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHA-bg-Dxf">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An error occurred" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hHA-bg-Dxf">
                                         <rect key="frame" x="160" y="95" width="95" height="15"/>
                                         <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="12"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -2679,7 +2679,7 @@ to your home</string>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lEo-fr-dvo" userLabel="NeedAPinContainerView">
                                 <rect key="frame" x="0.0" y="31" width="375" height="120"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cbk-v9-fk2">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cbk-v9-fk2">
                                         <rect key="frame" x="10" y="27" width="355" height="50"/>
                                         <string key="text">This pin is used to connect this app to your sensor simulator instance. To get an instance, visit this URL on a separate device:</string>
                                         <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="14"/>
@@ -2693,7 +2693,7 @@ to your home</string>
                                             <constraint firstAttribute="height" constant="1" id="Jr2-nf-Xss"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="ibm.biz/ra-perch" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXu-le-rRu">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ibm.biz/ra-perch" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wXu-le-rRu">
                                         <rect key="frame" x="126" y="84" width="123" height="19"/>
                                         <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="16"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -2769,7 +2769,7 @@ to your home</string>
                                             <constraint firstAttribute="width" constant="20" id="jvL-gX-1A1"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="An error occurred" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="si2-Yg-hE0">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An error occurred" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="si2-Yg-hE0">
                                         <rect key="frame" x="160" y="95" width="95" height="15"/>
                                         <fontDescription key="fontDescription" name="Karla-Regular" family="Karla" pointSize="12"/>
                                         <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
