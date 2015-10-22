@@ -1,0 +1,10 @@
+{
+	"cloudantUser" : "<your Cloudant username (for the Node-RED app)>",
+	"cloudantPassword" : "<your Cloudant password>",
+	"iotApiKey" : "<your iotf-service apiKey>",
+	"iotAuthToken" : "<your iotf-service apiToken>",
+	"iotOrganizationId" : "<your iotf-service org>",
+	"pushURL" : "<your Push url>",
+	"appSecret" : "<your Bluemix app secret>",
+	"cloudantDBURL" : "<your Cloudant url>",
+}
