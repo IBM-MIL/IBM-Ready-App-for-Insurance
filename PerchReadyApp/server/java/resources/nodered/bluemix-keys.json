@@ -6,5 +6,5 @@
 	"iotOrganizationId" : "<your iotf-service org>",
 	"pushURL" : "<your Push url>",
 	"appSecret" : "<your Bluemix app secret>",
-	"cloudantDBURL" : "<your Cloudant url>",
+	"cloudantDBURL" : "<your Cloudant url>"
 }
