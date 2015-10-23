@@ -33,7 +33,7 @@ class NavHandlerViewController: PageItemViewController, NavHandlerDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         tipCountView.layer.cornerRadius = tipCountView.frame.size.width/2
-        self.navBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.perchDarkGray(alpha: 1.0)]
+        self.navBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.perchDarkGray(1.0)]
         
         // Used to make nav bar transparent
         self.navBar.setBackgroundImage(UIImage(), forBarMetrics: UIBarMetrics.Default)
@@ -91,20 +91,20 @@ class NavHandlerViewController: PageItemViewController, NavHandlerDelegate {
     /**
     UI helper method to update the color of the 1px line under the nav bar
     
-    :param: status status of the asset to determine color
+    - parameter status: status of the asset to determine color
     */
     func updateSepartorColor(status: Int) {
         if status == 0 {
             self.separatorView.backgroundColor = UIColor(red: 184/255, green: 174/255, blue: 174/255, alpha: 1.0)
         } else {
-            self.separatorView.backgroundColor = UIColor.perchDarkYellow(alpha: 1.0)
+            self.separatorView.backgroundColor = UIColor.perchDarkYellow(1.0)
         }
     }
     
     /**
     Method to navigate to asset detail page with animation
     
-    :param: assetStatus status value of asset to determine color of certain asset detail components
+    - parameter assetStatus: status value of asset to determine color of certain asset detail components
     */
     func assetSelected(assetStatus: Int) {
         
@@ -122,15 +122,15 @@ class NavHandlerViewController: PageItemViewController, NavHandlerDelegate {
 
         // create values to update nav bar with
         
-        var upButton = UIBarButtonItem(image: UIImage(named: "uparrow_icon")?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal), style: UIBarButtonItemStyle.Plain, target: self, action: "popToAssetOverview")
-        var historyButton = UIBarButtonItem(image: UIImage(named: "history_icon")?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal), style: UIBarButtonItemStyle.Plain, target: self, action: "navigateRightFromMiddle:")
+        let upButton = UIBarButtonItem(image: UIImage(named: "uparrow_icon")?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal), style: UIBarButtonItemStyle.Plain, target: self, action: "popToAssetOverview")
+        let historyButton = UIBarButtonItem(image: UIImage(named: "history_icon")?.imageWithRenderingMode(UIImageRenderingMode.AlwaysOriginal), style: UIBarButtonItemStyle.Plain, target: self, action: "navigateRightFromMiddle:")
         
         self.transitionFromViewController(assetsViewController, toViewController: toVC, duration: 0.4, options: UIViewAnimationOptions.CurveEaseInOut, animations: { () -> Void in
             
             // set new frames
             toVC.view.frame = self.assetsViewController.view.frame
             self.assetsViewController.view.frame = CGRectOffset(self.assetsViewController.view.frame, 0, -self.assetsViewController.view.frame.size.height)
-            self.navBar.barTintColor = (assetStatus == 0 ? UIColor.perchWarmGray(alpha: 1.0) : UIColor.unreadStatusYellow(alpha: 1.0))
+            self.navBar.barTintColor = (assetStatus == 0 ? UIColor.perchWarmGray(1.0) : UIColor.unreadStatusYellow(1.0))
             self.updateSepartorColor(assetStatus)
             self.navBarTitleImage.alpha = 0.0
             
@@ -152,13 +152,13 @@ class NavHandlerViewController: PageItemViewController, NavHandlerDelegate {
                 toVC.didMoveToParentViewController(self)
                 
                 // Update page view controller to work with detail and history views
-                if var parent = self.parentViewController as? UIPageViewController {
-                    if var pageHandler = parent.parentViewController as? PageHandlerViewController {
+                if let parent = self.parentViewController as? UIPageViewController {
+                    if let pageHandler = parent.parentViewController as? PageHandlerViewController {
                         
                         pageHandler.inDetailView = true
                         // These 2 lines essentially reset the UIPageViewController causing it to work properly
                         let startingViewControllers: NSArray = [self]
-                        pageHandler.pageViewController!.setViewControllers(startingViewControllers as [AnyObject], direction: .Forward, animated: false, completion: nil)
+                        pageHandler.pageViewController!.setViewControllers(startingViewControllers as? [UIViewController], direction: .Forward, animated: false, completion: nil)
                     }
                 }
         })
@@ -186,7 +186,7 @@ class NavHandlerViewController: PageItemViewController, NavHandlerDelegate {
                 self.assetsViewController.view.frame = fromVC.view.frame
                 fromVC.view.frame = CGRectOffset(fromVC.view.frame, 0, fromVC.view.frame.size.height)
                 self.navBar.barTintColor = UIColor.whiteColor()
-                self.separatorView.backgroundColor = UIColor.perchLightGray(alpha: 1.0)
+                self.separatorView.backgroundColor = UIColor.perchLightGray(1.0)
                 self.navBarTitleImage.alpha = 1.0
                 
                 }, completion: { (done: Bool) -> Void in
@@ -203,13 +203,13 @@ class NavHandlerViewController: PageItemViewController, NavHandlerDelegate {
                     self.assetsViewController.didMoveToParentViewController(self)
                     
                     // Update page view controller to work with detail and history views
-                    if var parent = self.parentViewController as? UIPageViewController {
-                        if var pageHandler = parent.parentViewController as? PageHandlerViewController {
+                    if let parent = self.parentViewController as? UIPageViewController {
+                        if let pageHandler = parent.parentViewController as? PageHandlerViewController {
                             
                             pageHandler.inDetailView = false
                             // These 2 lines essentially reset the UIPageViewController causing it to work properly
                             let startingViewControllers: NSArray = [self]
-                            pageHandler.pageViewController!.setViewControllers(startingViewControllers as [AnyObject], direction: .Forward, animated: false, completion: nil)
+                            pageHandler.pageViewController!.setViewControllers(startingViewControllers as? [UIViewController], direction: .Forward, animated: false, completion: nil)
                         }
                     }
             })
@@ -242,13 +242,13 @@ extension NavHandlerViewController: WLActionReceiver {
         if action == "viewAlert" {
             dispatch_async(dispatch_get_main_queue()) {
                 let deviceClassId = data["customData"] as! String
-                let alert = Alert(dictionary: data)
+                let alert = Alert(dictionary: data, shouldValidate: false)
                 alert?.computeOptionalProperties()
                 alert?.status = 2
                 self.view.window?.layer.addAnimation(Utils.customTransitionFromDirection(kCATransitionFromRight), forKey: nil)
                 
-                var storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
-                var detailVC = storyboard.instantiateViewControllerWithIdentifier("AlertDetailViewController") as? AlertDetailViewController
+                let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+                let detailVC = storyboard.instantiateViewControllerWithIdentifier("AlertDetailViewController") as? AlertDetailViewController
                 detailVC?.currentSensor = deviceClassId
                 if self.alertSuccessfullyPopulatedFromHybridData(alert!) {
                     detailVC?.alert = alert
@@ -266,8 +266,8 @@ extension NavHandlerViewController: WLActionReceiver {
                     
                         self.view.window?.layer.addAnimation(Utils.customTransitionFromDirection(kCATransitionFromRight), forKey: nil)
                         
-                        var storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
-                        var detailVC = storyboard.instantiateViewControllerWithIdentifier("TipDetailViewController") as? TipDetailViewController
+                        let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+                        let detailVC = storyboard.instantiateViewControllerWithIdentifier("TipDetailViewController") as? TipDetailViewController
                         detailVC?.singleTipData = tip
                         self.presentViewController(detailVC!, animated: false, completion: nil)
                     }

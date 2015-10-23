@@ -23,7 +23,7 @@ public class PushNotificationView: UIView {
     /**
     Initializer for PushNotificationView
 
-    :returns: An instance of PushNotificationView
+    - returns: An instance of PushNotificationView
     */
     class func instanceFromNib() -> PushNotificationView {
         return UINib(nibName: "PushNotificationView", bundle: nil).instantiateWithOwner(nil, options: nil)[0] as! PushNotificationView
@@ -32,7 +32,7 @@ public class PushNotificationView: UIView {
     /**
     Sets the title on the PushNotificationView's title label
 
-    :param: title The title to be displayed
+    - parameter title: The title to be displayed
     */
     func setTitle(title: String!) {
         if title != nil {
@@ -43,7 +43,7 @@ public class PushNotificationView: UIView {
     /**
     Sets the message on the PushNotificationView's message label
 
-    :param: message The message to be displayed
+    - parameter message: The message to be displayed
     */
     func setMessage(message: String!) {
         if message != nil {
@@ -62,7 +62,7 @@ public class PushNotificationView: UIView {
     /**
     Sets the callback for the View Alert button
     
-    :param: callback The callback function that is to be executed when the View Alert button is tapped
+    - parameter callback: The callback function that is to be executed when the View Alert button is tapped
     */
     func setNotificationCallback(callback: (()->())!) {
         self.callback = callback
@@ -75,7 +75,7 @@ public class PushNotificationView: UIView {
     /**
     Execute the action associated with this notification
     
-    :param: sender The UI element that triggered the action
+    - parameter sender: The UI element that triggered the action
     */
     @IBAction func viewAlertButtonTapped(sender: AnyObject) {
         PushNotificationViewManager.sharedInstance.hideImmediately()

@@ -28,7 +28,7 @@ extension UIColor {
         var hexString = ""
         
         if hex.hasPrefix("#") {
-            let index = advance(hexString.startIndex, 1)
+            let index = hexString.startIndex.advancedBy(1)
             hexString = hex.substringFromIndex(index)
             
         } else {
@@ -38,7 +38,7 @@ extension UIColor {
         let scanner = NSScanner(string: hex)
         var hexValue: CUnsignedLongLong = 0
         if scanner.scanHexLongLong(&hexValue) {
-            switch (count(hex)) {
+            switch (hex.characters.count) {
             case 3:
                 red = CGFloat((hexValue & 0xF00) >> 8)       / 15.0
                 green = CGFloat((hexValue & 0x0F0) >> 4)       / 15.0
@@ -48,19 +48,19 @@ extension UIColor {
                 green = CGFloat((hexValue & 0x00FF00) >> 8)    / 255.0
                 blue = CGFloat(hexValue & 0x0000FF)           / 255.0
             default:
-                print("Invalid HEX string, number of characters after '#' should be either 3, 6")
+                print("Invalid HEX string, number of characters after '#' should be either 3, 6", terminator: "")
             }
         } else {
-            println("Scan hex error")
+            print("Scan hex error")
         }
         self.init(red:red, green:green, blue:blue, alpha:alpha)
     }
     
     convenience init?(cyan: CGFloat, magenta: CGFloat, yellow: CGFloat, black: CGFloat, alpha: CGFloat = 1.0){
-        var cmykColorSpace = CGColorSpaceCreateDeviceCMYK()
-        var colors = [cyan, magenta, yellow, black, alpha] // CMYK+Alpha
-        var cgColor = CGColorCreate(cmykColorSpace, colors)
-        self.init(CGColor: cgColor)
+        let cmykColorSpace = CGColorSpaceCreateDeviceCMYK()
+        let colors = [cyan, magenta, yellow, black, alpha] // CMYK+Alpha
+        let cgColor = CGColorCreate(cmykColorSpace, colors)
+        self.init(CGColor: cgColor!)
     }
     
 }

@@ -11,6 +11,13 @@ import Foundation
 // MARK: JsonObject+Mappers
 
 extension JsonObject {
+
+    var classOrigin: String {
+        let fullClassName = NSStringFromClass(self.dynamicType)
+        var components = fullClassName.componentsSeparatedByString(".")
+        components.removeLast()
+        return components.joinWithSeparator(".")
+    }
     
     // MARK: Public Methods
     
@@ -19,10 +26,10 @@ extension JsonObject {
     }
     
     static func registerJsonMapper(mapper: JsonMapper) {
-        for (index, existingMapper) in enumerate(mappers) {
-            if let existingMapper = existingMapper as? JsonInternalMapper where "\(existingMapper.type)" == "\(reflect(mapper).valueType)" {
+        for (index, existingMapper) in mappers.enumerate() {
+            if let existingMapper = existingMapper as? JsonInternalMapper where "\(existingMapper.type)" == "\(_reflect(mapper).valueType)" {
                 mappers.removeAtIndex(index)
-            } else if "\(reflect(existingMapper).valueType)" == "\(reflect(mapper).valueType)" {
+            } else if "\(_reflect(existingMapper).valueType)" == "\(_reflect(mapper).valueType)" {
                 mappers.removeAtIndex(index)
             }
         }
@@ -34,7 +41,7 @@ extension JsonObject {
     static var mappers: [JsonMapper] = [NSStringMapper(), NSNumberMapper(), NSArrayMapper(), NSDictionaryMapper(), JsonObjectMapper(), OptionalMapper(), DictionaryMapper(), ArrayMapper(), StringMapper(), IntMapper(), FloatMapper(), DoubleMapper(), BoolMapper()]
     
     private func mapperFromCompleteDescription(completeDescription: String) -> JsonMapper? {
-        var typeDescription = self.typeDescription(completeDescription)
+        let typeDescription = self.typeDescription(completeDescription)
         if let JsonMapper = mapperFromTypeDescription(typeDescription) {
             if let JsonMapper = JsonMapper as? JSONGenericMapper,
                 let genericMappers = genericMappersFromGenericsDescription(genericsDescription(completeDescription))  {
@@ -42,6 +49,10 @@ extension JsonObject {
             }
             if let JsonMapper = JsonMapper as? JsonObjectMapper,
                 let modelType = NSClassFromString(completeDescription) as? JsonObject.Type {
+                    JsonMapper.modelType = modelType
+            }
+            if let JsonMapper = JsonMapper as? JsonObjectMapper,
+                let modelType = NSClassFromString("\(classOrigin).\(completeDescription)") as? JsonObject.Type {
                     JsonMapper.modelType = modelType
             }
             return JsonMapper
@@ -58,13 +69,16 @@ extension JsonObject {
         if let someClass: AnyClass = NSClassFromString(typeDescription) {
             return mapperFromSuperClass(someClass)
         }
+        if let someClass: AnyClass = NSClassFromString("\(classOrigin).\(typeDescription)") {
+            return mapperFromSuperClass(someClass)
+        }
         return nil
     }
     
     private func mapperFromSuperClass(someClass: AnyClass) -> JsonMapper? {
         if let superclass: AnyClass = someClass.superclass() {
             for mapper in JsonObject.mappers {
-                if typeDescription(someClass as! Any.Type) == typeDescription(typeForMapper(mapper)) {
+                if typeDescription(someClass as Any.Type) == typeDescription(typeForMapper(mapper)) {
                     return mapper
                 }
             }
@@ -89,11 +103,12 @@ extension JsonObject {
     private func componentsFromString(string: String) -> [String] {
         var component = ""
         var components = [String]()
-        var range = Range<String.Index>(start: string.startIndex, end: string.endIndex)
-        var options = NSStringEnumerationOptions.ByComposedCharacterSequences
+        let range = Range<String.Index>(start: string.startIndex, end: string.endIndex)
+        let options = NSStringEnumerationOptions.ByComposedCharacterSequences
         var openings = 0
         var closings = 0
         string.enumerateSubstringsInRange(range, options: options) { (substring, substringRange, enclosingRange, shouldContinue) -> () in
+
             if openings == closings && substring == "," {
                 components.append(component)
                 component = ""
@@ -104,7 +119,7 @@ extension JsonObject {
                 if substring == "<" {
                     openings++
                 }
-                component += substring
+                component += substring!
             }
         }
         components.append(component)
@@ -112,7 +127,7 @@ extension JsonObject {
     }
     
     private func completeDescription(type: Any.Type) -> String {
-        return "\(type)".stringByReplacingOccurrencesOfString(" ", withString: "", options: nil, range: nil)
+        return "\(type)".stringByReplacingOccurrencesOfString(" ", withString: "", options: [], range: nil)
     }
     
     private func typeDescription(type: Any.Type) -> String {
@@ -120,7 +135,7 @@ extension JsonObject {
     }
     
     private func typeDescription(description: String) -> String {
-        if let openingRange = description.rangeOfString("<", options: nil, range: nil, locale: nil) where description[count(description) - 1] == ">" {
+        if let openingRange = description.rangeOfString("<", options: [], range: nil, locale: nil) where description[description.characters.count - 1] == ">" {
             return description.substringWithRange(Range<String.Index>(start: description.startIndex, end: openingRange.startIndex))
         } else {
             return description
@@ -132,7 +147,7 @@ extension JsonObject {
     }
     
     private func genericsDescription(description: String) -> String {
-        if let openingRange = description.rangeOfString("<", options: nil, range: nil, locale: nil) where description[count(description) - 1] == ">" {
+        if let openingRange = description.rangeOfString("<", options: [], range: nil, locale: nil) where description[description.characters.count - 1] == ">" {
             return description.substringWithRange(Range<String.Index>(start: openingRange.endIndex, end: description.endIndex.predecessor()))
         } else {
             return ""
@@ -147,7 +162,7 @@ private func typeForMapper(mapper: JsonMapper) -> Any.Type {
     if let internalMapper = mapper as? JsonInternalMapper {
         return internalMapper.type
     } else {
-        return reflect(mapper).valueType
+        return _reflect(mapper).valueType
     }
 }
 
@@ -248,11 +263,11 @@ class JsonObjectMapper: JsonInternalMapper {
     
     var type: Any.Type { get { return JsonObject.self } }
     
-    var sampleInstance: Any? { get { return modelType(dictionary: NSDictionary(), shouldValidate: false) } }
+    var sampleInstance: Any? { get { return modelType.init(dictionary: NSDictionary(), shouldValidate: false) } }
     
     func propertyValueFromJsonValue(value: JsonValue) -> AnyObject? {
         switch value {
-        case .Dictionary(let nsdictionary): return modelType(dictionary: nsdictionary, shouldValidate: true)
+        case .Dictionary(let nsdictionary): return modelType.init(dictionary: nsdictionary, shouldValidate: true)
         default: return nil
         }
     }
@@ -332,7 +347,7 @@ class DictionaryMapper: JSONGenericMapper {
         if submappers.count > 1 {
             let keyMapper = submappers[0]
             let valueMapper = submappers[1]
-            var dictionary = NSMutableDictionary()
+            let dictionary = NSMutableDictionary()
             for (key, value) in nsdictionary {
                 if let keyJsonValue = JsonValue(value: key),
                     let valueJsonValue = JsonValue(value: value),
@@ -351,7 +366,7 @@ class DictionaryMapper: JSONGenericMapper {
         if let valueDictionary = value as? NSDictionary where submappers.count > 1 {
             let keyMapper = submappers[0]
             let valueMapper = submappers[1]
-            var dictionary = NSMutableDictionary()
+            let dictionary = NSMutableDictionary()
             for (key, value) in valueDictionary {
                 if let keyJsonObject = keyMapper.jsonValueFromPropertyValue(key),
                     let key = keyJsonObject.value() as? NSCopying,
@@ -382,7 +397,7 @@ class ArrayMapper: JSONGenericMapper {
     private func propertyValueFromArray(nsarray: NSArray) -> AnyObject? {
         if submappers.count > 0 {
             let submapper = submappers[0]
-            var array = NSMutableArray()
+            let array = NSMutableArray()
             for value in nsarray {
                 if let jsonValue = JsonValue(value: value),
                     let object: AnyObject = submapper.propertyValueFromJsonValue(jsonValue) {
@@ -398,7 +413,7 @@ class ArrayMapper: JSONGenericMapper {
     override func jsonValueFromPropertyValue(value: AnyObject) -> JsonValue? {
         if let valueArray = value as? NSArray where submappers.count > 0 {
             let submapper = submappers[0]
-            var array = NSMutableArray()
+            let array = NSMutableArray()
             for value in valueArray {
                 if let jsonObject = submapper.jsonValueFromPropertyValue(value) {
                     array.addObject(jsonObject.value())

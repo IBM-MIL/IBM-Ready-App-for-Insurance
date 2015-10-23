@@ -17,7 +17,7 @@ class AssetCollectionViewCell: UICollectionViewCell {
     /**
     Simple method to swap asset backgrounds
     
-    :param: sensorStatus sensorStatus returned from server, 0 = good, 2 = critical
+    - parameter sensorStatus: sensorStatus returned from server, 0 = good, 2 = critical
     */
     func swapAssetState(sensorStatus: Int) {
         
@@ -32,7 +32,7 @@ class AssetCollectionViewCell: UICollectionViewCell {
     /**
     Method that sets the icon for an asset
     
-    :param: deviceType the type of deviceType to loade the image for
+    - parameter deviceType: the type of deviceType to loade the image for
     */
     func setIconForDevice(deviceType: DeviceType, sensorStatus: Int) {
         
@@ -47,8 +47,6 @@ class AssetCollectionViewCell: UICollectionViewCell {
                 self.assetIconImageView.image = (sensorStatus == 0 ? UIImage(named: "sewer_icon_static") : UIImage(named: "sewer_icon"))
             case .Electrical:
                 self.assetIconImageView.image = (sensorStatus == 0 ? UIImage(named: "electrical_icon_static") : UIImage(named: "electrical_icon"))
-            default:
-                self.assetIconImageView.image = nil
         }
         
     }

@@ -13,13 +13,13 @@ extension UITextField {
     /**
     Set the color of the placeholder text
     
-    :param: color The color to use
+    - parameter color: The color to use
     */
     func setPlaceholderTextColor(color: UIColor) {
         if self.respondsToSelector("setAttributedPlaceholder:") {
             self.attributedPlaceholder = NSAttributedString(string: self.placeholder!, attributes: [NSForegroundColorAttributeName: color])
         } else {
-            println("Cannot set placeholder text color, because on iOS < 6.0")
+            print("Cannot set placeholder text color, because on iOS < 6.0")
         }
     }
     

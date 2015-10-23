@@ -10,10 +10,10 @@ extension NSNumber {
     /**
     Converts an NS Number into a currency string with 0 decimal points
     
-    :returns: a currency String
+    - returns: a currency String
     */
     func getCurrencyString() -> String {
-        var numFormatter = NSNumberFormatter()
+        let numFormatter = NSNumberFormatter()
         numFormatter.numberStyle = NSNumberFormatterStyle.CurrencyStyle
         numFormatter.maximumFractionDigits = 0
         if let currString = numFormatter.stringFromNumber(self) {

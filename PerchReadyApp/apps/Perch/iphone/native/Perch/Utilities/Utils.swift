@@ -10,13 +10,13 @@ class Utils: NSObject {
     /**
     Gets a UIImage of a view aka a screenshot
     
-    :param: view UIView to capture
+    - parameter view: UIView to capture
     
-    :returns: UIImage of the view
+    - returns: UIImage of the view
     */
     class func imageWithView(view: UIView) -> UIImage {
         UIGraphicsBeginImageContextWithOptions(view.bounds.size, view.opaque, 0.0)
-        view.layer.renderInContext(UIGraphicsGetCurrentContext())
+        view.layer.renderInContext(UIGraphicsGetCurrentContext()!)
         let img = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         return img;
@@ -25,8 +25,8 @@ class Utils: NSObject {
     /**
     Helper method for executing code after a delay
     
-    :param: delay   The amount of time to delay in seconds
-    :param: closure The code to execute after teh delay
+    - parameter delay:   The amount of time to delay in seconds
+    - parameter closure: The code to execute after teh delay
     */
     class func delay(delay: Double, closure: ()->()) {
         // Dispatch the waiting period asynchronously
@@ -42,9 +42,9 @@ class Utils: NSObject {
     /**
     Helper method for making a transition from one direction to the other.
     
-    :param: direction The direction to make the transition
+    - parameter direction: The direction to make the transition
     
-    :returns: The Core animation transition to use
+    - returns: The Core animation transition to use
     */
     class func customTransitionFromDirection(direction: String) -> CATransition {
         let customTransition = CATransition()
@@ -79,7 +79,7 @@ class Utils: NSObject {
     /**
     Helper method for opening the phone app
     
-    :param: phoneNumber The phone number to open with
+    - parameter phoneNumber: The phone number to open with
     */
     class func openPhone(phoneNumber: String) {
         UIApplication.sharedApplication().openURL(NSURL(string: "tel://\(phoneNumber)")!)
@@ -88,7 +88,7 @@ class Utils: NSObject {
     /**
     Helper method for opening email app
     
-    :param: email The email send address
+    - parameter email: The email send address
     */
     class func openEmail(email: String) {
         UIApplication.sharedApplication().openURL(NSURL(string: "mailto://\(email)")!)
@@ -97,10 +97,10 @@ class Utils: NSObject {
     /**
     Helper method for opening maps
     
-    :param: address The address to open in maps
+    - parameter address: The address to open in maps
     */
     class func openMaps(address: String) {
-        var encodedAddress = address.stringByAddingPercentEscapesUsingEncoding(NSASCIIStringEncoding)!
+        let encodedAddress = address.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())
         UIApplication.sharedApplication().openURL(NSURL(string: "http://maps.apple.com/?q=\(encodedAddress)")!)
     }
 }

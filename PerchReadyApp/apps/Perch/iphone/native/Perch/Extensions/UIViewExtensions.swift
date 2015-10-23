@@ -119,7 +119,7 @@ extension UIView{
     
     @IBInspectable var borderColor: UIColor? {
         get {
-            return UIColor(CGColor: layer.borderColor)
+            return UIColor(CGColor: layer.borderColor!)
         }
         set {
             layer.borderColor = newValue?.CGColor
@@ -141,7 +141,7 @@ extension UIView{
     
     /// Remove all constraints from a view. Make sure you don't have a weak reference to your view/outlet, else it might be deallocated.
     func removeAllConstraints() {
-        var theSuperview = self.superview
+        let theSuperview = self.superview
         self.removeFromSuperview()
         theSuperview?.addSubview(self)
     }
@@ -178,7 +178,7 @@ extension UIView{
     
     /// Set the leading (left) space to superview.
     ///
-    /// :param: space The amount to space.
+    /// - parameter space: The amount to space.
     func leadingSpaceToSuperview(space: CGFloat) {
         self.superview?.addConstraint(NSLayoutConstraint(
             item: self,
@@ -192,7 +192,7 @@ extension UIView{
     
     /// Set the top space to superview.
     ///
-    /// :param: space The amount to space.
+    /// - parameter space: The amount to space.
     func topSpaceToSuperview(space: CGFloat) {
         self.superview?.addConstraint(NSLayoutConstraint(
             item: self,
@@ -206,7 +206,7 @@ extension UIView{
     
     /// Set the bottom space to superview.
     ///
-    /// :param: space The amount to space.
+    /// - parameter space: The amount to space.
     func bottomSpaceToSuperview(space: CGFloat) {
         self.superview?.addConstraint(NSLayoutConstraint(
             item: self,
@@ -220,7 +220,7 @@ extension UIView{
     
     /// Set the trailing (right) space to superview.
     ///
-    /// :param: space The amount to space.
+    /// - parameter space: The amount to space.
     func trailingSpaceToSuperview(space: CGFloat) {
         self.superview?.addConstraint(NSLayoutConstraint(
             item: self,
@@ -234,8 +234,8 @@ extension UIView{
     
     /// Space the calling view's left border away from the passed in view's right border.
     ///
-    /// :param: view The view to space from.
-    /// :param: space The amount to space.
+    /// - parameter view: The view to space from.
+    /// - parameter space: The amount to space.
     func horizontalSpacingToRightOf(view: UIView, space: CGFloat) {
         assert(self.superview == view.superview, differentSuperviewsWarningMessage)
         self.superview?.addConstraint(NSLayoutConstraint(
@@ -250,8 +250,8 @@ extension UIView{
     
     /// Space the calling view's right border away from the passed in view's left border.
     ///
-    /// :param: view The view to space from.
-    /// :param: space The amount to space.
+    /// - parameter view: The view to space from.
+    /// - parameter space: The amount to space.
     func horizontalSpacingToLeftOf(view: UIView, space: CGFloat) {
         assert(self.superview == view.superview, differentSuperviewsWarningMessage)
         self.superview?.addConstraint(NSLayoutConstraint(
@@ -266,8 +266,8 @@ extension UIView{
     
     /// Space the calling view's top border away from the passed in view's bottom border.
     ///
-    /// :param: view The view to space from.
-    /// :param: space The amount to space.
+    /// - parameter view: The view to space from.
+    /// - parameter space: The amount to space.
     func verticalSpacingBelow(view: UIView, space: CGFloat) {
         assert(self.superview == view.superview, differentSuperviewsWarningMessage)
         self.superview?.addConstraint(NSLayoutConstraint(
@@ -282,8 +282,8 @@ extension UIView{
     
     /// Space the calling view's bottom border away from the passed in view's top border.
     ///
-    /// :param: view The view to space from.
-    /// :param: space The amount to space.
+    /// - parameter view: The view to space from.
+    /// - parameter space: The amount to space.
     func verticalSpacingAbove(view: UIView, space: CGFloat) {
         assert(self.superview == view.superview, differentSuperviewsWarningMessage)
         self.superview?.addConstraint(NSLayoutConstraint(
@@ -298,7 +298,7 @@ extension UIView{
     
     /// Set the calling view's x center equal to the passed in view's x center.
     ///
-    /// :param: view The view to center with.
+    /// - parameter view: The view to center with.
     func centerXWith(view: UIView) {
         assert(self.superview == view.superview, differentSuperviewsWarningMessage)
         self.superview?.addConstraint(NSLayoutConstraint(
@@ -313,7 +313,7 @@ extension UIView{
     
     /// Set the calling view's y center equal to the passed in view's y center.
     ///
-    /// :param: view The view to center with.
+    /// - parameter view: The view to center with.
     func centerYWith(view: UIView) {
         assert(self.superview == view.superview, differentSuperviewsWarningMessage)
         self.superview?.addConstraint(NSLayoutConstraint(
@@ -328,7 +328,7 @@ extension UIView{
     
     /// Align the calling view's top border with the passed in view's top border.
     ///
-    /// :param: view The view to align with.
+    /// - parameter view: The view to align with.
     func alignTopWith(view: UIView) {
         assert(self.superview == view.superview, differentSuperviewsWarningMessage)
         self.superview?.addConstraint(NSLayoutConstraint(
@@ -343,7 +343,7 @@ extension UIView{
     
     /// Align the calling view's bottom border with the passed in view's bottom border.
     ///
-    /// :param: view The view to align with.
+    /// - parameter view: The view to align with.
     func alignBottomWith(view: UIView) {
         assert(self.superview == view.superview, differentSuperviewsWarningMessage)
         self.superview?.addConstraint(NSLayoutConstraint(
@@ -358,7 +358,7 @@ extension UIView{
     
     /// Align the calling view's left border with the passed in view's left border.
     ///
-    /// :param: view The view to align with.
+    /// - parameter view: The view to align with.
     func alignLeftWith(view: UIView) {
         assert(self.superview == view.superview, differentSuperviewsWarningMessage)
         self.superview?.addConstraint(NSLayoutConstraint(
@@ -373,7 +373,7 @@ extension UIView{
     
     /// Align the calling view's right border with the passed in view's right border.
     ///
-    /// :param: view The view to align with.
+    /// - parameter view: The view to align with.
     func alignRightWith(view: UIView) {
         assert(self.superview == view.superview, differentSuperviewsWarningMessage)
         self.superview?.addConstraint(NSLayoutConstraint(

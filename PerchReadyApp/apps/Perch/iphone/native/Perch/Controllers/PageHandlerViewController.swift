@@ -66,7 +66,7 @@ class PageHandlerViewController: UIViewController, UIPageViewControllerDataSourc
         // Only needs to be aware of 1 view controller to start out
         let firstController = getPageController(1)!
         let startingViewControllers: NSArray = [firstController]
-        pageController.setViewControllers(startingViewControllers as [AnyObject], direction: .Forward, animated: false, completion: nil)
+        pageController.setViewControllers(startingViewControllers as? [UIViewController], direction: .Forward, animated: false, completion: nil)
         
         // In order for PageHandler to handle the UIPageViewController, we need to set it as a child
         pageViewController = pageController
@@ -110,25 +110,28 @@ class PageHandlerViewController: UIViewController, UIPageViewControllerDataSourc
     
     // MARK: UIPageViewControllerDelegate
     
-    func pageViewController(pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [AnyObject], transitionCompleted completed: Bool) {
-        
+    func pageViewController(pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [UIViewController], transitionCompleted completed: Bool) {
+
+        guard let currentVC = pageViewController.viewControllers?[0] else {
+            return
+        }
+
         // Method used to keep a current index of the page view controller
-        var currentVC = pageViewController.viewControllers[0] as! UIViewController
         if inDetailView {
             
-            if var navHandlerVC = currentVC as? NavHandlerViewController {
+            if var _ = currentVC as? NavHandlerViewController {
                 currentIndex = 1
-            } else if var historyVC = currentVC as? HistoryViewController {
+            } else if var _ = currentVC as? HistoryViewController {
                 currentIndex = 2
             }
             
         } else {
             
-            if var tipsVC = currentVC as? TipsViewController {
+            if var _ = currentVC as? TipsViewController {
                 currentIndex = 0
-            } else if var navHandlerVC = currentVC as? NavHandlerViewController {
+            } else if var _ = currentVC as? NavHandlerViewController {
                 currentIndex = 1
-            } else if var profileVC = currentVC as? ProfileViewController {
+            } else if var _ = currentVC as? ProfileViewController {
                 currentIndex = 2
             }
             
@@ -138,9 +141,9 @@ class PageHandlerViewController: UIViewController, UIPageViewControllerDataSourc
     /**
     Method that displays 2 different layouts, one with asset overview and one with asset detail view
     
-    :param: pageIndex index in page view controller to load
+    - parameter pageIndex: index in page view controller to load
     
-    :returns: A PageItemViewController instance from storyboard
+    - returns: A PageItemViewController instance from storyboard
     */
     private func getPageController(pageIndex: Int) -> PageItemViewController? {
         
@@ -212,8 +215,8 @@ class PageHandlerViewController: UIViewController, UIPageViewControllerDataSourc
     /**
     Method to manually navigate to a page in code
     
-    :param: index     page index to go to
-    :param: fromIndex page index coming from
+    - parameter index:     page index to go to
+    - parameter fromIndex: page index coming from
     */
     func navigateToIndex(index: Int, fromIndex: Int, animated: Bool) {
         
@@ -225,7 +228,7 @@ class PageHandlerViewController: UIViewController, UIPageViewControllerDataSourc
         
         let viewController = getPageController(index)!
         let selectedViewControllers: NSArray = [viewController]
-        self.pageViewController!.setViewControllers(selectedViewControllers as [AnyObject], direction: (index > fromIndex ? .Forward : .Reverse), animated: animated, completion: { (done: Bool) -> Void in
+        self.pageViewController!.setViewControllers(selectedViewControllers as? [UIViewController], direction: (index > fromIndex ? .Forward : .Reverse), animated: animated, completion: { (done: Bool) -> Void in
                 self.pageViewController?.view.userInteractionEnabled = true
         })
     }

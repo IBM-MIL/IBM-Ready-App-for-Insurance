@@ -33,10 +33,10 @@ extension JsonObject {
         return nil
     }
     
-    func properties() -> [(String, MirrorType)] {
-        var properties = [(String, MirrorType)]()
-        for i in 1..<reflect(self).count {
-            properties.append(reflect(self)[i])
+    func properties() -> [(String, _MirrorType)] {
+        var properties = [(String, _MirrorType)]()
+        for i in 1..<_reflect(self).count {
+            properties.append(_reflect(self)[i])
         }
         return properties
     }

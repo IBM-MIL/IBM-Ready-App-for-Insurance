@@ -114,7 +114,7 @@ class AlertDetailViewController: UIViewController {
         self.activityIndicator.startAnimating()
         let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
         dispatch_async(dispatch_get_global_queue(priority, 0)) {
-            var alertDetailDataManager = AlertDetailDataManager.sharedInstance
+            let alertDetailDataManager = AlertDetailDataManager.sharedInstance
             alertDetailDataManager.getCurrentNotification(self.currentAlertInfoReturned, currentDeviceId: self.currentSensor)
         }
     }
@@ -122,7 +122,7 @@ class AlertDetailViewController: UIViewController {
     /**
     Callback method for after the get current alert query finishes.
     
-    :param: success Whether or not the query was successful
+    - parameter success: Whether or not the query was successful
     */
     func currentAlertInfoReturned(success: Bool) {
         
@@ -146,7 +146,7 @@ class AlertDetailViewController: UIViewController {
     /**
     Helper method for setting alpha of all the Company UI elements
     
-    :param: alpha The alpha to set for all the elements
+    - parameter alpha: The alpha to set for all the elements
     */
     func setCompanyElementsAlpha(alpha: CGFloat) {
         self.recommendedLabel.alpha = alpha
@@ -176,7 +176,7 @@ class AlertDetailViewController: UIViewController {
     /**
     Helper method to simply load up the alert view initially with retry or dismiss options
     
-    :param: text text to be displayed in the alert
+    - parameter text: text to be displayed in the alert
     */
     func loadAlert(text: String) {
         
@@ -301,10 +301,10 @@ class AlertDetailViewController: UIViewController {
     */
     func formatDetailLabel() {
         // Manually set line spacing and font of attributed label, storyboard didn't recognize font
-        var style = NSMutableParagraphStyle()
+        let style = NSMutableParagraphStyle()
         style.lineSpacing = 6
-        var attrs = [NSFontAttributeName : UIFont(name: "Merriweather", size: 17.0)!, NSParagraphStyleAttributeName: style]
-        var result = NSMutableAttributedString(string: self.detailLabel.text!, attributes: attrs)
+        let attrs = [NSFontAttributeName : UIFont(name: "Merriweather", size: 17.0)!, NSParagraphStyleAttributeName: style]
+        let result = NSMutableAttributedString(string: self.detailLabel.text!, attributes: attrs)
         self.detailLabel.attributedText = result
     }
     
@@ -445,7 +445,7 @@ extension AlertDetailViewController: UIGestureRecognizerDelegate {
     /**
     Method for determining the botton advertisement view position/alpha based on the user dragging it
     
-    :param: recognizer The gesture recognizer
+    - parameter recognizer: The gesture recognizer
     */
     @IBAction func viewDragged(sender: UIPanGestureRecognizer) {
         
@@ -487,9 +487,9 @@ extension AlertDetailViewController: UIGestureRecognizerDelegate {
     /**
     Method that creates a gradually smaller value as yPosition decreases
     
-    :param: yPosition value from constraint
+    - parameter yPosition: value from constraint
     
-    :returns: computed value
+    - returns: computed value
     */
     func logConstraintValueForYPosition(yPosition : CGFloat) -> CGFloat {
         return self.verticalLimit * (1 + log10(yPosition/self.verticalLimit))
@@ -518,9 +518,9 @@ extension AlertDetailViewController: UIGestureRecognizerDelegate {
     func mapBottomPositionToAlpha() {
         
         // A way to map the appropriate alphas based on the curent position of the bottom view
-        var tempVal = self.topConstraint.constant - self.minimizedBottomAdViewPosition
-        var companyElementsAlpha = abs(tempVal * 0.011)
-        var expandButtonAlpha =  1 - companyElementsAlpha
+        let tempVal = self.topConstraint.constant - self.minimizedBottomAdViewPosition
+        let companyElementsAlpha = abs(tempVal * 0.011)
+        let expandButtonAlpha =  1 - companyElementsAlpha
         
         self.expandButton.alpha = expandButtonAlpha
         self.setCompanyElementsAlpha(companyElementsAlpha)
@@ -532,7 +532,7 @@ extension AlertDetailViewController: UIGestureRecognizerDelegate {
     func snapIntoPlace() {
         
         self.bottomAdView.userInteractionEnabled = false
-        var diff = (self.verticalLimit - self.minimizedBottomAdViewPosition) / 2
+        let diff = (self.verticalLimit - self.minimizedBottomAdViewPosition) / 2
         if self.topConstraint.constant > self.minimizedBottomAdViewPosition + diff {
             self.topConstraint.constant = self.minimizedBottomAdViewPosition
             self.hideCompanyInfo()
@@ -559,9 +559,9 @@ extension AlertDetailViewController: UINavigationBarDelegate {
     /**
     Extend the navigation bar color to the status bar
     
-    :param: bar Unused
+    - parameter bar: Unused
     
-    :returns: Position of navigation bar in relation to status bar
+    - returns: Position of navigation bar in relation to status bar
     */
     func positionForBar(bar: UIBarPositioning) -> UIBarPosition {
         return UIBarPosition.TopAttached
@@ -576,7 +576,7 @@ extension AlertDetailViewController: UIScrollViewDelegate {
     /**
     Pop up the bottom advertisement if the user scrolls to the bottom
     
-    :param: scrollView The scrollview that fired the delegate method
+    - parameter scrollView: The scrollview that fired the delegate method
     */
     func scrollViewDidScroll(scrollView: UIScrollView) {
         if self.atBottomOfScrollView() {
@@ -594,7 +594,7 @@ extension AlertDetailViewController: UIScrollViewDelegate {
     /**
     Helper method for determining if user is at bottom of scroll view
     
-    :returns: If the user has scrolled to the bottom
+    - returns: If the user has scrolled to the bottom
     */
     func atBottomOfScrollView() -> Bool {
         let bottomEdge = self.scrollView.contentOffset.y + self.scrollView.frame.size.height

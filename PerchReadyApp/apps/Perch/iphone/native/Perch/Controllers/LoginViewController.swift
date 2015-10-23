@@ -39,13 +39,13 @@ public class LoginViewController: UIViewController {
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "keyboardWillHide:", name: UIKeyboardWillHideNotification, object: nil)
         
         // Apply kerning to the login button
-        var loginString = NSAttributedString(string: NSLocalizedString("ENTER", comment: ""), attributes: [NSKernAttributeName:5.0, NSForegroundColorAttributeName: UIColor.whiteColor()])
+        let loginString = NSAttributedString(string: NSLocalizedString("ENTER", comment: ""), attributes: [NSKernAttributeName:5.0, NSForegroundColorAttributeName: UIColor.whiteColor()])
         self.loginButton.setAttributedTitle(loginString, forState: UIControlState.Normal)
         
         // Set placeholder text to orange
-        var attrUsername = NSAttributedString(string: usernameTextField.placeholder!, attributes: [NSForegroundColorAttributeName: UIColor.whiteColor()])
+        let attrUsername = NSAttributedString(string: usernameTextField.placeholder!, attributes: [NSForegroundColorAttributeName: UIColor.whiteColor()])
         usernameTextField.attributedPlaceholder = attrUsername
-        var attrPassword = NSAttributedString(string: passwordTextField.placeholder!, attributes: [NSForegroundColorAttributeName: UIColor.whiteColor()])
+        let attrPassword = NSAttributedString(string: passwordTextField.placeholder!, attributes: [NSForegroundColorAttributeName: UIColor.whiteColor()])
         passwordTextField.attributedPlaceholder = attrPassword
         
         // Create logging in view
@@ -110,14 +110,14 @@ public class LoginViewController: UIViewController {
     */
     func touchID(){
         // Get the local authentication context:
-        var context = LAContext()
+        let context = LAContext()
         var error : NSError?
         
         // Test if TouchID fingerprint authentication is available on the device and a fingerprint has been enrolled.
         if context.canEvaluatePolicy(LAPolicy.DeviceOwnerAuthenticationWithBiometrics, error:&error) {
             
             // evaluate
-            var reason = NSLocalizedString("Authenticate to login", comment: "Touch ID authentication message")
+            let reason = NSLocalizedString("Authenticate to login", comment: "Touch ID authentication message")
             
             context.localizedFallbackTitle = ""
             context.evaluatePolicy(LAPolicy.DeviceOwnerAuthenticationWithBiometrics, localizedReason: reason, reply: {
@@ -181,7 +181,7 @@ public class LoginViewController: UIViewController {
     */
     func keyboardWillShow(sender: NSNotification) {
         if let userInfo = sender.userInfo {
-            if let keyboardHeight = userInfo[UIKeyboardFrameEndUserInfoKey]?.CGRectValue().size.height {
+            if let keyboardHeight = userInfo[UIKeyboardFrameEndUserInfoKey]?.CGRectValue.size.height {
                 loginBottomConstraint.constant = keyboardHeight
                 view.layoutIfNeeded()
             }
@@ -249,7 +249,7 @@ public class LoginViewController: UIViewController {
     If the login fails, hide the loading view and redisplay the login fields
     */
     public func loginFailed() {
-        var loginString = NSAttributedString(string: NSLocalizedString("TRY AGAIN", comment: ""), attributes: [NSKernAttributeName:5.0, NSForegroundColorAttributeName: UIColor.whiteColor()])
+        let loginString = NSAttributedString(string: NSLocalizedString("TRY AGAIN", comment: ""), attributes: [NSKernAttributeName:5.0, NSForegroundColorAttributeName: UIColor.whiteColor()])
         self.loginButton.setAttributedTitle(loginString, forState: UIControlState.Normal)
         usernameTextField.text = ""
         passwordTextField.text = ""
@@ -278,16 +278,16 @@ public class LoginViewController: UIViewController {
     */
     public func syncSensorsFinished() {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        var pageHandlerVC = storyboard.instantiateViewControllerWithIdentifier("PageHandlerViewController") as? PageHandlerViewController
+        let pageHandlerVC = storyboard.instantiateViewControllerWithIdentifier("PageHandlerViewController") as? PageHandlerViewController
     
-        var appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
-        var transistion = CATransition()
+        let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        let transistion = CATransition()
         transistion.duration = 0.4
         transistion.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut )
         transistion.type = kCATransitionReveal
         transistion.subtype = kCATransitionFromBottom
         self.view.window?.layer.addAnimation(transistion, forKey: kCATransition)
-        UIView.transitionWithView(appDelegate.window!, duration: 0.5, options: nil, animations: { () -> Void in
+        UIView.transitionWithView(appDelegate.window!, duration: 0.5, options: [], animations: { () -> Void in
             appDelegate.window?.rootViewController = pageHandlerVC
         }, completion: { (completed) -> Void in
             self.dismissViewControllerAnimated(false, completion: nil)
@@ -302,8 +302,8 @@ public class LoginViewController: UIViewController {
         let passwordString = passwordTextField.text
         
         NSUserDefaults.standardUserDefaults().setObject(true, forKey: ConfigManager.sharedInstance.touchIDKey)
-        KeychainWrapper.setString(usernameString, forKey: self.configManager.UsernameKey)
-        KeychainWrapper.setString(passwordString, forKey: self.configManager.PasswordKey)
+        KeychainWrapper.setString(usernameString!, forKey: self.configManager.UsernameKey)
+        KeychainWrapper.setString(passwordString!, forKey: self.configManager.PasswordKey)
     }
 }
 
@@ -313,7 +313,7 @@ extension LoginViewController: UITextFieldDelegate {
     public func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
         if loginButton.attributedTitleForState(UIControlState.Normal)?.string == NSLocalizedString("TRY AGAIN", comment: "") {
             if string != "" {
-                var loginString = NSAttributedString(string: NSLocalizedString("ENTER", comment: ""), attributes: [NSKernAttributeName:5.0, NSForegroundColorAttributeName: UIColor.whiteColor()])
+                let loginString = NSAttributedString(string: NSLocalizedString("ENTER", comment: ""), attributes: [NSKernAttributeName:5.0, NSForegroundColorAttributeName: UIColor.whiteColor()])
                 self.loginButton.setAttributedTitle(loginString, forState: UIControlState.Normal)
             }
         }

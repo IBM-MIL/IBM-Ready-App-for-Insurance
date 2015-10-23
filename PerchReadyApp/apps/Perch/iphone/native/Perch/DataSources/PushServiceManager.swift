@@ -27,7 +27,7 @@ public class PushServiceManager: NSObject {
     /**
     Unsubscribe from all tags the device is currently subscribed to.
     
-    :param: completion what to do after unsubscribing from all tags finishes
+    - parameter completion: what to do after unsubscribing from all tags finishes
     */
     func unsubscribeFromAllTags(completion: () -> Void) {
         
@@ -59,7 +59,7 @@ public class PushServiceManager: NSObject {
                             pushService!.unsubscribeFromTag(pin).continueWithBlock { (task: BFTask!) in
                                 counter++
                                 
-                                if let error = task.error() {
+                                if let _ = task.error() {
                                     MQALogger.log("Could not unsubscribe from \(pin)")
                                 } else {
                                     MQALogger.log("Successfully unsubscribed from \(pin)")
@@ -89,8 +89,8 @@ public class PushServiceManager: NSObject {
     /**
     Subscribe to a pin the user entered in the pin text field
     
-    :param: pin        The pin to subscribe to
-    :param: completion What to do after the pin subscription completes
+    - parameter pin:        The pin to subscribe to
+    - parameter completion: What to do after the pin subscription completes
     */
     func subscribe(pin: String, completion: (error: Bool, errorMsg: String?) -> Void) {
         if let pushService: AnyObject = pushService {
@@ -131,8 +131,8 @@ public class PushServiceManager: NSObject {
     /**
     Subscribe to a pin the user entered in the pin text field without unsubscribing all pins. This is used when changing the pin in the ChangePinVC
     
-    :param: pin        The pin to subscribe to
-    :param: completion What to do after the pin subscription completes
+    - parameter pin:        The pin to subscribe to
+    - parameter completion: What to do after the pin subscription completes
     */
     func subscribeWithoutUnsubscribing(pin: String, completion: (error: Bool, errorMsg: String?) -> Void) {
         if let pushService: AnyObject = pushService {
@@ -169,7 +169,7 @@ public class PushServiceManager: NSObject {
     /**
     Unsubscribe from all pins except for the user's current pin. This is used when the user changes their pin.
     
-    :param: completion What to do after the pin subscription completes
+    - parameter completion: What to do after the pin subscription completes
     */
     func unsubscribeExcludingCurrentPin(completion: () -> Void) {
         /**
@@ -201,7 +201,7 @@ public class PushServiceManager: NSObject {
                                 pushService!.unsubscribeFromTag(pin).continueWithBlock { (task: BFTask!) in
                                     counter++
                                     
-                                    if let error = task.error() {
+                                    if let _ = task.error() {
                                         MQALogger.log("Could not unsubscribe from \(pin)")
                                     } else {
                                         MQALogger.log("Successfully unsubscribed from \(pin)")
@@ -238,9 +238,9 @@ public class PushServiceManager: NSObject {
     /**
     Helper method for displaying user friendly strings based on the error code returned from Bluemix Push
     
-    :param: code The error code returned from Bluemix Push
+    - parameter code: The error code returned from Bluemix Push
     
-    :returns: Human readable error string
+    - returns: Human readable error string
     */
     func translateErrorCodeIntoReadableMessage(code: String) -> String {
         switch code {

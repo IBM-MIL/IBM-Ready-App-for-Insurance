@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A018E72332BD14F3F15FB5B40208C427DC9D9A13",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A018E72332BD14F3F15FB5B40208C427DC9D9A13" : 0,
+    "4B6A52F22C2EA8A8A978529E38B82745A2B5F065" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "B3E82FDF-D163-4553-BC9A-0AFE7198AC71",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A018E72332BD14F3F15FB5B40208C427DC9D9A13" : "IBM-Ready-App-for-Insurance",
+    "4B6A52F22C2EA8A8A978529E38B82745A2B5F065" : "..\/Desktop\/JsonObject"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "PerchReadyAppPerchIphone",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "PerchReadyApp\/apps\/Perch\/iphone\/native\/PerchReadyAppPerchIphone.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Skyvive\/JsonObject.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4B6A52F22C2EA8A8A978529E38B82745A2B5F065"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/IBM-MIL\/IBM-Ready-App-for-Insurance.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A018E72332BD14F3F15FB5B40208C427DC9D9A13"
+    }
+  ]
+}

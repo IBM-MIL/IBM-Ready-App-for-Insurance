@@ -48,14 +48,13 @@ class PushNotification: NSObject {
     /**
     Method for parsing a push notification dictionary and converting it into a PushNotification object
     
-    :param: jsonDict The dictionary to parse
+    - parameter jsonDict: The dictionary to parse
     
-    :returns: The PushNotification model object created
+    - returns: The PushNotification model object created
     */
     class func fromJsonDict(jsonDict: [NSObject: AnyObject]) -> PushNotification {
         var localTitle = ""
         var localMessage = ""
-        var localBadgeNumber = 0
         var localDeviceClassId = ""
         var localStatus = 2
         
@@ -71,7 +70,7 @@ class PushNotification: NSObject {
         
         // Parse status so we know if this is a critical alert
         if let status = jsonDict["status"] as? String {
-            localStatus = status.toInt()!
+            localStatus = Int(status)!
         }
         
         // Need to parse to a deeper level to get the message
@@ -101,7 +100,7 @@ class PushNotification: NSObject {
     /**
     Method for setting up the callback on a push notification tap
     
-    :param: device The type of sensor/device to show when going to detail of the alert
+    - parameter device: The type of sensor/device to show when going to detail of the alert
     */
     class func callbackForPushNotification(device: String) -> (()->Void) {
         return {
@@ -114,8 +113,8 @@ class PushNotification: NSObject {
                 currentVC.presentViewController(alert, animated: true, completion: nil)
             } else {
                 currentVC.view.window?.layer.addAnimation(Utils.customTransitionFromDirection(kCATransitionFromRight), forKey: nil)
-                var storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
-                var detailVC = storyboard.instantiateViewControllerWithIdentifier("AlertDetailViewController") as? AlertDetailViewController
+                let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+                let detailVC = storyboard.instantiateViewControllerWithIdentifier("AlertDetailViewController") as? AlertDetailViewController
                 detailVC?.currentSensor = device
                 currentVC.presentViewController(detailVC!, animated: false, completion: nil)
             }

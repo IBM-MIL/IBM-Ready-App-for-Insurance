@@ -126,7 +126,7 @@ class TipsViewController: PageItemViewController, UIScrollViewDelegate {
         let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
         dispatch_async(dispatch_get_global_queue(priority, 0)) {
             
-            var tipDataManager = TipDataManager.sharedInstance
+            let tipDataManager = TipDataManager.sharedInstance
             tipDataManager.getTipData({[unowned self] in self.tipDataReturned($0)})
             
         }
@@ -136,13 +136,13 @@ class TipsViewController: PageItemViewController, UIScrollViewDelegate {
     /**
     Callback method passed into worklight query and it called after worklight response
     
-    :param: success Bool representing status of worklight response
+    - parameter success: Bool representing status of worklight response
     */
     func tipDataReturned(success: Bool) {
         
         dispatch_async(dispatch_get_main_queue()) {
             if success {
-                var manager = TipDataManager.sharedInstance
+                let manager = TipDataManager.sharedInstance
                 if manager.tips.count != 0 {
                     
                     if self.isFirstDataCall {
@@ -174,7 +174,7 @@ class TipsViewController: PageItemViewController, UIScrollViewDelegate {
     /**
     Helper method to simply load up the alert view initially with retry or dismiss options
     
-    :param: text text to be displayed in the alert
+    - parameter text: text to be displayed in the alert
     */
     func loadAlert(text: String) {
     
@@ -194,7 +194,7 @@ class TipsViewController: PageItemViewController, UIScrollViewDelegate {
     /**
     Method handles the sort menu opening and buttons being selected.
     
-    :param: sender sending object of type UIButton
+    - parameter sender: sending object of type UIButton
     */
     @IBAction func sortButtonPressed(sender: AnyObject) {
 
@@ -204,10 +204,10 @@ class TipsViewController: PageItemViewController, UIScrollViewDelegate {
             var chosenIndex: Int = self.selectedButtonIndex
             
             // The following block of code determines if sorting needs to happen or just dismissing sortMenu
-            if var tappedButton = sender as? UIButton {
+            if let tappedButton = sender as? UIButton {
                 // if not equal, then a swap needs to happen
                 if tappedButton != buttonPairings[selectedButtonIndex].0 {
-                    for (index, pair) in enumerate(buttonPairings) {
+                    for (index, pair) in buttonPairings.enumerate() {
                         // find constraint to change top button to
                         if pair.0 == tappedButton {
                             chosenConstraint = pair.1
@@ -259,14 +259,14 @@ class TipsViewController: PageItemViewController, UIScrollViewDelegate {
     /**
     Method to change imageview to a rounded elipse and back to a dropdown arrow image
     
-    :param: imageView imageView to be altered
-    :param: isArrow   check to see what imageView is currently
+    - parameter imageView: imageView to be altered
+    - parameter isArrow:   check to see what imageView is currently
     */
     func swapIconLook(imageView: UIImageView, isArrow: Bool) {
         // make into elipse
         if isArrow {
             imageView.layer.cornerRadius = imageView.frame.size.width/2
-            imageView.backgroundColor = UIColor.perchOrange(alpha: 1.0)
+            imageView.backgroundColor = UIColor.perchOrange(1.0)
         } else {
             self.buttonPairings[self.selectedButtonIndex].2.hidden = true
             imageView.layer.cornerRadius = 0.0
@@ -288,7 +288,7 @@ class TipsViewController: PageItemViewController, UIScrollViewDelegate {
     func reloadWithAnimation() {
 
         var rowsToReload = [NSIndexPath]()
-        for (index, tip) in enumerate(TipDataManager.sharedInstance.tips) {
+        for (index, tip) in TipDataManager.sharedInstance.tips.enumerate() {
             if tip != oldList[index] {
                 rowsToReload.append(NSIndexPath(forRow: index, inSection: 0))
             }
@@ -310,9 +310,9 @@ extension TipsViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCellWithIdentifier("tipCell", forIndexPath: indexPath) as! TipsTableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("tipCell", forIndexPath: indexPath) as! TipsTableViewCell
         
-        var tipData = TipDataManager.sharedInstance.tips[indexPath.row] as Tip
+        let tipData = TipDataManager.sharedInstance.tips[indexPath.row] as Tip
         cell.titleLabel.text = tipData.title
         cell.descriptionLabel.text = tipData.plainDetail
         cell.typeLabel.text = tipData.tipType.uppercaseString
@@ -328,8 +328,8 @@ extension TipsViewController: UITableViewDelegate, UITableViewDataSource {
         
         self.view.window?.layer.addAnimation(Utils.customTransitionFromDirection(kCATransitionFromLeft), forKey: nil)
         
-        var storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
-        var detailVC = storyboard.instantiateViewControllerWithIdentifier("TipDetailViewController") as? TipDetailViewController
+        let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+        let detailVC = storyboard.instantiateViewControllerWithIdentifier("TipDetailViewController") as? TipDetailViewController
         detailVC?.selectedIndex = indexPath.row
         self.presentViewController(detailVC!, animated: false, completion: nil)
         

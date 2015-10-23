@@ -24,7 +24,7 @@ class CoverageTableTopSectionHeaderView: UIView {
         
         // if this is an iPhone 6+, change the margins some
         if UIScreen.mainScreen().bounds.size.height == 736 {
-            var additionalMargin = configManager.largeMargin - coverageLabel.frame.origin.y
+            let additionalMargin = configManager.largeMargin - coverageLabel.frame.origin.y
             
             // Have to fudge this a little to make it look correct
             suggestedHeight = suggestedHeight + additionalMargin - 4

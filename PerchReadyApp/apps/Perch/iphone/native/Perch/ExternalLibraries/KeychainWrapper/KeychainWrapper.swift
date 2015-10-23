@@ -43,8 +43,8 @@ public class KeychainWrapper {
 
     // MARK: Public Methods
     public class func hasValueForKey(key: String) -> Bool {
-        var keychainData: NSData? = self.dataForKey(key)
-        if let data = keychainData {
+        let keychainData: NSData? = self.dataForKey(key)
+        if let _ = keychainData {
             return true
         } else {
             return false
@@ -53,7 +53,7 @@ public class KeychainWrapper {
 
     // MARK: Getting Values
     public class func stringForKey(keyName: String) -> String? {
-        var keychainData: NSData? = self.dataForKey(keyName)
+        let keychainData: NSData? = self.dataForKey(keyName)
         var stringValue: String?
         if let data = keychainData {
             stringValue = NSString(data: data, encoding: NSUTF8StringEncoding) as String?
@@ -75,7 +75,7 @@ public class KeychainWrapper {
     }
 
     public class func dataForKey(keyName: String) -> NSData? {
-        var keychainQueryDictionary = self.setupKeychainQueryDictionaryForKey(keyName)
+        let keychainQueryDictionary = self.setupKeychainQueryDictionaryForKey(keyName)
         var result: AnyObject?
 
         // Limit search results to one
@@ -108,7 +108,7 @@ public class KeychainWrapper {
     }
 
     public class func setData(value: NSData, forKey keyName: String) -> Bool {
-        var keychainQueryDictionary: NSMutableDictionary = self.setupKeychainQueryDictionaryForKey(keyName)
+        let keychainQueryDictionary: NSMutableDictionary = self.setupKeychainQueryDictionaryForKey(keyName)
 
         keychainQueryDictionary[SecValueData] = value
 
@@ -157,13 +157,13 @@ public class KeychainWrapper {
 
     private class func setupKeychainQueryDictionaryForKey(keyName: String) -> NSMutableDictionary {
         // Setup dictionary to access keychain and specify we are using a generic password (rather than a certificate, internet password, etc)
-        var keychainQueryDictionary: NSMutableDictionary = [SecClass:kSecClassGenericPassword]
+        let keychainQueryDictionary: NSMutableDictionary = [SecClass:kSecClassGenericPassword]
 
         // Uniquely identify this keychain accessor
         keychainQueryDictionary[SecAttrService] = KeychainWrapper.serviceName
 
         // Uniquely identify the account who will be accessing the keychain
-        var encodedIdentifier: NSData? = keyName.dataUsingEncoding(NSUTF8StringEncoding)
+        let encodedIdentifier: NSData? = keyName.dataUsingEncoding(NSUTF8StringEncoding)
 
         keychainQueryDictionary[SecAttrGeneric] = encodedIdentifier
 

@@ -42,13 +42,13 @@ class PerchAlertView: UIView {
     /**
     Initializer for PerchAlertView
     
-    :returns: And instance of PerchAlertView
+    - returns: And instance of PerchAlertView
     */
     class func instanceFromNib() -> PerchAlertView {
         // NOTE: Reference bundle this way so test target doesn't look in the test target bundle.
         // This is a more agnostic solution so any target can create this view.
         // That said, this is a temporary solution until Apple provides a better way
-        var bundle = NSBundle(forClass: self)
+        let bundle = NSBundle(forClass: self)
         return UINib(nibName: "PerchAlertView", bundle: bundle).instantiateWithOwner(nil, options: nil)[0] as! PerchAlertView
     }
 
@@ -96,7 +96,7 @@ class PerchAlertView: UIView {
         if let rightText = rightButtonText {
             rightButton.setTitle(rightText.capitalizedString, forState: .Normal)
         }
-        if let leftText = leftButtonText {
+        if let _ = leftButtonText {
             leftButton.setTitle(leftButtonText?.capitalizedString, forState: .Normal)
         }
         rightCallback = rightButtonCallback
@@ -271,15 +271,15 @@ class PerchAlertView: UIView {
     This starts the process of syncing with a new pin. Ideally this function would NOT be embedded in this class
     */
     func syncNewPin() {
-        if self.pinTextField.text.length != PinViewController.requiredPinLength || self.pinTextField.text.toInt() == nil {
+        if self.pinTextField.text!.length != PinViewController.requiredPinLength || Int(self.pinTextField.text!) == nil {
             self.pinTextField.shakeView()
             return
         }
         
-        currentUser.userPin = pinTextField.text
+        currentUser.userPin = pinTextField.text!
         self.pinTextField.resignFirstResponder()
         if UIDevice.currentDevice().model != "iPhone Simulator" {
-            PushServiceManager.sharedInstance.subscribe(self.pinTextField.text, completion: self.subscribeCallback)
+            PushServiceManager.sharedInstance.subscribe(self.pinTextField.text!, completion: self.subscribeCallback)
         } else {
             // If on the simulator, fake the callback as if the subscribe function worked
             self.subscribeCallback(false, errorMsg: "No error")
@@ -291,8 +291,8 @@ class PerchAlertView: UIView {
     /**
     Method to handle result of pin subscription method
     
-    :param: error    error state if any
-    :param: errorMsg error message if any
+    - parameter error:    error state if any
+    - parameter errorMsg: error message if any
     */
     func subscribeCallback(error: Bool, errorMsg: String?) {
         if error {
@@ -312,7 +312,7 @@ class PerchAlertView: UIView {
 // MARK: UITextField Delegate
 extension PerchAlertView: UITextFieldDelegate {
     func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
-        let newLength = count(textField.text) + count(string) - range.length
+        let newLength = textField.text!.characters.count + string.characters.count - range.length
         return newLength <= PinViewController.requiredPinLength
     }
 }

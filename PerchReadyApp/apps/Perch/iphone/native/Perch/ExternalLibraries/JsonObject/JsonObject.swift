@@ -24,7 +24,7 @@ public class JsonObject: NSObject {
         loadDictionary(dictionary)
         if shouldValidate {
             if self.missingKeys().count > 0 {
-                println("Invalid JSON data. Required JSON keys are missing from the input: \(self.missingKeys())")
+                print("Invalid JSON data. Required JSON keys are missing from the input: \(self.missingKeys())")
                 return nil
             }
         }

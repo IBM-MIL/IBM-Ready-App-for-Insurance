@@ -52,10 +52,10 @@ class EnterPinViewController: UIViewController {
     
     /** Method for applying kerning to buttons specific to this view controller */
     func applyKerningToButtonText() {
-        var syncString = NSAttributedString(string: syncButton.titleLabel!.text!, attributes: [NSKernAttributeName:5.0])
+        let syncString = NSAttributedString(string: syncButton.titleLabel!.text!, attributes: [NSKernAttributeName:5.0])
         self.syncButton.titleLabel?.attributedText = syncString
         
-        var needAPinString = NSAttributedString(string: needAPinButton.titleLabel!.text!, attributes: [NSKernAttributeName:3.0])
+        let needAPinString = NSAttributedString(string: needAPinButton.titleLabel!.text!, attributes: [NSKernAttributeName:3.0])
         self.needAPinButton.titleLabel?.attributedText = needAPinString
     }
     
@@ -151,7 +151,7 @@ class EnterPinViewController: UIViewController {
         self.errorLabel.hidden = true
         
         /** Prevent networking call with an invalid pin length or non-numeric pin */
-        if self.pinTextField.text.length != PinViewController.requiredPinLength || self.pinTextField.text.toInt() == nil {
+        if self.pinTextField.text!.length != PinViewController.requiredPinLength || Int(self.pinTextField.text!) == nil {
             shakeAndShowError(NSLocalizedString("The pin must be \(PinViewController.requiredPinLength) digits", comment: ""))
             return
         }
@@ -170,7 +170,7 @@ class EnterPinViewController: UIViewController {
             self.delegate?.didEnterPin()
             // If we are not changing the pin, then subscribe to the pin as normal
             if !changingPin {
-                PushServiceManager.sharedInstance.subscribe(self.pinTextField.text) { (error, errorMsg) -> Void in
+                PushServiceManager.sharedInstance.subscribe(self.pinTextField.text!) { (error, errorMsg) -> Void in
                     var currentErrorMessage: String?
                     if error {
                         currentErrorMessage = errorMsg!
@@ -184,7 +184,7 @@ class EnterPinViewController: UIViewController {
                 }
             } else {
                 // If we are changing the pin, we first want to try subscribing to the new pin before unsubscribing to all other pins
-                PushServiceManager.sharedInstance.subscribeWithoutUnsubscribing(self.pinTextField.text) { (error, errorMsg) -> Void in
+                PushServiceManager.sharedInstance.subscribeWithoutUnsubscribing(self.pinTextField.text!) { (error, errorMsg) -> Void in
                     var currentErrorMessage: String?
                     if error {
                         currentErrorMessage = errorMsg!
@@ -217,7 +217,7 @@ class EnterPinViewController: UIViewController {
     Fakes a pin sync. Used when on the simulator
     */
     func fakePinSync() {
-        CurrentUser.sharedInstance.userPin = self.pinTextField.text
+        CurrentUser.sharedInstance.userPin = self.pinTextField.text!
         self.delegate?.fakePinSyncFinished()
     }
 }
@@ -226,7 +226,7 @@ class EnterPinViewController: UIViewController {
 extension EnterPinViewController: UITextFieldDelegate {
     /** Limit the number of characters in the text field to requiredPinLength */
     func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
-        let newLength = count(textField.text) + count(string) - range.length
+        let newLength = textField.text!.characters.count + string.characters.count - range.length
         return newLength <= PinViewController.requiredPinLength
     }
     

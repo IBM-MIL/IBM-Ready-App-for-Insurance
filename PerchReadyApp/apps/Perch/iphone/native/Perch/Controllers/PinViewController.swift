@@ -107,7 +107,7 @@ class PinViewController: UIViewController {
             CurrentUser.sharedInstance.hasBeenAskedToEnterDemoMode = true
             let demoAlert = UIAlertController(title: NSLocalizedString("Would you like to use \"Perch\" in demo mode?", comment: ""), message: "", preferredStyle: UIAlertControllerStyle.Alert)
             let actionNo = UIAlertAction(title: NSLocalizedString("No", comment: ""), style: UIAlertActionStyle.Default, handler: nil)
-            let actionYes = UIAlertAction(title: NSLocalizedString("Yes", comment: ""), style: UIAlertActionStyle.Default, handler: { (action: UIAlertAction!) -> Void in
+            let actionYes = UIAlertAction(title: NSLocalizedString("Yes", comment: ""), style: UIAlertActionStyle.Default, handler: { (action: UIAlertAction) -> Void in
                 CurrentUser.sharedInstance.demoMode = true
                 self.enterPinVC!.pinTextField.text = "0000"
                 self.enterPinVC!.fakePinSync()
@@ -317,7 +317,7 @@ class PinViewController: UIViewController {
     func startAssetDataQuery() {
         let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
         dispatch_async(dispatch_get_global_queue(priority, 0)) {
-            var assetOverviewDataManager = AssetOverviewDataManager.sharedInstance
+            let assetOverviewDataManager = AssetOverviewDataManager.sharedInstance
             assetOverviewDataManager.getAllAssetData({[unowned self] in self.assetQueryFinished($0)})
         }
     }
