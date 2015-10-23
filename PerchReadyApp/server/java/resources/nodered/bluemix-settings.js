@@ -55,7 +55,7 @@
       cloudantPassword : config.cloudantPassword,
       iotApiKey : config.iotApiKey,
       iotAuthToken : config.iotAuthToken,
-      iotURL : config.iotURL,
+      iotURL : "internetofthings.ibmcloud.com/api/v0001/organizations/",
       iotOrganizationId : config.iotOrganizationId,
       iotDeviceType : "simulatedSensor",
       pushURL : config.pushURL,
