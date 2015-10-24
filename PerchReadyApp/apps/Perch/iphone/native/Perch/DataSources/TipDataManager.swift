@@ -39,10 +39,9 @@ public class TipDataManager: NSObject {
     /**
     Method to kick off worklight call to grab all tip data
     
-    :param: callback method to call when complete
+    - parameter callback: method to call when complete
     */
     public func getTipData(callback: ((Bool)->())!) {
-
         self.callback = callback
         let adapterName : String = "PerchAdapter"
         let procedureName : String = "getAllTips"
@@ -50,9 +49,7 @@ public class TipDataManager: NSObject {
         let params = [currentUser.userPin]
         
         caller.invokeWithResponse(self, params: params)
-        var userExists = false
         queryInProgress = true
-        
     }
     
     /**
@@ -67,11 +64,11 @@ public class TipDataManager: NSObject {
     /**
     Utility method to mark a message as read for current app session
     
-    :param: index index for Tip to mark as read
+    - parameter index: index for Tip to mark as read
     */
     func markMessageRead(index: Int) {
         
-        var myTip = self.tips[index] as Tip
+        let myTip = self.tips[index] as Tip
         if !myTip.read {
             myTip.read = true
         }
@@ -81,9 +78,9 @@ public class TipDataManager: NSObject {
     /**
     Utility method to map image name from server to local image for incentive UI
     
-    :param: iconName icon image name from server
+    - parameter iconName: icon image name from server
     
-    :returns: local image name for icon
+    - returns: local image name for icon
     */
     func incentiveImageMapping(iconName: String) -> String {
         
@@ -101,9 +98,9 @@ public class TipDataManager: NSObject {
     /**
     Method to parse json dictionary received from backend
     
-    :param: worklightResponseJson json dictionary
+    - parameter worklightResponseJson: json dictionary
     
-    :returns: an array of Tip objects
+    - returns: an array of Tip objects
     */
     func parseAllTipsResponse(worklightResponseJson: NSDictionary) -> [Tip] {
 
@@ -113,7 +110,7 @@ public class TipDataManager: NSObject {
             for tip in serverTips {
                 if let tipDictionary = tip as? NSDictionary {
                     
-                    if let tipObject = Tip(dictionary: tipDictionary) {
+                    if let tipObject = Tip(dictionary: tipDictionary, shouldValidate: false) {
                         tipArray.append(tipObject)
                     }
                 }
@@ -126,22 +123,22 @@ public class TipDataManager: NSObject {
     /**
     Sorting method based on differnt categories
     
-    :param: sortCategory category to sort by
-    :param: callback     callback method to update tableview with
+    - parameter sortCategory: category to sort by
+    - parameter callback:     callback method to update tableview with
     */
     func sortTipDataBy(sortCategory: String, callback: (()->())?) {
         
         switch sortCategory {
         case "MOST RECENT":
-            self.tips.sort({
+            self.tips.sortInPlace({
                 $0.date!.compare($1.date!) == NSComparisonResult.OrderedDescending
             })
         case "HIGHEST PRIORITY":
-            self.tips.sort({
+            self.tips.sortInPlace({
                 $0.highPriority == true && $1.highPriority != true
             })
         case "UNREAD":
-            self.tips.sort({
+            self.tips.sortInPlace({
                 $0.read != true && $1.read == true
             })
         default:
@@ -162,7 +159,7 @@ extension TipDataManager: WLDataDelegate {
     /**
     Delgate method for WorkLight. Called when connection and return is successful
     
-    :param: response Response from WorkLight
+    - parameter response: Response from WorkLight
     */
     public func onSuccess(response: WLResponse!) {
         MQALogger.log("Tip Fetch Success Response: \(response.responseText)", withLevel: MQALogLevelInfo)
@@ -178,13 +175,13 @@ extension TipDataManager: WLDataDelegate {
     /**
     Delgate method for WorkLight. Called when connection or return is unsuccessful
     
-    :param: response Response from WorkLight
+    - parameter response: Response from WorkLight
     */
     public func onFailure(response: WLFailResponse!) {
         MQALogger.log("Tip Fetch Failure Response: \(response.responseText)", withLevel: MQALogLevelInfo)
         
         queryInProgress = false
-        if (response.errorCode.value == 0) && (response.errorMsg != nil) {
+        if (response.errorCode.rawValue == 0) && (response.errorMsg != nil) {
             MQALogger.log("Response Failure with error: \(response.errorMsg)", withLevel: MQALogLevelError)
         }
         

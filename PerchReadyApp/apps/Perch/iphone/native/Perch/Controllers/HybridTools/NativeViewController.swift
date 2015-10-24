@@ -50,7 +50,7 @@ class NativeViewController: UIViewController {
         super.viewDidDisappear(animated)
         
         if leavingAssetDetailFlow {
-            var otherRoute = ["route":"loading"]
+            let otherRoute = ["route":"loading"]
             WL.sharedInstance().sendActionToJS("changePage", withData: otherRoute)
             leavingAssetDetailFlow = false
             appDelegate.hybridViewController.deviceID = nil
@@ -89,7 +89,7 @@ class NativeViewController: UIViewController {
     /**
     CurrentSensorDataManager callback to inform native view controller if query worked, useful in detecting asset status change
     
-    :param: success boolean representing if query succeeded
+    - parameter success: boolean representing if query succeeded
     */
     func sensorPollingResult(success: Bool) {
         

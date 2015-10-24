@@ -7,7 +7,7 @@ import Foundation
 
 extension String {
     
-    var length:Int {return count(self)}
+    var length:Int {return self.characters.count}
     
     func containsString(s:String, compareOption: NSStringCompareOptions) -> Bool
     {
@@ -24,7 +24,7 @@ extension String {
     func reverse() -> String
     {
         var reverseString : String = ""
-        for character in self
+        for character in self.characters
         {
             reverseString = "\(character)\(reverseString)"
         }
@@ -36,13 +36,13 @@ extension String {
     /**
     Returns the first part of an email address as a string (The part before the '@')
     
-    :returns: Returns the user Id (sasaatho)
+    - returns: Returns the user Id (sasaatho)
     */
     func getUserIdFromEmail() -> String? {
-        var range = self.rangeOfString("@")
+        let range = self.rangeOfString("@")
         if range != nil {
-            var startRange: Range<String.Index> = Range<String.Index>(start: self.startIndex, end: range!.startIndex)
-            var id = self.substringWithRange(startRange)
+            let startRange: Range<String.Index> = Range<String.Index>(start: self.startIndex, end: range!.startIndex)
+            let id = self.substringWithRange(startRange)
             return id
         } else {
             return nil

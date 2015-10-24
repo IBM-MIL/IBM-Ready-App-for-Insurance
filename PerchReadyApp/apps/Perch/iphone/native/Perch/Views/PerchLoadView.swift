@@ -21,7 +21,7 @@ class PerchLoadView: UIView {
     var originalFrame: CGRect!
     var stoppedAnimation = false
     
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
@@ -37,12 +37,12 @@ class PerchLoadView: UIView {
     When this is called, animation a static image growing from the middle of the screen. When that finishes, hide the static image and show the animation image
     */
     func startAnimation() {
-        var startingImageView = UIImageView(image: UIImage(named: "house_white"))
+        let startingImageView = UIImageView(image: UIImage(named: "house_white"))
         startingImageView.frame = CGRect(x: self.frame.width / 2, y: self.frame.height / 2, width: 0, height: 0)
         self.addSubview(startingImageView)
         
-        var finalHeight: CGFloat = 65
-        var finalWidth: CGFloat = 53
+        let finalHeight: CGFloat = 65
+        let finalWidth: CGFloat = 53
         
         stoppedAnimation = false
         UIView.animateWithDuration(0.7, delay: 0.0, usingSpringWithDamping: 0.4, initialSpringVelocity: 0.5, options: UIViewAnimationOptions.CurveEaseInOut,
@@ -69,12 +69,12 @@ class PerchLoadView: UIView {
     Animates the perch logo out, but does NOT perform the shaking animation
     */
     func animateWithoutShaking() {
-        var startingImageView = UIImageView(image: UIImage(named: "house_white"))
+        let startingImageView = UIImageView(image: UIImage(named: "house_white"))
         startingImageView.frame = CGRect(x: self.frame.width / 2, y: self.frame.height / 2, width: 0, height: 0)
         self.addSubview(startingImageView)
         
-        var finalHeight: CGFloat = 65
-        var finalWidth: CGFloat = 53
+        let finalHeight: CGFloat = 65
+        let finalWidth: CGFloat = 53
         
         UIView.animateWithDuration(0.7, delay: 0.0, usingSpringWithDamping: 0.4, initialSpringVelocity: 0.5, options: UIViewAnimationOptions.CurveEaseInOut,
             animations: { () -> Void in

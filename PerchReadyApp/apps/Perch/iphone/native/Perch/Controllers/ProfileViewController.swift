@@ -42,7 +42,7 @@ class ProfileViewController: PageItemViewController {
         updateInsuranceInfo()
         
         // Apply kerning to the coverage button
-        var coverageString = NSAttributedString(string: NSLocalizedString("COVERAGE", comment: ""), attributes: [NSKernAttributeName:3.0, NSForegroundColorAttributeName: UIColor.perchOrange(alpha: 1.0)])
+        let coverageString = NSAttributedString(string: NSLocalizedString("COVERAGE", comment: ""), attributes: [NSKernAttributeName:3.0, NSForegroundColorAttributeName: UIColor.perchOrange(1.0)])
         coverageButton.setAttributedTitle(coverageString, forState: UIControlState.Normal)
         
         // Add arrow image view to the coverage button
@@ -56,7 +56,7 @@ class ProfileViewController: PageItemViewController {
         
         // if iPhone 6+, increase the margins of the elements on the screen
         if UIScreen.mainScreen().bounds.size.height == 736 {
-            var newAgentViewHeight: CGFloat = 150
+            let newAgentViewHeight: CGFloat = 150
             agentViewHeight.constant = newAgentViewHeight
             agentViewLeftMargin.constant = configManager.largeMargin
             agentViewRightMargin.constant = configManager.largeMargin
@@ -158,17 +158,17 @@ class ProfileViewController: PageItemViewController {
         // Update the button label and arrow image
         if coverageShown {
             arrowImageView.image = UIImage(named: "arrow_up_orange")
-            coverageString = NSAttributedString(string: NSLocalizedString("CLOSE", comment: ""), attributes: [NSKernAttributeName:3.0, NSForegroundColorAttributeName: UIColor.perchOrange(alpha: 1.0)])
+            coverageString = NSAttributedString(string: NSLocalizedString("CLOSE", comment: ""), attributes: [NSKernAttributeName:3.0, NSForegroundColorAttributeName: UIColor.perchOrange(1.0)])
             coverageButton.setAttributedTitle(coverageString, forState: UIControlState.Normal)
         } else {
             arrowImageView.image = UIImage(named: "arrow_down_orange")
-            coverageString = NSAttributedString(string: NSLocalizedString("COVERAGE", comment: ""), attributes: [NSKernAttributeName:3.0, NSForegroundColorAttributeName: UIColor.perchOrange(alpha: 1.0)])
+            coverageString = NSAttributedString(string: NSLocalizedString("COVERAGE", comment: ""), attributes: [NSKernAttributeName:3.0, NSForegroundColorAttributeName: UIColor.perchOrange(1.0)])
             coverageButton.setAttributedTitle(coverageString, forState: UIControlState.Normal)
         }
         
         // Move the arrow image accordingly
         if let stringWidth = coverageButton.attributedTitleForState(UIControlState.Normal)?.size().width {
-            var imageX: CGFloat = (coverageButton.frame.width / 2) + (stringWidth / 2) - 10
+            let imageX: CGFloat = (coverageButton.frame.width / 2) + (stringWidth / 2) - 10
             arrowImageView.frame = CGRectMake(imageX, 0, coverageButton.frame.height, coverageButton.frame.height)
         }
     }

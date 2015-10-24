@@ -25,8 +25,8 @@ public class PushNotificationViewManager: NSObject {
     /**
     Function that builds and displays a MILAlertView
     
-    :param: text     Text to display on the MILAlertView
-    :param: callback Callback function to execute when the View Alert button is tapped
+    - parameter text:     Text to display on the MILAlertView
+    - parameter callback: Callback function to execute when the View Alert button is tapped
     */
     func show(title: String!, message: String!, status: Int!, callback: (()->())!) {
         
@@ -58,13 +58,13 @@ public class PushNotificationViewManager: NSObject {
     /**
     Builds a MILAlertView that is initialized with the appropriate data
     
-    :param: text     Text to display on the MILAlertView
-    :param: callback Callback function to execute when the View Alert button is tapped
+    - parameter text:     Text to display on the MILAlertView
+    - parameter callback: Callback function to execute when the View Alert button is tapped
     
-    :returns: An initialized MILAlertView
+    - returns: An initialized MILAlertView
     */
     private func buildAlert(title: String!, message: String!, status: Int!, callback: (()->())!)-> PushNotificationView{
-        var pushNotificationView : PushNotificationView = PushNotificationView.instanceFromNib() as PushNotificationView
+        let pushNotificationView : PushNotificationView = PushNotificationView.instanceFromNib() as PushNotificationView
         pushNotificationView.setOriginX(0)
         pushNotificationView.setWidth(UIScreen.mainScreen().bounds.width)
         pushNotificationView.setBottom(0)

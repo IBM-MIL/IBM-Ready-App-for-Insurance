@@ -17,7 +17,7 @@ class SensorData: JsonObject {
     var time: Double = 0
     var enabled: Bool = false
     var tip: Tip?
-    
+
     var averageUsage: String?
     var averageUsageUnit: String?
     var units: String?

@@ -26,10 +26,10 @@ class WLProcedureCaller: NSObject {
     /**
     Constructor to initialize the procedure caller with both the adapter name and procedure name.
     
-    :param: adapterName
-    :param: procedureName
+    - parameter adapterName:
+    - parameter procedureName:
     
-    :returns: WLProcedureCaller
+    - returns: WLProcedureCaller
     */
     init(adapterName : String, procedureName: String){
         self.adapterName = adapterName
@@ -40,8 +40,8 @@ class WLProcedureCaller: NSObject {
     This function will execute the adapter procedure and invoke the appropriate functions of the
     WLDataDelegate that is passed in.
     
-    :param: dataDelegate
-    :param: params   Procedure parameters
+    - parameter dataDelegate:
+    - parameter params:   Procedure parameters
     */
     func invokeWithResponse(dataDelegate: WLDataDelegate, params: Array<String>?){
         self.dataDelegate = dataDelegate
@@ -61,7 +61,7 @@ class WLProcedureCaller: NSObject {
 
 extension WLProcedureCaller: WLDelegate {
     func onSuccess(response: WLResponse!) {
-        let elapsedTime = NSDate().timeIntervalSinceDate(logWLStartTime)
+        _ = NSDate().timeIntervalSinceDate(logWLStartTime)
         dataDelegate.onSuccess(response)
         dataDelegate.onPostExecute()
     }
@@ -70,7 +70,7 @@ extension WLProcedureCaller: WLDelegate {
         var resultText : String = "Invocation Failure"
         if(response.responseText != nil) {
             resultText = "\(resultText): \(response.responseText)"
-            println(resultText)
+            print(resultText)
             MQALogger.log("\(resultText)", withLevel: MQALogLevelWarning)
         }
         dataDelegate.onFailure(response)

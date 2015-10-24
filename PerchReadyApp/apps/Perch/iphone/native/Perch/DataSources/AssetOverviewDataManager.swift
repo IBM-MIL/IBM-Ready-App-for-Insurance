@@ -50,7 +50,7 @@ public class AssetOverviewDataManager: NSObject {
     /**
     Method to kick off worklight call to grab all asset data
     
-    :param: callback method to call when complete
+    - parameter callback: method to call when complete
     */
     public func getAllAssetData(callback: ((Bool)->())!) {
         self.shouldReload = false
@@ -61,7 +61,6 @@ public class AssetOverviewDataManager: NSObject {
         let params = [currentUser.userPin]
 
         caller.invokeWithResponse(self, params: params)
-        var userExists = false
     }
     
     /**
@@ -76,9 +75,9 @@ public class AssetOverviewDataManager: NSObject {
     /**
     Utility method for asset overview to find a specific SensorData object with a certain deviceClassID
     
-    :param: deviceClassID ID passed in to verify SensorData's existence
+    - parameter deviceClassID: ID passed in to verify SensorData's existence
     
-    :returns: SensorData object containing deviceClassID
+    - returns: SensorData object containing deviceClassID
     */
     func findAssetById(deviceClassID: String) -> SensorData? {
         
@@ -93,9 +92,9 @@ public class AssetOverviewDataManager: NSObject {
     /**
     Method to parse json dictionary received from backend
     
-    :param: worklightResponseJson json dictionary
+    - parameter worklightResponseJson: json dictionary
     
-    :returns: an array of SensorData objects
+    - returns: an array of SensorData objects
     */
     func parseAllAssetsResponse(worklightResponseJson: NSDictionary) -> [SensorData] {
 
@@ -105,7 +104,7 @@ public class AssetOverviewDataManager: NSObject {
             for sensor in serverSensors  {
                 if let sensorDict = sensor as? NSDictionary {
                     
-                    if let sensorData = SensorData(dictionary: sensorDict) {
+                    if let sensorData = SensorData(dictionary: sensorDict, shouldValidate:false) {
                         sensorArray.append(sensorData)
                     }
                 }
@@ -120,9 +119,9 @@ public class AssetOverviewDataManager: NSObject {
     /**
     Method that creates a mapping between deviceClassID and DeviceType
     
-    :param: deviceClassID ID returned from the server
+    - parameter deviceClassID: ID returned from the server
     
-    :returns: deviceType from enum
+    - returns: deviceType from enum
     */
     func deviceTypeForID(deviceClassID: String) -> DeviceType? {
         switch deviceClassID {
@@ -144,7 +143,7 @@ public class AssetOverviewDataManager: NSObject {
     /**
     Method to initSensors in the hybrid view
     
-    :param: worklightResponseJson json received from Worklight
+    - parameter worklightResponseJson: json received from Worklight
     */
     func sendSensorData(worklightResponseJson: NSDictionary) {
         
@@ -152,7 +151,7 @@ public class AssetOverviewDataManager: NSObject {
         if let sensorArray = worklightResponseJson["result"] as? NSArray {
             
             // Format data by wrapping in a Dictionary
-            var data: Dictionary<String, NSArray> = ["sensors": sensorArray]
+            let data: Dictionary<String, NSArray> = ["sensors": sensorArray]
             
             // println("Sending Data to JS: \(data)")
             WL.sharedInstance().sendActionToJS("InitSensors", withData: data)
@@ -171,7 +170,7 @@ extension AssetOverviewDataManager: WLDataDelegate {
     /**
     Delgate method for WorkLight. Called when connection and return is successful
     
-    :param: response Response from WorkLight
+    - parameter response: Response from WorkLight
     */
     public func onSuccess(response: WLResponse!) {
         MQALogger.log("Asset Overview Success Response: \(response.responseText)", withLevel: MQALogLevelInfo)
@@ -190,12 +189,12 @@ extension AssetOverviewDataManager: WLDataDelegate {
     /**
     Delgate method for WorkLight. Called when connection or return is unsuccessful
     
-    :param: response Response from WorkLight
+    - parameter response: Response from WorkLight
     */
     public func onFailure(response: WLFailResponse!) {
         MQALogger.log("Asset Overview Failure Response: \(response.responseText)", withLevel: MQALogLevelInfo)
         
-        if (response.errorCode.value == 0) && (response.errorMsg != nil) {
+        if (response.errorCode.rawValue == 0) && (response.errorMsg != nil) {
             MQALogger.log("Response Failure with error: \(response.errorMsg)", withLevel: MQALogLevelError)
         }
         

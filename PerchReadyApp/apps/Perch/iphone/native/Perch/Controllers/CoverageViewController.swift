@@ -45,7 +45,7 @@ class CoverageViewController: UIViewController {
         
         // If NOT an iPhone 5 or 5s, have an attributed title so we can have kerning
         if UIScreen.mainScreen().bounds.size.height > 568 {
-            var attrString = NSAttributedString(string: savingsButton.titleLabel!.text!, attributes: [NSKernAttributeName:2.0, NSForegroundColorAttributeName: UIColor.perchOrange(alpha: 1.0)])
+            let attrString = NSAttributedString(string: savingsButton.titleLabel!.text!, attributes: [NSKernAttributeName:2.0, NSForegroundColorAttributeName: UIColor.perchOrange(1.0)])
             savingsButton.setAttributedTitle(attrString, forState: UIControlState.Normal)
         }
     }
@@ -75,18 +75,18 @@ extension CoverageViewController: UITableViewDataSource {
     Populate the cells from the Current User object
     */
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCellWithIdentifier("coverageCell") as! CoverageTableViewCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("coverageCell") as! CoverageTableViewCell
         
         if indexPath.section == 0{
             if indexPath.row < currentUser.insurance.insuranceItems.count {
-                var insuranceItem = currentUser.insurance.insuranceItems[indexPath.row]
+                let insuranceItem = currentUser.insurance.insuranceItems[indexPath.row]
                 cell.coverageType.text = insuranceItem.coverageName
                 cell.coverageLimit.text = insuranceItem.coverageLimitString
                 cell.coveragePremium.text = insuranceItem.coveragePremiumString
             }
         } else {
             if indexPath.row < currentUser.insurance.creditItems.count {
-                var creditItem = currentUser.insurance.creditItems[indexPath.row]
+                let creditItem = currentUser.insurance.creditItems[indexPath.row]
                 cell.coverageType.text = creditItem.creditName
                 cell.coverageLimit.text = ""
                 cell.coveragePremium.text = creditItem.creditSavingsString

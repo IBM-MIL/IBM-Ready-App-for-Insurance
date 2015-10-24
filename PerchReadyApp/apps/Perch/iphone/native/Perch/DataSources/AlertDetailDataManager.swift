@@ -24,7 +24,7 @@ public class AlertDetailDataManager: NSObject {
     /**
     Method to kick off worklight call to grab most recent notification data
     
-    :param: callback method to call when complete
+    - parameter callback: method to call when complete
     */
     public func getCurrentNotification(callback: ((Bool)->())!, currentDeviceId: String) {
         self.callback = callback
@@ -38,16 +38,16 @@ public class AlertDetailDataManager: NSObject {
     /**
     Method to parse json dictionary received from backend
     
-    :param: worklightResponseJson json dictionary
+    - parameter worklightResponseJson: json dictionary
     
-    :returns: an array of SensorData objects
+    - returns: an array of SensorData objects
     */
     func parseCurrentAlertResponse(worklightResponseJson: NSDictionary) -> Alert {
         var anAlert: Alert!
         if let serverAlert = worklightResponseJson["result"] as? NSDictionary {
             
             // This auto parsing into the object's properties is done through the JsonObject library
-            anAlert = Alert(dictionary: serverAlert)
+            anAlert = Alert(dictionary: serverAlert, shouldValidate: false)
             
             // Since our timestamp info was not passed in a human readable format, we need to call this method to set the format
             anAlert.computeOptionalProperties()
@@ -63,7 +63,7 @@ extension AlertDetailDataManager: WLDataDelegate {
     /**
     Delgate method for WorkLight. Called when connection and return is successful
     
-    :param: response Response from WorkLight
+    - parameter response: Response from WorkLight
     */
     public func onSuccess(response: WLResponse!) {
         MQALogger.log("Current Alert Fetch Success Response: \(response.responseText)", withLevel: MQALogLevelInfo)
@@ -75,12 +75,12 @@ extension AlertDetailDataManager: WLDataDelegate {
     /**
     Delgate method for WorkLight. Called when connection or return is unsuccessful
     
-    :param: response Response from WorkLight
+    - parameter response: Response from WorkLight
     */
     public func onFailure(response: WLFailResponse!) {
         MQALogger.log("Current Alert Fetch Failure Response: \(response.responseText)", withLevel: MQALogLevelInfo)
         
-        if (response.errorCode.value == 0) && (response.errorMsg != nil) {
+        if (response.errorCode.rawValue == 0) && (response.errorMsg != nil) {
             MQALogger.log("Response Failure with error: \(response.errorMsg)", withLevel: MQALogLevelInfo)
         }
         

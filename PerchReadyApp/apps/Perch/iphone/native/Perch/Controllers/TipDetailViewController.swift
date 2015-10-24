@@ -86,10 +86,10 @@ class TipDetailViewController: UIViewController {
     */
     func formatAttributedTextOnLabel() {
         // Manually set line spacing and font of attributed label
-        var style = NSMutableParagraphStyle()
+        let style = NSMutableParagraphStyle()
         style.lineSpacing = 6
-        var attrs = [NSFontAttributeName :  UIFont.merriweather(17.0), NSParagraphStyleAttributeName: style]
-        var result = NSMutableAttributedString(string: self.largeTextLabel.text!, attributes: attrs)
+        let attrs = [NSFontAttributeName :  UIFont.merriweather(17.0), NSParagraphStyleAttributeName: style]
+        let result = NSMutableAttributedString(string: self.largeTextLabel.text!, attributes: attrs)
         self.largeTextLabel.attributedText = result
     }
     
@@ -167,8 +167,8 @@ class TipDetailViewController: UIViewController {
     */
     func determineIncentiveVisibility() {
         
-        var tipObject = TipDataManager.sharedInstance.tips[self.selectedIndex] as Tip
-        if let tipAction = tipObject.tipAction {
+        let tipObject = TipDataManager.sharedInstance.tips[self.selectedIndex] as Tip
+        if let _ = tipObject.tipAction {
             self.visibilityOnHide = self.topConstraint.constant
         }
     }
@@ -250,7 +250,7 @@ class TipDetailViewController: UIViewController {
     /**
     Method to gradually show and hide incentive UI components
     
-    :param: alpha alpha value to apply to incentive UI components, 0 to 1
+    - parameter alpha: alpha value to apply to incentive UI components, 0 to 1
     */
     func toggleIncentiveVisibility(alpha: CGFloat) {
         self.incentiveType.alpha = alpha
@@ -286,7 +286,7 @@ extension TipDetailViewController: UINavigationBarDelegate {
 extension TipDetailViewController: UIScrollViewDelegate {
     
     func scrollViewDidScroll(scrollView: UIScrollView) {
-        var bottomEdge = scrollView.contentOffset.y + scrollView.frame.size.height
+        let bottomEdge = scrollView.contentOffset.y + scrollView.frame.size.height
         // determines if we have scrolled to the bottom and if incentive view is not being panned
         if bottomEdge >= scrollView.contentSize.height && !panningInProgress {
             self.alreadyHitBottom = true
@@ -326,8 +326,8 @@ extension TipDetailViewController: UIGestureRecognizerDelegate {
             }
             
             // create a slow transition of incentive UI components appearance
-            var tempVal = self.topConstraint.constant - self.minimizedBottomConstraint
-            var alphaVal = abs(tempVal * 0.011) // multiple by (1.1 * 0.01) to get appropriate value where 90 = 100%
+            let tempVal = self.topConstraint.constant - self.minimizedBottomConstraint
+            let alphaVal = abs(tempVal * 0.011) // multiple by (1.1 * 0.01) to get appropriate value where 90 = 100%
             self.toggleIncentiveVisibility(alphaVal)
             
             if (sender.state == UIGestureRecognizerState.Ended) {
@@ -336,7 +336,7 @@ extension TipDetailViewController: UIGestureRecognizerDelegate {
                 if self.topConstraint.constant > self.verticalLimit && self.topConstraint.constant != minimizedBottomConstraint {
                     
                     self.incentiveView.userInteractionEnabled = false
-                    var diff = (self.verticalLimit - self.minimizedBottomConstraint) / 2
+                    let diff = (self.verticalLimit - self.minimizedBottomConstraint) / 2
                     if self.topConstraint.constant > self.minimizedBottomConstraint + diff {
                         self.minimizeBottomIncentiveView()
                     } else {
@@ -354,9 +354,9 @@ extension TipDetailViewController: UIGestureRecognizerDelegate {
     /**
     Method that creates a gradually smaller value as yPosition decreases
     
-    :param: yPosition value from constraint
+    - parameter yPosition: value from constraint
     
-    :returns: computed value
+    - returns: computed value
     */
     func logConstraintValueForYPosition(yPosition : CGFloat) -> CGFloat {
         return verticalLimit * (1 + log10(yPosition/verticalLimit))

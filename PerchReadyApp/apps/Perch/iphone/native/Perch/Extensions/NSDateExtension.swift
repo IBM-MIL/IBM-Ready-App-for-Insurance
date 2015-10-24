@@ -37,16 +37,16 @@ extension NSDate{
     /**
     NSDate formatting method to display date and time, but insert TODAY if date is today
     
-    :returns: the formatted date string
+    - returns: the formatted date string
     */
     func perchTableCellStringFormat() -> String {
         
         // create dates without time for comparison
-        var cal = NSCalendar.currentCalendar()
-        var components = cal.components((NSCalendarUnit.CalendarUnitEra|NSCalendarUnit.CalendarUnitYear|NSCalendarUnit.CalendarUnitMonth|NSCalendarUnit.CalendarUnitDay) , fromDate: NSDate())
-        var today = cal.dateFromComponents(components)
-        components = cal.components((NSCalendarUnit.CalendarUnitEra|NSCalendarUnit.CalendarUnitYear|NSCalendarUnit.CalendarUnitMonth|NSCalendarUnit.CalendarUnitDay) , fromDate: self)
-        var formattedDate = cal.dateFromComponents(components)
+        let cal = NSCalendar.currentCalendar()
+        var components = cal.components(([NSCalendarUnit.Era, NSCalendarUnit.Year, NSCalendarUnit.Month, NSCalendarUnit.Day]) , fromDate: NSDate())
+        let today = cal.dateFromComponents(components)
+        components = cal.components(([NSCalendarUnit.Era, NSCalendarUnit.Year, NSCalendarUnit.Month, NSCalendarUnit.Day]) , fromDate: self)
+        let formattedDate = cal.dateFromComponents(components)
         
         // determine if date represents today
         var chosenFormat = ""
@@ -56,9 +56,9 @@ extension NSDate{
             chosenFormat = "MM/dd/yyyy, h:mm a"
         }
         
-        var dateFormatter = NSDateFormatter()
+        let dateFormatter = NSDateFormatter()
         dateFormatter.dateFormat = chosenFormat
-        var converted = dateFormatter.stringFromDate(self)
+        let converted = dateFormatter.stringFromDate(self)
         
         return converted
     }

@@ -32,7 +32,7 @@ public class PerchAlertViewManager: NSObject {
     Creates an instance of the alert and sets the appropriate frame
     */
     private func createAlert() {
-        if let alertView = perchAlertView {
+        if let _ = perchAlertView {
             return
         }
         perchAlertView = PerchAlertView.instanceFromNib() as PerchAlertView
@@ -81,9 +81,9 @@ public class PerchAlertViewManager: NSObject {
     Creates a default simple alert with text and two buttons.
     */
     func displayDefaultSimpleAlertTwoButtons(leftButtonCallback: (()->())?, rightButtonCallback: (()->())?) {
-        var alertText = NSLocalizedString("Unable to connect with the server, please try again", comment: "")
-        var leftButtonText = NSLocalizedString("Try Again", comment: "")
-        var rightButtonText = NSLocalizedString("Dismiss", comment: "")
+        let alertText = NSLocalizedString("Unable to connect with the server, please try again", comment: "")
+        let leftButtonText = NSLocalizedString("Try Again", comment: "")
+        let rightButtonText = NSLocalizedString("Dismiss", comment: "")
         createAlert()
         self.displaySimpleAlertTwoButtons(alertText, leftButtonText: leftButtonText, rightButtonText: rightButtonText, leftButtonCallback: leftButtonCallback, rightButtonCallback: rightButtonCallback)
     }
@@ -102,7 +102,7 @@ public class PerchAlertViewManager: NSObject {
     */
     func displaySimpleAlertSingleButton(alertText: String, buttonText: String, callback: (()->())?) {
         createAlert()
-        if let providedCallback = callback {
+        if let _ = callback {
             perchAlertView.makeSimpleAlertSingleButton(alertText, buttonText: buttonText, buttonCallback: callback)
         } else {
             perchAlertView.makeSimpleAlertSingleButton(alertText, buttonText: buttonText, buttonCallback: hideAlertView)

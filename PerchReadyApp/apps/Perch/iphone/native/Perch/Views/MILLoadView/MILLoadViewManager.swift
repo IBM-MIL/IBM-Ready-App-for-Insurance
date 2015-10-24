@@ -28,12 +28,12 @@ public class MILLoadViewManager: NSObject {
     Function that builds and displays a MILLoadView
     */
     public func show() {
-        println("SHOWING LOADING VIEW")
+        print("SHOWING LOADING VIEW")
         
             self.timer = NSTimer(timeInterval: 3, target: self, selector: "enableHideBool", userInfo: nil, repeats: false)
             
             // show alertview on main UI
-            var milLoadView : MILLoadView = MILLoadView.instanceFromNib() as MILLoadView
+            let milLoadView : MILLoadView = MILLoadView.instanceFromNib() as MILLoadView
             
             if self.milLoadView != nil{
                 self.enableHide = true
@@ -63,7 +63,7 @@ public class MILLoadViewManager: NSObject {
             if self.enableHide{
                 self.enableHide = false
                     if self.milLoadView != nil{
-                        println("HIDING LOADING VIEW")
+                        print("HIDING LOADING VIEW")
                         self.milLoadView.removeFromSuperview()
                         self.milLoadView = nil
                     }

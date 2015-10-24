@@ -25,7 +25,7 @@ public class ConfigManager: NSObject {
     let largeMargin: CGFloat = 30.0
     var perchRealm: String?
     
-    public class var sharedInstance : ConfigManager{
+    public class var sharedInstance: ConfigManager {
         
         struct Singleton {
             static let instance = ConfigManager()
@@ -38,10 +38,9 @@ public class ConfigManager: NSObject {
         super.init()
         
         // Read configurations from the Config.plist.
-        var configurationPath = NSBundle.mainBundle().pathForResource("Config", ofType: "plist")
+        let configurationPath = NSBundle.mainBundle().pathForResource("Config", ofType: "plist")
         
         var hasValidConfiguration = true
-        var errorMessage = ""
         
         if((configurationPath) != nil){
             var configuration = NSDictionary(contentsOfFile: configurationPath!) as! [String: AnyObject]!
@@ -49,19 +48,19 @@ public class ConfigManager: NSObject {
             isDevelopment = configuration["isDevelopment"] as! Bool
             if(configuration["isDevelopment"] == nil){
                 hasValidConfiguration = false
-                errorMessage = "Open the Config.plist file and set the isDevelopment boolean"
+                // Open the Config.plist file and set the isDevelopment boolean
             }
             
             mqaApplicationKey = configuration["mqaApplicationKey"] as? String
             if(mqaApplicationKey == nil){
                 hasValidConfiguration = false
-                errorMessage = "Open the Config.plist file and set the mqaApplicationKey to the MQA application key"
+                // Open the Config.plist file and set the mqaApplicationKey to the MQA application key
             }
             
             perchRealm = configuration["perchRealm"] as? String
             if (perchRealm == nil){
                 hasValidConfiguration = false
-                errorMessage = "Open the Conflig.plist file and set the perchRealm"
+                // Open the Conflig.plist file and set the perchRealm
             }
         }
         
@@ -74,7 +73,7 @@ public class ConfigManager: NSObject {
     /**
     This method determines if TouchID should be used by examining the Keychain and touchID value in NSUserDefaults.
     
-    :returns:
+    - returns:
     */
     func useTouchID()->Bool{
         

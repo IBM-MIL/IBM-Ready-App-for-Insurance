@@ -36,7 +36,7 @@ public class CurrentSensorDataManager: NSObject {
     /**
     Method to kick off worklight call to grab current sensor data
     
-    :param: callback method to call when complete
+    - parameter callback: method to call when complete
     */
     public func getCurrentAssetDetail(deviceClassID: String, callback: ((Bool)->())!) {
 
@@ -48,8 +48,6 @@ public class CurrentSensorDataManager: NSObject {
         let params = [deviceClassID, currentUser.userPin]
         
         caller.invokeWithResponse(self, params: params)
-        var userExists = false
-        
     }
     
     /**
@@ -64,7 +62,7 @@ public class CurrentSensorDataManager: NSObject {
     /**
     Method to send data to UpdateSensor function in hybrid
     
-    :param: worklightResponseJson json received from worklight
+    - parameter worklightResponseJson: json received from worklight
     */
     func sendSensorData(worklightResponseJson: NSDictionary) {
 
@@ -91,7 +89,7 @@ extension CurrentSensorDataManager: WLDataDelegate {
     /**
     Delgate method for WorkLight. Called when connection and return is successful
     
-    :param: response Response from WorkLight
+    - parameter response: Response from WorkLight
     */
     public func onSuccess(response: WLResponse!) {
         MQALogger.log("Current Sensor Success Response: \(response.responseText)", withLevel: MQALogLevelInfo)
@@ -105,12 +103,12 @@ extension CurrentSensorDataManager: WLDataDelegate {
     /**
     Delgate method for WorkLight. Called when connection or return is unsuccessful
     
-    :param: response Response from WorkLight
+    - parameter response: Response from WorkLight
     */
     public func onFailure(response: WLFailResponse!) {
         MQALogger.log("Current Sensor Failure Response: \(response.responseText)", withLevel: MQALogLevelInfo)
         
-        if (response.errorCode.value == 0) && (response.errorMsg != nil) {
+        if (response.errorCode.rawValue == 0) && (response.errorMsg != nil) {
             MQALogger.log("Current Sensor Failed with error: \(response.errorMsg)", withLevel: MQALogLevelError)
         }
         

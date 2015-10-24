@@ -33,15 +33,15 @@ class TipsTableViewCell: UITableViewCell {
     /**
     Method to set a tip message status indicator based on if it has been read or is high priority
     
-    :param: readStatus     boolean representing if message has been read
-    :param: priorityStatus boolean representing if message is high priority
+    - parameter readStatus:     boolean representing if message has been read
+    - parameter priorityStatus: boolean representing if message is high priority
     */
     func updateTipStatus(readStatus: Bool, priorityStatus: Bool) {
         
         if !readStatus && !priorityStatus {
-            self.statusIndicatorView.backgroundColor = UIColor.unreadStatusOrange(alpha: 1.0)
+            self.statusIndicatorView.backgroundColor = UIColor.unreadStatusOrange(1.0)
         } else if priorityStatus {
-            self.statusIndicatorView.backgroundColor = UIColor.unreadStatusYellow(alpha: 1.0)
+            self.statusIndicatorView.backgroundColor = UIColor.unreadStatusYellow(1.0)
         } else {
             self.statusIndicatorView.backgroundColor = UIColor.clearColor()
         }

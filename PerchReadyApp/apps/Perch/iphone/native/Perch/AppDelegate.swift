@@ -57,7 +57,7 @@ class AppDelegate: WLAppDelegate {
             MQALogger.log("Registering for notifications")
             
             /// Register for notifications that can use alerts, badges, and sounds
-            let notificationType = UIUserNotificationType.Alert | UIUserNotificationType.Badge | UIUserNotificationType.Sound
+            let notificationType: UIUserNotificationType = [UIUserNotificationType.Alert, UIUserNotificationType.Badge, UIUserNotificationType.Sound]
             let settings = UIUserNotificationSettings(forTypes: notificationType, categories: nil)
             application.registerUserNotificationSettings(settings)
             application.registerForRemoteNotifications()
@@ -67,7 +67,7 @@ class AppDelegate: WLAppDelegate {
         application.setStatusBarHidden(false, withAnimation: UIStatusBarAnimation.None)
         UINavigationBar.appearance().translucent = false
         let font = UIFont.karla(17)
-        var titleColor = UIColor.perchNavBarGray(alpha: 1.0)
+        let titleColor = UIColor.perchNavBarGray(1.0)
         UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName: font, NSForegroundColorAttributeName: titleColor]
         
         return true
@@ -99,8 +99,8 @@ class AppDelegate: WLAppDelegate {
     /**
     Override for being notified when the device has successfully registered for remote notifications.
     
-    :param: application The application registered
-    :param: deviceToken The device token provided by APNs
+    - parameter application: The application registered
+    - parameter deviceToken: The device token provided by APNs
     */
     override func application(application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: NSData) {
         pushToken = deviceToken.description
@@ -114,8 +114,8 @@ class AppDelegate: WLAppDelegate {
     /**
     Override for being notified when APNs registration failed.
     
-    :param: application The application that failed to register
-    :param: error       The error sent from APNs
+    - parameter application: The application that failed to register
+    - parameter error:       The error sent from APNs
     */
     override func application(application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: NSError) {
         MQALogger.log("Failed to get token from APNs, error: \(error)")
@@ -124,9 +124,9 @@ class AppDelegate: WLAppDelegate {
     /**
     Called when either a push notification is received while app is in the foreground OR after a user taps a push notification that came in while outside the app
     
-    :param: application       The application receiving the notification
-    :param: userInfo          Dictionary containing the push notification data
-    :param: completionHandler Method to call once you are finished fetching any extra data associated with notification
+    - parameter application:       The application receiving the notification
+    - parameter userInfo:          Dictionary containing the push notification data
+    - parameter completionHandler: Method to call once you are finished fetching any extra data associated with notification
     */
     override func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject], fetchCompletionHandler completionHandler: (UIBackgroundFetchResult) -> Void) {
         MQALogger.log("Received remote notification: \(userInfo.description)")
@@ -172,7 +172,7 @@ class AppDelegate: WLAppDelegate {
 extension AppDelegate : WLInitWebFrameworkDelegate {
     
     func wlInitWebFrameworkDidCompleteWithResult(result: WLWebFrameworkInitResult) {
-        if result.statusCode.value == WLWebFrameworkInitResultSuccess.value {
+        if result.statusCode.rawValue == WLWebFrameworkInitResultSuccess.rawValue {
             self.wlInitDidCompleteSuccessfully()
         } else {
             self.wlInitDidFail(result)
@@ -189,7 +189,7 @@ extension AppDelegate : WLInitWebFrameworkDelegate {
         WL.sharedInstance().hideSplashScreen()
         // proceed to initial storyboard
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        self.window?.rootViewController = storyboard.instantiateInitialViewController() as? UIViewController
+        self.window?.rootViewController = storyboard.instantiateInitialViewController() as UIViewController!
         self.window?.makeKeyAndVisible()
     }
     

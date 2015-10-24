@@ -60,7 +60,7 @@ class HistoryViewController: PageItemViewController {
     /**
     Helper method to simply load up the alert view initially with retry or dismiss options
     
-    :param: text text to be displayed in the alert
+    - parameter text: text to be displayed in the alert
     */
     func loadAlert(text: String) {
         
@@ -83,7 +83,7 @@ class HistoryViewController: PageItemViewController {
         let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
         dispatch_async(dispatch_get_global_queue(priority, 0)) {
             
-            var alertHistoryDataManager = AlertHistoryDataManager.sharedInstance
+            let alertHistoryDataManager = AlertHistoryDataManager.sharedInstance
             alertHistoryDataManager.getAlertHistory(self.alertHistoryReturned)
             
         }
@@ -92,7 +92,7 @@ class HistoryViewController: PageItemViewController {
     /**
     Callback for when the worklight query returns
     
-    :param: success Whether the query was successful or not
+    - parameter success: Whether the query was successful or not
     */
     func alertHistoryReturned(success: Bool) {
         
@@ -113,7 +113,7 @@ class HistoryViewController: PageItemViewController {
     /**
     For navigating back to asset detail from alert history list
     
-    :param: sender The UI object that triggered the action
+    - parameter sender: The UI object that triggered the action
     */
     @IBAction func navigateLeftToAssetDetail(sender: AnyObject) {
         self.pageHandlerViewController.navigateToIndex(1, fromIndex: self.pageIndex, animated: true)
@@ -159,8 +159,8 @@ extension HistoryViewController: UITableViewDataSource, UITableViewDelegate {
         // Since this is not a normal navigation controller, we have to manually create the segue look
         self.view.window?.layer.addAnimation(Utils.customTransitionFromDirection(kCATransitionFromRight), forKey: nil)
         
-        var storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
-        var detailVC = storyboard.instantiateViewControllerWithIdentifier("AlertDetailViewController") as? AlertDetailViewController
+        let storyboard = UIStoryboard(name: "Main", bundle: NSBundle.mainBundle())
+        let detailVC = storyboard.instantiateViewControllerWithIdentifier("AlertDetailViewController") as? AlertDetailViewController
         detailVC?.alert = AlertHistoryDataManager.sharedInstance.alerts[indexPath.row]
         detailVC?.currentSensor = CurrentSensorDataManager.sharedInstance.lastSelectedAsset
         detailVC?.comingFromHistoryList = true

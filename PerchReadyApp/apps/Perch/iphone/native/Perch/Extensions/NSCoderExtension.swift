@@ -11,7 +11,7 @@ extension NSCoder {
     /**
     Helper method to create an empty NSCoder object
     
-    :returns: an NSCoder object
+    - returns: an NSCoder object
     */
     class func empty() -> NSCoder {
         let data = NSMutableData()

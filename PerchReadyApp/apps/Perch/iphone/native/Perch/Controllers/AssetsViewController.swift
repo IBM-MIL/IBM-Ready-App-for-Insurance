@@ -46,7 +46,7 @@ class AssetsViewController: UIViewController {
         
         // If we didn't get any data, show the alert view. Have to add a delay because of a weird UI bug.
         if assetOverviewDataManager.sensors.count == 0 {
-            var timer = NSTimer.scheduledTimerWithTimeInterval(0.3, target: self, selector: Selector("callPerch"), userInfo: nil, repeats: false)
+            _ = NSTimer.scheduledTimerWithTimeInterval(0.3, target: self, selector: Selector("callPerch"), userInfo: nil, repeats: false)
         }
     }
     
@@ -82,13 +82,13 @@ class AssetsViewController: UIViewController {
     /**
     Callback method passed into worklight call. Method takes action based on backend query success or failure
     
-    :param: success Bool representing status of worklight response
+    - parameter success: Bool representing status of worklight response
     */
     func assetDataReturned(success: Bool) {
         
         dispatch_async(dispatch_get_main_queue()) {
             if success {
-                var manager = AssetOverviewDataManager.sharedInstance
+                let manager = AssetOverviewDataManager.sharedInstance
                 if manager.sensors.count != 0 {
                     self.assetCollectionView.reloadData()
                     self.perchAlertManager.hideAlertView()
@@ -107,7 +107,7 @@ class AssetsViewController: UIViewController {
     /**
     Method that kicks off assetDetail animation
     
-    :param: assetID ID for asset to load
+    - parameter assetID: ID for asset to load
     */
     func presentViewControllerFromBottom(assetStatus: Int) {
         if let del = navDelegate {
@@ -137,7 +137,7 @@ class AssetsViewController: UIViewController {
     /**
     Method to add a sensor, currently is is not implemented so it throws up an alert
     
-    :param: sender the sending object
+    - parameter sender: the sending object
     */
     @IBAction func addSensor(sender: AnyObject) {
         perchAlertManager.displaySimpleAlertSingleButton(NSLocalizedString("This feature is not implemented.", comment: ""), buttonText: NSLocalizedString("DISMISS", comment: ""), callback: nil)
@@ -149,7 +149,7 @@ class AssetsViewController: UIViewController {
 extension AssetsViewController: UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        var manager = AssetOverviewDataManager.sharedInstance
+        let manager = AssetOverviewDataManager.sharedInstance
         if manager.sensors.count > 0 {
             return manager.sensors.count
         }
@@ -157,10 +157,10 @@ extension AssetsViewController: UICollectionViewDataSource, UICollectionViewDele
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        var cell = collectionView.dequeueReusableCellWithReuseIdentifier("assetCell", forIndexPath: indexPath) as! AssetCollectionViewCell
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("assetCell", forIndexPath: indexPath) as! AssetCollectionViewCell
         
         if AssetOverviewDataManager.sharedInstance.sensors.count > 0 {
-            var sensorData = AssetOverviewDataManager.sharedInstance.sensors[indexPath.row] as SensorData
+            let sensorData = AssetOverviewDataManager.sharedInstance.sensors[indexPath.row] as SensorData
             cell.swapAssetState(sensorData.status)
             cell.setIconForDevice(sensorData.deviceType!, sensorStatus: sensorData.status)
             cell.typeLabel.text = sensorData.name
@@ -186,12 +186,12 @@ extension AssetsViewController: UICollectionViewDataSource, UICollectionViewDele
         } else {
             
             // Allows cells to increase in size on larger devices
-            var horizontalSpacing = self.standardEdgeInsets.left * 3
+            let horizontalSpacing = self.standardEdgeInsets.left * 3
             totalCellWidth = collectionView.frame.size.width - horizontalSpacing
         }
         
         // Using available cell width, divide by 2 for single cell width and then multiple by aspect ratio for height
-        var size = CGSizeMake(totalCellWidth/2, (totalCellWidth/2)*1.03)
+        let size = CGSizeMake(totalCellWidth/2, (totalCellWidth/2)*1.03)
         return size
     }
     
@@ -207,7 +207,7 @@ extension AssetsViewController: UICollectionViewDataSource, UICollectionViewDele
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAtIndex section: Int) -> CGFloat {
         
         // Without changing the layout a lot, this is a working solution to space items correctly
-        var bounds = UIScreen.mainScreen().bounds
+        let bounds = UIScreen.mainScreen().bounds
         if bounds.size.height <= 568 {
             return 35
         } else if bounds.size.height <= 667 {
@@ -221,7 +221,7 @@ extension AssetsViewController: UICollectionViewDataSource, UICollectionViewDele
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         
         if AssetOverviewDataManager.sharedInstance.sensors.count > 0 {
-            var sensorData = AssetOverviewDataManager.sharedInstance.sensors[indexPath.row] as SensorData
+            let sensorData = AssetOverviewDataManager.sharedInstance.sensors[indexPath.row] as SensorData
             
             // If sensor not enabled, display alert explaining that
             if !sensorData.enabled {
@@ -230,7 +230,7 @@ extension AssetsViewController: UICollectionViewDataSource, UICollectionViewDele
                 
                 // set route for selected asset
                 CurrentSensorDataManager.sharedInstance.lastSelectedAsset = sensorData.deviceClassId
-                var specificRoute = ["route":"sensorDetail/\(sensorData.deviceClassId)"]
+                let specificRoute = ["route":"sensorDetail/\(sensorData.deviceClassId)"]
                 WL.sharedInstance().sendActionToJS("changePage", withData: specificRoute)
                 
                 // start off equal so we can detect change later
@@ -238,7 +238,7 @@ extension AssetsViewController: UICollectionViewDataSource, UICollectionViewDele
                 CurrentSensorDataManager.sharedInstance.currentSensorStatus = sensorData.status
                 
                 // set device ID so we can begin polling in NativeViewController
-                var appDel = UIApplication.sharedApplication().delegate as! AppDelegate
+                let appDel = UIApplication.sharedApplication().delegate as! AppDelegate
                 appDel.hybridViewController.deviceID = sensorData.deviceClassId
                 self.presentViewControllerFromBottom(sensorData.status)
             }

@@ -25,7 +25,7 @@ public class HistoricalDataManager: NSObject {
     /**
     Method to kick off worklight call to grab historical data
     
-    :param: callback method to call when complete
+    - parameter callback: method to call when complete
     */
     public func getAllHistoricalData(deviceClassID: String, callback: ((Bool)->())?) {
         
@@ -37,8 +37,6 @@ public class HistoricalDataManager: NSObject {
         let params = [deviceClassID]
         
         caller.invokeWithResponse(self, params: params)
-        var userExists = false
-        
     }
     
     /**
@@ -53,7 +51,7 @@ public class HistoricalDataManager: NSObject {
     /**
     JS injection method to get historical graph data into the hybrid view
     
-    :param: worklightResponseJson Json with an array of graph data
+    - parameter worklightResponseJson: Json with an array of graph data
     */
     func sendHistoricalData(worklightResponseJson: NSDictionary) {
         
@@ -61,7 +59,7 @@ public class HistoricalDataManager: NSObject {
         if let graphDataArray = worklightResponseJson["result"] as? NSArray {
             
             // format data by wrapping in a Dictionary
-            var data: Dictionary<String, NSArray> = ["historicalData": graphDataArray]
+            let data: Dictionary<String, NSArray> = ["historicalData": graphDataArray]
             
             // println("Sending Historical data to JS: \(data)")
             WL.sharedInstance().sendActionToJS("InitGraph", withData: data)
@@ -81,7 +79,7 @@ extension HistoricalDataManager: WLDataDelegate {
     /**
     Delgate method for WorkLight. Called when connection and return is successful
     
-    :param: response Response from WorkLight
+    - parameter response: Response from WorkLight
     */
     public func onSuccess(response: WLResponse!) {
         MQALogger.log("Current Sensor Success Response: \(response.responseText)", withLevel: MQALogLevelInfo)
@@ -97,12 +95,12 @@ extension HistoricalDataManager: WLDataDelegate {
     /**
     Delgate method for WorkLight. Called when connection or return is unsuccessful
     
-    :param: response Response from WorkLight
+    - parameter response: Response from WorkLight
     */
     public func onFailure(response: WLFailResponse!) {
         MQALogger.log("Current Sensor Failure Response: \(response.responseText)", withLevel: MQALogLevelInfo)
         
-        if (response.errorCode.value == 0) && (response.errorMsg != nil) {
+        if (response.errorCode.rawValue == 0) && (response.errorMsg != nil) {
             MQALogger.log("Current Sensor Failed with error: \(response.errorMsg)", withLevel: MQALogLevelError)
         }
         

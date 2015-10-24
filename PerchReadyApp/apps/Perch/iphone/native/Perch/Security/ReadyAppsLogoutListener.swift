@@ -57,7 +57,7 @@ class ReadyAppsLogoutListener : NSObject, WLDelegate {
         dispatch_async(dispatch_get_main_queue(), {
             // Go back to the initial view of the application. Will require a
             // reentry of the pin, as well as logging in again
-            var appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+            let appDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
             let storyboard = UIStoryboard(name: "Main", bundle: nil)
             if let viewController = storyboard.instantiateInitialViewController() as? PinViewController {
                 
@@ -68,7 +68,7 @@ class ReadyAppsLogoutListener : NSObject, WLDelegate {
                 }
                 
                 // Apply a transistion to the window
-                var transistion = CATransition()
+                let transistion = CATransition()
                 transistion.duration = 0.4
                 transistion.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseInEaseOut )
                 transistion.type = kCATransitionReveal
@@ -76,7 +76,7 @@ class ReadyAppsLogoutListener : NSObject, WLDelegate {
                 appDelegate.window?.layer.addAnimation(transistion, forKey: kCATransition)
                 
                 // Transistion!
-                UIView.transitionWithView(appDelegate.window!, duration: 0.4, options: nil, animations: { () -> Void in
+                UIView.transitionWithView(appDelegate.window!, duration: 0.4, options: [], animations: { () -> Void in
                     appDelegate.window?.rootViewController = viewController
                     }, completion: { (completed) -> Void in
                         topVC!.dismissViewControllerAnimated(false, completion: nil)

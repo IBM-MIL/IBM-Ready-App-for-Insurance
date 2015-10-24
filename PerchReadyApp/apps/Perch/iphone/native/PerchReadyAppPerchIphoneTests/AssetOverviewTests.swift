@@ -15,7 +15,7 @@ class AssetOverviewTests: XCTestCase {
     override func setUp() {
         super.setUp()
         
-        var storyboard = UIStoryboard(name: "Main", bundle: NSBundle(forClass: self.dynamicType))
+        let storyboard = UIStoryboard(name: "Main", bundle: NSBundle(forClass: self.dynamicType))
         self.vc = storyboard.instantiateViewControllerWithIdentifier("AssetOverview") as! AssetsViewController
         vc.loadView()
 
@@ -32,7 +32,7 @@ class AssetOverviewTests: XCTestCase {
     }
 
     func testTableViewNumberOfRows() {
-        var expectedNumber = 4
+        let expectedNumber = 4
         XCTAssertTrue(vc.collectionView(vc.assetCollectionView, numberOfItemsInSection: 0) == expectedNumber, "CollectionView has \(vc.collectionView(vc.assetCollectionView, numberOfItemsInSection: 0)) items, but it should have \(expectedNumber)")
     }
     
@@ -54,12 +54,12 @@ class AssetOverviewTests: XCTestCase {
         let indexPath = NSIndexPath(forItem: 0, inSection: 0)
         let cell = vc.assetCollectionView.dataSource?.collectionView(vc.assetCollectionView, cellForItemAtIndexPath: indexPath) as! AssetCollectionViewCell
         
-        var oldImage = cell.backgroundCircleImageView.image
+        let oldImage = cell.backgroundCircleImageView.image
         cell.swapAssetState(2)
         XCTAssertNotEqual(oldImage!, cell.backgroundCircleImageView.image!, "Cell Background Images are equal even after image swap")
 
         cell.setIconForDevice(DeviceType.SewerSystem, sensorStatus:0)
-        var oldIcon = cell.assetIconImageView.image
+        let oldIcon = cell.assetIconImageView.image
         cell.setIconForDevice(DeviceType.AirConditioning, sensorStatus:0)
         XCTAssertNotEqual(oldIcon!, cell.assetIconImageView.image!, "Asset Icon Images are equal even after setting a different icon")
         

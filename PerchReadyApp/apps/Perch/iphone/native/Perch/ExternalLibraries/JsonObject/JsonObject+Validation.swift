@@ -30,10 +30,10 @@ extension JsonObject {
         return missingKeys
     }
     
-    private func isLeafProperty(#name: String) -> Bool {
+    private func isLeafProperty(name name: String) -> Bool {
         for (propertyName, mirrorType) in properties() {
             if propertyName == name {
-                return "\(mirrorType)".rangeOfString("Swift._OptionalMirror", options: nil, range: nil, locale: nil) == nil
+                return "\(mirrorType)".rangeOfString("Swift._OptionalMirror", options: [], range: nil, locale: nil) == nil
             }
         }
         return false

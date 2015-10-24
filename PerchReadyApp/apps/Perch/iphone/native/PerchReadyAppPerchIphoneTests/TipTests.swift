@@ -14,10 +14,10 @@ class TipTests: XCTestCase {
     override func setUp() {
         super.setUp()
         
-        var storyboard = UIStoryboard(name: "Main", bundle: NSBundle(forClass: self.dynamicType))
+        let storyboard = UIStoryboard(name: "Main", bundle: NSBundle(forClass: self.dynamicType))
         self.vc = storyboard.instantiateViewControllerWithIdentifier("TipsViewController") as! TipsViewController
         
-        var oneTip = self.createTestTip()
+        let oneTip = self.createTestTip()
         TipDataManager.sharedInstance.tips = [oneTip]
         vc.loadView()
         
@@ -26,15 +26,11 @@ class TipTests: XCTestCase {
     func createTestTip() -> Tip {
             
         let path = NSBundle(forClass: self.dynamicType).pathForResource("Example", ofType: "json")
-        var data = NSData(contentsOfFile: path!, options: .DataReadingMappedIfSafe, error: nil)
+        let data = try? NSData(contentsOfFile: path!, options: .DataReadingMappedIfSafe)
 
-        var error : NSError?
-        var diction: NSDictionary = NSJSONSerialization.JSONObjectWithData(data!, options: nil, error: &error) as! NSDictionary
-        if error != nil {
-            println(error?.localizedDescription)
-        }
+        let diction: NSDictionary = (try! NSJSONSerialization.JSONObjectWithData(data!, options: [])) as! NSDictionary
     
-        var tempTip = Tip(dictionary: diction)
+        let tempTip = Tip(dictionary: diction, shouldValidate: false)
         
         return tempTip!
     }
@@ -57,16 +53,16 @@ class TipTests: XCTestCase {
         
         // Testing tip status method
         cell.updateTipStatus(true, priorityStatus: true)
-        XCTAssertEqual(cell.statusIndicatorView.backgroundColor!, UIColor.unreadStatusYellow(alpha: 1.0), "Tip status should be yellow, but it is not")
+        XCTAssertEqual(cell.statusIndicatorView.backgroundColor!, UIColor.unreadStatusYellow(1.0), "Tip status should be yellow, but it is not")
         
         cell.updateTipStatus(true, priorityStatus: false)
         XCTAssertEqual(cell.statusIndicatorView.backgroundColor!, UIColor.clearColor(), "Tip status color should be invisible, but it is not")
         
         cell.updateTipStatus(false, priorityStatus: true)
-        XCTAssertEqual(cell.statusIndicatorView.backgroundColor!, UIColor.unreadStatusYellow(alpha: 1.0), "Tip status should be yellow, but it is not")
+        XCTAssertEqual(cell.statusIndicatorView.backgroundColor!, UIColor.unreadStatusYellow(1.0), "Tip status should be yellow, but it is not")
         
         cell.updateTipStatus(false, priorityStatus: false)
-        XCTAssertEqual(cell.statusIndicatorView.backgroundColor!, UIColor.unreadStatusOrange(alpha: 1.0), "Tip status should be orange, but it is not")
+        XCTAssertEqual(cell.statusIndicatorView.backgroundColor!, UIColor.unreadStatusOrange(1.0), "Tip status should be orange, but it is not")
 
     }
 

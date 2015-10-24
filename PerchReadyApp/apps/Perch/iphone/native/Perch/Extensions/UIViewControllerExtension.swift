@@ -14,9 +14,9 @@ extension UIViewController {
     /**
     Find the best candidate for being the current view controller
     
-    :param: vc Initially the root viewcontroller, then passed in recursively as the previous vc's presented view controller
+    - parameter vc: Initially the root viewcontroller, then passed in recursively as the previous vc's presented view controller
     
-    :returns: The current view controller
+    - returns: The current view controller
     */
     private class func findBestViewController(vc: UIViewController) -> UIViewController {
         
@@ -29,7 +29,7 @@ extension UIViewController {
         else if vc.isKindOfClass(UISplitViewController) {
             let svc = vc as! UISplitViewController
             if svc.viewControllers.count > 0 {
-                return UIViewController.findBestViewController(svc.viewControllers.last as! UIViewController)
+                return UIViewController.findBestViewController(svc.viewControllers.last as UIViewController!)
             } else {
                 return vc
             }
@@ -39,7 +39,7 @@ extension UIViewController {
         else if vc.isKindOfClass(UINavigationController) {
             let nvc = vc as! UINavigationController
             if nvc.viewControllers.count > 0 {
-                return UIViewController.findBestViewController(nvc.topViewController)
+                return UIViewController.findBestViewController(nvc.topViewController!)
             } else {
                 return vc
             }
@@ -64,7 +64,7 @@ extension UIViewController {
     /**
     Public facing method for finding the current view controller by stepping through all view controllers presented since the root view
     
-    :returns: The current view controller
+    - returns: The current view controller
     */
     class func currentViewController() -> UIViewController {
         let viewController = UIApplication.sharedApplication().keyWindow?.rootViewController
@@ -75,9 +75,9 @@ extension UIViewController {
     App specific for digging down through view hierarchy and finding asset overview if it exists.
     Needed so we can tell the asset overview to reload when a push notification comes in.
     
-    :param: vc The initial view controller, then recursively the previous vc's presented vc
+    - parameter vc: The initial view controller, then recursively the previous vc's presented vc
     
-    :returns: The asset overview reference
+    - returns: The asset overview reference
     */
     private class func findAssetOverviewReference(vc: UIViewController) -> UIViewController {
         if vc.isKindOfClass(PageHandlerViewController) {
@@ -102,9 +102,9 @@ extension UIViewController {
     App specific for digging down through view hierarchy and finding pagehandler if it exists.
     Needed for clearing out a reference this view has to the alert history vc.
     
-    :param: vc The initial view controller, then recursively the previous vc's presented vc
+    - parameter vc: The initial view controller, then recursively the previous vc's presented vc
     
-    :returns: The page handler reference
+    - returns: The page handler reference
     */
     private class func findPageHandlerReference(vc: UIViewController) -> UIViewController {
         if vc.isKindOfClass(PageHandlerViewController) {
@@ -119,7 +119,7 @@ extension UIViewController {
     /**
     Public facing method for finding the asset overview reference
     
-    :returns: The asset overview vc reference
+    - returns: The asset overview vc reference
     */
     class func assetOverviewReference() -> UIViewController {
         let viewController = UIApplication.sharedApplication().keyWindow?.rootViewController
@@ -129,7 +129,7 @@ extension UIViewController {
     /**
     Public facing method for finding the page handler reference
     
-    :returns: The page handler vc reference
+    - returns: The page handler vc reference
     */
     class func pageHanderReference() -> UIViewController {
         let viewController = UIApplication.sharedApplication().keyWindow?.rootViewController

@@ -13,7 +13,7 @@ import Foundation
 extension JsonObject {
     
     func serializedDictionary() -> NSDictionary {
-        var dictionary = NSMutableDictionary()
+        let dictionary = NSMutableDictionary()
         for (name, mirrorType) in properties() {
             if let mapper = mapperForType(mirrorType.valueType),
                 let value: AnyObject = valueForProperty(name, mirrorType: mirrorType) {
@@ -25,7 +25,7 @@ extension JsonObject {
         return dictionary
     }
     
-    private func valueForProperty(name: String, mirrorType: MirrorType) -> AnyObject? {
+    private func valueForProperty(name: String, mirrorType: _MirrorType) -> AnyObject? {
         if let value: AnyObject = mirrorType.value as? AnyObject {
             return value
         } else if respondsToSelector(NSSelectorFromString(name)) {

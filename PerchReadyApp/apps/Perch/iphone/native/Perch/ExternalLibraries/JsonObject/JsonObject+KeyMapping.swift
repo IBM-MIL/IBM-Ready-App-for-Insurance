@@ -35,13 +35,14 @@ extension JsonObject {
         var camelCaseString = ""
         var makeNextCharacterUppercase = false
         underscoreString.enumerateSubstringsInRange(rangeForString(underscoreString), options: enumerationOptions) { (substring, substringRange, enclosingRange, shouldContinue) -> () in
+
             if substring == "_" {
                 makeNextCharacterUppercase = true
             } else if makeNextCharacterUppercase {
-                camelCaseString += substring.uppercaseString
+                camelCaseString += substring!.uppercaseString
                 makeNextCharacterUppercase = false
             } else {
-                camelCaseString += substring
+                camelCaseString += substring!
             }
         }
         return camelCaseString
@@ -50,10 +51,10 @@ extension JsonObject {
     private func underscoreStringFromCamelCaseString(camelCaseString: String) -> String {
         var underscoreString = ""
         camelCaseString.enumerateSubstringsInRange(rangeForString(camelCaseString), options: enumerationOptions) { (substring, substringRange, enclosingRange, shouldContinue) -> () in
-            if substring.lowercaseString != substring {
-                underscoreString += "_" + substring.lowercaseString
+            if substring!.lowercaseString != substring {
+                underscoreString += "_" + substring!.lowercaseString
             } else {
-                underscoreString += substring
+                underscoreString += substring!
             }
         }
         return underscoreString

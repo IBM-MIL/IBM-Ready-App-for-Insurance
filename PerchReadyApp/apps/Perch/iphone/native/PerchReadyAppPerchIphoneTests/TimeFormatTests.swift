@@ -15,16 +15,16 @@ class TimeFormatTests: XCTestCase {
     
     func testTimestampConverter() {
         
-        var miliseconds: Double = 1429650721359
-        var miliDate = NSDate(timeIntervalSince1970: miliseconds.calculateTimestamp())
+        let miliseconds: Double = 1429650721359
+        let miliDate = NSDate(timeIntervalSince1970: miliseconds.calculateTimestamp())
         
-        var seconds: Double = 1429650721
-        var secondsDate = NSDate(timeIntervalSince1970: seconds.calculateTimestamp())
+        let seconds: Double = 1429650721
+        let secondsDate = NSDate(timeIntervalSince1970: seconds.calculateTimestamp())
         
         XCTAssertEqual(miliDate, secondsDate, "Dates do not match when they come from the same timestamp")
         
-        var zero: Double = 0
-        var zeroDate = zero.calculateTimestamp()
+        let zero: Double = 0
+        let zeroDate = zero.calculateTimestamp()
         
         XCTAssertEqual(zeroDate, 0, "Timestamp of 0 does not equal 0 after calculation")
         
@@ -32,9 +32,9 @@ class TimeFormatTests: XCTestCase {
     
     func testTimestampFormat() {
         
-        var seconds: Double = 1429650721
-        var secondsDate = NSDate(timeIntervalSince1970: seconds.calculateTimestamp())
-        var formattedSeconds = secondsDate.perchTableCellStringFormat()
+        let seconds: Double = 1429650721
+        let secondsDate = NSDate(timeIntervalSince1970: seconds.calculateTimestamp())
+        let formattedSeconds = secondsDate.perchTableCellStringFormat()
         
         var containsToday = false
         if NSString(string: formattedSeconds).containsString("TODAY") {
@@ -42,7 +42,7 @@ class TimeFormatTests: XCTestCase {
         }
         XCTAssertFalse(containsToday, "Formatted seconds contains the word, TODAY, when it shouldn't")
         
-        var formattedToday = NSDate().perchTableCellStringFormat()
+        let formattedToday = NSDate().perchTableCellStringFormat()
         if NSString(string: formattedToday).containsString("TODAY") {
             containsToday = true
         }

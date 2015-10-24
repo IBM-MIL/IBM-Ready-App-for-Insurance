@@ -50,7 +50,7 @@ class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var currentUser = CurrentUser.sharedInstance
+        let currentUser = CurrentUser.sharedInstance
         setPinLabel(currentUser.userPin)
     }
     
@@ -95,7 +95,7 @@ class SettingsViewController: UIViewController {
     Updates the pin label with the user's current pin
     */
     func setPinLabel(currentPin: String) {
-        var pinString = NSLocalizedString("Current PIN: ", comment: "") + currentPin
+        let pinString = NSLocalizedString("Current PIN: ", comment: "") + currentPin
         currentPinLabel.text = pinString
     }
     
@@ -192,7 +192,7 @@ class SettingsViewController: UIViewController {
     @IBAction func logoutPressed(sender: AnyObject) {
         
         // Create logging out view
-        var loggingInView = UINib(nibName: "PerchLoadView", bundle: nil).instantiateWithOwner(nil, options: nil)[0] as! PerchLoadView
+        let loggingInView = UINib(nibName: "PerchLoadView", bundle: nil).instantiateWithOwner(nil, options: nil)[0] as! PerchLoadView
         loggingInView.frame = view.frame
         loggingInView.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.5)
         loggingInView.loadingTextLabel.text = NSLocalizedString("Logging out...", comment: "")
@@ -213,7 +213,7 @@ class SettingsViewController: UIViewController {
     func startAssetDataQuery() {
         let priority = DISPATCH_QUEUE_PRIORITY_DEFAULT
         dispatch_async(dispatch_get_global_queue(priority, 0)) {
-            var assetOverviewDataManager = AssetOverviewDataManager.sharedInstance
+            let assetOverviewDataManager = AssetOverviewDataManager.sharedInstance
             assetOverviewDataManager.getAllAssetData({[unowned self] in self.assetQueryFinished($0)})
         }
     }

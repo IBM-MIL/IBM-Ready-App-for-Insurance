@@ -9,11 +9,11 @@ extension Double {
     /**
     Method used to calculate correct timestamp to create an NSDate. NSDate needs a 10 digit unix timestamp, this method ensures that
     
-    :returns: the updated Double, 10 digits long
+    - returns: the updated Double, 10 digits long
     */
     func calculateTimestamp() -> Double {
-        var stringVersion = String(format:"%.0f", self)
-        var countNum = count(stringVersion)
+        let stringVersion = String(format:"%.0f", self)
+        let countNum = stringVersion.characters.count
         
         if countNum > 10 {
             // Means we are working with milliseconds
