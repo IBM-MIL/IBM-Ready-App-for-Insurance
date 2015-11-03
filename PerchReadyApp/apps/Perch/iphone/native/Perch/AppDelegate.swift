@@ -14,7 +14,6 @@ class AppDelegate: WLAppDelegate {
     
     override func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         
-        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
         WL.sharedInstance().initializeWebFrameworkWithDelegate(self)
     
         
@@ -69,7 +68,7 @@ class AppDelegate: WLAppDelegate {
         let font = UIFont.karla(17)
         let titleColor = UIColor.perchNavBarGray(1.0)
         UINavigationBar.appearance().titleTextAttributes = [NSFontAttributeName: font, NSForegroundColorAttributeName: titleColor]
-        
+
         return true
     }
     
