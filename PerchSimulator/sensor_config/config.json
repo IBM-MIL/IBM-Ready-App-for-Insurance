@@ -7,8 +7,7 @@
 			"displayUnit": " L/min",
 			"defaultValue": 75,
 			"absoluteMin": 0,
-			"absoluteMax": 99,
-			"maxThreshold": 90
+			"absoluteMax": 99
 		},
 		"ac": {
 			"device_class_id": "10002",
@@ -16,8 +15,7 @@
 			"units": "°C",
 			"displayUnit": "&deg;C",
 			"defaultValue": 20,
-			"minThreshold": 0,
-			"maxThreshold": 50
+			"minThreshold": 0
 		},
 		"sewer": {
 			"device_class_id": "10003",
@@ -26,8 +24,7 @@
 			"displayUnit": " kL",
 			"defaultValue": 1,
 			"absoluteMin": 0,
-			"absoluteMax": 10,
-			"maxThreshold": 7
+			"absoluteMax": 10
 		}
 	},
 	"connection": {
