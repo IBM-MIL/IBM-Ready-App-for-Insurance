@@ -182,14 +182,11 @@ extension AppDelegate : WLInitWebFrameworkDelegate {
         LoginDataManager.sharedInstance
         self.hybridViewController = HybridViewController(coder: NSCoder.empty())
         
-        MQALogger.log("LKABSDFLKBASDKLFNAKLSDF")
-        MQALogger.log("TEST @", withLevel: MQALogLevelError)
-        
         WL.sharedInstance().hideSplashScreen()
         // proceed to initial storyboard
-        let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        self.window?.rootViewController = storyboard.instantiateInitialViewController() as UIViewController!
-        self.window?.makeKeyAndVisible()
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        self.window?.rootViewController = storyboard.instantiateInitialViewController() as UIViewController!
+//        self.window?.makeKeyAndVisible()
     }
     
     private func wlInitDidFail(result: WLWebFrameworkInitResult) {
