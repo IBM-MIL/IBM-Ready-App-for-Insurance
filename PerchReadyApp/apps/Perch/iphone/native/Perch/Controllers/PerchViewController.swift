@@ -9,7 +9,7 @@ import UIKit
 class PerchViewController: UIViewController {
 
     override func viewWillAppear(animated: Bool) {
-        #if Debug
+        #if !Debug
             let tracker = GAI.sharedInstance().defaultTracker
             tracker.set(kGAIScreenName, value: NSStringFromClass(self.dynamicType))
             
