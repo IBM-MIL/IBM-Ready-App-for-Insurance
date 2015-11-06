@@ -12,9 +12,8 @@ Licensed Materials - Property of IBM
 #import "Cordova/CDVViewController.h"
 #import "WLDelegate.h"
 #import "WLClient.h"
-#import <IBMPush/IBMPush.h>
-#import <IBMPush/IBMPushAppMgr.h>
-#import <IBMBluemix/IBMBluemix.h>
+#import <IMFCore/IMFCore.h>
+#import <IMFPush/IMFPush.h>
 #import "Analytics.h"
 
 #import "../../Frameworks/Q4M.framework/Headers/MQALogger.h"

@@ -34,7 +34,7 @@ public class PushServiceManager: NSObject {
         /**
         *  The first thing to do is get all the tags the device is currently subscribed to.
         */
-        pushService!.getSubscriptions().continueWithBlock { (task: BFTask!) in
+        /*pushService!.getSubscriptions().continueWithBlock { (task: BFTask!) in
             if let error = task.error() {
                 
                 /// If Push couldn't give us back the currently subscribed tags, carry own with completion passed in, because we can't continue unsubscribing if we don't know what tags to unsubscribe from.
@@ -83,7 +83,7 @@ public class PushServiceManager: NSObject {
                 }
             }
             return nil
-        }
+        }*/
     }
     
     /**
@@ -93,7 +93,7 @@ public class PushServiceManager: NSObject {
     - parameter completion: What to do after the pin subscription completes
     */
     func subscribe(pin: String, completion: (error: Bool, errorMsg: String?) -> Void) {
-        if let pushService: AnyObject = pushService {
+        /*if let pushService: AnyObject = pushService {
             
             /// First we want to unsubscribe from all tags before subscring to our desired tag. This ensures that salesmen
             /// who are demoing the app don't accidentally keep an old tag around that another salesman is using actively
@@ -125,7 +125,7 @@ public class PushServiceManager: NSObject {
             }
         } else {
             completion(error: true, errorMsg: NSLocalizedString("Application has not been initialized properly with Bluemix Push in AppDelegate", comment: ""))
-        }
+        }*/
     }
     
     /**
@@ -135,7 +135,7 @@ public class PushServiceManager: NSObject {
     - parameter completion: What to do after the pin subscription completes
     */
     func subscribeWithoutUnsubscribing(pin: String, completion: (error: Bool, errorMsg: String?) -> Void) {
-        if let pushService: AnyObject = pushService {
+        /*if let pushService: AnyObject = pushService {
 
             /// Proceed with subscribing to the tag
             pushService.subscribeToTag(pin).continueWithBlock { (task: BFTask!) in
@@ -163,7 +163,7 @@ public class PushServiceManager: NSObject {
             }
         } else {
             completion(error: true, errorMsg: NSLocalizedString("Application has not been initialized properly with Bluemix Push in AppDelegate", comment: ""))
-        }
+        }*/
     }
     
     /**
@@ -175,7 +175,7 @@ public class PushServiceManager: NSObject {
         /**
         *  The first thing to do is get all the tags the device is currently subscribed to.
         */
-        pushService!.getSubscriptions().continueWithBlock { (task: BFTask!) in
+        /*pushService!.getSubscriptions().continueWithBlock { (task: BFTask!) in
             if let error = task.error() {
                 
                 /// If Push couldn't give us back the currently subscribed tags, carry own with completion passed in, because we can't continue unsubscribing if we don't know what tags to unsubscribe from.
@@ -232,7 +232,7 @@ public class PushServiceManager: NSObject {
                 }
             }
             return nil
-        }
+        }*/
     }
     
     /**
@@ -264,7 +264,7 @@ public class PushServiceManager: NSObject {
         MQALogger.log("Registering device...")
         MQALogger.log("Consumer Id :: \(consumerId)\nAlias :: \(alias)")
         
-        if let pushService: AnyObject = pushService {
+        /*if let pushService: AnyObject = pushService {
             
             // Register the device with Bluemix Push. Pass in the push token received from apns in app delegate.
             pushService.registerDevice(alias, withConsumerId: consumerId, withDeviceToken: pushToken).continueWithBlock { (task: BFTask!) in
@@ -279,7 +279,7 @@ public class PushServiceManager: NSObject {
             }
         } else {
             MQALogger.log("Push service is nil. Possibly wrong class name.")
-        }
+        }*/
     }
    
 }

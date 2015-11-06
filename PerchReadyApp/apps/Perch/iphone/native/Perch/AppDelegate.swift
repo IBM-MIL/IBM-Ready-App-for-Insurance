@@ -51,15 +51,15 @@ class AppDelegate: WLAppDelegate {
         
         
         // Choose which Bluemix app to initialize with. We have 2 because we can't simultaneously test sandbox and production push notifications.
-        if configManager.isDevelopment {
-            MQALogger.log("Initializing with Development Bluemix app", withLevel: MQALogLevelInfo)
-            IBMBluemix.initializeWithApplicationId("83d8eed2-9768-41c6-9604-15e17ae564e9", andApplicationSecret: "f9eda4190eb07cbee9ab59fdaa22e2e00e24e887", andApplicationRoute: "RA-Perch.mybluemix.net")
-        } else {
-            MQALogger.log("Initializing with MQA Bluemix app", withLevel: MQALogLevelInfo)
-            IBMBluemix.initializeWithApplicationId("641d1213-6bb3-4cf2-9e5f-c996a549af7e", andApplicationSecret: "82d76b555993f72725e4ecaaf79b7f697ae09862", andApplicationRoute: "Ready-App-4-Perch.mybluemix.net")
-        }
-    
-        pushService = IBMPush.initializeService()
+//        if configManager.isDevelopment {
+//            MQALogger.log("Initializing with Development Bluemix app", withLevel: MQALogLevelInfo)
+//            IBMBluemix.initializeWithApplicationId("83d8eed2-9768-41c6-9604-15e17ae564e9", andApplicationSecret: "f9eda4190eb07cbee9ab59fdaa22e2e00e24e887", andApplicationRoute: "RA-Perch.mybluemix.net")
+//        } else {
+//            MQALogger.log("Initializing with MQA Bluemix app", withLevel: MQALogLevelInfo)
+//            IBMBluemix.initializeWithApplicationId("641d1213-6bb3-4cf2-9e5f-c996a549af7e", andApplicationSecret: "82d76b555993f72725e4ecaaf79b7f697ae09862", andApplicationRoute: "Ready-App-4-Perch.mybluemix.net")
+//        }
+//    
+//        pushService = IBMPush.initializeService()
         
         // Only allow notifications on a physical device, this improves unit testing
         if UIDevice.currentDevice().model != "iPhone Simulator" {

@@ -144,8 +144,6 @@
 		5129A46D1AD6BEFE00E513DA /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5129A46F1AD6BEFE00E513DA /* Localizable.strings */; };
 		514351EB1AF13D990023AF51 /* PushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514351EA1AF13D990023AF51 /* PushNotification.swift */; };
 		514351EC1AF159C80023AF51 /* PushNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514351EA1AF13D990023AF51 /* PushNotification.swift */; };
-		5171DE6C1B2B843E00769671 /* IBMBluemix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5171DE6B1B2B843E00769671 /* IBMBluemix.framework */; };
-		5171DEB61B373C4100769671 /* IBMPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5171DEB51B373C4100769671 /* IBMPush.framework */; };
 		5174D3481ADC707B002A09C3 /* UITextFieldExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5174D3471ADC707B002A09C3 /* UITextFieldExtension.swift */; };
 		517F2F641B06364100F18BD1 /* RecommendedPartner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F2F631B06364100F18BD1 /* RecommendedPartner.swift */; };
 		517F2F661B06365F00F18BD1 /* RecommendedPartner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 517F2F631B06364100F18BD1 /* RecommendedPartner.swift */; };
@@ -258,6 +256,9 @@
 		CDEC18341ACAF72B00CF8DAE /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEC18211ACAF72B00CF8DAE /* UILabelExtension.swift */; };
 		CDEC18351ACAF72B00CF8DAE /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDEC18221ACAF72B00CF8DAE /* UIViewExtensions.swift */; };
 		CDEC18411ACAFA8600CF8DAE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDEC18401ACAFA8600CF8DAE /* LaunchScreen.xib */; };
+		CDEDE6161BED4D6600D21D61 /* IMFCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEDE6141BED4D6600D21D61 /* IMFCore.framework */; };
+		CDEDE6171BED4D6600D21D61 /* IMFPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDEDE6151BED4D6600D21D61 /* IMFPush.framework */; };
+		CDEDE6191BED4FC400D21D61 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4255CFF5126B2ACD00B1C79C /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -365,8 +366,6 @@
 		5129A46E1AD6BEFE00E513DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		5129A4701AD6BF0C00E513DA /* es-MX */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "es-MX"; path = "es-MX.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		514351EA1AF13D990023AF51 /* PushNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PushNotification.swift; sourceTree = "<group>"; };
-		5171DE6B1B2B843E00769671 /* IBMBluemix.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMBluemix.framework; path = Perch/ExternalLibraries/IBMBluemix.framework; sourceTree = "<group>"; };
-		5171DEB51B373C4100769671 /* IBMPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMPush.framework; path = Perch/ExternalLibraries/IBMPush.framework; sourceTree = "<group>"; };
 		5174D3471ADC707B002A09C3 /* UITextFieldExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextFieldExtension.swift; sourceTree = "<group>"; };
 		517F2F631B06364100F18BD1 /* RecommendedPartner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommendedPartner.swift; sourceTree = "<group>"; };
 		51970D2D1AFAD0C6007BBD58 /* Q4M.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Q4M.framework; path = Frameworks/Q4M.framework; sourceTree = "<group>"; };
@@ -573,6 +572,8 @@
 		CDEC18211ACAF72B00CF8DAE /* UILabelExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
 		CDEC18221ACAF72B00CF8DAE /* UIViewExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
 		CDEC18401ACAFA8600CF8DAE /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		CDEDE6141BED4D6600D21D61 /* IMFCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IMFCore.framework; sourceTree = "<group>"; };
+		CDEDE6151BED4D6600D21D61 /* IMFPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IMFPush.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -580,9 +581,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5171DEB61B373C4100769671 /* IBMPush.framework in Frameworks */,
+				CDEDE6191BED4FC400D21D61 /* CoreData.framework in Frameworks */,
 				CDC3B5021BEBC89900D30DFF /* libGGLAnalytics.a in Frameworks */,
-				5171DE6C1B2B843E00769671 /* IBMBluemix.framework in Frameworks */,
 				2ECDFC801AF0055E008C33B6 /* libCordova.a in Frameworks */,
 				CD44888F1AE93CCE007401A5 /* LocalAuthentication.framework in Frameworks */,
 				5E144E0A180EEBA700A01719 /* libstdc++.6.dylib in Frameworks */,
@@ -598,6 +598,8 @@
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				301BF5B5109A6A2B0062928A /* AddressBook.framework in Frameworks */,
 				301BF5B7109A6A2B0062928A /* AddressBookUI.framework in Frameworks */,
+				CDEDE6161BED4D6600D21D61 /* IMFCore.framework in Frameworks */,
+				CDEDE6171BED4D6600D21D61 /* IMFPush.framework in Frameworks */,
 				301BF5B9109A6A2B0062928A /* AudioToolbox.framework in Frameworks */,
 				51970D2E1AFAD0C6007BBD58 /* Q4M.framework in Frameworks */,
 				47F3D1F41723E20B004534C9 /* AssetsLibrary.framework in Frameworks */,
@@ -680,8 +682,6 @@
 			isa = PBXGroup;
 			children = (
 				CDC3B41F1BEBBF7300D30DFF /* libsqlite3.dylib */,
-				5171DEB51B373C4100769671 /* IBMPush.framework */,
-				5171DE6B1B2B843E00769671 /* IBMBluemix.framework */,
 				51970D2D1AFAD0C6007BBD58 /* Q4M.framework */,
 				CD44888E1AE93CCE007401A5 /* LocalAuthentication.framework */,
 				5E144E09180EEBA700A01719 /* libstdc++.6.dylib */,
@@ -1280,6 +1280,8 @@
 		CDEC18391ACAF79E00CF8DAE /* ExternalLibraries */ = {
 			isa = PBXGroup;
 			children = (
+				CDEDE6141BED4D6600D21D61 /* IMFCore.framework */,
+				CDEDE6151BED4D6600D21D61 /* IMFPush.framework */,
 				CDC3B4E31BEBC89900D30DFF /* GoogleAnalyticsServices */,
 				2EE1B26F1B0534C600FED67F /* JsonObject */,
 				CDD7BA891ADDA71200445315 /* KeychainWrapper */,
