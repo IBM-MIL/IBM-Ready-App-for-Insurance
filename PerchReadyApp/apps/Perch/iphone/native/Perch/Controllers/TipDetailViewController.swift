@@ -5,7 +5,7 @@ Licensed Materials - Property of IBM
 
 import UIKit
 
-class TipDetailViewController: UIViewController {
+class TipDetailViewController: PerchViewController {
     
     // MARK: UI Variables
     @IBOutlet weak var scrollView: UIScrollView!

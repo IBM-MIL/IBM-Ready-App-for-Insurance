@@ -9,7 +9,7 @@ import Foundation
 /**
 *  Entering a pin screen. Mainly responsible for all the animations associated with the screen.
 */
-class PinViewController: UIViewController {
+class PinViewController: PerchViewController {
     // MARK: IBOutlets
     /** Outlets from storyboard. A lot of these are constraint outlets for animating view position changes for things like when the keyboard pops up. */
 

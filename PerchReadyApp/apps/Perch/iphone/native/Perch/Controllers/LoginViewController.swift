@@ -9,7 +9,7 @@ import LocalAuthentication
 /**
 *  This view controller presents the user with the Login screen.
 */
-public class LoginViewController: UIViewController {
+class LoginViewController: PerchViewController {
 
     @IBOutlet weak var usernameTextField: UITextField!
     @IBOutlet weak var containingView: UIView!
@@ -27,7 +27,7 @@ public class LoginViewController: UIViewController {
     let loginManager = LoginDataManager.sharedInstance
     let configManager = ConfigManager.sharedInstance
     
-    override public func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
         
         // Hide everything for now, will reveal once view appears
@@ -55,7 +55,7 @@ public class LoginViewController: UIViewController {
         self.view.addSubview(loggingInView)
     }
     
-    public override func viewWillAppear(animated: Bool) {
+    override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         
         // Check touch ID, also dont present touch ID login when in demo mode
@@ -76,7 +76,7 @@ public class LoginViewController: UIViewController {
     /**
     Once the view appears, fade in the UI Elements. If demo mode has been selected, auto-fill the username and login and sign in.
     */
-    public override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
         
         UIView.animateWithDuration(0.5, animations: { () -> Void in
@@ -95,13 +95,13 @@ public class LoginViewController: UIViewController {
         })
     }
     
-    override public func viewWillDisappear(animated: Bool) {
+    override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
         
         NSNotificationCenter.defaultCenter().removeObserver(self)
     }
     
-    override public func preferredStatusBarStyle() -> UIStatusBarStyle {
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
         return UIStatusBarStyle.LightContent
     }
     
@@ -248,7 +248,7 @@ public class LoginViewController: UIViewController {
     /**
     If the login fails, hide the loading view and redisplay the login fields
     */
-    public func loginFailed() {
+    func loginFailed() {
         let loginString = NSAttributedString(string: NSLocalizedString("TRY AGAIN", comment: ""), attributes: [NSKernAttributeName:5.0, NSForegroundColorAttributeName: UIColor.whiteColor()])
         self.loginButton.setAttributedTitle(loginString, forState: UIControlState.Normal)
         usernameTextField.text = ""
@@ -268,7 +268,7 @@ public class LoginViewController: UIViewController {
     /**
     If the login succeeds, change the loading text.
     */
-    public func loginSuccess() {
+    func loginSuccess() {
         loggingInView.loadingTextLabel.text = "Syncing with sensors..."
     }
     
@@ -276,7 +276,7 @@ public class LoginViewController: UIViewController {
     The Pin VC will call this function when the syncing has completed. When that happens, make the PageHandlerViewController the root view controller.
     This should cause the Pin View Controller and Login View Controller to be destroyed.
     */
-    public func syncSensorsFinished() {
+    func syncSensorsFinished() {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let pageHandlerVC = storyboard.instantiateViewControllerWithIdentifier("PageHandlerViewController") as? PageHandlerViewController
     
@@ -297,7 +297,7 @@ public class LoginViewController: UIViewController {
     /**
     Saves the username and password in keychain and sets the flag to use touch ID to true. This is called by the challenge handler
     */
-    public func setKeychainCredentials(){
+    func setKeychainCredentials(){
         let usernameString = usernameTextField.text
         let passwordString = passwordTextField.text
         
@@ -310,7 +310,7 @@ public class LoginViewController: UIViewController {
 
 // MARK: UITextField Delegate
 extension LoginViewController: UITextFieldDelegate {
-    public func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
+    func textField(textField: UITextField, shouldChangeCharactersInRange range: NSRange, replacementString string: String) -> Bool {
         if loginButton.attributedTitleForState(UIControlState.Normal)?.string == NSLocalizedString("TRY AGAIN", comment: "") {
             if string != "" {
                 let loginString = NSAttributedString(string: NSLocalizedString("ENTER", comment: ""), attributes: [NSKernAttributeName:5.0, NSForegroundColorAttributeName: UIColor.whiteColor()])
@@ -320,7 +320,7 @@ extension LoginViewController: UITextFieldDelegate {
         return true
     }
     
-    public func textFieldShouldReturn(textField: UITextField) -> Bool {
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
         if textField == usernameTextField {
             passwordTextField.becomeFirstResponder()
         } else {

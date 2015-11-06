@@ -121,7 +121,6 @@
 		301BF5C5109A6A2B0062928A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5C4109A6A2B0062928A /* SystemConfiguration.framework */; };
 		301BF5C7109A6A2B0062928A /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF5C6109A6A2B0062928A /* CoreMotion.framework */; };
 		305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
-		4255CFF6126B2ACD00B1C79C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4255CFF5126B2ACD00B1C79C /* CoreData.framework */; };
 		42D9944B12952AAC00E883AC /* worklight.plist in Resources */ = {isa = PBXBuildFile; fileRef = 42D9944A12952AAC00E883AC /* worklight.plist */; };
 		42DB65D6141F483300EA8B09 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42DB65D5141F483300EA8B09 /* CoreMedia.framework */; };
 		470009E616BE4F3700E4EA3D /* config.xml in Resources */ = {isa = PBXBuildFile; fileRef = 470009E516BE4F3700E4EA3D /* config.xml */; };
@@ -184,7 +183,6 @@
 		CD259FD91AD7204F00404F06 /* AssetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD259FD81AD7204F00404F06 /* AssetsViewController.swift */; };
 		CD26DE131AE1A4E200600684 /* MQAExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD011461AE193E40010E406 /* MQAExceptionHandler.m */; };
 		CD26DE141AE1A4E400600684 /* MQALogger+MQASwiftSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD011491AE193E40010E406 /* MQALogger+MQASwiftSupport.m */; };
-		CD26DE151AE1A4E800600684 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B5EBB1AD7069F006A7196 /* AppDelegate.swift */; };
 		CD44888F1AE93CCE007401A5 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD44888E1AE93CCE007401A5 /* LocalAuthentication.framework */; };
 		CD4488901AE942EC007401A5 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD44888E1AE93CCE007401A5 /* LocalAuthentication.framework */; };
 		CD4C57ED1AE7022700BF6858 /* PerchLoadingWhite.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4C57EC1AE7022700BF6858 /* PerchLoadingWhite.xcassets */; };
@@ -220,7 +218,14 @@
 		CDA645F61AF2BDAE009DFE19 /* CoverageTableTopSectionHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDA645F51AF2BDAE009DFE19 /* CoverageTableTopSectionHeader.xib */; };
 		CDA645F91AF2C2AC009DFE19 /* CoverageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA645F81AF2C2AC009DFE19 /* CoverageTableViewCell.swift */; };
 		CDA645FB1AF2C3EB009DFE19 /* InsuranceCoverageItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA645FA1AF2C3EB009DFE19 /* InsuranceCoverageItem.swift */; };
+		CDC3B4BD1BEBC52F00D30DFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD8B5EBB1AD7069F006A7196 /* AppDelegate.swift */; };
+		CDC3B4BF1BEBC63000D30DFF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDC3B4BE1BEBC63000D30DFF /* GoogleService-Info.plist */; };
+		CDC3B5021BEBC89900D30DFF /* libGGLAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC3B4F11BEBC89900D30DFF /* libGGLAnalytics.a */; };
+		CDC3B5031BEBC89900D30DFF /* libGGLCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC3B4F21BEBC89900D30DFF /* libGGLCore.a */; };
 		CDC47B721AF9148600C51B85 /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC47B711AF9148600C51B85 /* LoginTests.swift */; };
+		CDC6BBF41BEBCBEB005BDCE4 /* libGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC6BBF31BEBCBEB005BDCE4 /* libGoogleAnalyticsServices.a */; };
+		CDC6BBF61BEBE9EE005BDCE4 /* PerchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6BBF51BEBE9EE005BDCE4 /* PerchViewController.swift */; };
+		CDC6BBF71BEBEC8A005BDCE4 /* PerchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC6BBF51BEBE9EE005BDCE4 /* PerchViewController.swift */; };
 		CDD0114A1AE193E40010E406 /* MQAExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD011461AE193E40010E406 /* MQAExceptionHandler.m */; };
 		CDD0114B1AE193E40010E406 /* MQALogger+MQASwiftSupport.m in Sources */ = {isa = PBXBuildFile; fileRef = CDD011491AE193E40010E406 /* MQALogger+MQASwiftSupport.m */; };
 		CDD7BA871ADDA5F000445315 /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = CDD7BA851ADDA5F000445315 /* Config.plist */; };
@@ -517,7 +522,29 @@
 		CDA645F51AF2BDAE009DFE19 /* CoverageTableTopSectionHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoverageTableTopSectionHeader.xib; sourceTree = "<group>"; };
 		CDA645F81AF2C2AC009DFE19 /* CoverageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoverageTableViewCell.swift; sourceTree = "<group>"; };
 		CDA645FA1AF2C3EB009DFE19 /* InsuranceCoverageItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsuranceCoverageItem.swift; sourceTree = "<group>"; };
+		CDC3B41F1BEBBF7300D30DFF /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		CDC3B4BE1BEBC63000D30DFF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CDC3B4E81BEBC89900D30DFF /* Analytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Analytics.h; sourceTree = "<group>"; };
+		CDC3B4E91BEBC89900D30DFF /* GGLContext+Analytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GGLContext+Analytics.h"; sourceTree = "<group>"; };
+		CDC3B4EC1BEBC89900D30DFF /* Core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Core.h; sourceTree = "<group>"; };
+		CDC3B4ED1BEBC89900D30DFF /* GGLConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGLConfiguration.h; sourceTree = "<group>"; };
+		CDC3B4EE1BEBC89900D30DFF /* GGLContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGLContext.h; sourceTree = "<group>"; };
+		CDC3B4EF1BEBC89900D30DFF /* GGLErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGLErrorCode.h; sourceTree = "<group>"; };
+		CDC3B4F11BEBC89900D30DFF /* libGGLAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGGLAnalytics.a; sourceTree = "<group>"; };
+		CDC3B4F21BEBC89900D30DFF /* libGGLCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGGLCore.a; sourceTree = "<group>"; };
+		CDC3B4F61BEBC89900D30DFF /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		CDC3B4F71BEBC89900D30DFF /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		CDC3B4F81BEBC89900D30DFF /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		CDC3B4F91BEBC89900D30DFF /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		CDC3B4FA1BEBC89900D30DFF /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		CDC3B4FB1BEBC89900D30DFF /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		CDC3B4FC1BEBC89900D30DFF /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		CDC3B4FD1BEBC89900D30DFF /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		CDC3B4FE1BEBC89900D30DFF /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		CDC3B4FF1BEBC89900D30DFF /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
 		CDC47B711AF9148600C51B85 /* LoginTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
+		CDC6BBF31BEBCBEB005BDCE4 /* libGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		CDC6BBF51BEBE9EE005BDCE4 /* PerchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerchViewController.swift; sourceTree = "<group>"; };
 		CDD011451AE193E40010E406 /* MQAExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MQAExceptionHandler.h; sourceTree = "<group>"; };
 		CDD011461AE193E40010E406 /* MQAExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MQAExceptionHandler.m; sourceTree = "<group>"; };
 		CDD011481AE193E40010E406 /* MQALogger+MQASwiftSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MQALogger+MQASwiftSupport.h"; sourceTree = "<group>"; };
@@ -554,6 +581,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5171DEB61B373C4100769671 /* IBMPush.framework in Frameworks */,
+				CDC3B5021BEBC89900D30DFF /* libGGLAnalytics.a in Frameworks */,
 				5171DE6C1B2B843E00769671 /* IBMBluemix.framework in Frameworks */,
 				2ECDFC801AF0055E008C33B6 /* libCordova.a in Frameworks */,
 				CD44888F1AE93CCE007401A5 /* LocalAuthentication.framework in Frameworks */,
@@ -561,6 +589,7 @@
 				71B9C74F170B3D2D008197AE /* CoreTelephony.framework in Frameworks */,
 				9C0ED53A17FE946B00C8B73C /* ImageIO.framework in Frameworks */,
 				920D631B1619F5B4007B7418 /* sqlcipher.framework in Frameworks */,
+				CDC3B5031BEBC89900D30DFF /* libGGLCore.a in Frameworks */,
 				9C5B6E5D1535A43C00AF1336 /* Security.framework in Frameworks */,
 				42DB65D6141F483300EA8B09 /* CoreMedia.framework in Frameworks */,
 				846D17A6145DC8F9008C9E10 /* libz.dylib in Frameworks */,
@@ -573,6 +602,7 @@
 				51970D2E1AFAD0C6007BBD58 /* Q4M.framework in Frameworks */,
 				47F3D1F41723E20B004534C9 /* AssetsLibrary.framework in Frameworks */,
 				301BF5BB109A6A2B0062928A /* AVFoundation.framework in Frameworks */,
+				CDC6BBF41BEBCBEB005BDCE4 /* libGoogleAnalyticsServices.a in Frameworks */,
 				301BF5BD109A6A2B0062928A /* CFNetwork.framework in Frameworks */,
 				301BF5BF109A6A2B0062928A /* CoreLocation.framework in Frameworks */,
 				301BF5C1109A6A2B0062928A /* MediaPlayer.framework in Frameworks */,
@@ -580,7 +610,6 @@
 				301BF5C5109A6A2B0062928A /* SystemConfiguration.framework in Frameworks */,
 				301BF5C7109A6A2B0062928A /* CoreMotion.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
-				4255CFF6126B2ACD00B1C79C /* CoreData.framework in Frameworks */,
 				9C3102BF14E1804E006D8917 /* libWorklightStaticLibProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -650,6 +679,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CDC3B41F1BEBBF7300D30DFF /* libsqlite3.dylib */,
 				5171DEB51B373C4100769671 /* IBMPush.framework */,
 				5171DE6B1B2B843E00769671 /* IBMBluemix.framework */,
 				51970D2D1AFAD0C6007BBD58 /* Q4M.framework */,
@@ -944,6 +974,7 @@
 				2E218DCC1ADDB8B800D2DD75 /* HistoryViewController.swift */,
 				51CB419F1B025DC400367CBC /* AlertDetailViewController.swift */,
 				2EF612541B01322F0064F40A /* TipDetailViewController.swift */,
+				CDC6BBF51BEBE9EE005BDCE4 /* PerchViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -996,6 +1027,120 @@
 			name = CoverageTable;
 			sourceTree = "<group>";
 		};
+		CDC3B4E31BEBC89900D30DFF /* GoogleAnalyticsServices */ = {
+			isa = PBXGroup;
+			children = (
+				CDC3B4E41BEBC89900D30DFF /* Google */,
+				CDC3B4F31BEBC89900D30DFF /* GoogleAnalytics */,
+			);
+			path = GoogleAnalyticsServices;
+			sourceTree = "<group>";
+		};
+		CDC3B4E41BEBC89900D30DFF /* Google */ = {
+			isa = PBXGroup;
+			children = (
+				CDC3B4E51BEBC89900D30DFF /* Headers */,
+				CDC3B4F01BEBC89900D30DFF /* Libraries */,
+			);
+			path = Google;
+			sourceTree = "<group>";
+		};
+		CDC3B4E51BEBC89900D30DFF /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				CDC3B4E61BEBC89900D30DFF /* GGLAnalytics */,
+				CDC3B4EA1BEBC89900D30DFF /* GGLCore */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		CDC3B4E61BEBC89900D30DFF /* GGLAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				CDC3B4E71BEBC89900D30DFF /* Public */,
+			);
+			path = GGLAnalytics;
+			sourceTree = "<group>";
+		};
+		CDC3B4E71BEBC89900D30DFF /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				CDC3B4E81BEBC89900D30DFF /* Analytics.h */,
+				CDC3B4E91BEBC89900D30DFF /* GGLContext+Analytics.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		CDC3B4EA1BEBC89900D30DFF /* GGLCore */ = {
+			isa = PBXGroup;
+			children = (
+				CDC3B4EB1BEBC89900D30DFF /* Public */,
+			);
+			path = GGLCore;
+			sourceTree = "<group>";
+		};
+		CDC3B4EB1BEBC89900D30DFF /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				CDC3B4EC1BEBC89900D30DFF /* Core.h */,
+				CDC3B4ED1BEBC89900D30DFF /* GGLConfiguration.h */,
+				CDC3B4EE1BEBC89900D30DFF /* GGLContext.h */,
+				CDC3B4EF1BEBC89900D30DFF /* GGLErrorCode.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		CDC3B4F01BEBC89900D30DFF /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				CDC3B4F11BEBC89900D30DFF /* libGGLAnalytics.a */,
+				CDC3B4F21BEBC89900D30DFF /* libGGLCore.a */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
+		CDC3B4F31BEBC89900D30DFF /* GoogleAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				CDC3B4F41BEBC89900D30DFF /* Headers */,
+				CDC3B5001BEBC89900D30DFF /* Libraries */,
+			);
+			path = GoogleAnalytics;
+			sourceTree = "<group>";
+		};
+		CDC3B4F41BEBC89900D30DFF /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				CDC3B4F51BEBC89900D30DFF /* Public */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		CDC3B4F51BEBC89900D30DFF /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				CDC3B4F61BEBC89900D30DFF /* GAI.h */,
+				CDC3B4F71BEBC89900D30DFF /* GAIDictionaryBuilder.h */,
+				CDC3B4F81BEBC89900D30DFF /* GAIEcommerceFields.h */,
+				CDC3B4F91BEBC89900D30DFF /* GAIEcommerceProduct.h */,
+				CDC3B4FA1BEBC89900D30DFF /* GAIEcommerceProductAction.h */,
+				CDC3B4FB1BEBC89900D30DFF /* GAIEcommercePromotion.h */,
+				CDC3B4FC1BEBC89900D30DFF /* GAIFields.h */,
+				CDC3B4FD1BEBC89900D30DFF /* GAILogger.h */,
+				CDC3B4FE1BEBC89900D30DFF /* GAITrackedViewController.h */,
+				CDC3B4FF1BEBC89900D30DFF /* GAITracker.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		CDC3B5001BEBC89900D30DFF /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				CDC6BBF31BEBCBEB005BDCE4 /* libGoogleAnalyticsServices.a */,
+			);
+			path = Libraries;
+			sourceTree = "<group>";
+		};
 		CDD011441AE193E40010E406 /* MQAExceptionHandler */ = {
 			isa = PBXGroup;
 			children = (
@@ -1017,6 +1162,7 @@
 		CDD7BA841ADDA5E300445315 /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				CDC3B4BE1BEBC63000D30DFF /* GoogleService-Info.plist */,
 				CDD7BA851ADDA5F000445315 /* Config.plist */,
 				CDD7BA861ADDA5F000445315 /* ConfigManager.swift */,
 			);
@@ -1134,6 +1280,7 @@
 		CDEC18391ACAF79E00CF8DAE /* ExternalLibraries */ = {
 			isa = PBXGroup;
 			children = (
+				CDC3B4E31BEBC89900D30DFF /* GoogleAnalyticsServices */,
 				2EE1B26F1B0534C600FED67F /* JsonObject */,
 				CDD7BA891ADDA71200445315 /* KeychainWrapper */,
 			);
@@ -1259,6 +1406,7 @@
 				5129A4661AD6BE3B00E513DA /* Main.storyboard in Resources */,
 				CDEC18411ACAFA8600CF8DAE /* LaunchScreen.xib in Resources */,
 				CDEC18091ACAF69B00CF8DAE /* MILLoadView.xib in Resources */,
+				CDC3B4BF1BEBC63000D30DFF /* GoogleService-Info.plist in Resources */,
 				512425921AE83EDA002BE7BD /* FlyIn.xcassets in Resources */,
 				CDA645F41AF2B6D5009DFE19 /* CoverageTableSectionHeader.xib in Resources */,
 				512425961AE84243002BE7BD /* FlyOut.xcassets in Resources */,
@@ -1355,6 +1503,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDC6BBF61BEBE9EE005BDCE4 /* PerchViewController.swift in Sources */,
 				CD5E2F5F1AF4143000F6EB45 /* NSNumberExtension.swift in Sources */,
 				2EB2A43E1AD832D600C3271E /* PageHandlerViewController.swift in Sources */,
 				CDEC182F1ACAF72B00CF8DAE /* UIButtonExtension.swift in Sources */,
@@ -1443,12 +1592,12 @@
 				2E935A071AFD67DD006BF51E /* HistoricalDataManager.swift in Sources */,
 				CD5E2F5A1AF3FC7700F6EB45 /* InsuranceModel.swift in Sources */,
 				2E72FF581ADF027F00516BAB /* MILLoadView.swift in Sources */,
-				CD26DE151AE1A4E800600684 /* AppDelegate.swift in Sources */,
 				2EE1B27F1B0534C600FED67F /* JsonObject+KeyMapping.swift in Sources */,
 				CDD7BA921ADDA7EB00445315 /* LoginDataManager.swift in Sources */,
 				2EB79EC91ADD7827003C8F72 /* LoginViewController.swift in Sources */,
 				2EB79EDE1ADD785E003C8F72 /* UITextFieldExtension.swift in Sources */,
 				2EB79ED71ADD785E003C8F72 /* UIButtonExtension.swift in Sources */,
+				CDC3B4BD1BEBC52F00D30DFF /* AppDelegate.swift in Sources */,
 				2EE1B2831B0534C600FED67F /* JsonObject+Serialization.swift in Sources */,
 				514351EC1AF159C80023AF51 /* PushNotification.swift in Sources */,
 				2EDD17D61AE198AF000CA3D8 /* SensorData.swift in Sources */,
@@ -1468,6 +1617,7 @@
 				2EB79ED51ADD785E003C8F72 /* NSDateExtension.swift in Sources */,
 				2EAA57F51AE94ABA000FBD3C /* PerchAlertView.swift in Sources */,
 				CDD7BA971ADDAD0E00445315 /* CurrentUser.swift in Sources */,
+				CDC6BBF71BEBEC8A005BDCE4 /* PerchViewController.swift in Sources */,
 				2EB79ED81ADD785E003C8F72 /* UIColorExtension.swift in Sources */,
 				CDC47B721AF9148600C51B85 /* LoginTests.swift in Sources */,
 				2EB79ECB1ADD7830003C8F72 /* PageHandlerViewController.swift in Sources */,
@@ -1590,7 +1740,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = PerchReadyAppPerchIphone_Prefix.pch;
-				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
 				GCC_THUMB_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = (
 					"\"$(SRCROOT)/CordovaLib/build/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/include\"",
@@ -1604,13 +1754,17 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
 					"\"$(SRCROOT)/WorklightSDK\"",
+					"$(PROJECT_DIR)/Perch/ExternalLibraries",
+					"$(PROJECT_DIR)/Perch/ExternalLibraries/GoogleAnalyticsServices/Google/Libraries",
+					"$(PROJECT_DIR)/Perch/ExternalLibraries/GoogleAnalyticsServices/GoogleAnalytics/Libraries",
 				);
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"${BUILT_PRODUCTS_DIR}/libCordova.a",
 				);
+				OTHER_SWIFT_FLAGS = "-D Debug";
 				PRODUCT_NAME = Perch;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1661,9 +1815,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
 					"\"$(SRCROOT)/WorklightSDK\"",
+					"$(PROJECT_DIR)/Perch/ExternalLibraries",
+					"$(PROJECT_DIR)/Perch/ExternalLibraries/GoogleAnalyticsServices/Google/Libraries",
+					"$(PROJECT_DIR)/Perch/ExternalLibraries/GoogleAnalyticsServices/GoogleAnalytics/Libraries",
 				);
+				OTHER_SWIFT_FLAGS = "-D Release";
 				PRODUCT_NAME = Perch;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -1898,8 +2056,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"\"$(SRCROOT)\"",
+					"$(SRCROOT)",
 					"\"$(SRCROOT)/WorklightSDK\"",
+					"$(PROJECT_DIR)/Perch/ExternalLibraries",
+					"$(PROJECT_DIR)/Perch/ExternalLibraries/GoogleAnalyticsServices/Google/Libraries",
+					"$(PROJECT_DIR)/Perch/ExternalLibraries/GoogleAnalyticsServices/GoogleAnalytics/Libraries",
 				);
 				PRODUCT_NAME = Perch;
 				PROVISIONING_PROFILE = "";

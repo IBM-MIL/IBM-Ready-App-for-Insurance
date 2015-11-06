@@ -10,9 +10,9 @@ import UIKit
 This class interacts with the MobileFirst Server to authenticate the user upon login. If the user has been timed out,
 it will present the user with the login view controller, so they can login.
 */
-public class ReadyAppsChallengeHandler : ChallengeHandler {
+class ReadyAppsChallengeHandler : ChallengeHandler {
     
-    public var loginViewController : LoginViewController!
+    var loginViewController : LoginViewController!
     private var isFirstAuth = true
     
     override init(){
@@ -23,7 +23,7 @@ public class ReadyAppsChallengeHandler : ChallengeHandler {
     }
     
     // Resets variables to original values in the case of a logout
-    public func reset() {
+    func reset() {
         isFirstAuth = true
     }
     
@@ -31,7 +31,7 @@ public class ReadyAppsChallengeHandler : ChallengeHandler {
     Callback method for MobileFirst platform authenticator which determines if the user has been timed out.
     - parameter response:
     */
-    override public func isCustomResponse(response: WLResponse!) -> Bool {
+    override func isCustomResponse(response: WLResponse!) -> Bool {
         MQALogger.log("--------- isCustomResponse in readyapps------")
         //check for bad token here
 
@@ -49,7 +49,7 @@ public class ReadyAppsChallengeHandler : ChallengeHandler {
     Callback method for MobileFirst platform which handles the success scenario
     - parameter response:
     */
-    override public func onSuccess(response: WLResponse!) {
+    override func onSuccess(response: WLResponse!) {
         MQALogger.log("Challenge Handler Success: \(response)")
         submitSuccess(response)
         
@@ -67,7 +67,7 @@ public class ReadyAppsChallengeHandler : ChallengeHandler {
     Callback method for MobileFirst platform which handles the failure scenario
     - parameter response:
     */
-    override public func onFailure(response: WLFailResponse!) {
+    override func onFailure(response: WLFailResponse!) {
         MQALogger.log("Challenger Handler failure: \(response)");
         submitFailure(response)
         
@@ -81,7 +81,7 @@ public class ReadyAppsChallengeHandler : ChallengeHandler {
     can re-authenticate.
     - parameter response:
     */
-    override public func handleChallenge(response: WLResponse!) {
+    override func handleChallenge(response: WLResponse!) {
         // Tell the Pin View controller that auth is required. Pass the Pin VC a callback for when the pin vc is ready for login to be presented
         if isFirstAuth {
             isFirstAuth = false
@@ -113,7 +113,7 @@ public class ReadyAppsChallengeHandler : ChallengeHandler {
     }
 
     // Function is called by the Pin view controller when the login vc is ready to be presented
-    public func presentLogin() {
+    func presentLogin() {
         if loginViewController == nil {
             let loginStoryboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
             loginViewController = loginStoryboard.instantiateViewControllerWithIdentifier("LoginVC") as! LoginViewController

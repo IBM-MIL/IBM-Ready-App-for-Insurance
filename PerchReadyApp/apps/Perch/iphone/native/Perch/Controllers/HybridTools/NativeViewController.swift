@@ -8,7 +8,7 @@ import UIKit
 /**
 *  View Controller wrapper around the HybridViewController that smooths the transition to a hybrid view
 */
-class NativeViewController: UIViewController {
+class NativeViewController: PerchViewController {
 
     weak var appDelegate: AppDelegate!
     var pollingTimer: NSTimer!

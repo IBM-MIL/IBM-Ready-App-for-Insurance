@@ -8,7 +8,7 @@ import UIKit
 /** 
 PageItemViewController is an abstract class for items in a UIPageViewController
 */
-class PageItemViewController: UIViewController {
+class PageItemViewController: PerchViewController {
     
     // Every item that subclasses PageItemViewController gets this property
     var pageIndex: Int!

@@ -8,8 +8,8 @@ import Foundation
 /**
 *  Handles the logging in process.
 */
-public class LoginDataManager: NSObject{
-    public var challengeHandler: ReadyAppsChallengeHandler!
+class LoginDataManager: NSObject{
+    var challengeHandler: ReadyAppsChallengeHandler!
 
     // User data from Worklight
     var currentUser : CurrentUser!
@@ -18,7 +18,7 @@ public class LoginDataManager: NSObject{
     var logInCallback: LogInCallback!
     
     //Class variable that will return a singleton when requested
-    public class var sharedInstance : LoginDataManager{
+    class var sharedInstance : LoginDataManager{
         
         struct Singleton {
             static let instance = LoginDataManager()
@@ -34,14 +34,14 @@ public class LoginDataManager: NSObject{
     /**
     Tells the challenge handler to reset to a default state. This is called when the user logs out.
     */
-    public func resetChallengeHandler() {
+    func resetChallengeHandler() {
         challengeHandler.reset()
     }
     
     /**
     Submits the user name and password throught the challenge handler
     */
-    public func submitAuthentication(username: String!, password: String!){
+    func submitAuthentication(username: String!, password: String!){
         let adapterName : String = "AuthenticationAdapter"
         let procedureName : String = "submitAuthentication"
         let caller = WLProcedureInvocationData(adapterName : adapterName, procedureName: procedureName)

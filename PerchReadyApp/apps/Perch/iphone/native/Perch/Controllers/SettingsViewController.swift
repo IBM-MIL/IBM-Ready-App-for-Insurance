@@ -10,7 +10,7 @@ import UIKit
 *  It also provides the option to logout from the app (which will delete the user's credentials from Keychain)
 *  This view controller embeds the EnterPinViewController.
 */
-class SettingsViewController: UIViewController {
+class SettingsViewController: PerchViewController {
 
     @IBOutlet weak var navBar: UINavigationBar!
     @IBOutlet weak var navBarTopConstraint: NSLayoutConstraint!

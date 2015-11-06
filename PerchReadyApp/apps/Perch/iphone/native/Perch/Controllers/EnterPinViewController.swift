@@ -18,7 +18,7 @@ protocol PinEntryDelegate: class {
 This view controller is embedded into the PinViewController and SettingsViewController. This view controller handles the UI and logic of the user
 entering a pin and then subscribing to that pin.
 */
-class EnterPinViewController: UIViewController {
+class EnterPinViewController: PerchViewController {
     
     @IBOutlet weak var pinContainerView: UIView!
     @IBOutlet weak var pinTextField: UITextField!

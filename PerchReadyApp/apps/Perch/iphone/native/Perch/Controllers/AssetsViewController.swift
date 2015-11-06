@@ -9,7 +9,7 @@ import QuartzCore
 /**
 *  View Controller to display a user's different home sensor assets that are connected with the app
 */
-class AssetsViewController: UIViewController {
+class AssetsViewController: PerchViewController {
     
     @IBOutlet weak var assetCollectionView: UICollectionView!
 

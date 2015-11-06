@@ -8,7 +8,7 @@ import UIKit
 /**
 *  This view controller is embedded in the profile view controller. It displays the user's coverage information in an itemized form.
 */
-class CoverageViewController: UIViewController {
+class CoverageViewController: PerchViewController {
 
     @IBOutlet weak var tableView: UITableView!
     @IBOutlet weak var savingsButton: UIButton!

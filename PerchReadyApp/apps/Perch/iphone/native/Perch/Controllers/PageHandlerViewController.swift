@@ -8,7 +8,7 @@ import UIKit
 /** 
 PageHandlerViewController handles all the control and interaction with the UIPageViewController
 */
-class PageHandlerViewController: UIViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate {
+class PageHandlerViewController: PerchViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate {
     
     var pageViewController: UIPageViewController?
     

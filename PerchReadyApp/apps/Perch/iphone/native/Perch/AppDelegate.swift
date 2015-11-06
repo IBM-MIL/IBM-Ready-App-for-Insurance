@@ -27,6 +27,17 @@ class AppDelegate: WLAppDelegate {
              MQALogger.settings().mode = MQAMode.Market
         }
         
+        // Configure tracker from GoogleService-Info.plist.
+        var configureError:NSError?
+        GGLContext.sharedInstance().configureWithError(&configureError)
+        assert(configureError == nil, "Error configuring Google services: \(configureError)")
+        
+        // Optional: configure GAI options.
+        let gai = GAI.sharedInstance()
+        gai.dispatchInterval = 20
+        gai.trackUncaughtExceptions = true  // report uncaught exceptions
+        gai.logger.logLevel = GAILogLevel.Verbose  // remove before app release
+        
         // Starts a quality assurance session using a dummy key and QA mode
         MQALogger.startNewSessionWithApplicationKey(configManager.mqaApplicationKey)
         

@@ -5,7 +5,7 @@ Licensed Materials - Property of IBM
 
 import UIKit
 
-class AlertDetailViewController: UIViewController {
+class AlertDetailViewController: PerchViewController {
     
     // MARK: Instance Variables
     

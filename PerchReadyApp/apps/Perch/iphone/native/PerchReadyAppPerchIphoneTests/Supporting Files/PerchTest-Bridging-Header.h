@@ -15,6 +15,7 @@ Licensed Materials - Property of IBM
 #import <IBMPush/IBMPush.h>
 #import <IBMPush/IBMPushAppMgr.h>
 #import <IBMBluemix/IBMBluemix.h>
+#import "Analytics.h"
 
 #import "../../Frameworks/Q4M.framework/Headers/MQALogger.h"
 #import "../../Perch/Utilities/MQAExceptionHandler/MQAExceptionHandler.h"
