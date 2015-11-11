@@ -101,6 +101,7 @@ class Utils: NSObject {
     */
     class func openMaps(address: String) {
         let encodedAddress = address.stringByAddingPercentEncodingWithAllowedCharacters(NSCharacterSet.URLQueryAllowedCharacterSet())
-        UIApplication.sharedApplication().openURL(NSURL(string: "http://maps.apple.com/?q=\(encodedAddress)")!)
+        let url = NSURL(string: "http://maps.apple.com/?q=" + encodedAddress!)
+        UIApplication.sharedApplication().openURL(url!)
     }
 }
